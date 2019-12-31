@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4FieldTrackUpdator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4ParticleChange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4ParticleChangeForDecay.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4ParticleChangeForGamma.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4ParticleChangeForLoss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4ParticleChangeForMSC.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4ParticleChangeForTransport.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4Step.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4StepPoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4Track.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4VParticleChange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4VelocityTable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4VAuxiliaryTrackInformation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\src\G4VUserTrackInformation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4FieldTrackUpdator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ForceCondition.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4GPILSelection.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChange.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForDecay.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForGamma.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForLoss.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForMSC.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForRadDecay.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForTransport.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4Step.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4StepPoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4StepStatus.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4SteppingControl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4Track.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4TrackFastVector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4TrackStatus.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4TrackVector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4VParticleChange.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4VelocityTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4VAuxiliaryTrackInformation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4VUserTrackInformation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\trkdefs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChange.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForMSC.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4ParticleChangeForTransport.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4Step.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4StepPoint.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4Track.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\track\include\G4VParticleChange.icc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF1853CA-56C7-3BA8-A775-C24C28174412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F733656-C433-322F-838E-D7A6D7A4F353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

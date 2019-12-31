@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4GraphicsSystemList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4Scene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4SceneHandlerList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4SceneList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VGraphicsSystem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VVisCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4ViewParameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4ViewerList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommands.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsCompound.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsGeometry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsGeometrySet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsMultithreading.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsSet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsSceneAdd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsTouchable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsTouchableSet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsViewerDefault.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisCommandsViewerSet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\src\G4VisStateDependent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4GraphicsSystemList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4Scene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4SceneHandlerList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4SceneList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VGraphicsSystem.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VSceneHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VUserVisAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VViewer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VVisCommand.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4ViewParameters.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4ViewerList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandModelCreate.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommands.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsCompound.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsGeometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsGeometrySet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsListManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsMultithreading.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsSceneAdd.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsSceneHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsTouchable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsTouchableSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsViewer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsViewerDefault.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisCommandsViewerSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisExecutive.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisFilterManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisListManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisModelManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisStateDependent.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4Scene.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VSceneHandler.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VViewer.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4ViewParameters.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisExecutive.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\management\include\G4VisManager.icc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF1853CA-56C7-3BA8-A775-C24C28174412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F733656-C433-322F-838E-D7A6D7A4F353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

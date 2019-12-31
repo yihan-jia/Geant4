@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXX.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXFileSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXFileViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXSG.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXSGSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXSGViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXStored.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXStoredSceneHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXStoredViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\src\G4XXXViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXX.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXFileSceneHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXFileViewer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXSG.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXSGSceneHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXSGViewer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXSceneHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXStored.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXStoredSceneHandler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXStoredViewer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\include\G4XXXViewer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\XXX\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF1853CA-56C7-3BA8-A775-C24C28174412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F733656-C433-322F-838E-D7A6D7A4F353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

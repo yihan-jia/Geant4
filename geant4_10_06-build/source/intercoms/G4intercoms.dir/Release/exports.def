@@ -1,0 +1,563 @@
+EXPORTS 
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4GenericMessenger@@@8 	 DATA
+	??_R0?AVG4InvalidUICommand@@@8 	 DATA
+	??_R0?AVG4LocalThreadCoutMessenger@@@8 	 DATA
+	??_R0?AVG4String@@@8 	 DATA
+	??_R0?AVG4UIbatch@@@8 	 DATA
+	??_R0?AVG4UIcmdWith3Vector@@@8 	 DATA
+	??_R0?AVG4UIcmdWith3VectorAndUnit@@@8 	 DATA
+	??_R0?AVG4UIcmdWithABool@@@8 	 DATA
+	??_R0?AVG4UIcmdWithADouble@@@8 	 DATA
+	??_R0?AVG4UIcmdWithADoubleAndUnit@@@8 	 DATA
+	??_R0?AVG4UIcmdWithAString@@@8 	 DATA
+	??_R0?AVG4UIcmdWithAnInteger@@@8 	 DATA
+	??_R0?AVG4UIcmdWithoutParameter@@@8 	 DATA
+	??_R0?AVG4UIcommand@@@8 	 DATA
+	??_R0?AVG4UIcontrolMessenger@@@8 	 DATA
+	??_R0?AVG4UIdirectory@@@8 	 DATA
+	??_R0?AVG4UImanager@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4UIsession@@@8 	 DATA
+	??_R0?AVG4UnitsMessenger@@@8 	 DATA
+	??_R0?AVG4VStateDependent@@@8 	 DATA
+	??_R0?AVG4coutDestination@@@8 	 DATA
+	??_R0?AVHep3Vector@CLHEP@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0H@8 	 DATA
+	??_R0I@8 	 DATA
+	??_R0J@8 	 DATA
+	??_R0K@8 	 DATA
+	??_R0M@8 	 DATA
+	??_R0N@8 	 DATA
+	??_R0X@8 	 DATA
+	??_R0_N@8 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Psave@?$_Facetptr@V?$ctype@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?doublePrecisionStr@G4UImanager@@0_NA 	 DATA
+	?fpConcreteInstance@G4VGlobalFastSimulationManager@@1PEAV1@EA 	 DATA
+	?igThreadID@G4UImanager@@0HA 	 DATA
+	?inSession@G4UIsession@@1HA 	 DATA
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?5DU?$char_traits@D@std@@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAD@Z
+	??$?5DU?$char_traits@D@std@@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@PEAD@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?8DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NQEBDAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@AEBV10@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$?ODU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEAPEAVG4String@@PEAPEAV1@@std@@YAPEAPEAVG4String@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIbridge@@PEAPEAV1@@std@@YAPEAPEAVG4UIbridge@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIcommand@@PEAPEAV1@@std@@YAPEAPEAVG4UIcommand@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIcommandTree@@PEAPEAV1@@std@@YAPEAPEAVG4UIcommandTree@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIparameter@@PEAPEAV1@@std@@YAPEAPEAVG4UIparameter@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAW4G4ApplicationState@@PEAW41@@std@@YAPEAW4G4ApplicationState@@PEAW41@00@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4String@@@std@@@std@@YAXPEAPEAVG4String@@QEAPEAV1@AEAV?$allocator@PEAVG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIbridge@@@std@@@std@@YAXPEAPEAVG4UIbridge@@QEAPEAV1@AEAV?$allocator@PEAVG4UIbridge@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIcommand@@@std@@@std@@YAXPEAPEAVG4UIcommand@@QEAPEAV1@AEAV?$allocator@PEAVG4UIcommand@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIcommandTree@@@std@@@std@@YAXPEAPEAVG4UIcommandTree@@QEAPEAV1@AEAV?$allocator@PEAVG4UIcommandTree@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAXPEAPEAVG4UIparameter@@QEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Destroy_range@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAXPEAUyystype@G4UItokenNum@@QEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@std@@@std@@YAXPEAV?$function@$$A6A_NAEAVG4String@@@Z@0@QEAV10@AEAV?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@W4G4ApplicationState@@@std@@@std@@YAXPEAW4G4ApplicationState@@QEAW41@AEAV?$allocator@W4G4ApplicationState@@@0@@Z
+	??$_Emplace_reallocate@AEBQEAVG4String@@@?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@QEAAPEAPEAVG4String@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIbridge@@@?$vector@PEAVG4UIbridge@@V?$allocator@PEAVG4UIbridge@@@std@@@std@@QEAAPEAPEAVG4UIbridge@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIcommand@@@?$vector@PEAVG4UIcommand@@V?$allocator@PEAVG4UIcommand@@@std@@@std@@QEAAPEAPEAVG4UIcommand@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIcommandTree@@@?$vector@PEAVG4UIcommandTree@@V?$allocator@PEAVG4UIcommandTree@@@std@@@std@@QEAAPEAPEAVG4UIcommandTree@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIparameter@@@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@QEAAPEAPEAVG4UIparameter@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBW4G4ApplicationState@@@?$vector@W4G4ApplicationState@@V?$allocator@W4G4ApplicationState@@@std@@@std@@QEAAPEAW4G4ApplicationState@@QEAW42@AEBW42@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Emplace_reallocate@W4G4ApplicationState@@@?$vector@W4G4ApplicationState@@V?$allocator@W4G4ApplicationState@@@std@@@std@@QEAAPEAW4G4ApplicationState@@QEAW42@$$QEAW42@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@1@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@UMethod@G4GenericMessenger@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@@5@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@UProperty@G4GenericMessenger@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@@5@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Istream_extract_into_buffer@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@_KPEAD@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Move_unchecked@PEAPEAVG4String@@PEAPEAV1@@std@@YAPEAPEAVG4String@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAPEAVG4UIcommand@@PEAPEAV1@@std@@YAPEAPEAVG4UIcommand@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAPEAVG4UIcommandTree@@PEAPEAV1@@std@@YAPEAPEAVG4UIcommandTree@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAVG4String@@PEAV1@@std@@YAPEAVG4String@@PEAV1@00@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_16d2cb92461ac9818af78a76c749bd7f>@@_K_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_16d2cb92461ac9818af78a76c749bd7f>@@_K2PEBD2@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Traits_compare@U?$char_traits@D@std@@@std@@YAHQEBD_K01@Z
+	??$_Traits_find@U?$char_traits@D@std@@@std@@YA_KQEBD_K101@Z
+	??$_Uninitialized_copy@PEAUyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@QEAU12@0PEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@YAPEAPEAVG4String@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4String@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIbridge@@V?$allocator@PEAVG4UIbridge@@@std@@@std@@YAPEAPEAVG4UIbridge@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIbridge@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIcommand@@V?$allocator@PEAVG4UIcommand@@@std@@@std@@YAPEAPEAVG4UIcommand@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIcommand@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIcommandTree@@V?$allocator@PEAVG4UIcommandTree@@@std@@@std@@YAPEAPEAVG4UIcommandTree@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIcommandTree@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAPEAPEAVG4UIparameter@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_move@PEAW4G4ApplicationState@@V?$allocator@W4G4ApplicationState@@@std@@@std@@YAPEAW4G4ApplicationState@@QEAW41@0PEAW41@AEAV?$allocator@W4G4ApplicationState@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@PEAU12@_KAEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$flush@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$swap@PEAVPlaceholder@G4AnyMethod@@X@std@@YAXAEAPEAVPlaceholder@G4AnyMethod@@0@Z
+	??$swap@PEAVPlaceholder@G4AnyType@@X@std@@YAXAEAPEAVPlaceholder@G4AnyType@@0@Z
+	??$swap@_KX@std@@YAXAEA_K0@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??$use_facet@V?$ctype@D@std@@@std@@YAAEBV?$ctype@D@0@AEBVlocale@0@@Z
+	??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0G4GenericMessenger@@QEAA@PEAXAEBVG4String@@1@Z
+	??0G4InvalidUICommand@@QEAA@AEBV0@@Z
+	??0G4InvalidUICommand@@QEAA@XZ
+	??0G4LocalThreadCoutMessenger@@QEAA@XZ
+	??0G4UIaliasList@@QEAA@XZ
+	??0G4UIbatch@@QEAA@PEBDPEAVG4UIsession@@@Z
+	??0G4UIbridge@@QEAA@PEAVG4UImanager@@VG4String@@@Z
+	??0G4UIcmdWith3Vector@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWith3VectorAndUnit@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWithABool@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWithADouble@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWithADoubleAndUnit@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWithAString@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWithAnInteger@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcmdWithoutParameter@@QEAA@PEBDPEAVG4UImessenger@@@Z
+	??0G4UIcommand@@QEAA@PEBDPEAVG4UImessenger@@_N@Z
+	??0G4UIcommand@@QEAA@XZ
+	??0G4UIcommandTree@@QEAA@PEBD@Z
+	??0G4UIcommandTree@@QEAA@XZ
+	??0G4UIcontrolMessenger@@QEAA@XZ
+	??0G4UIdirectory@@QEAA@PEAD_N@Z
+	??0G4UIdirectory@@QEAA@PEBD_N@Z
+	??0G4UImanager@@AEAA@AEBV0@@Z
+	??0G4UImanager@@IEAA@XZ
+	??0G4UImessenger@@QEAA@AEBVG4String@@0_N@Z
+	??0G4UImessenger@@QEAA@XZ
+	??0G4UIparameter@@QEAA@D@Z
+	??0G4UIparameter@@QEAA@PEBDD_N@Z
+	??0G4UIparameter@@QEAA@XZ
+	??0G4UIsession@@QEAA@H@Z
+	??0G4UIsession@@QEAA@XZ
+	??0G4UnitsMessenger@@QEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$map@VG4String@@UMethod@G4GenericMessenger@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@@5@@std@@QEAA@XZ
+	??1?$map@VG4String@@UProperty@G4GenericMessenger@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@@5@@std@@QEAA@XZ
+	??1?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@QEAA@XZ
+	??1?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@PEAVG4UIcommand@@V?$allocator@PEAVG4UIcommand@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4UIcommandTree@@V?$allocator@PEAVG4UIcommandTree@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@QEAA@XZ
+	??1?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$vector@W4G4ApplicationState@@V?$allocator@W4G4ApplicationState@@@std@@@std@@QEAA@XZ
+	??1G4GenericMessenger@@UEAA@XZ
+	??1G4InvalidUICommand@@UEAA@XZ
+	??1G4LocalThreadCoutMessenger@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4Tokenizer@@QEAA@XZ
+	??1G4UIaliasList@@QEAA@XZ
+	??1G4UIbatch@@UEAA@XZ
+	??1G4UIbridge@@QEAA@XZ
+	??1G4UIcommand@@UEAA@XZ
+	??1G4UIcommandTree@@QEAA@XZ
+	??1G4UIcontrolMessenger@@UEAA@XZ
+	??1G4UImanager@@UEAA@XZ
+	??1G4UImessenger@@UEAA@XZ
+	??1G4UIparameter@@QEAA@XZ
+	??1G4UIsession@@UEAA@XZ
+	??1G4UnitsMessenger@@UEAA@XZ
+	??1Method@G4GenericMessenger@@QEAA@XZ
+	??1Property@G4GenericMessenger@@QEAA@XZ
+	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1yystype@G4UItokenNum@@QEAA@XZ
+	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@$$QEAV01@@Z
+	??4G4UImanager@@AEAAAEBV0@AEBV0@@Z
+	??4Method@G4GenericMessenger@@QEAAAEAU01@$$QEAU01@@Z
+	??4yystype@G4UItokenNum@@QEAAAEAU01@AEBU01@@Z
+	??8G4UIaliasList@@AEBA_NAEBV0@@Z
+	??8G4UIcommand@@QEBA_NAEBV0@@Z
+	??8G4UIcommandTree@@QEBA_NAEBV0@@Z
+	??8G4UImanager@@AEBA_NAEBV0@@Z
+	??8G4UImessenger@@QEBA_NAEBV0@@Z
+	??8G4UIparameter@@QEBA_NAEBV0@@Z
+	??9G4UIaliasList@@AEBA_NAEBV0@@Z
+	??9G4UIcommand@@QEBA_NAEBV0@@Z
+	??9G4UIcommandTree@@QEBA_NAEBV0@@Z
+	??9G4UImanager@@AEBA_NAEBV0@@Z
+	??9G4UIparameter@@QEBA_NAEBV0@@Z
+	??A?$map@VG4String@@UMethod@G4GenericMessenger@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@@5@@std@@QEAAAEAUMethod@G4GenericMessenger@@AEBVG4String@@@Z
+	??A?$map@VG4String@@UProperty@G4GenericMessenger@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@@5@@std@@QEAAAEAUProperty@G4GenericMessenger@@AEBVG4String@@@Z
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??RG4String@@QEAA?AV0@_K0@Z
+	??RG4Tokenizer@@QEAA?AVG4String@@PEBD_K@Z
+	??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?AddNewAlias@G4UIaliasList@@AEAAXPEBD0@Z
+	?AddNewCommand@G4UIcommandTree@@QEAAXPEAVG4UIcommand@@_N@Z
+	?AddNewCommand@G4UImanager@@QEAAXPEAVG4UIcommand@@@Z
+	?AddUIcommand@G4UImessenger@@IEAAXPEAVG4UIcommand@@@Z
+	?AddWorkerCommand@G4UImanager@@AEAAXPEAVG4UIcommand@@@Z
+	?AdditiveExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?AdditiveExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?ApplyCommand@G4UIbridge@@QEAAHAEBVG4String@@@Z
+	?ApplyCommand@G4UImanager@@QEAAHAEBVG4String@@@Z
+	?ApplyCommand@G4UImanager@@QEAAHPEBD@Z
+	?AvailableForStates@G4UIcommand@@QEAAXW4G4ApplicationState@@0000@Z
+	?AvailableForStates@G4UIcommand@@QEAAXW4G4ApplicationState@@000@Z
+	?AvailableForStates@G4UIcommand@@QEAAXW4G4ApplicationState@@00@Z
+	?AvailableForStates@G4UIcommand@@QEAAXW4G4ApplicationState@@0@Z
+	?AvailableForStates@G4UIcommand@@QEAAXW4G4ApplicationState@@@Z
+	?BtoS@G4UImessenger@@IEAA?AVG4String@@_N@Z
+	?CandidateCheck@G4UIparameter@@AEAAHPEBD@Z
+	?CategoryOf@G4UIcommand@@SA?AVG4String@@PEBD@Z
+	?ChangeAlias@G4UIaliasList@@QEAAXPEBD0@Z
+	?CheckNewValue@G4UIcommand@@IEAAHPEBD@Z
+	?CheckNewValue@G4UIparameter@@QEAAHPEBD@Z
+	?CommandFailed@G4UIcommand@@QEAAXAEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?CommandFailed@G4UIcommand@@QEAAXHAEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?CompareDouble@G4UIcommand@@AEAAHNHN@Z
+	?CompareDouble@G4UIparameter@@AEAAHNHN@Z
+	?CompareInt@G4UIcommand@@AEAAHHHH@Z
+	?CompareInt@G4UIparameter@@AEAAHHHH@Z
+	?CompleteCommandPath@G4UIcommandTree@@QEAA?AVG4String@@AEBV2@@Z
+	?ConvertTo3Vector@G4UIcommand@@SA?AVHep3Vector@CLHEP@@PEBD@Z
+	?ConvertToBool@G4UIcommand@@SA_NPEBD@Z
+	?ConvertToDimensioned3Vector@G4UIcommand@@SA?AVHep3Vector@CLHEP@@PEBD@Z
+	?ConvertToDimensionedDouble@G4UIcommand@@SANPEBD@Z
+	?ConvertToDouble@G4UIcommand@@SANPEBD@Z
+	?ConvertToInt@G4UIcommand@@SAHPEBD@Z
+	?ConvertToString@G4UIcommand@@SA?AVG4String@@H@Z
+	?ConvertToString@G4UIcommand@@SA?AVG4String@@N@Z
+	?ConvertToString@G4UIcommand@@SA?AVG4String@@NPEBD@Z
+	?ConvertToString@G4UIcommand@@SA?AVG4String@@VHep3Vector@CLHEP@@@Z
+	?ConvertToString@G4UIcommand@@SA?AVG4String@@VHep3Vector@CLHEP@@PEBD@Z
+	?ConvertToString@G4UIcommand@@SA?AVG4String@@_N@Z
+	?ConvertToStringWithBestUnit@G4UIcmdWith3VectorAndUnit@@QEAA?AVG4String@@VHep3Vector@CLHEP@@@Z
+	?ConvertToStringWithBestUnit@G4UIcmdWithADoubleAndUnit@@QEAA?AVG4String@@N@Z
+	?ConvertToStringWithDefaultUnit@G4UIcmdWith3VectorAndUnit@@QEAA?AVG4String@@VHep3Vector@CLHEP@@@Z
+	?ConvertToStringWithDefaultUnit@G4UIcmdWithADoubleAndUnit@@QEAA?AVG4String@@N@Z
+	?CreateDirectory@G4UImessenger@@IEAAXAEBVG4String@@0_N@Z
+	?CreateFileName@G4UIcommandTree@@AEAA?AVG4String@@PEBD@Z
+	?CreateHTML@G4UIcommandTree@@QEAAXXZ
+	?CreateHTML@G4UImanager@@QEAAXPEBD@Z
+	?CreateMessenger@G4UImanager@@AEAAXXZ
+	?DeclareMethod@G4GenericMessenger@@QEAAAEAUCommand@1@AEBVG4String@@AEBVG4AnyMethod@@0@Z
+	?DeclareMethodWithUnit@G4GenericMessenger@@QEAAAEAUCommand@1@AEBVG4String@@0AEBVG4AnyMethod@@0@Z
+	?DeclareProperty@G4GenericMessenger@@QEAAAEAUCommand@1@AEBVG4String@@AEBVG4AnyType@@0@Z
+	?DeclarePropertyWithUnit@G4GenericMessenger@@QEAAAEAUCommand@1@AEBVG4String@@0AEBVG4AnyType@@0@Z
+	?DoIt@G4UIcmdWith3VectorAndUnit@@UEAAHVG4String@@@Z
+	?DoIt@G4UIcmdWithADoubleAndUnit@@UEAAHVG4String@@@Z
+	?DoIt@G4UIcommand@@UEAAHVG4String@@@Z
+	?DoublePrecisionStr@G4UImanager@@SA_NXZ
+	?DtoS@G4UImessenger@@IEAA?AVG4String@@N@Z
+	?EqualityExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?EqualityExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?Eval2@G4UIcommand@@AEAAHUyystype@G4UItokenNum@@H0@Z
+	?Eval2@G4UIparameter@@AEAAHUyystype@G4UItokenNum@@H0@Z
+	?ExecCommand@G4UIbatch@@AEAAHAEBVG4String@@@Z
+	?ExecuteMacroFile@G4UImanager@@QEAAXPEBD@Z
+	?ExpectExponent@G4UIcommand@@AEAAHPEBD@Z
+	?ExpectExponent@G4UIparameter@@AEAAHPEBD@Z
+	?Expression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?Expression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?FindAlias@G4UIaliasList@@QEAAPEAVG4String@@PEBD@Z
+	?FindAliasID@G4UIaliasList@@AEAAHPEBD@Z
+	?FindCommandTree@G4UIcommandTree@@QEAAPEAV1@PEBD@Z
+	?FindDirectory@G4UImanager@@AEAAPEAVG4UIcommandTree@@PEBD@Z
+	?FindMacroPath@G4UImanager@@QEBA?AVG4String@@AEBV2@@Z
+	?FindPath@G4UIcommandTree@@QEBAPEAVG4UIcommand@@PEBD@Z
+	?Follow@G4UIcommand@@AEAAHHHH@Z
+	?Follow@G4UIparameter@@AEAAHHHH@Z
+	?Foreach@G4UImanager@@QEAAXPEBD00@Z
+	?ForeachS@G4UImanager@@QEAAXPEBD@Z
+	?G4UIcommandCommonConstructorCode@G4UIcommand@@AEAAXPEBD@Z
+	?G4UIpGetc@G4UIcommand@@AEAAHXZ
+	?G4UIpGetc@G4UIparameter@@AEAAHXZ
+	?G4UIpUngetc@G4UIcommand@@AEAAHH@Z
+	?G4UIpUngetc@G4UIparameter@@AEAAHH@Z
+	?GetCommandStack@G4UImanager@@QEAAPEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?GetConcreteInstance@G4VGlobalFastSimulationManager@@SAPEAV1@XZ
+	?GetCurrentDoubleValue@G4UImanager@@QEAANPEBD0_N@Z
+	?GetCurrentDoubleValue@G4UImanager@@QEAANPEBDH_N@Z
+	?GetCurrentIntValue@G4UImanager@@QEAAHPEBD0_N@Z
+	?GetCurrentIntValue@G4UImanager@@QEAAHPEBDH_N@Z
+	?GetCurrentStringValue@G4UImanager@@QEAA?AVG4String@@PEBD0_N@Z
+	?GetCurrentStringValue@G4UImanager@@QEAA?AVG4String@@PEBDH_N@Z
+	?GetCurrentValue@G4GenericMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4UIcommand@@QEAA?AVG4String@@XZ
+	?GetCurrentValue@G4UIcontrolMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4UImessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValues@G4UImanager@@QEAA?AVG4String@@PEBD@Z
+	?GetFirstMatchedString@G4UIcommandTree@@QEBA?AVG4String@@AEBV2@0@Z
+	?GetMasterUIpointer@G4UImanager@@SAPEAV1@XZ
+	?GetNew3VectorRawValue@G4UIcmdWith3VectorAndUnit@@SA?AVHep3Vector@CLHEP@@PEBD@Z
+	?GetNew3VectorValue@G4UIcmdWith3Vector@@SA?AVHep3Vector@CLHEP@@PEBD@Z
+	?GetNew3VectorValue@G4UIcmdWith3VectorAndUnit@@SA?AVHep3Vector@CLHEP@@PEBD@Z
+	?GetNewBoolValue@G4UIcmdWithABool@@SA_NPEBD@Z
+	?GetNewDoubleRawValue@G4UIcmdWithADoubleAndUnit@@SANPEBD@Z
+	?GetNewDoubleValue@G4UIcmdWithADouble@@SANPEBD@Z
+	?GetNewDoubleValue@G4UIcmdWithADoubleAndUnit@@SANPEBD@Z
+	?GetNewIntValue@G4UIcmdWithAnInteger@@SAHPEBD@Z
+	?GetNewUnitValue@G4UIcmdWith3VectorAndUnit@@SANPEBD@Z
+	?GetNewUnitValue@G4UIcmdWithADoubleAndUnit@@SANPEBD@Z
+	?GetUIpointer@G4UImanager@@SAPEAV1@XZ
+	?IndexOf@G4UIcommand@@AEAAIPEBD@Z
+	?IsAvailable@G4UIcommand@@QEAA_NXZ
+	?IsDouble@G4UIcommand@@AEAAHPEBD@Z
+	?IsDouble@G4UIparameter@@AEAAHPEBD@Z
+	?IsInt@G4UIcommand@@AEAAHPEBDF@Z
+	?IsInt@G4UIparameter@@AEAAHPEBDF@Z
+	?IsParameter@G4UIcommand@@AEAAIPEBD@Z
+	?ItoS@G4UImessenger@@IEAA?AVG4String@@H@Z
+	?List@G4UIaliasList@@QEAAXXZ
+	?List@G4UIcommand@@UEAAXXZ
+	?List@G4UIcommandTree@@QEBAXXZ
+	?List@G4UIparameter@@QEAAXXZ
+	?ListAlias@G4UImanager@@QEAAXXZ
+	?ListCommands@G4UImanager@@QEAAXPEBD@Z
+	?ListCurrent@G4UIcommandTree@@QEBAXXZ
+	?ListCurrentWithNum@G4UIcommandTree@@QEBAXXZ
+	?LogicalANDExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?LogicalANDExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?LogicalORExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?LogicalORExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?Loop@G4UImanager@@QEAAXPEBD0NNN@Z
+	?LoopS@G4UImanager@@QEAAXPEBD@Z
+	?ModStr@G4UIcommandTree@@AEAA?AVG4String@@PEBD@Z
+	?MultiplicativeExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?MultiplicativeExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?Notify@G4UImanager@@UEAA_NW4G4ApplicationState@@@Z
+	?ParseMacroSearchPath@G4UImanager@@QEAAXXZ
+	?PauseSession@G4UImanager@@AEAAXPEBD@Z
+	?PauseSessionStart@G4UIbatch@@UEAAXAEBVG4String@@@Z
+	?PauseSessionStart@G4UIsession@@UEAAXAEBVG4String@@@Z
+	?PrimaryExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?PrimaryExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?RangeCheck@G4UIcommand@@AEAAHPEBD@Z
+	?RangeCheck@G4UIparameter@@AEAAHPEBD@Z
+	?ReadCommand@G4UIbatch@@AEAA?AVG4String@@XZ
+	?ReceiveG4cerr@G4UIsession@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4UIsession@@UEAAHAEBVG4String@@@Z
+	?RegisterBridge@G4UImanager@@QEAAXPEAVG4UIbridge@@@Z
+	?RelationalExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?RelationalExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?RemoveAlias@G4UIaliasList@@QEAAXPEBD@Z
+	?RemoveAlias@G4UImanager@@QEAAXPEBD@Z
+	?RemoveCommand@G4UIcommandTree@@QEAAXPEAVG4UIcommand@@_N@Z
+	?RemoveCommand@G4UImanager@@QEAAXPEAVG4UIcommand@@@Z
+	?RemoveWorkerCommand@G4UImanager@@AEAAXPEAVG4UIcommand@@@Z
+	?ResetFailure@G4UIcommand@@QEAAXXZ
+	?SessionStart@G4UIbatch@@UEAAPEAVG4UIsession@@XZ
+	?SessionStart@G4UIsession@@UEAAPEAV1@XZ
+	?SetAlias@G4UImanager@@QEAAXPEBD@Z
+	?SetCandidates@Command@G4GenericMessenger@@QEAAAEAU12@AEBVG4String@@@Z
+	?SetCandidates@G4UIcmdWithAString@@QEAAXPEBD@Z
+	?SetCerrFileName@G4UImanager@@QEAAXAEBVG4String@@_N@Z
+	?SetConcreteInstance@G4VGlobalFastSimulationManager@@KAXPEAV1@@Z
+	?SetCoutDestination@G4UImanager@@QEAAXQEAVG4UIsession@@@Z
+	?SetCoutFileName@G4UImanager@@QEAAXAEBVG4String@@_N@Z
+	?SetDefaultUnit@G4UIcmdWith3VectorAndUnit@@QEAAXPEBD@Z
+	?SetDefaultUnit@G4UIcmdWithADoubleAndUnit@@QEAAXPEBD@Z
+	?SetDefaultUnit@G4UIparameter@@QEAAXPEBD@Z
+	?SetDefaultValue@Command@G4GenericMessenger@@QEAAAEAU12@AEBVG4String@@@Z
+	?SetDefaultValue@G4UIcmdWith3Vector@@QEAAXVHep3Vector@CLHEP@@@Z
+	?SetDefaultValue@G4UIcmdWith3VectorAndUnit@@QEAAXVHep3Vector@CLHEP@@@Z
+	?SetDefaultValue@G4UIcmdWithABool@@QEAAX_N@Z
+	?SetDefaultValue@G4UIcmdWithADouble@@QEAAXN@Z
+	?SetDefaultValue@G4UIcmdWithADoubleAndUnit@@QEAAXN@Z
+	?SetDefaultValue@G4UIcmdWithAString@@QEAAXPEBD@Z
+	?SetDefaultValue@G4UIcmdWithAnInteger@@QEAAXH@Z
+	?SetDefaultValue@G4UIparameter@@QEAAXH@Z
+	?SetDefaultValue@G4UIparameter@@QEAAXN@Z
+	?SetGuidance@G4GenericMessenger@@QEAAXAEBVG4String@@@Z
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetNewValue@G4GenericMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4LocalThreadCoutMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4UIcontrolMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4UImessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4UnitsMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetParameter@G4UIcommand@@QEAAXQEAVG4UIparameter@@@Z
+	?SetParameterName@Command@G4GenericMessenger@@QEAAAEAU12@AEBVG4String@@_N1@Z
+	?SetParameterName@G4UIcmdWith3Vector@@QEAAXPEBD00_N1@Z
+	?SetParameterName@G4UIcmdWith3VectorAndUnit@@QEAAXPEBD00_N1@Z
+	?SetParameterName@G4UIcmdWithABool@@QEAAXPEBD_N1@Z
+	?SetParameterName@G4UIcmdWithADouble@@QEAAXPEBD_N1@Z
+	?SetParameterName@G4UIcmdWithADoubleAndUnit@@QEAAXPEBD_N1@Z
+	?SetParameterName@G4UIcmdWithAString@@QEAAXPEBD_N1@Z
+	?SetParameterName@G4UIcmdWithAnInteger@@QEAAXPEBD_N1@Z
+	?SetThreadIgnore@G4UImanager@@QEAAXH@Z
+	?SetThreadIgnoreInit@G4UImanager@@QEAAX_N@Z
+	?SetThreadPrefixString@G4UImanager@@QEAAXAEBVG4String@@@Z
+	?SetThreadUseBuffer@G4UImanager@@QEAAX_N@Z
+	?SetUnit@Command@G4GenericMessenger@@QEAAAEAU12@AEBVG4String@@W4UnitSpec@12@@Z
+	?SetUnitCandidates@G4UIcmdWith3VectorAndUnit@@QEAAXPEBD@Z
+	?SetUnitCandidates@G4UIcmdWithADoubleAndUnit@@QEAAXPEBD@Z
+	?SetUnitCategory@G4UIcmdWith3VectorAndUnit@@QEAAXPEBD@Z
+	?SetUnitCategory@G4UIcmdWithADoubleAndUnit@@QEAAXPEBD@Z
+	?SetUpForAThread@G4UImanager@@QEAAXH@Z
+	?SetUpForSpecialThread@G4UImanager@@QEAAXVG4String@@@Z
+	?SolveAlias@G4UImanager@@QEAA?AVG4String@@PEBD@Z
+	?StoB@G4UImessenger@@IEAA_NVG4String@@@Z
+	?StoD@G4UImessenger@@IEAANVG4String@@@Z
+	?StoI@G4UImessenger@@IEAAHVG4String@@@Z
+	?StoreHistory@G4UImanager@@QEAAXPEBD@Z
+	?StoreHistory@G4UImanager@@QEAAX_NPEBD@Z
+	?TypeCheck@G4UIcommand@@AEAAHPEBD@Z
+	?TypeCheck@G4UIparameter@@AEAAHPEBD@Z
+	?UnaryExpression@G4UIcommand@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?UnaryExpression@G4UIparameter@@AEAA?AUyystype@G4UItokenNum@@XZ
+	?UnitsList@G4UIcommand@@SA?AVG4String@@PEBD@Z
+	?UseDoublePrecisionStr@G4UImanager@@SAX_N@Z
+	?ValueOf@G4UIcommand@@SANPEBD@Z
+	?Yylex@G4UIcommand@@AEAA?AW4tokenNum@G4UItokenNum@@XZ
+	?Yylex@G4UIparameter@@AEAA?AW4tokenNum@G4UItokenNum@@XZ
+	?_Become_small@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Change_array@?$vector@W4G4ApplicationState@@V?$allocator@W4G4ApplicationState@@@std@@@std@@AEAAXQEAW4G4ApplicationState@@_K1@Z
+	?_Destroy@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAXPEAUyystype@G4UItokenNum@@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Getal@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAAEAV?$allocator@Uyystype@G4UItokenNum@@@2@XZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UMethod@G4GenericMessenger@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@UProperty@G4GenericMessenger@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Ufill@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAPEAUyystype@G4UItokenNum@@PEAU34@_KU_Value_init_tag@2@@Z
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIbridge@@V?$allocator@PEAVG4UIbridge@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIcommand@@V?$allocator@PEAVG4UIcommand@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIcommandTree@@V?$allocator@PEAVG4UIcommandTree@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@W4G4ApplicationState@@V?$allocator@W4G4ApplicationState@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?allocate@?$allocator@W4G4ApplicationState@@@std@@QEAAPEAW4G4ApplicationState@@_K@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@PEAVG4String@@@std@@QEAAXQEAPEAVG4String@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIbridge@@@std@@QEAAXQEAPEAVG4UIbridge@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIcommand@@@std@@QEAAXQEAPEAVG4UIcommand@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIcommandTree@@@std@@QEAAXQEAPEAVG4UIcommandTree@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIparameter@@@std@@QEAAXQEAPEAVG4UIparameter@@_K@Z
+	?deallocate@?$allocator@Uyystype@G4UItokenNum@@@std@@QEAAXQEAUyystype@G4UItokenNum@@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?deallocate@?$allocator@W4G4ApplicationState@@@std@@QEAAXQEAW4G4ApplicationState@@_K@Z
+	?erase@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@VG4String@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@VG4String@@@std@@@std@@@2@@Z
+	?fMasterUImanager@G4UImanager@@CAAEAPEAV1@XZ
+	?fUImanager@G4UImanager@@CAAEAPEAV1@XZ
+	?fUImanagerHasBeenKilled@G4UImanager@@CAAEA_NXZ
+	?find_first_not_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_KQEBD_K@Z
+	?find_first_of@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA_KQEBD_K@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@PEBDHH@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?push_back@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAXAEBVG4String@@@Z
+	?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_K_KQEBD0@Z
+	?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K@Z
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?strip@G4String@@QEAA?AV1@HD@Z
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@G4InvalidUICommand@@UEBAPEBDXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z

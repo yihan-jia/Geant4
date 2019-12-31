@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4ArrowModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4AttFilterUtils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4AxesModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4BoundingExtentScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4BoundingSphereScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4DigiFilterFactories.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4DigiModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4ElectricFieldModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4GPSModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4HitFilterFactories.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4HitsModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4LogicalVolumeModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4MagneticFieldModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4ModelingParameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4NullModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4PSHitsModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4PhysicalVolumeMassScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4PhysicalVolumeModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4PhysicalVolumeSearchScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4PhysicalVolumesSearchScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4ScaleModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TextModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TouchablePropertiesScene.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TouchableUtils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoriesModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryChargeFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryDrawByAttribute.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryDrawByCharge.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryDrawByOriginVolume.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryDrawByParticleID.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryDrawByEncounteredVolume.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryDrawerUtils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryFilterFactories.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryGenericDrawer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryModelFactories.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryOriginVolumeFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryParticleFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4TrajectoryEncounteredVolumeFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4VFieldModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4VModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4VTrajectoryModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\src\G4VisTrajContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ArrowModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4AttFilterUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4AttValueFilterT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4AttributeFilterT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4AxesModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4BoundingExtentScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4BoundingSphereScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4CallbackModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4DigiFilterFactories.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4DigiModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ElectricFieldModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4GPSModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4HitFilterFactories.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4HitsModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4LogicalVolumeModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4MagneticFieldModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelApplyCommandsT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelColourMap.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelCommandUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelCommandsT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelCompoundCommandsT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelingParameters.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4NullModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4PSHitsModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4PhysicalVolumeMassScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4PhysicalVolumeModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4PhysicalVolumeSearchScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4PhysicalVolumesSearchScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4PseudoScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ScaleModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TextModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TouchablePropertiesScene.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TouchableUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoriesModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryChargeFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryDrawByAttribute.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryDrawByCharge.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryDrawByOriginVolume.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryDrawByParticleID.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryDrawByEncounteredVolume.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryDrawerUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryFilterFactories.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryGenericDrawer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryModelFactories.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryOriginVolumeFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryParticleFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4TrajectoryEncounteredVolumeFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VAttValueFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VFieldModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VModelCommand.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VModelFactory.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VTrajectoryModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VisTrajContext.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4ModelingParameters.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VModel.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\visualization\modeling\include\G4VisTrajContext.icc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF1853CA-56C7-3BA8-A775-C24C28174412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F733656-C433-322F-838E-D7A6D7A4F353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

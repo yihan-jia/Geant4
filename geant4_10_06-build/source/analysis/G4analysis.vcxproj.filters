@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\src\G4MergeMode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\src\G4AccumulableManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvAnalysisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvAnalysisReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvRFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvRNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\src\g4analysis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\src\csz_inflate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4BaseHistoUtilities.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4H1ToolsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4H2ToolsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4H3ToolsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4P1ToolsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4P2ToolsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4ToolsAnalysisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4ToolsAnalysisReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisVerbose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisManagerState.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseAnalysisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseRNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisUtilities.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BinScheme.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4Fcn.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisMessengerHelper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4FileMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4H1Messenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4H2Messenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4H3Messenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4P1Messenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4P2Messenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4NtupleMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4HnManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4HnMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4PlotManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4PlotMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4PlotParameters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4VAnalysisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4VAnalysisReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4VFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootAnalysisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootAnalysisReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootMainNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootPNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootRFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootRNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlAnalysisManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlAnalysisReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlRFileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlRNtupleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4MergeMode.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4AccumulableManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4Accumulable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4VAccumulable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvRFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvRNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\g4csv_defs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\g4csv.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include\g4analysis.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include\g4analysis_defs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4BaseHistoUtilities.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4MPIToolsManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4H1ToolsManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4H2ToolsManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4H3ToolsManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4P1ToolsManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4P2ToolsManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\g4hntools_defs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisVerbose.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisManagerState.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisUtilities.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseAnalysisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseRNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BinScheme.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4Fcn.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisMessengerHelper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4FileMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4H1Messenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4H2Messenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4H3Messenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4P1Messenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4P2Messenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4NtupleMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4HnInformation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4HnManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4HnMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4PlotManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4PlotMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4PlotParameters.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4THnManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TNtupleDescription.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TRNtupleDescription.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TRNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VH1Manager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VH2Manager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VH3Manager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VP1Manager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VP2Manager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VRNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootMainNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootPNtupleDescription.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootPNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootRFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootRNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\g4root_defs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\g4root.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlRFileManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlRNtupleManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\g4xml_defs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\g4xml.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4AccumulableManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4Accumulable.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4VAccumulable.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisReader.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisReader.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4THnManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TNtupleManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TRNtupleManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisReader.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisReader.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisManager.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisReader.icc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF1853CA-56C7-3BA8-A775-C24C28174412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F733656-C433-322F-838E-D7A6D7A4F353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

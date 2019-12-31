@@ -1,0 +1,10 @@
+^C:\USERS\JOEY\DOCUMENTS\GEANT4\GEANT4_10_06-BUILD\CMAKEFILES\E0C17C5CA2F13D3BE619DADC00095D25\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/Geant4.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

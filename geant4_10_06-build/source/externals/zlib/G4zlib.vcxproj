@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05341692-ED72-3320-956B-E05F6A53C5DC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>G4zlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4zlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Release\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4zlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\MinSizeRel\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4zlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\RelWithDebInfo\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4zlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4zlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR="Debug";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR=\"Debug\";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/lib/G4zlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/bin/G4zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR="Release";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR=\"Release\";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/lib/G4zlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/bin/G4zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR="MinSizeRel";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR=\"MinSizeRel\";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/lib/G4zlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/bin/G4zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR="RelWithDebInfo";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;ZLIB_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";G4zlib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/lib/G4zlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/bin/G4zlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\zconf.h.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\zconf.h.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\zconf.h.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\zconf.h.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\adler32.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\compress.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\crc32.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\deflate.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\gzclose.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\gzlib.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\gzread.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\gzwrite.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\inflate.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\infback.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\inftrees.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\inffast.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\trees.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\uncompr.c" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\src\zutil.c" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib\zconf.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include\zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\ZERO_CHECK.vcxproj">
+      <Project>{E1749259-A18E-3B5B-8423-240E1940671A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

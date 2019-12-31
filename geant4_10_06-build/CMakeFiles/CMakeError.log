@@ -1,0 +1,238 @@
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0c853.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c853.dir\Debug\\" /Fd"cmTC_0c853.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_0c853.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4284f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4284f.dir\Debug\\" /Fd"cmTC_4284f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_4284f.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_880d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_880d2.dir\Debug\\" /Fd"cmTC_880d2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_880d2.vcxproj]
+
+
+
+Determining if the function getpagesize exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a39f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpagesize /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a39f3.dir\Debug\\" /Fd"cmTC_a39f3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 getpagesize，该符号在函数 main 中被引用 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_a39f3.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\Debug\cmTC_a39f3.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_a39f3.vcxproj]
+
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a8052.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=bcopy /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8052.dir\Debug\\" /Fd"cmTC_a8052.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 bcopy，该符号在函数 main 中被引用 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_a8052.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\Debug\cmTC_a8052.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_a8052.vcxproj]
+
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3b46d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b46d.dir\Debug\\" /Fd"cmTC_3b46d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 mmap，该符号在函数 main 中被引用 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_3b46d.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\Debug\cmTC_3b46d.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_3b46d.vcxproj]
+
+
+
+Determining if the off_t exist failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9411a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9411a.dir\Debug\\" /Fd"cmTC_9411a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,24): error C2275: “off_t”: 将此类型用作表达式非法 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_9411a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\sys/types.h(42): message : 参见“off_t”的声明 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_9411a.vcxproj]
+
+
+File C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the size_t exist failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_7bb5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bb5c.dir\Debug\\" /Fd"cmTC_7bb5c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,25): error C2275: “size_t”: 将此类型用作表达式非法 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_7bb5c.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c : message : 参见“size_t”的声明 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_7bb5c.vcxproj]
+
+
+File C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d4b2a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4b2a.dir\Debug\\" /Fd"cmTC_d4b2a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  OFF64_T.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c(25,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_d4b2a.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c(26,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_d4b2a.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c(27,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_d4b2a.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c(28,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_d4b2a.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_d4b2a.vcxproj]
+
+
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_dc1cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc1cc.dir\Debug\\" /Fd"cmTC_dc1cc.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，该符号在函数 main 中被引用 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_dc1cc.vcxproj]
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\Debug\cmTC_dc1cc.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_dc1cc.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/Joey/Documents/Geant4/geant4_10_06-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_760d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.4.0+e901037fe
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.24.28314 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_760d1.dir\Debug\\" /Fd"cmTC_760d1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\Joey\Documents\Geant4\geant4_10_06-build\CMakeFiles\CMakeTmp\cmTC_760d1.vcxproj]
+
+
+

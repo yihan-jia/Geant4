@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{646A12A8-D36A-36F1-A295-4C05390B0D4B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>G4analysis</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4analysis.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4analysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Release\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4analysis.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4analysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\MinSizeRel\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4analysis.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4analysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\RelWithDebInfo\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4analysis.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4analysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;CMAKE_INTDIR="Debug";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"Debug\";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\Debug\lib\G4intercoms.lib;..\..\BuildProducts\Debug\lib\G4zlib.lib;..\..\BuildProducts\Debug\lib\G4expat.lib;..\..\BuildProducts\Debug\lib\G4global.lib;..\..\BuildProducts\Debug\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/lib/G4analysis.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/bin/G4analysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;CMAKE_INTDIR="Release";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"Release\";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\Release\lib\G4intercoms.lib;..\..\BuildProducts\Release\lib\G4zlib.lib;..\..\BuildProducts\Release\lib\G4expat.lib;..\..\BuildProducts\Release\lib\G4global.lib;..\..\BuildProducts\Release\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/lib/G4analysis.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/bin/G4analysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;CMAKE_INTDIR="MinSizeRel";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"MinSizeRel\";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\MinSizeRel\lib\G4intercoms.lib;..\..\BuildProducts\MinSizeRel\lib\G4zlib.lib;..\..\BuildProducts\MinSizeRel\lib\G4expat.lib;..\..\BuildProducts\MinSizeRel\lib\G4global.lib;..\..\BuildProducts\MinSizeRel\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/lib/G4analysis.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/bin/G4analysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;CMAKE_INTDIR="RelWithDebInfo";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";G4analysis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\zlib\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\expat\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\RelWithDebInfo\lib\G4intercoms.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4zlib.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4expat.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4global.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/lib/G4analysis.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/G4analysis.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/bin/G4analysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/analysis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/analysis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/analysis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/analysis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/analysis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\analysis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\src\G4MergeMode.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\src\G4AccumulableManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvAnalysisManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvAnalysisReader.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvRFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\src\G4CsvRNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\src\g4analysis.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\g4tools\src\csz_inflate.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4BaseHistoUtilities.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4H1ToolsManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4H2ToolsManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4H3ToolsManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4P1ToolsManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4P2ToolsManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4ToolsAnalysisManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\src\G4ToolsAnalysisReader.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisVerbose.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisManagerState.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseAnalysisManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BaseRNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisUtilities.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4BinScheme.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4Fcn.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4AnalysisMessengerHelper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4FileMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4H1Messenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4H2Messenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4H3Messenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4P1Messenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4P2Messenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4NtupleMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4HnManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4HnMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4PlotManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4PlotMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4PlotParameters.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4VAnalysisManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4VAnalysisReader.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\src\G4VFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootAnalysisManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootAnalysisReader.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootMainNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootPNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootRFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\src\G4RootRNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlAnalysisManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlAnalysisReader.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlNtupleManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlRFileManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\src\G4XmlRNtupleManager.cc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4MergeMode.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4AccumulableManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4AccumulableManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4Accumulable.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4Accumulable.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4VAccumulable.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\accumulables\include\G4VAccumulable.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisReader.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvAnalysisReader.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvRFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\G4CsvRNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\g4csv_defs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\csv\include\g4csv.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include\g4analysis.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\factory\include\g4analysis_defs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4BaseHistoUtilities.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4MPIToolsManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4H1ToolsManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4H2ToolsManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4H3ToolsManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4P1ToolsManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4P2ToolsManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisReader.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\G4ToolsAnalysisReader.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\hntools\include\g4hntools_defs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisVerbose.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisManagerState.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisUtilities.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseAnalysisManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BaseRNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4BinScheme.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4Fcn.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4AnalysisMessengerHelper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4FileMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4H1Messenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4H2Messenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4H3Messenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4P1Messenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4P2Messenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4NtupleMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4HnInformation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4HnManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4HnMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4PlotManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4PlotMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4PlotParameters.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4THnManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4THnManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TNtupleDescription.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TNtupleManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TNtupleManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TRNtupleDescription.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TRNtupleManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4TRNtupleManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisReader.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VAnalysisReader.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VH1Manager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VH2Manager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VH3Manager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VP1Manager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VP2Manager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\management\include\G4VRNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisReader.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootAnalysisReader.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootMainNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootPNtupleDescription.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootPNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootRFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\G4RootRNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\g4root_defs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\root\include\g4root.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisReader.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlAnalysisReader.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlRFileManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\G4XmlRNtupleManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\g4xml_defs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\analysis\xml\include\g4xml.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\ZERO_CHECK.vcxproj">
+      <Project>{E1749259-A18E-3B5B-8423-240E1940671A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\G4clhep.vcxproj">
+      <Project>{1E529A5C-9638-34DD-B243-9E6E6956ED60}</Project>
+      <Name>G4clhep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\expat\G4expat.vcxproj">
+      <Project>{12FB6BE3-6A8A-330F-B083-CCE3E0B87562}</Project>
+      <Name>G4expat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\G4global.vcxproj">
+      <Project>{002D5923-890E-3712-9905-86C76E0915FE}</Project>
+      <Name>G4global</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\intercoms\G4intercoms.vcxproj">
+      <Project>{DC6383B2-E4AB-3729-A4FD-981A4586BAF9}</Project>
+      <Name>G4intercoms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\zlib\G4zlib.vcxproj">
+      <Project>{05341692-ED72-3320-956B-E05F6A53C5DC}</Project>
+      <Name>G4zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

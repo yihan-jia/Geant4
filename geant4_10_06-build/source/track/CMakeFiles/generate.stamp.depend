@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/Joey/Documents/Geant4/geant4_10_06/cmake/Modules/Geant4MacroDefineModule.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/cmake/Modules/Geant4MacroLibraryTargets.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/track/CMakeLists.txt
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/track/sources.cmake

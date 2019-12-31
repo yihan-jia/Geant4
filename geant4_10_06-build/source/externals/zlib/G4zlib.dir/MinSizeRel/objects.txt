@@ -1,0 +1,15 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/adler32.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/compress.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/crc32.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/deflate.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/gzclose.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/gzlib.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/gzread.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/gzwrite.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/inflate.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/infback.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/inftrees.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/inffast.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/trees.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/uncompr.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/MinSizeRel/zutil.obj

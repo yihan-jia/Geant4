@@ -1,0 +1,13 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIGAG.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIGainServer.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIArrayString.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIExecutive.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIcsh.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIterminal.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4VUIshell.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4UIWin32.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4InteractorMessenger.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4VBasicShell.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4VInteractiveSession.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4VInteractorManager.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/RelWithDebInfo/G4Win32.obj

@@ -1,0 +1,948 @@
+EXPORTS 
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAVG4PhysicsListHelper@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAVG4PhysicsListHelper@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	??_R0?AV?$G4Allocator@VG4Event@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4HCofThisEvent@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4PrimaryParticle@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4PrimaryVertex@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAVG4PhysicsListHelper@@@@@8 	 DATA
+	??_R0?AV?$G4TemplateRNGHelper@J@@@8 	 DATA
+	??_R0?AV?$G4TemplateRNGHelper@VG4String@@@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@VG4PhysicsListHelper@@@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVDualRand@CLHEP@@@8 	 DATA
+	??_R0?AVG4AdjointPrimaryGeneratorAction@@@8 	 DATA
+	??_R0?AVG4AdjointSimManager@@@8 	 DATA
+	??_R0?AVG4AdjointSimMessenger@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4Event@@@8 	 DATA
+	??_R0?AVG4ExceptionHandler@@@8 	 DATA
+	??_R0?AVG4HCofThisEvent@@@8 	 DATA
+	??_R0?AVG4MSSteppingAction@@@8 	 DATA
+	??_R0?AVG4MTBarrier@@@8 	 DATA
+	??_R0?AVG4MTRunManager@@@8 	 DATA
+	??_R0?AVG4MTRunManagerKernel@@@8 	 DATA
+	??_R0?AVG4MatScanMessenger@@@8 	 DATA
+	??_R0?AVG4MultiSensitiveDetector@@@8 	 DATA
+	??_R0?AVG4PhysicsListOrderingParameter@@@8 	 DATA
+	??_R0?AVG4PrimaryParticle@@@8 	 DATA
+	??_R0?AVG4PrimaryVertex@@@8 	 DATA
+	??_R0?AVG4Run@@@8 	 DATA
+	??_R0?AVG4RunManager@@@8 	 DATA
+	??_R0?AVG4RunManagerKernel@@@8 	 DATA
+	??_R0?AVG4RunMessenger@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4UserPhysicsListMessenger@@@8 	 DATA
+	??_R0?AVG4UserRunAction@@@8 	 DATA
+	??_R0?AVG4UserSteppingAction@@@8 	 DATA
+	??_R0?AVG4UserWorkerInitialization@@@8 	 DATA
+	??_R0?AVG4UserWorkerThreadInitialization@@@8 	 DATA
+	??_R0?AVG4VExceptionHandler@@@8 	 DATA
+	??_R0?AVG4VModularPhysicsList@@@8 	 DATA
+	??_R0?AVG4VPersistencyManager@@@8 	 DATA
+	??_R0?AVG4VPhysicsConstructor@@@8 	 DATA
+	??_R0?AVG4VSensitiveDetector@@@8 	 DATA
+	??_R0?AVG4VUserActionInitialization@@@8 	 DATA
+	??_R0?AVG4VUserDetectorConstruction@@@8 	 DATA
+	??_R0?AVG4VUserParallelWorld@@@8 	 DATA
+	??_R0?AVG4VUserPhysicsList@@@8 	 DATA
+	??_R0?AVG4VUserPrimaryGeneratorAction@@@8 	 DATA
+	??_R0?AVG4WorkerRunManager@@@8 	 DATA
+	??_R0?AVG4WorkerRunManagerKernel@@@8 	 DATA
+	??_R0?AVHepJamesRandom@CLHEP@@@8 	 DATA
+	??_R0?AVHepRandomEngine@CLHEP@@@8 	 DATA
+	??_R0?AVMTwistEngine@CLHEP@@@8 	 DATA
+	??_R0?AVMixMaxRng@CLHEP@@@8 	 DATA
+	??_R0?AVRanecuEngine@CLHEP@@@8 	 DATA
+	??_R0?AVRanlux64Engine@CLHEP@@@8 	 DATA
+	??_R0?AVRanluxEngine@CLHEP@@@8 	 DATA
+	??_R0?AVRanshiEngine@CLHEP@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0PEAVG4PhysicsListHelper@@@8 	 DATA
+	?G4VMPLsubInstanceManager@G4VModularPhysicsList@@1V?$G4VUPLSplitter@VG4VMPLData@@@@A 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Psave@?$_Facetptr@V?$ctype@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?_instance@?1??GetCpuClock@G4StatAnalysis@@SAAEAPEAUtms@@XZ@4PEAU3@EA 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAVG4PhysicsListHelper@@@@CAAEAPEAV?$vector@PEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAVG4PhysicsListHelper@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAVG4PhysicsListHelper@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4PhysicsListHelper@@@@0U?$atomic@I@std@@A 	 DATA
+	?fGeometryHasBeenDestroyed@G4RunManager@@1_NA 	 DATA
+	?fMasterRM@G4MTRunManager@@0PEAV1@EA 	 DATA
+	?fMyWorkspace@?$G4TWorkspacePool@VG4GeometryWorkspace@@@@0PEAVG4GeometryWorkspace@@EA 	 DATA
+	?fMyWorkspace@?$G4TWorkspacePool@VG4ParticlesWorkspace@@@@0PEAVG4ParticlesWorkspace@@EA 	 DATA
+	?fMyWorkspace@?$G4TWorkspacePool@VG4PhysicsListWorkspace@@@@0PEAVG4PhysicsListWorkspace@@EA 	 DATA
+	?fMyWorkspace@?$G4TWorkspacePool@VG4SolidsWorkspace@@@@0PEAVG4SolidsWorkspace@@EA 	 DATA
+	?fPersistencyManager@G4VPersistencyManager@@0PEAV1@EA 	 DATA
+	?fRunManager@G4RunManager@@0PEAV1@EA 	 DATA
+	?fRunManagerKernel@G4RunManagerKernel@@0PEAV1@EA 	 DATA
+	?instance@?$G4TemplateRNGHelper@J@@0PEAV1@EA 	 DATA
+	?instance@?$G4TemplateRNGHelper@VG4String@@@@0PEAV1@EA 	 DATA
+	?instance@G4AdjointSimManager@@0PEAV1@EA 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4PhysicsListHelper@@@@0U?$atomic@I@std@@A 	 DATA
+	?masterScM@G4MTRunManager@@0PEAVG4ScoringManager@@EA 	 DATA
+	?masterWorlds@G4MTRunManager@@0V?$map@HPEAVG4VPhysicalVolume@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@3@@std@@A 	 DATA
+	?offset@?$G4VUPLSplitter@VG4VMPLData@@@@2PEAVG4VMPLData@@EA 	 DATA
+	?offset@?$G4VUPLSplitter@VG4VPCData@@@@2PEAVG4VPCData@@EA 	 DATA
+	?offset@?$G4VUPLSplitter@VG4VUPLData@@@@2PEAVG4VUPLData@@EA 	 DATA
+	?pPLHelper@G4PhysicsListHelper@@0PEAV1@EA 	 DATA
+	?seedOncePerCommunication@G4MTRunManager@@1HA 	 DATA
+	?subInstanceManager@G4VPhysicsConstructor@@1V?$G4VUPLSplitter@VG4VPCData@@@@A 	 DATA
+	?subInstanceManager@G4VUserPhysicsList@@1V?$G4VUPLSplitter@VG4VUPLData@@@@A 	 DATA
+	?wThreadContext@G4MTRunManagerKernel@@0PEAVG4WorkerThread@@EA 	 DATA
+	?workerRMvector@G4MTRunManagerKernel@@0PEAV?$vector@PEAVG4WorkerRunManager@@V?$allocator@PEAVG4WorkerRunManager@@@std@@@std@@EA 	 DATA
+	?workertotalspace@?$G4VUPLSplitter@VG4VMPLData@@@@2HA 	 DATA
+	?workertotalspace@?$G4VUPLSplitter@VG4VPCData@@@@2HA 	 DATA
+	?workertotalspace@?$G4VUPLSplitter@VG4VUPLData@@@@2HA 	 DATA
+	?zerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4V34@B 	 DATA
+	??$?0$$QEAVG4String@@$$Z$$V@?$pair@$$CBVG4String@@_N@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@$$QEAVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBQEAVG4LogicalVolume@@$$Z$$V@?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBQEAVG4LogicalVolume@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBQEAVG4Region@@$$Z$$V@?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBQEAVG4Region@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@_N@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@$$QEAVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@_N@std@@QEAA@AEAV?$tuple@$$QEAVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBQEAVG4LogicalVolume@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@QEAA@AEAV?$tuple@AEBQEAVG4LogicalVolume@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBQEAVG4Region@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@QEAA@AEAV?$tuple@AEBQEAVG4Region@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@_N@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBVerror_code@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@AEBV10@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@$$QEAV10@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$G4TypeMutex@V?$G4Cache@PEAVG4PhysicsListHelper@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Atomic_address_as@$$CBJ$$CBU?$_Atomic_padded@I@std@@@std@@YAPEDJAEBU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@I@std@@@std@@YAPECJAEAU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_reinterpret_as@JI@std@@YAJAEBI@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4DummyThread@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4DummyThread@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4DummyThread@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4DummyThread@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4Event@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4Event@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4Event@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4Event@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4PhysicsListHelper@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4PhysicsListHelper@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4PhysicsListHelper@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4PhysicsListHelper@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@U_Container_proxy@std@@PEAU_Container_base12@2@@std@@YAXAEAU_Container_proxy@0@$$QEAPEAU_Container_base12@0@@Z
+	??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z
+	??$_Copy_memmove@PEAJPEAJ@std@@YAPEAJPEAJ00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAJPEAPEAJ@std@@YAPEAPEAJPEAPEAJ00@Z
+	??$_Copy_memmove@PEAPEAVG4ParticleDefinition@@PEAPEAV1@@std@@YAPEAPEAVG4ParticleDefinition@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4PhysicsBuilderInterface@@PEAPEAV1@@std@@YAPEAPEAVG4PhysicsBuilderInterface@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4PhysicsListHelper@@PEAPEAV1@@std@@YAPEAPEAVG4PhysicsListHelper@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIparameter@@PEAPEAV1@@std@@YAPEAPEAVG4UIparameter@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VPhysicsConstructor@@PEAPEAV1@@std@@YAPEAPEAVG4VPhysicsConstructor@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VSensitiveDetector@@PEAPEAV1@@std@@YAPEAPEAVG4VSensitiveDetector@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VUserParallelWorld@@PEAPEAV1@@std@@YAPEAPEAVG4VUserParallelWorld@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4WorkerRunManager@@PEAPEAV1@@std@@YAPEAPEAVG4WorkerRunManager@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVmutex@std@@PEAPEAV12@@std@@YAPEAPEAVmutex@0@PEAPEAV10@00@Z
+	??$_Copy_memmove@PEAPEBVG4Event@@PEAPEBV1@@std@@YAPEAPEBVG4Event@@PEAPEBV1@00@Z
+	??$_Copy_nodes@U_Copy_tag@?$_Tree@V?$_Tmap_traits@HPEAVG4VPhysicalVolume@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@3@$0A@@std@@@std@@@?$_Tree@V?$_Tmap_traits@HPEAVG4VPhysicalVolume@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@3@$0A@@std@@@std@@IEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@1@PEAU21@0U_Copy_tag@01@@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z
+	??$_Delete_plain_internal@V?$allocator@U_Container_proxy@std@@@std@@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAJ@std@@YAXAEAPEAJ@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4DummyThread@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4DummyThread@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4Event@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4Event@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4PhysicsListHelper@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4PhysicsListHelper@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@0@@Z
+	??$_Destroy_range@PEAPEAJ@std@@YAXPEAPEAJQEAPEAJ@Z
+	??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPEAHQEAHAEAV?$allocator@H@0@@Z
+	??$_Destroy_range@V?$allocator@J@std@@@std@@YAXPEAJQEAJAEAV?$allocator@J@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@YAXPEAPEAVG4ParticleDefinition@@QEAPEAV1@AEAV?$allocator@PEAVG4ParticleDefinition@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@@std@@YAXPEAPEAVG4PhysicsBuilderInterface@@QEAPEAV1@AEAV?$allocator@PEAVG4PhysicsBuilderInterface@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@YAXPEAPEAVG4PhysicsListHelper@@QEAPEAV1@AEAV?$allocator@PEAVG4PhysicsListHelper@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAXPEAPEAVG4UIparameter@@QEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@YAXPEAPEAVG4VPhysicsConstructor@@QEAPEAV1@AEAV?$allocator@PEAVG4VPhysicsConstructor@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@YAXPEAPEAVG4VSensitiveDetector@@QEAPEAV1@AEAV?$allocator@PEAVG4VSensitiveDetector@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VUserParallelWorld@@@std@@@std@@YAXPEAPEAVG4VUserParallelWorld@@QEAPEAV1@AEAV?$allocator@PEAVG4VUserParallelWorld@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4WorkerRunManager@@@std@@@std@@YAXPEAPEAVG4WorkerRunManager@@QEAPEAV1@AEAV?$allocator@PEAVG4WorkerRunManager@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVmutex@std@@@std@@@std@@YAXPEAPEAVmutex@0@QEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEBVG4Event@@@std@@@std@@YAXPEAPEBVG4Event@@QEAPEBV1@AEAV?$allocator@PEBVG4Event@@@0@@Z
+	??$_Destroy_range@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAXPEAUyystype@G4UItokenNum@@QEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@YAXPEAVG4PhysicsListOrderingParameter@@QEAV1@AEAV?$allocator@VG4PhysicsListOrderingParameter@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@YAXPEAVHep3Vector@CLHEP@@QEAV12@AEAV?$allocator@VHep3Vector@CLHEP@@@0@@Z
+	??$_Emplace_reallocate@AEBH@?$vector@HV?$allocator@H@std@@@std@@QEAAPEAHQEAHAEBH@Z
+	??$_Emplace_reallocate@AEBN@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEANAEBN@Z
+	??$_Emplace_reallocate@AEBQEAVG4ParticleDefinition@@@?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@QEAAPEAPEAVG4ParticleDefinition@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4PhysicsBuilderInterface@@@?$vector@PEAVG4PhysicsBuilderInterface@@V?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@@std@@QEAAPEAPEAVG4PhysicsBuilderInterface@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIparameter@@@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@QEAAPEAPEAVG4UIparameter@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VPhysicsConstructor@@@?$vector@PEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@QEAAPEAPEAVG4VPhysicsConstructor@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VSensitiveDetector@@@?$vector@PEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@QEAAPEAPEAVG4VSensitiveDetector@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VUserParallelWorld@@@?$vector@PEAVG4VUserParallelWorld@@V?$allocator@PEAVG4VUserParallelWorld@@@std@@@std@@QEAAPEAPEAVG4VUserParallelWorld@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4WorkerRunManager@@@?$vector@PEAVG4WorkerRunManager@@V?$allocator@PEAVG4WorkerRunManager@@@std@@@std@@QEAAPEAPEAVG4WorkerRunManager@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEBVG4Event@@@?$vector@PEBVG4Event@@V?$allocator@PEBVG4Event@@@std@@@std@@QEAAPEAPEBVG4Event@@QEAPEBV2@AEBQEBV2@@Z
+	??$_Emplace_reallocate@AEBVG4PhysicsListOrderingParameter@@@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@QEAAPEAVG4PhysicsListOrderingParameter@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBVHep3Vector@CLHEP@@@?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@QEAAPEAVHep3Vector@CLHEP@@QEAV23@AEBV23@@Z
+	??$_Emplace_reallocate@J@?$vector@JV?$allocator@J@std@@@std@@QEAAPEAJQEAJ$$QEAJ@Z
+	??$_Emplace_reallocate@PEAVG4ParticleDefinition@@@?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@QEAAPEAPEAVG4ParticleDefinition@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_head@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@_N@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@1@@Z
+	??$_Erase_tree_and_orphan@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@1@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@_NU?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@_N@std@@@3@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Idl_distance@PEAPEAJPEAPEAJ@std@@YA_JAEBQEAPEAJ0@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Move_unchecked@PEAPEAVG4VPhysicsConstructor@@PEAPEAV1@@std@@YAPEAPEAVG4VPhysicsConstructor@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAPEAVG4WorkerRunManager@@PEAPEAV1@@std@@YAPEAPEAVG4WorkerRunManager@@PEAPEAV1@00@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD2@Z
+	??$_Refancy@PEAD$0A@@std@@YAPEADPEAD@Z
+	??$_Resize_reallocate@PEAVG4PhysicsListHelper@@@?$vector@PEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@AEAAX_KAEBQEAVG4PhysicsListHelper@@@Z
+	??$_Resize_reallocate@PEAVmutex@std@@@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAX_KAEBQEAVmutex@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Traits_find@U?$char_traits@D@std@@@std@@YA_KQEBD_K101@Z
+	??$_Uninitialized_copy@PEAUyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@QEAU12@0PEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Uninitialized_copy@PEAVG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@YAPEAVG4PhysicsListOrderingParameter@@QEAV1@0PEAV1@AEAV?$allocator@VG4PhysicsListOrderingParameter@@@0@@Z
+	??$_Uninitialized_copy@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@YAPEAPEAVG4PhysicsListHelper@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4PhysicsListHelper@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVmutex@std@@@std@@@std@@YAPEAPEAVmutex@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAHV?$allocator@H@std@@@std@@YAPEAHQEAH0PEAHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_move@PEAJV?$allocator@J@std@@@std@@YAPEAJQEAJ0PEAJAEAV?$allocator@J@0@@Z
+	??$_Uninitialized_move@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@YAPEAPEAVG4ParticleDefinition@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4ParticleDefinition@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4PhysicsBuilderInterface@@V?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@@std@@YAPEAPEAVG4PhysicsBuilderInterface@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4PhysicsBuilderInterface@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@YAPEAPEAVG4PhysicsListHelper@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4PhysicsListHelper@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAPEAPEAVG4UIparameter@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@YAPEAPEAVG4VPhysicsConstructor@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VPhysicsConstructor@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@YAPEAPEAVG4VSensitiveDetector@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VSensitiveDetector@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VUserParallelWorld@@V?$allocator@PEAVG4VUserParallelWorld@@@std@@@std@@YAPEAPEAVG4VUserParallelWorld@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VUserParallelWorld@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4WorkerRunManager@@V?$allocator@PEAVG4WorkerRunManager@@@std@@@std@@YAPEAPEAVG4WorkerRunManager@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4WorkerRunManager@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@YAPEAPEAVmutex@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAPEBVG4Event@@V?$allocator@PEBVG4Event@@@std@@@std@@YAPEAPEBVG4Event@@QEAPEBV1@0PEAPEBV1@AEAV?$allocator@PEBVG4Event@@@0@@Z
+	??$_Uninitialized_move@PEAVG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@YAPEAVG4PhysicsListOrderingParameter@@QEAV1@0PEAV1@AEAV?$allocator@VG4PhysicsListOrderingParameter@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_move@PEAVHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@YAPEAVHep3Vector@CLHEP@@QEAV12@0PEAV12@AEAV?$allocator@VHep3Vector@CLHEP@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@@std@@YAPEAPEAVG4PhysicsBuilderInterface@@PEAPEAV1@_KAEAV?$allocator@PEAVG4PhysicsBuilderInterface@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@PEAU12@_KAEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Uninitialized_value_construct_n_unchecked1@PEAPEAJ_K@std@@YAPEAPEAJPEAPEAJ_K@Z
+	??$_Zero_range@PEAPEAJ@std@@YAPEAPEAJQEAPEAJ0@Z
+	??$_Zero_range@PEAPEAVG4PhysicsBuilderInterface@@@std@@YAPEAPEAVG4PhysicsBuilderInterface@@QEAPEAV1@0@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU_Container_proxy@std@@$$T@std@@YAPEAU_Container_proxy@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$replace@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@D@std@@YAXV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@0AEBD1@Z
+	??$uninitialized_copy@PEAPEAJPEAPEAJ@std@@YAPEAPEAJQEAPEAJ0PEAPEAJ@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??$use_facet@V?$ctype@D@std@@@std@@YAAEBV?$ctype@D@0@AEBVlocale@0@@Z
+	??0?$G4Allocator@VG4Event@@@@QEAA@XZ
+	??0?$G4Allocator@VG4HCofThisEvent@@@@QEAA@XZ
+	??0?$G4Allocator@VG4PrimaryParticle@@@@QEAA@XZ
+	??0?$G4Allocator@VG4PrimaryVertex@@@@QEAA@XZ
+	??0?$G4Cache@PEAVG4PhysicsListHelper@@@@QEAA@XZ
+	??0?$G4ThreadLocalSingleton@VG4PhysicsListHelper@@@@QEAA@XZ
+	??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z
+	??0?$map@HPEAVG4VPhysicalVolume@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@3@@std@@QEAA@AEBV01@@Z
+	??0G4AdjointPrimaryGeneratorAction@@QEAA@XZ
+	??0G4AdjointSimManager@@AEAA@XZ
+	??0G4AdjointSimMessenger@@QEAA@PEAVG4AdjointSimManager@@@Z
+	??0G4ExceptionHandler@@AEAA@AEBV0@@Z
+	??0G4ExceptionHandler@@QEAA@XZ
+	??0G4MSSteppingAction@@QEAA@XZ
+	??0G4MTRunManager@@QEAA@XZ
+	??0G4MTRunManagerKernel@@QEAA@XZ
+	??0G4MatScanMessenger@@QEAA@PEAVG4MaterialScanner@@@Z
+	??0G4MaterialScanner@@QEAA@XZ
+	??0G4PhysicsListHelper@@AEAA@XZ
+	??0G4PhysicsListOrderingParameter@@QEAA@XZ
+	??0G4PhysicsListWorkspace@@QEAA@_N@Z
+	??0G4Run@@QEAA@XZ
+	??0G4RunManager@@IEAA@W4RMType@0@@Z
+	??0G4RunManager@@QEAA@XZ
+	??0G4RunManagerKernel@@IEAA@W4RMKType@0@@Z
+	??0G4RunManagerKernel@@QEAA@XZ
+	??0G4RunMessenger@@QEAA@PEAVG4RunManager@@@Z
+	??0G4UserPhysicsListMessenger@@QEAA@PEAVG4VUserPhysicsList@@@Z
+	??0G4UserRunAction@@QEAA@XZ
+	??0G4UserWorkerInitialization@@QEAA@XZ
+	??0G4UserWorkerThreadInitialization@@QEAA@XZ
+	??0G4VModularPhysicsList@@IEAA@AEBV0@@Z
+	??0G4VModularPhysicsList@@QEAA@XZ
+	??0G4VPersistencyManager@@IEAA@XZ
+	??0G4VPhysicsConstructor@@QEAA@AEBVG4String@@@Z
+	??0G4VPhysicsConstructor@@QEAA@AEBVG4String@@H@Z
+	??0G4VUserActionInitialization@@QEAA@XZ
+	??0G4VUserDetectorConstruction@@QEAA@XZ
+	??0G4VUserParallelWorld@@QEAA@VG4String@@@Z
+	??0G4VUserPhysicsList@@QEAA@AEBV0@@Z
+	??0G4VUserPhysicsList@@QEAA@XZ
+	??0G4VUserPrimaryGeneratorAction@@QEAA@XZ
+	??0G4WorkerRunManager@@QEAA@XZ
+	??0G4WorkerRunManagerKernel@@QEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$G4Allocator@VG4Event@@@@UEAA@XZ
+	??1?$G4Allocator@VG4HCofThisEvent@@@@UEAA@XZ
+	??1?$G4Allocator@VG4PrimaryParticle@@@@UEAA@XZ
+	??1?$G4Allocator@VG4PrimaryVertex@@@@UEAA@XZ
+	??1?$G4Cache@PEAVG4PhysicsListHelper@@@@UEAA@XZ
+	??1?$G4TemplateAutoLock@Vmutex@std@@@@QEAA@XZ
+	??1?$G4TemplateRNGHelper@J@@UEAA@XZ
+	??1?$G4TemplateRNGHelper@VG4String@@@@UEAA@XZ
+	??1?$G4ThreadLocalSingleton@VG4PhysicsListHelper@@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4DummyThread@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4Event@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4PhysicsListHelper@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_head_scoped_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$deque@JV?$allocator@J@std@@@std@@QEAA@XZ
+	??1?$list@PEAVG4DummyThread@@V?$allocator@PEAVG4DummyThread@@@std@@@std@@QEAA@XZ
+	??1?$list@PEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@QEAA@XZ
+	??1?$map@HPEAVG4VPhysicalVolume@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@3@@std@@QEAA@XZ
+	??1?$map@PEAVG4FieldManager@@PEAV1@U?$less@PEAVG4FieldManager@@@std@@V?$allocator@U?$pair@QEAVG4FieldManager@@PEAV1@@std@@@3@@std@@QEAA@XZ
+	??1?$map@PEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@U?$less@PEAVG4LogicalVolume@@@3@V?$allocator@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@@3@@std@@QEAA@XZ
+	??1?$map@PEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@U?$less@PEAVG4Region@@@3@V?$allocator@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@@3@@std@@QEAA@XZ
+	??1?$map@PEAVG4VSensitiveDetector@@PEAV1@U?$less@PEAVG4VSensitiveDetector@@@std@@V?$allocator@U?$pair@QEAVG4VSensitiveDetector@@PEAV1@@std@@@3@@std@@QEAA@XZ
+	??1?$map@VG4String@@_NU?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@_N@std@@@3@@std@@QEAA@XZ
+	??1?$queue@JV?$deque@JV?$allocator@J@std@@@std@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+	??1?$vector@NV?$allocator@N@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@QEAA@XZ
+	??1G4AdjointPrimaryGeneratorAction@@UEAA@XZ
+	??1G4AdjointSimManager@@EEAA@XZ
+	??1G4AdjointSimMessenger@@UEAA@XZ
+	??1G4ExceptionHandler@@UEAA@XZ
+	??1G4MSSteppingAction@@UEAA@XZ
+	??1G4MTBarrier@@UEAA@XZ
+	??1G4MTRunManager@@UEAA@XZ
+	??1G4MTRunManagerKernel@@UEAA@XZ
+	??1G4MatScanMessenger@@UEAA@XZ
+	??1G4MaterialScanner@@QEAA@XZ
+	??1G4PhysicsListHelper@@AEAA@XZ
+	??1G4PhysicsListOrderingParameter@@UEAA@XZ
+	??1G4PhysicsListWorkspace@@QEAA@XZ
+	??1G4Run@@UEAA@XZ
+	??1G4RunManager@@UEAA@XZ
+	??1G4RunManagerKernel@@UEAA@XZ
+	??1G4RunMessenger@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4Tokenizer@@QEAA@XZ
+	??1G4UserPhysicsListMessenger@@UEAA@XZ
+	??1G4UserRunAction@@UEAA@XZ
+	??1G4UserWorkerInitialization@@UEAA@XZ
+	??1G4UserWorkerThreadInitialization@@UEAA@XZ
+	??1G4VModularPhysicsList@@UEAA@XZ
+	??1G4VPersistencyManager@@UEAA@XZ
+	??1G4VPhysicsConstructor@@UEAA@XZ
+	??1G4VUserActionInitialization@@UEAA@XZ
+	??1G4VUserDetectorConstruction@@UEAA@XZ
+	??1G4VUserParallelWorld@@UEAA@XZ
+	??1G4VUserPhysicsList@@UEAA@XZ
+	??1G4VUserPrimaryGeneratorAction@@UEAA@XZ
+	??1G4WorkerRunManager@@UEAA@XZ
+	??1G4WorkerRunManagerKernel@@UEAA@XZ
+	??1Hep3Vector@CLHEP@@QEAA@XZ
+	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1mutex@std@@QEAA@XZ
+	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??2G4PrimaryParticle@@SAPEAX_K@Z
+	??2G4PrimaryVertex@@SAPEAX_K@Z
+	??3G4Event@@SAXPEAX@Z
+	??3G4PrimaryParticle@@SAXPEAX@Z
+	??3G4PrimaryVertex@@SAXPEAX@Z
+	??4G4ExceptionHandler@@AEAAAEAV0@AEBV0@@Z
+	??4G4VModularPhysicsList@@IEAAAEAV0@AEBV0@@Z
+	??4G4VUserPhysicsList@@QEAAAEAV0@AEBV0@@Z
+	??8G4ExceptionHandler@@QEBA_NAEBV0@@Z
+	??9G4ExceptionHandler@@QEBA_NAEBV0@@Z
+	??A?$map@VG4String@@_NU?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@_N@std@@@3@@std@@QEAAAEA_NAEBVG4String@@@Z
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??RG4String@@QEAA?AV0@_K0@Z
+	??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??__Fzerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@YAXXZ
+	?AbortEvent@G4MTRunManager@@UEAAXXZ
+	?AbortEvent@G4RunManager@@UEAAXXZ
+	?AbortRun@G4MTRunManager@@UEAAX_N@Z
+	?AbortRun@G4RunManager@@UEAAX_N@Z
+	?AddBuilder@G4VPhysicsConstructor@@IEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?AddProcessManager@G4VUserPhysicsList@@QEAAXPEAVG4ParticleDefinition@@PEAVG4ProcessManager@@@Z
+	?AddSD@G4MultiSensitiveDetector@@QEAAXPEAVG4VSensitiveDetector@@@Z
+	?AddTransportation@G4PhysicsListHelper@@QEAAXXZ
+	?AddTransportation@G4VUserPhysicsList@@IEAAXXZ
+	?AnalyzeEvent@G4RunManager@@UEAAXPEAVG4Event@@@Z
+	?BackToFwdSimulationMode@G4AdjointSimManager@@QEAAXXZ
+	?BeamOn@G4RunManager@@UEAAXHPEBDH@Z
+	?BeginOfRunAction@G4AdjointSimManager@@UEAAXPEBVG4Run@@@Z
+	?BeginOfRunAction@G4MultiRunAction@@UEAAXPEBVG4Run@@@Z
+	?BeginOfRunAction@G4UserRunAction@@UEAAXPEBVG4Run@@@Z
+	?BroadcastAbortRun@G4MTRunManagerKernel@@QEAAX_N@Z
+	?BuildForMaster@G4VUserActionInitialization@@UEBAXXZ
+	?BuildGeometryAndPhysicsVector@G4WorkerThread@@SAXXZ
+	?BuildIntegralPhysicsTable@G4VUserPhysicsList@@IEAAXPEAVG4VProcess@@PEAVG4ParticleDefinition@@@Z
+	?BuildPhysicsTable@G4VUserPhysicsList@@QEAAXPEAVG4ParticleDefinition@@@Z
+	?BuildPhysicsTable@G4VUserPhysicsList@@QEAAXXZ
+	?BuildPhysicsTables@G4RunManagerKernel@@IEAAX_N@Z
+	?CheckParticleList@G4PhysicsListHelper@@QEBAXXZ
+	?CheckParticleList@G4VUserPhysicsList@@QEAAXXZ
+	?CheckRegions@G4RunManagerKernel@@IEAAXXZ
+	?CheckRegularGeometry@G4RunManagerKernel@@AEAAXXZ
+	?CleanUpPreviousEvents@G4RunManager@@IEAAXXZ
+	?CleanUpUnnecessaryEvents@G4RunManager@@IEAAXH@Z
+	?Clear@?$G4TemplateRNGHelper@J@@UEAAXXZ
+	?Clear@?$G4TemplateRNGHelper@VG4String@@@@UEAAXXZ
+	?Clear@?$G4ThreadLocalSingleton@VG4PhysicsListHelper@@@@AEAAXXZ
+	?ClearEndOfAdjointTrackInfoVectors@G4AdjointSimManager@@QEAAXXZ
+	?CloneF@G4VUserDetectorConstruction@@UEAAXXZ
+	?CloneSD@G4VUserDetectorConstruction@@UEAAXXZ
+	?CommandFailed@G4UIcommand@@QEAAXAEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?ComputeEnergyDistWeight@G4AdjointPrimaryGeneratorAction@@AEAANNNN@Z
+	?ConfirmBeamOnCondition@G4RunManager@@UEAA_NXZ
+	?ConfirmCoupledTransportation@G4RunManagerKernel@@AEAA_NXZ
+	?ConsiderParticleAsPrimary@G4AdjointPrimaryGeneratorAction@@QEAAXAEBVG4String@@@Z
+	?ConsiderParticleAsPrimary@G4AdjointSimManager@@QEAAXAEBVG4String@@@Z
+	?ConstructParallelGeometries@G4VUserDetectorConstruction@@QEAAHXZ
+	?ConstructParallelSD@G4VUserDetectorConstruction@@QEAAXXZ
+	?ConstructParticle@G4VModularPhysicsList@@$4PPPPPPPM@A@EAAXXZ
+	?ConstructParticle@G4VModularPhysicsList@@UEAAXXZ
+	?ConstructProcess@G4VModularPhysicsList@@$4PPPPPPPM@A@EAAXXZ
+	?ConstructProcess@G4VModularPhysicsList@@UEAAXXZ
+	?ConstructSD@G4VUserParallelWorld@@UEAAXXZ
+	?ConstructSDandField@G4VUserDetectorConstruction@@UEAAXXZ
+	?ConstructScoringWorlds@G4MTRunManager@@UEAAXXZ
+	?ConstructScoringWorlds@G4RunManager@@UEAAXXZ
+	?ConstructScoringWorlds@G4WorkerRunManager@@MEAAXXZ
+	?CreateAndStartWorker@G4UserWorkerThreadInitialization@@UEAAPEAVG4DummyThread@@PEAVG4WorkerThread@@@Z
+	?CreateAndStartWorkers@G4MTRunManager@@MEAAXXZ
+	?CreateSubInstance@?$G4VUPLSplitter@VG4VMPLData@@@@QEAAHXZ
+	?CreateSubInstance@?$G4VUPLSplitter@VG4VPCData@@@@QEAAHXZ
+	?CreateSubInstance@?$G4VUPLSplitter@VG4VUPLData@@@@QEAAHXZ
+	?CreateWorkerRunManager@G4UserWorkerThreadInitialization@@UEBAPEAVG4WorkerRunManager@@XZ
+	?DefineAdjointSourceOnTheExtSurfaceOfAVolume@G4AdjointSimManager@@QEAA_NAEBVG4String@@@Z
+	?DefineExtSourceOnTheExtSurfaceOfAVolume@G4AdjointSimManager@@QEAA_NAEBVG4String@@@Z
+	?DefineSphericalAdjointSource@G4AdjointSimManager@@QEAA_NNVHep3Vector@CLHEP@@@Z
+	?DefineSphericalAdjointSourceWithCentreAtTheCentreOfAVolume@G4AdjointSimManager@@QEAA_NNAEBVG4String@@@Z
+	?DefineSphericalExtSource@G4AdjointSimManager@@QEAA_NNVHep3Vector@CLHEP@@@Z
+	?DefineSphericalExtSourceWithCentreAtTheCentreOfAVolume@G4AdjointSimManager@@QEAA_NNAEBVG4String@@@Z
+	?DefineUserActions@G4AdjointSimManager@@AEAAXXZ
+	?DefineWorldVolume@G4RunManager@@UEAAXPEAVG4VPhysicalVolume@@_N@Z
+	?DefineWorldVolume@G4RunManagerKernel@@QEAAXPEAVG4VPhysicalVolume@@_N@Z
+	?DeleteUserInitializations@G4RunManager@@MEAAXXZ
+	?Destroy@?$G4CacheReference@PEAVG4PhysicsListHelper@@@@QEAAXI_N@Z
+	?DestroyGeometryAndPhysicsVector@G4WorkerThread@@SAXXZ
+	?DestroyWorkspace@G4PhysicsListWorkspace@@QEAAXXZ
+	?DoEventLoop@G4RunManager@@UEAAXHPEBDH@Z
+	?DoEventLoop@G4WorkerRunManager@@UEAAXHPEBDH@Z
+	?DoScan@G4MaterialScanner@@AEAAXXZ
+	?DoWork@G4WorkerRunManager@@UEAAXXZ
+	?DumpCutValuesTable@G4VUserPhysicsList@@QEAAXH@Z
+	?DumpCutValuesTableIfRequested@G4VUserPhysicsList@@QEAAXXZ
+	?DumpList@G4VUserPhysicsList@@QEBAXXZ
+	?DumpOrdingParameterTable@G4PhysicsListHelper@@QEBAXH@Z
+	?DumpRegion@G4RunManager@@QEBAXAEBVG4String@@@Z
+	?DumpRegion@G4RunManager@@QEBAXPEAVG4Region@@@Z
+	?DumpRegion@G4RunManagerKernel@@QEBAXAEBVG4String@@@Z
+	?DumpRegion@G4RunManagerKernel@@QEBAXPEAVG4Region@@@Z
+	?DumpTrackInfo@G4ExceptionHandler@@AEAAXXZ
+	?EndOfRunAction@G4AdjointSimManager@@UEAAXPEBVG4Run@@@Z
+	?EndOfRunAction@G4MultiRunAction@@UEAAXPEBVG4Run@@@Z
+	?EndOfRunAction@G4UserRunAction@@UEAAXPEBVG4Run@@@Z
+	?GenerateEvent@G4RunManager@@UEAAPEAVG4Event@@H@Z
+	?GenerateEvent@G4WorkerRunManager@@UEAAPEAVG4Event@@H@Z
+	?GeneratePrimaries@G4AdjointPrimaryGeneratorAction@@UEAAXPEAVG4Event@@@Z
+	?GenerateRun@G4MultiRunAction@@UEAAPEAVG4Run@@XZ
+	?GenerateRun@G4UserRunAction@@UEAAPEAVG4Run@@XZ
+	?GeometryHasBeenModified@G4RunManager@@QEAAX_N@Z
+	?GetAdjointTrackingMode@G4AdjointSimManager@@QEAA_NXZ
+	?GetAllocatedSize@?$G4Allocator@VG4Event@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4HCofThisEvent@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4PrimaryParticle@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4PrimaryVertex@@@@UEBA_KXZ
+	?GetApplyCuts@G4VUserPhysicsList@@QEBA_NAEBVG4String@@@Z
+	?GetBuilders@G4VPhysicsConstructor@@IEBA?AV?$vector@PEAVG4PhysicsBuilderInterface@@V?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@@std@@XZ
+	?GetCache@?$G4Cache@PEAVG4PhysicsListHelper@@@@AEBAAEAPEAVG4PhysicsListHelper@@XZ
+	?GetCommandStack@G4MTRunManager@@QEAA?AV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?GetCosthAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAN_K@Z
+	?GetCurrentValue@G4MatScanMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4RunMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4UserPhysicsListMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCutValue@G4VUserPhysicsList@@QEBANAEBVG4String@@@Z
+	?GetDidAdjParticleReachTheExtSource@G4AdjointSimManager@@QEAA_NXZ
+	?GetDirectionAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAA?AVHep3Vector@CLHEP@@_K@Z
+	?GetEkinAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAN_K@Z
+	?GetEkinNucAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAN_K@Z
+	?GetFwdParticleIndexAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAH_K@Z
+	?GetFwdParticleNameAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAAEBVG4String@@XZ
+	?GetFwdParticlePDGEncodingAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAH_K@Z
+	?GetInstance@?$G4TemplateRNGHelper@J@@SAPEAV1@XZ
+	?GetInstance@?$G4TemplateRNGHelper@VG4String@@@@SAPEAV1@XZ
+	?GetInstance@G4AdjointSimManager@@SAPEAV1@XZ
+	?GetInstanceIfExist@?$G4TemplateRNGHelper@J@@SAPEAV1@XZ
+	?GetInstanceIfExist@?$G4TemplateRNGHelper@VG4String@@@@SAPEAV1@XZ
+	?GetLastGeneratedFwdPrimaryParticle@G4AdjointSimManager@@QEAAPEAVG4ParticleDefinition@@XZ
+	?GetListOfPrimaryFwdParticles@G4AdjointSimManager@@QEAAPEAV?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@XZ
+	?GetMTMasterRunManagerKernel@G4MTRunManager@@SAPEAVG4MTRunManagerKernel@@XZ
+	?GetMasterRunManager@G4MTRunManager@@SAPEAV1@XZ
+	?GetMasterRunManagerKernel@G4MTRunManager@@SAPEAVG4RunManagerKernel@@XZ
+	?GetNbOfAdointTracksReachingTheExternalSurface@G4AdjointSimManager@@QEAA_KXZ
+	?GetNbOfPrimaryFwdParticles@G4AdjointSimManager@@QEAA_KXZ
+	?GetNoPages@?$G4Allocator@VG4Event@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4HCofThisEvent@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4PrimaryParticle@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4PrimaryVertex@@@@UEBAHXZ
+	?GetNumberOfParallelWorld@G4VUserDetectorConstruction@@QEBAHXZ
+	?GetNumberThreads@G4WorkerThread@@QEBAHXZ
+	?GetOrdingParameter@G4PhysicsListHelper@@QEBA?AVG4PhysicsListOrderingParameter@@H@Z
+	?GetPageSize@?$G4Allocator@VG4Event@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4HCofThisEvent@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4PrimaryParticle@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4PrimaryVertex@@@@UEBA_KXZ
+	?GetParallelWorld@G4VUserDetectorConstruction@@QEBAPEAVG4VUserParallelWorld@@H@Z
+	?GetParticleIterator@G4VPhysicsConstructor@@IEBAPEAV?$G4ParticleTableIterator@VG4String@@PEAVG4ParticleDefinition@@@@XZ
+	?GetParticleIterator@G4VUserPhysicsList@@IEBAPEAV?$G4ParticleTableIterator@VG4String@@PEAVG4ParticleDefinition@@@@XZ
+	?GetPersistencyManager@G4VPersistencyManager@@SAPEAV1@XZ
+	?GetPhysics@G4VModularPhysicsList@@QEBAPEBVG4VPhysicsConstructor@@AEBVG4String@@@Z
+	?GetPhysics@G4VModularPhysicsList@@QEBAPEBVG4VPhysicsConstructor@@H@Z
+	?GetPhysicsListHelper@G4PhysicsListHelper@@SAPEAV1@XZ
+	?GetPhysicsWithType@G4VModularPhysicsList@@QEBAPEBVG4VPhysicsConstructor@@H@Z
+	?GetPool@G4PhysicsListWorkspace@@SAPEAV?$G4TWorkspacePool@VG4PhysicsListWorkspace@@@@XZ
+	?GetPoolType@?$G4Allocator@VG4Event@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4HCofThisEvent@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4PrimaryParticle@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4PrimaryVertex@@@@UEBAPEBDXZ
+	?GetPositionAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAA?AVHep3Vector@CLHEP@@_K@Z
+	?GetPrimaryIonName@G4AdjointSimManager@@QEAAAEBVG4String@@XZ
+	?GetRunManager@G4RunManager@@SAPEAV1@XZ
+	?GetRunManagerKernel@G4RunManagerKernel@@SAPEAV1@XZ
+	?GetSeed@?$G4TemplateRNGHelper@J@@UEAA?BJAEBH@Z
+	?GetSeed@?$G4TemplateRNGHelper@VG4String@@@@UEAA?BVG4String@@AEBH@Z
+	?GetThreadId@G4WorkerThread@@QEBAHXZ
+	?GetWeightAtEndOfLastAdjointTrack@G4AdjointSimManager@@QEAAN_K@Z
+	?GetWorkerRunManager@G4WorkerRunManager@@SAPEAV1@XZ
+	?GetWorkerRunManagerKernel@G4WorkerRunManager@@SAPEAVG4WorkerRunManagerKernel@@XZ
+	?GetWorkerThread@G4MTRunManagerKernel@@SAPEAVG4WorkerThread@@XZ
+	?GetWorld@G4VUserParallelWorld@@IEAAPEAVG4VPhysicalVolume@@XZ
+	?IfGeometryHasBeenDestroyed@G4RunManager@@SA_NXZ
+	?IncreasePageSize@?$G4Allocator@VG4Event@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4HCofThisEvent@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4PrimaryParticle@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4PrimaryVertex@@@@UEAAXI@Z
+	?InitialisePhysicsList@G4PhysicsListWorkspace@@IEAAXXZ
+	?InitialiseWorkspace@G4PhysicsListWorkspace@@QEAAXXZ
+	?Initialize@G4MSSteppingAction@@QEAAX_NPEAVG4Region@@@Z
+	?Initialize@G4MTRunManager@@UEAAXXZ
+	?Initialize@G4RunManager@@UEAAXXZ
+	?InitializeEventLoop@G4MTRunManager@@UEAAXHPEBDH@Z
+	?InitializeEventLoop@G4RunManager@@UEAAXHPEBDH@Z
+	?InitializeGeometry@G4RunManager@@UEAAXXZ
+	?InitializeGeometry@G4WorkerRunManager@@UEAAXXZ
+	?InitializePhysics@G4RunManager@@UEAAXXZ
+	?InitializePhysics@G4RunManagerKernel@@QEAAXXZ
+	?InitializeProcessManager@G4VUserPhysicsList@@IEAAXXZ
+	?InitializeSeeds@G4MTRunManager@@MEAA_NH@Z
+	?InitializeSteppingVerbose@G4VUserActionInitialization@@UEBAPEAVG4VSteppingVerbose@@XZ
+	?InitializeWorker@G4VUserPhysicsList@@UEAAXXZ
+	?Instance@?$G4ThreadLocalSingleton@VG4PhysicsListHelper@@@@QEBAPEAVG4PhysicsListHelper@@XZ
+	?JoinWorker@G4UserWorkerThreadInitialization@@UEAAXPEAVG4DummyThread@@@Z
+	?Merge@G4Run@@UEAAXPEBV1@@Z
+	?MergePartialResults@G4WorkerRunManager@@MEAAXXZ
+	?MergeRun@G4MTRunManager@@QEAAXPEBVG4Run@@@Z
+	?MergeScores@G4MTRunManager@@QEAAXPEBVG4ScoringManager@@@Z
+	?NeglectParticleAsPrimary@G4AdjointPrimaryGeneratorAction@@QEAAXAEBVG4String@@@Z
+	?NeglectParticleAsPrimary@G4AdjointSimManager@@QEAAXAEBVG4String@@@Z
+	?NewActionRequest@G4MTRunManager@@MEAAXW4WorkerActionRequest@1@@Z
+	?Notify@G4ExceptionHandler@@UEAA_NPEBD0W4G4ExceptionSeverity@@0@Z
+	?PrepareCommandsStack@G4MTRunManager@@MEAAXXZ
+	?PreparePhysicsTable@G4VUserPhysicsList@@QEAAXPEAVG4ParticleDefinition@@@Z
+	?ProcessOneEvent@G4MTRunManager@@UEAAXH@Z
+	?ProcessOneEvent@G4RunManager@@UEAAXH@Z
+	?ProcessOneEvent@G4WorkerRunManager@@UEAAXH@Z
+	?PropagateGenericIonID@G4RunManagerKernel@@IEAAXXZ
+	?ReOptimize@G4RunManager@@QEAAXPEAVG4LogicalVolume@@@Z
+	?ReOptimizeMotherOf@G4RunManager@@QEAAXPEAVG4VPhysicalVolume@@@Z
+	?ReadInDefaultOrderingParameter@G4PhysicsListHelper@@AEAAXXZ
+	?ReadOrdingParameterTable@G4PhysicsListHelper@@AEAAXXZ
+	?RecordEvent@G4Run@@UEAAXPEBVG4Event@@@Z
+	?RefillSeeds@G4MTRunManager@@IEAAXXZ
+	?Register@?$G4ThreadLocalSingleton@VG4PhysicsListHelper@@@@AEBAXPEAVG4PhysicsListHelper@@@Z
+	?RegisterAdjointPrimaryWeight@G4AdjointSimManager@@QEAAXN@Z
+	?RegisterAtEndOfAdjointTrack@G4AdjointSimManager@@QEAAXXZ
+	?RegisterParallelWorld@G4VUserDetectorConstruction@@QEAAXPEAVG4VUserParallelWorld@@@Z
+	?RegisterPhysics@G4VModularPhysicsList@@QEAAXPEAVG4VPhysicsConstructor@@@Z
+	?RegisterProcess@G4PhysicsListHelper@@QEAA_NPEAVG4VProcess@@PEAVG4ParticleDefinition@@@Z
+	?RegisterProcess@G4VUserPhysicsList@@IEAA_NPEAVG4VProcess@@PEAVG4ParticleDefinition@@@Z
+	?ReinitializeGeometry@G4RunManager@@QEAAX_N0@Z
+	?ReleaseWorkspace@G4PhysicsListWorkspace@@QEAAXXZ
+	?RemovePhysics@G4VModularPhysicsList@@QEAAXAEBVG4String@@@Z
+	?RemovePhysics@G4VModularPhysicsList@@QEAAXH@Z
+	?RemovePhysics@G4VModularPhysicsList@@QEAAXPEAVG4VPhysicsConstructor@@@Z
+	?RemoveProcessManager@G4VUserPhysicsList@@QEAAXXZ
+	?ReplacePhysics@G4VModularPhysicsList@@QEAAXPEAVG4VPhysicsConstructor@@@Z
+	?RequestWorkersProcessCommandsStack@G4MTRunManager@@UEAAXXZ
+	?ResetCuts@G4VUserPhysicsList@@QEAAXXZ
+	?ResetDidOneAdjPartReachExtSourceDuringEvent@G4AdjointSimManager@@QEAAXXZ
+	?ResetNavigator@G4RunManagerKernel@@IEAAXXZ
+	?ResetRestOfUserActions@G4AdjointSimManager@@AEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4Event@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4HCofThisEvent@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4PrimaryParticle@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4PrimaryVertex@@@@UEAAXXZ
+	?ResetUserActions@G4AdjointSimManager@@AEAAXXZ
+	?ResetUserPrimaryRunAndStackingActions@G4AdjointSimManager@@AEAAXXZ
+	?RestoreRandomNumberStatus@G4RunManager@@UEAAXAEBVG4String@@@Z
+	?RestoreRndmEachEvent@G4RunManager@@UEAAX_N@Z
+	?RestoreRndmEachEvent@G4WorkerRunManager@@UEAAX_N@Z
+	?RestoreUserActions@G4MaterialScanner@@AEAAXXZ
+	?RetrievePhysicsTable@G4VUserPhysicsList@@MEAAXPEAVG4ParticleDefinition@@AEBVG4String@@_N@Z
+	?RunAdjointSimulation@G4AdjointSimManager@@QEAAXH@Z
+	?RunInitialization@G4RunManager@@UEAAXXZ
+	?RunInitialization@G4RunManagerKernel@@QEAA_N_N@Z
+	?RunInitialization@G4WorkerRunManager@@UEAAXXZ
+	?RunTermination@G4MTRunManager@@UEAAXXZ
+	?RunTermination@G4RunManager@@UEAAXXZ
+	?RunTermination@G4RunManagerKernel@@QEAAXXZ
+	?RunTermination@G4WorkerRunManager@@UEAAXXZ
+	?Scan@G4MaterialScanner@@QEAAXXZ
+	?SetAdjointActions@G4AdjointSimManager@@AEAAXXZ
+	?SetAdjointEventAction@G4AdjointSimManager@@QEAAXPEAVG4UserEventAction@@@Z
+	?SetAdjointPrimaryRunAndStackingActions@G4AdjointSimManager@@AEAAXXZ
+	?SetAdjointPrimarySourceOnAnExtSurfaceOfAVolume@G4AdjointPrimaryGeneratorAction@@QEAAXAEBVG4String@@@Z
+	?SetAdjointRunAction@G4AdjointSimManager@@QEAAXPEAVG4UserRunAction@@@Z
+	?SetAdjointSourceEmax@G4AdjointSimManager@@QEAAXN@Z
+	?SetAdjointSourceEmin@G4AdjointSimManager@@QEAAXN@Z
+	?SetAdjointStackingAction@G4AdjointSimManager@@QEAAXPEAVG4UserStackingAction@@@Z
+	?SetAdjointSteppingAction@G4AdjointSimManager@@QEAAXPEAVG4UserSteppingAction@@@Z
+	?SetAdjointTrackingMode@G4AdjointSimManager@@QEAAX_N@Z
+	?SetApplyCuts@G4VUserPhysicsList@@QEAAX_NAEBVG4String@@@Z
+	?SetCutValue@G4VUserPhysicsList@@QEAAXNAEBVG4String@@0@Z
+	?SetCutValue@G4VUserPhysicsList@@QEAAXNAEBVG4String@@@Z
+	?SetCuts@G4VUserPhysicsList@@UEAAXXZ
+	?SetCutsForRegion@G4VUserPhysicsList@@QEAAXNAEBVG4String@@@Z
+	?SetCutsWithDefault@G4VUserPhysicsList@@QEAAXXZ
+	?SetDefaultCutValue@G4VUserPhysicsList@@QEAAXN@Z
+	?SetEmax@G4AdjointPrimaryGeneratorAction@@QEAAXN@Z
+	?SetEmaxIon@G4AdjointPrimaryGeneratorAction@@QEAAXN@Z
+	?SetEmin@G4AdjointPrimaryGeneratorAction@@QEAAXN@Z
+	?SetEminIon@G4AdjointPrimaryGeneratorAction@@QEAAXN@Z
+	?SetExtSourceEmax@G4AdjointSimManager@@QEAAXN@Z
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetMaster@G4MultiRunAction@@UEAAX_N@Z
+	?SetMaster@G4UserRunAction@@UEAAX_N@Z
+	?SetNbAdjointPrimaryElectronsPerEvent@G4AdjointSimManager@@QEAAXH@Z
+	?SetNbAdjointPrimaryGammasPerEvent@G4AdjointSimManager@@QEAAXH@Z
+	?SetNbOfPrimaryFwdGammasPerEvent@G4AdjointSimManager@@QEAAXH@Z
+	?SetNewValue@G4AdjointSimMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4MatScanMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4RunMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4UserPhysicsListMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNext@G4PrimaryParticle@@QEAAXPEAV1@@Z
+	?SetNext@G4PrimaryVertex@@QEAAXPEAV1@@Z
+	?SetNumberOfThreads@G4MTRunManager@@QEAAXH@Z
+	?SetNumberThreads@G4WorkerThread@@QEAAXH@Z
+	?SetParameter@G4UIcommand@@QEAAXQEAVG4UIparameter@@@Z
+	?SetParticleCuts@G4VUserPhysicsList@@QEAAXNAEBVG4String@@PEAVG4Region@@@Z
+	?SetParticleCuts@G4VUserPhysicsList@@QEAAXNPEAVG4ParticleDefinition@@PEAVG4Region@@@Z
+	?SetPhysics@G4RunManagerKernel@@QEAAXPEAVG4VUserPhysicsList@@@Z
+	?SetPhysicsTableRetrieved@G4VUserPhysicsList@@QEAAXAEBVG4String@@@Z
+	?SetPinAffinity@G4MTRunManager@@QEAAXH@Z
+	?SetPinAffinity@G4WorkerThread@@QEBAXH@Z
+	?SetPrimaryIon@G4AdjointPrimaryGeneratorAction@@QEAAXPEAVG4ParticleDefinition@@0@Z
+	?SetPrimaryIon@G4AdjointSimManager@@QEAAXPEAVG4ParticleDefinition@@0@Z
+	?SetRandomNumberStoreDir@G4RunManager@@QEAAXAEBVG4String@@@Z
+	?SetRegionName@G4MaterialScanner@@QEAA_NAEBVG4String@@@Z
+	?SetRestOfAdjointActions@G4AdjointSimManager@@AEAAXXZ
+	?SetScoreSplitter@G4RunManagerKernel@@AEAAXXZ
+	?SetSensitiveDetector@G4VUserDetectorConstruction@@IEAAXAEBVG4String@@PEAVG4VSensitiveDetector@@_N@Z
+	?SetSensitiveDetector@G4VUserDetectorConstruction@@IEAAXPEAVG4LogicalVolume@@PEAVG4VSensitiveDetector@@@Z
+	?SetSensitiveDetector@G4VUserParallelWorld@@IEAAXAEBVG4String@@PEAVG4VSensitiveDetector@@_N@Z
+	?SetSensitiveDetector@G4VUserParallelWorld@@IEAAXPEAVG4LogicalVolume@@PEAVG4VSensitiveDetector@@@Z
+	?SetSphericalAdjointPrimarySource@G4AdjointPrimaryGeneratorAction@@QEAAXNVHep3Vector@CLHEP@@@Z
+	?SetThreadId@G4WorkerThread@@QEAAXH@Z
+	?SetUpAnEvent@G4MTRunManager@@UEAA_NPEAVG4Event@@AEAJ11_N@Z
+	?SetUpDecayChannels@G4MTRunManagerKernel@@QEAAXXZ
+	?SetUpNEvents@G4MTRunManager@@UEAAHPEAVG4Event@@PEAV?$queue@JV?$deque@JV?$allocator@J@std@@@std@@@std@@_N@Z
+	?SetUserAction@G4MTRunManager@@UEAAXPEAVG4UserEventAction@@@Z
+	?SetUserAction@G4MTRunManager@@UEAAXPEAVG4UserRunAction@@@Z
+	?SetUserAction@G4MTRunManager@@UEAAXPEAVG4UserStackingAction@@@Z
+	?SetUserAction@G4MTRunManager@@UEAAXPEAVG4UserSteppingAction@@@Z
+	?SetUserAction@G4MTRunManager@@UEAAXPEAVG4UserTrackingAction@@@Z
+	?SetUserAction@G4MTRunManager@@UEAAXPEAVG4VUserPrimaryGeneratorAction@@@Z
+	?SetUserAction@G4RunManager@@UEAAXPEAVG4UserEventAction@@@Z
+	?SetUserAction@G4RunManager@@UEAAXPEAVG4UserRunAction@@@Z
+	?SetUserAction@G4RunManager@@UEAAXPEAVG4UserStackingAction@@@Z
+	?SetUserAction@G4RunManager@@UEAAXPEAVG4UserSteppingAction@@@Z
+	?SetUserAction@G4RunManager@@UEAAXPEAVG4UserTrackingAction@@@Z
+	?SetUserAction@G4RunManager@@UEAAXPEAVG4VUserPrimaryGeneratorAction@@@Z
+	?SetUserAction@G4VUserActionInitialization@@IEBAXPEAVG4UserEventAction@@@Z
+	?SetUserAction@G4VUserActionInitialization@@IEBAXPEAVG4UserRunAction@@@Z
+	?SetUserAction@G4VUserActionInitialization@@IEBAXPEAVG4UserStackingAction@@@Z
+	?SetUserAction@G4VUserActionInitialization@@IEBAXPEAVG4UserSteppingAction@@@Z
+	?SetUserAction@G4VUserActionInitialization@@IEBAXPEAVG4UserTrackingAction@@@Z
+	?SetUserAction@G4VUserActionInitialization@@IEBAXPEAVG4VUserPrimaryGeneratorAction@@@Z
+	?SetUserAction@G4WorkerRunManager@@UEAAXPEAVG4UserEventAction@@@Z
+	?SetUserAction@G4WorkerRunManager@@UEAAXPEAVG4UserRunAction@@@Z
+	?SetUserAction@G4WorkerRunManager@@UEAAXPEAVG4UserStackingAction@@@Z
+	?SetUserAction@G4WorkerRunManager@@UEAAXPEAVG4UserSteppingAction@@@Z
+	?SetUserAction@G4WorkerRunManager@@UEAAXPEAVG4UserTrackingAction@@@Z
+	?SetUserAction@G4WorkerRunManager@@UEAAXPEAVG4VUserPrimaryGeneratorAction@@@Z
+	?SetUserInitialization@G4MTRunManager@@UEAAXPEAVG4UserWorkerInitialization@@@Z
+	?SetUserInitialization@G4MTRunManager@@UEAAXPEAVG4UserWorkerThreadInitialization@@@Z
+	?SetUserInitialization@G4MTRunManager@@UEAAXPEAVG4VUserActionInitialization@@@Z
+	?SetUserInitialization@G4MTRunManager@@UEAAXPEAVG4VUserDetectorConstruction@@@Z
+	?SetUserInitialization@G4MTRunManager@@UEAAXPEAVG4VUserPhysicsList@@@Z
+	?SetUserInitialization@G4RunManager@@UEAAXPEAVG4UserWorkerInitialization@@@Z
+	?SetUserInitialization@G4RunManager@@UEAAXPEAVG4UserWorkerThreadInitialization@@@Z
+	?SetUserInitialization@G4RunManager@@UEAAXPEAVG4VUserActionInitialization@@@Z
+	?SetUserInitialization@G4RunManager@@UEAAXPEAVG4VUserDetectorConstruction@@@Z
+	?SetUserInitialization@G4RunManager@@UEAAXPEAVG4VUserPhysicsList@@@Z
+	?SetUserInitialization@G4WorkerRunManager@@UEAAXPEAVG4UserWorkerInitialization@@@Z
+	?SetUserInitialization@G4WorkerRunManager@@UEAAXPEAVG4UserWorkerThreadInitialization@@@Z
+	?SetUserInitialization@G4WorkerRunManager@@UEAAXPEAVG4VUserActionInitialization@@@Z
+	?SetUserInitialization@G4WorkerRunManager@@UEAAXPEAVG4VUserDetectorConstruction@@@Z
+	?SetUserInitialization@G4WorkerRunManager@@UEAAXPEAVG4VUserPhysicsList@@@Z
+	?SetVerboseLevel@G4VModularPhysicsList@@QEAAXH@Z
+	?SetVerboseLevel@G4VUserPhysicsList@@QEAAXH@Z
+	?SetWorldForTracking@G4TransportationManager@@QEAAXPEAVG4VPhysicalVolume@@@Z
+	?SetupDefaultRNGEngine@G4WorkerRunManager@@AEAAXXZ
+	?SetupDefaultRegion@G4RunManagerKernel@@IEAAXXZ
+	?SetupPhysics@G4RunManagerKernel@@IEAAXXZ
+	?SetupRNGEngine@G4UserWorkerThreadInitialization@@UEBAXPEBVHepRandomEngine@CLHEP@@@Z
+	?SetupShadowProcess@G4MTRunManagerKernel@@MEBAXXZ
+	?SetupShadowProcess@G4RunManagerKernel@@MEBAXXZ
+	?SetupShadowProcess@G4WorkerRunManagerKernel@@MEBAXXZ
+	?StackPreviousEvent@G4RunManager@@IEAAXPEAVG4Event@@@Z
+	?StartThread@G4MTRunManagerKernel@@SAXPEAVG4WorkerThread@@@Z
+	?Stop@G4Timer@@QEAAXXZ
+	?StoreEvent@G4Run@@QEAAXPEAVG4Event@@@Z
+	?StorePhysicsTable@G4VUserPhysicsList@@QEAA_NAEBVG4String@@@Z
+	?StoreRNGStatus@G4MTRunManager@@MEAAXAEBVG4String@@@Z
+	?StoreRNGStatus@G4RunManager@@MEAAXAEBVG4String@@@Z
+	?StoreRNGStatus@G4WorkerRunManager@@MEAAXAEBVG4String@@@Z
+	?StoreUserActions@G4MaterialScanner@@AEAAXXZ
+	?SwitchToAdjointSimulationMode@G4AdjointSimManager@@QEAAXXZ
+	?TerminateEventLoop@G4RunManager@@UEAAXXZ
+	?TerminateEventLoop@G4WorkerRunManager@@UEAAXXZ
+	?TerminateOneEvent@G4MTRunManager@@UEAAXXZ
+	?TerminateOneEvent@G4RunManager@@UEAAXXZ
+	?TerminateWorker@G4VModularPhysicsList@@$4PPPPPPPM@A@EAAXXZ
+	?TerminateWorker@G4VModularPhysicsList@@UEAAXXZ
+	?TerminateWorker@G4VPhysicsConstructor@@UEAAXXZ
+	?TerminateWorker@G4VUserPhysicsList@@UEAAXXZ
+	?TerminateWorkers@G4MTRunManager@@MEAAXXZ
+	?ThisWorkerEndEventLoop@G4MTRunManager@@UEAAXXZ
+	?ThisWorkerProcessCommandsStackDone@G4MTRunManager@@UEAAXXZ
+	?ThisWorkerReady@G4MTRunManager@@UEAAXXZ
+	?ThisWorkerWaitForNextAction@G4MTRunManager@@UEAA?AW4WorkerActionRequest@1@XZ
+	?UpdateGeometryAndPhysicsVectorFromMaster@G4WorkerThread@@SAXXZ
+	?UpdateListOfPrimaryParticles@G4AdjointPrimaryGeneratorAction@@QEAAXXZ
+	?UpdateRegion@G4RunManagerKernel@@QEAAXXZ
+	?UpdateScoring@G4RunManager@@IEAAXXZ
+	?UseCoupledTransportation@G4VUserPhysicsList@@QEAAX_N@Z
+	?UseWorkspace@G4PhysicsListWorkspace@@QEAAXXZ
+	?UserSteppingAction@G4MSSteppingAction@@UEAAXPEBVG4Step@@@Z
+	?WaitForEndEventLoopWorkers@G4MTRunManager@@MEAAXXZ
+	?WaitForReadyWorkers@G4MTRunManager@@MEAAXXZ
+	?WorkerDefineWorldVolume@G4RunManagerKernel@@QEAAXPEAVG4VPhysicalVolume@@_N@Z
+	?WorkerInitialize@G4UserWorkerInitialization@@UEBAXXZ
+	?WorkerRunEnd@G4UserWorkerInitialization@@UEBAXXZ
+	?WorkerRunStart@G4UserWorkerInitialization@@UEBAXXZ
+	?WorkerStart@G4UserWorkerInitialization@@UEBAXXZ
+	?WorkerStop@G4UserWorkerInitialization@@UEBAXXZ
+	?WorkerUpdateWorldVolume@G4RunManagerKernel@@QEAAXXZ
+	?_Become_small@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Change_array@?$vector@HV?$allocator@H@std@@@std@@AEAAXQEAH_K1@Z
+	?_Change_array@?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@AEAAXQEAPEAVG4ParticleDefinition@@_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Destroy@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAXPEAUyystype@G4UItokenNum@@0@Z
+	?_Destroy@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@AEAAXPEAVG4PhysicsListOrderingParameter@@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Getal@?$_Tree@V?$_Tmap_traits@HPEAVG4VPhysicalVolume@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@3@$0A@@std@@@std@@IEAAAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@2@XZ
+	?_Getal@?$vector@PEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4PhysicsListHelper@@@2@XZ
+	?_Getal@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAAEAV?$allocator@PEAVmutex@std@@@2@XZ
+	?_Getal@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAAEAV?$allocator@Uyystype@G4UItokenNum@@@2@XZ
+	?_Growmap@?$deque@JV?$allocator@J@std@@@std@@AEAAX_K@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VPhysicalVolume@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@_N@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@_N@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@QEAVG4LogicalVolume@@U?$pair@PEAVG4VSensitiveDetector@@PEAVG4FieldManager@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@QEAVG4Region@@U?$pair@PEAVG4FastSimulationManager@@PEAVG4UserSteppingAction@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXXZ
+	?_Ufill@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAPEAUyystype@G4UItokenNum@@PEAU34@_KU_Value_init_tag@2@@Z
+	?_Umove@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@AEAAPEAVG4PhysicsListOrderingParameter@@PEAV3@00@Z
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlen@?$deque@JV?$allocator@J@std@@@std@@AEBAXXZ
+	?_Xlength@?$vector@HV?$allocator@H@std@@@std@@CAXXZ
+	?_Xlength@?$vector@JV?$allocator@J@std@@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4PhysicsBuilderInterface@@V?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VUserParallelWorld@@V?$allocator@PEAVG4VUserParallelWorld@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4WorkerRunManager@@V?$allocator@PEAVG4WorkerRunManager@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@PEBVG4Event@@V?$allocator@PEBVG4Event@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?_Xrange@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@H@std@@QEAAPEAH_K@Z
+	?allocate@?$allocator@J@std@@QEAAPEAJ_K@Z
+	?allocate@?$allocator@PEAVG4ParticleDefinition@@@std@@QEAAPEAPEAVG4ParticleDefinition@@_K@Z
+	?allocate@?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@QEAAPEAPEAVG4PhysicsBuilderInterface@@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?cache@?$G4CacheReference@PEAVG4PhysicsListHelper@@@@CAAEAPEAV?$vector@PEAVG4PhysicsListHelper@@V?$allocator@PEAVG4PhysicsListHelper@@@std@@@std@@XZ
+	?clear@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@QEAAXXZ
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@H@std@@QEAAXQEAH_K@Z
+	?deallocate@?$allocator@J@std@@QEAAXQEAJ_K@Z
+	?deallocate@?$allocator@N@std@@QEAAXQEAN_K@Z
+	?deallocate@?$allocator@PEAVG4ParticleDefinition@@@std@@QEAAXQEAPEAVG4ParticleDefinition@@_K@Z
+	?deallocate@?$allocator@PEAVG4PhysicsBuilderInterface@@@std@@QEAAXQEAPEAVG4PhysicsBuilderInterface@@_K@Z
+	?deallocate@?$allocator@PEAVG4PhysicsListHelper@@@std@@QEAAXQEAPEAVG4PhysicsListHelper@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIparameter@@@std@@QEAAXQEAPEAVG4UIparameter@@_K@Z
+	?deallocate@?$allocator@PEAVG4VPhysicsConstructor@@@std@@QEAAXQEAPEAVG4VPhysicsConstructor@@_K@Z
+	?deallocate@?$allocator@PEAVG4VSensitiveDetector@@@std@@QEAAXQEAPEAVG4VSensitiveDetector@@_K@Z
+	?deallocate@?$allocator@PEAVG4VUserParallelWorld@@@std@@QEAAXQEAPEAVG4VUserParallelWorld@@_K@Z
+	?deallocate@?$allocator@PEAVG4WorkerRunManager@@@std@@QEAAXQEAPEAVG4WorkerRunManager@@_K@Z
+	?deallocate@?$allocator@PEAVmutex@std@@@std@@QEAAXQEAPEAVmutex@2@_K@Z
+	?deallocate@?$allocator@PEBVG4Event@@@std@@QEAAXQEAPEBVG4Event@@_K@Z
+	?deallocate@?$allocator@Uyystype@G4UItokenNum@@@std@@QEAAXQEAUyystype@G4UItokenNum@@_K@Z
+	?deallocate@?$allocator@VG4PhysicsListOrderingParameter@@@std@@QEAAXQEAVG4PhysicsListOrderingParameter@@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?deallocate@?$allocator@VHep3Vector@CLHEP@@@std@@QEAAXQEAVHep3Vector@CLHEP@@_K@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?initialize@G4VMPLData@@QEAAXXZ
+	?initialize@G4VPCData@@QEAAXXZ
+	?initialize@G4VUPLData@@QEAAXXZ
+	?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD0@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?push@?$queue@JV?$deque@JV?$allocator@J@std@@@std@@@std@@QEAAX$$QEAJ@Z
+	?push_back@?$vector@VG4PhysicsListOrderingParameter@@V?$allocator@VG4PhysicsListOrderingParameter@@@std@@@std@@QEAAXAEBVG4PhysicsListOrderingParameter@@@Z
+	?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K@Z
+	?rndmSaveThisEvent@G4RunManager@@UEAAXXZ
+	?rndmSaveThisRun@G4RunManager@@UEAAXXZ
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z

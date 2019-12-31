@@ -1,0 +1,10 @@
+^C:\USERS\JOEY\DOCUMENTS\GEANT4\GEANT4_10_06\SOURCE\VISUALIZATION\VRML\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/visualization/VRML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

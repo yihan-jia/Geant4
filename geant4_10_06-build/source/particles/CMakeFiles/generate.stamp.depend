@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/Joey/Documents/Geant4/geant4_10_06/cmake/Modules/Geant4MacroDefineModule.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/cmake/Modules/Geant4MacroLibraryTargets.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/CMakeLists.txt
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/adjoint/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/bosons/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/hadrons/barions/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/hadrons/ions/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/hadrons/mesons/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/leptons/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/management/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/shortlived/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/utils/sources.cmake

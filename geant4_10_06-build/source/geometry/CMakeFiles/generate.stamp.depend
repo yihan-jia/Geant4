@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Users/Joey/Documents/Geant4/geant4_10_06/cmake/Modules/Geant4MacroDefineModule.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/cmake/Modules/Geant4MacroLibraryTargets.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/CMakeLists.txt
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/biasing/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/divisions/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/magneticfield/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/management/include/G4GeomConfig.hh.in
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/management/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/navigation/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/solids/Boolean/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/solids/CSG/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/solids/specific/sources.cmake
+C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/volumes/sources.cmake

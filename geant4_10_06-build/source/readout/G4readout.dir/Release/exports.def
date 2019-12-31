@@ -1,0 +1,98 @@
+EXPORTS 
+	??_R0?AV?$G4Allocator@VG4DCofThisEvent@@@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4DCofThisEvent@@@8 	 DATA
+	??_R0?AVG4DMmessenger@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4VDigitizerModule@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	?fDManager@G4DigiManager@@0PEAV1@EA 	 DATA
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Copy_memmove@PEAPEAVG4VDigitizerModule@@PEAPEAV1@@std@@YAPEAPEAVG4VDigitizerModule@@PEAPEAV1@00@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VDigitizerModule@@@std@@@std@@YAXPEAPEAVG4VDigitizerModule@@QEAPEAV1@AEAV?$allocator@PEAVG4VDigitizerModule@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VDigitizerModule@@@?$vector@PEAVG4VDigitizerModule@@V?$allocator@PEAVG4VDigitizerModule@@@std@@@std@@QEAAPEAPEAVG4VDigitizerModule@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Traits_find@U?$char_traits@D@std@@@std@@YA_KQEBD_K101@Z
+	??$_Uninitialized_move@PEAPEAVG4VDigitizerModule@@V?$allocator@PEAVG4VDigitizerModule@@@std@@@std@@YAPEAPEAVG4VDigitizerModule@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VDigitizerModule@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??0?$G4Allocator@VG4DCofThisEvent@@@@QEAA@XZ
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0G4DCtable@@QEAA@XZ
+	??0G4DMmessenger@@QEAA@PEAVG4DigiManager@@@Z
+	??0G4DigiManager@@IEAA@XZ
+	??0G4VDigitizerModule@@QEAA@AEBVG4String@@@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$G4Allocator@VG4DCofThisEvent@@@@UEAA@XZ
+	??1?$vector@PEAVG4VDigitizerModule@@V?$allocator@PEAVG4VDigitizerModule@@@std@@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1G4DCtable@@QEAA@XZ
+	??1G4DMmessenger@@UEAA@XZ
+	??1G4DigiManager@@QEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4VDigitizerModule@@UEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??3G4DCofThisEvent@@SAXPEAX@Z
+	??8G4VDigitizerModule@@QEBA_NAEBV0@@Z
+	??9G4VDigitizerModule@@QEBA_NAEBV0@@Z
+	?AddNewModule@G4DigiManager@@QEAAXPEAVG4VDigitizerModule@@@Z
+	?Digitize@G4DigiManager@@QEAAXVG4String@@@Z
+	?FindDigitizerModule@G4DigiManager@@QEAAPEAVG4VDigitizerModule@@VG4String@@@Z
+	?GetAllocatedSize@?$G4Allocator@VG4DCofThisEvent@@@@UEBA_KXZ
+	?GetCollectionID@G4DCtable@@QEBAHPEAVG4VDigitizerModule@@@Z
+	?GetCollectionID@G4DCtable@@QEBAHVG4String@@@Z
+	?GetDMpointer@G4DigiManager@@SAPEAV1@XZ
+	?GetDMpointerIfExist@G4DigiManager@@SAPEAV1@XZ
+	?GetDigiCollection@G4DigiManager@@QEAAPEBVG4VDigiCollection@@HH@Z
+	?GetDigiCollectionID@G4DigiManager@@QEAAHVG4String@@@Z
+	?GetHitsCollection@G4DigiManager@@QEAAPEBVG4VHitsCollection@@HH@Z
+	?GetHitsCollectionID@G4DigiManager@@QEAAHVG4String@@@Z
+	?GetNoPages@?$G4Allocator@VG4DCofThisEvent@@@@UEBAHXZ
+	?GetPageSize@?$G4Allocator@VG4DCofThisEvent@@@@UEBA_KXZ
+	?GetPoolType@?$G4Allocator@VG4DCofThisEvent@@@@UEBAPEBDXZ
+	?IncreasePageSize@?$G4Allocator@VG4DCofThisEvent@@@@UEAAXI@Z
+	?List@G4DigiManager@@QEBAXXZ
+	?Registor@G4DCtable@@QEAAHVG4String@@0@Z
+	?ResetStorage@?$G4Allocator@VG4DCofThisEvent@@@@UEAAXXZ
+	?SetDigiCollection@G4DigiManager@@QEAAXHPEAVG4VDigiCollection@@@Z
+	?SetNewValue@G4DMmessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetVerboseLevel@G4DigiManager@@QEAAXH@Z
+	?StoreDigiCollection@G4VDigitizerModule@@IEAAXHPEAVG4VDigiCollection@@@Z
+	?StoreDigiCollection@G4VDigitizerModule@@IEAAXPEAVG4VDigiCollection@@@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VDigitizerModule@@V?$allocator@PEAVG4VDigitizerModule@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?deallocate@?$allocator@PEAVG4VDigitizerModule@@@std@@QEAAXQEAPEAVG4VDigitizerModule@@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?what@exception@std@@UEBAPEBDXZ

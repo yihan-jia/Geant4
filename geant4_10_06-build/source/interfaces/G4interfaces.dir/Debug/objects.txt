@@ -1,0 +1,13 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIGAG.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIGainServer.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIArrayString.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIExecutive.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIcsh.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIterminal.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4VUIshell.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4UIWin32.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4InteractorMessenger.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4VBasicShell.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4VInteractiveSession.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4VInteractorManager.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/interfaces/G4interfaces.dir/Debug/G4Win32.obj

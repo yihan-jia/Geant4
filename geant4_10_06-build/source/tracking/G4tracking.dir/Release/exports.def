@@ -1,0 +1,464 @@
+EXPORTS 
+	?$TSS0@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4HA 	 DATA
+	?$TSS0@?1??GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4HA 	 DATA
+	??_R0?AV?$G4Allocator@V?$G4CountedObject@X@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4RichTrajectory@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4RichTrajectoryPoint@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4SmoothTrajectory@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4SmoothTrajectoryPoint@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4TouchableHistory@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4Trajectory@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4TrajectoryPoint@@@@@8 	 DATA
+	??_R0?AV?$G4CountedObject@X@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4AdjointSteppingAction@@@8 	 DATA
+	??_R0?AVG4AdjointTrackingAction@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4AttDef@@@8 	 DATA
+	??_R0?AVG4RichTrajectory@@@8 	 DATA
+	??_R0?AVG4RichTrajectoryPoint@@@8 	 DATA
+	??_R0?AVG4SmoothTrajectory@@@8 	 DATA
+	??_R0?AVG4SmoothTrajectoryPoint@@@8 	 DATA
+	??_R0?AVG4SteppingVerbose@@@8 	 DATA
+	??_R0?AVG4TouchableHistory@@@8 	 DATA
+	??_R0?AVG4TrackingMessenger@@@8 	 DATA
+	??_R0?AVG4Trajectory@@@8 	 DATA
+	??_R0?AVG4TrajectoryPoint@@@8 	 DATA
+	??_R0?AVG4TypeKey@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4UserSteppingAction@@@8 	 DATA
+	??_R0?AVG4UserTrackingAction@@@8 	 DATA
+	??_R0?AVG4VSteppingVerbose@@@8 	 DATA
+	??_R0?AVG4VTrajectory@@@8 	 DATA
+	??_R0?AVG4VTrajectoryPoint@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	?Silent@G4VSteppingVerbose@@1HA 	 DATA
+	?SilentStepInfo@G4VSteppingVerbose@@1HA 	 DATA
+	?fInstance@G4VSteppingVerbose@@1PEAV1@EA 	 DATA
+	?instance@G4AdjointCrossSurfChecker@@0PEAV1@EA 	 DATA
+	?zerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4V34@B 	 DATA
+	?zerovector@?1??GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4V34@B 	 DATA
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@VG4AttDef@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@VG4AttDef@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Const_cast@$$CBVG4AttValue@@@std@@YAPEAVG4AttValue@@PEBV1@@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@0@0@Z
+	??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAVG4Track@@PEAPEAV1@@std@@YAPEAPEAVG4Track@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VTrajectoryPoint@@PEAPEAV1@@std@@YAPEAPEAVG4VTrajectoryPoint@@PEAPEAV1@00@Z
+	??$_Copy_nodes@U_Copy_tag@?$_Tree@V?$_Tmap_traits@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@$0A@@std@@@std@@@?$_Tree@V?$_Tmap_traits@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@$0A@@std@@@std@@IEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@1@PEAU21@0U_Copy_tag@01@@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPEAHQEAHAEAV?$allocator@H@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4Track@@@std@@@std@@YAXPEAPEAVG4Track@@QEAPEAV1@AEAV?$allocator@PEAVG4Track@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VTrajectoryPoint@@@std@@@std@@YAXPEAPEAVG4VTrajectoryPoint@@QEAPEAV1@AEAV?$allocator@PEAVG4VTrajectoryPoint@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4AttValue@@@std@@@std@@YAXPEAVG4AttValue@@QEAV1@AEAV?$allocator@VG4AttValue@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@YAXPEAVHep3Vector@CLHEP@@QEAV12@AEAV?$allocator@VHep3Vector@CLHEP@@@0@@Z
+	??$_Emplace_reallocate@AEBH@?$vector@HV?$allocator@H@std@@@std@@QEAAPEAHQEAHAEBH@Z
+	??$_Emplace_reallocate@AEBN@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEANAEBN@Z
+	??$_Emplace_reallocate@AEBQEAVG4Track@@@?$vector@PEAVG4Track@@V?$allocator@PEAVG4Track@@@std@@@std@@QEAAPEAPEAVG4Track@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VTrajectoryPoint@@@?$vector@PEAVG4VTrajectoryPoint@@V?$allocator@PEAVG4VTrajectoryPoint@@@std@@@std@@QEAAPEAPEAVG4VTrajectoryPoint@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBVHep3Vector@CLHEP@@@?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@QEAAPEAVHep3Vector@CLHEP@@QEAV23@AEBV23@@Z
+	??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEAN$$QEAN@Z
+	??$_Emplace_reallocate@PEAVG4VTrajectoryPoint@@@?$vector@PEAVG4VTrajectoryPoint@@V?$allocator@PEAVG4VTrajectoryPoint@@@std@@@std@@QEAAPEAPEAVG4VTrajectoryPoint@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@VG4AttValue@@@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@QEAAPEAVG4AttValue@@QEAV2@$$QEAV2@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Emplace_reallocate@VHep3Vector@CLHEP@@@?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@QEAAPEAVHep3Vector@CLHEP@@QEAV23@$$QEAV23@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@1@@Z
+	??$_Erase_tree_and_orphan@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@1@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@std@@@std@@YAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@0@AEBV10@@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Traits_find@U?$char_traits@D@std@@@std@@YA_KQEBD_K101@Z
+	??$_Try_emplace@AEBVG4String@@$$V@?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@AEAA?AU?$pair@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@_N@1@AEBVG4String@@@Z
+	??$_Uninitialized_fill_n@V?$allocator@H@std@@@std@@YAPEAHPEAH_KAEBHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_move@PEAHV?$allocator@H@std@@@std@@YAPEAHQEAH0PEAHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_move@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4Track@@V?$allocator@PEAVG4Track@@@std@@@std@@YAPEAPEAVG4Track@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4Track@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VTrajectoryPoint@@V?$allocator@PEAVG4VTrajectoryPoint@@@std@@@std@@YAPEAPEAVG4VTrajectoryPoint@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VTrajectoryPoint@@@0@@Z
+	??$_Uninitialized_move@PEAVG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@YAPEAVG4AttValue@@QEAV1@0PEAV1@AEAV?$allocator@VG4AttValue@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_move@PEAVHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@YAPEAVHep3Vector@CLHEP@@QEAV12@0PEAV12@AEAV?$allocator@VHep3Vector@CLHEP@@@0@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??0?$G4Allocator@V?$G4CountedObject@X@@@@QEAA@XZ
+	??0?$G4Allocator@VG4RichTrajectory@@@@QEAA@XZ
+	??0?$G4Allocator@VG4RichTrajectoryPoint@@@@QEAA@XZ
+	??0?$G4Allocator@VG4SmoothTrajectory@@@@QEAA@XZ
+	??0?$G4Allocator@VG4SmoothTrajectoryPoint@@@@QEAA@XZ
+	??0?$G4Allocator@VG4TouchableHistory@@@@QEAA@XZ
+	??0?$G4Allocator@VG4Trajectory@@@@QEAA@XZ
+	??0?$G4Allocator@VG4TrajectoryPoint@@@@QEAA@XZ
+	??0?$G4CountedObject@VG4VTouchable@@@@QEAA@PEAVG4VTouchable@@@Z
+	??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0G4AdjointCrossSurfChecker@@AEAA@XZ
+	??0G4AdjointSteppingAction@@QEAA@XZ
+	??0G4AdjointTrackingAction@@QEAA@PEAVG4AdjointSteppingAction@@@Z
+	??0G4AttDef@@QEAA@AEBVG4String@@0000@Z
+	??0G4AttValue@@QEAA@AEBVG4String@@00@Z
+	??0G4RichTrajectory@@QEAA@AEAV0@@Z
+	??0G4RichTrajectory@@QEAA@PEBVG4Track@@@Z
+	??0G4RichTrajectory@@QEAA@XZ
+	??0G4RichTrajectoryPoint@@QEAA@AEBV0@@Z
+	??0G4RichTrajectoryPoint@@QEAA@PEBVG4Step@@@Z
+	??0G4RichTrajectoryPoint@@QEAA@PEBVG4Track@@@Z
+	??0G4RichTrajectoryPoint@@QEAA@XZ
+	??0G4SmoothTrajectory@@QEAA@AEAV0@@Z
+	??0G4SmoothTrajectory@@QEAA@PEBVG4Track@@@Z
+	??0G4SmoothTrajectory@@QEAA@XZ
+	??0G4SmoothTrajectoryPoint@@QEAA@AEBV0@@Z
+	??0G4SmoothTrajectoryPoint@@QEAA@VHep3Vector@CLHEP@@@Z
+	??0G4SmoothTrajectoryPoint@@QEAA@VHep3Vector@CLHEP@@PEAV?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@@Z
+	??0G4SmoothTrajectoryPoint@@QEAA@XZ
+	??0G4SteppingManager@@QEAA@XZ
+	??0G4SteppingVerbose@@QEAA@XZ
+	??0G4String@@QEAA@PEBD@Z
+	??0G4TrackingManager@@QEAA@XZ
+	??0G4TrackingMessenger@@QEAA@PEAVG4TrackingManager@@@Z
+	??0G4Trajectory@@QEAA@AEAV0@@Z
+	??0G4Trajectory@@QEAA@PEBVG4Track@@@Z
+	??0G4Trajectory@@QEAA@XZ
+	??0G4TrajectoryPoint@@QEAA@AEBV0@@Z
+	??0G4TrajectoryPoint@@QEAA@VHep3Vector@CLHEP@@@Z
+	??0G4TrajectoryPoint@@QEAA@XZ
+	??0G4UserSteppingAction@@QEAA@XZ
+	??0G4UserTrackingAction@@QEAA@XZ
+	??0G4VSteppingVerbose@@IEAA@XZ
+	??0G4VTrajectory@@QEAA@XZ
+	??0G4VTrajectoryPoint@@QEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$G4Allocator@V?$G4CountedObject@X@@@@UEAA@XZ
+	??1?$G4Allocator@VG4RichTrajectory@@@@UEAA@XZ
+	??1?$G4Allocator@VG4RichTrajectoryPoint@@@@UEAA@XZ
+	??1?$G4Allocator@VG4SmoothTrajectory@@@@UEAA@XZ
+	??1?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEAA@XZ
+	??1?$G4Allocator@VG4TouchableHistory@@@@UEAA@XZ
+	??1?$G4Allocator@VG4Trajectory@@@@UEAA@XZ
+	??1?$G4Allocator@VG4TrajectoryPoint@@@@UEAA@XZ
+	??1?$G4CountedObject@VG4VTouchable@@@@QEAA@XZ
+	??1?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$pair@$$CBVG4String@@VG4AttDef@@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@QEAA@XZ
+	??1G4AdjointCrossSurfChecker@@AEAA@XZ
+	??1G4AdjointSteppingAction@@UEAA@XZ
+	??1G4AdjointTrackingAction@@UEAA@XZ
+	??1G4AttDef@@UEAA@XZ
+	??1G4AttValue@@QEAA@XZ
+	??1G4RichTrajectory@@UEAA@XZ
+	??1G4RichTrajectoryPoint@@UEAA@XZ
+	??1G4SmoothTrajectory@@UEAA@XZ
+	??1G4SmoothTrajectoryPoint@@UEAA@XZ
+	??1G4SteppingManager@@QEAA@XZ
+	??1G4SteppingVerbose@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4TrackingManager@@QEAA@XZ
+	??1G4TrackingMessenger@@UEAA@XZ
+	??1G4Trajectory@@UEAA@XZ
+	??1G4TrajectoryPoint@@UEAA@XZ
+	??1G4TypeKey@@UEAA@XZ
+	??1G4UserSteppingAction@@UEAA@XZ
+	??1G4UserTrackingAction@@UEAA@XZ
+	??1G4VSteppingVerbose@@UEAA@XZ
+	??1G4VTrajectory@@UEAA@XZ
+	??1G4VTrajectoryPoint@@UEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??2?$G4CountedObject@VG4VTouchable@@@@SAPEAX_K@Z
+	??2G4RichTrajectory@@SAPEAX_K@Z
+	??2G4RichTrajectoryPoint@@SAPEAX_K@Z
+	??2G4SmoothTrajectoryPoint@@SAPEAX_K@Z
+	??2G4TrajectoryPoint@@SAPEAX_K@Z
+	??3G4RichTrajectory@@SAXPEAX@Z
+	??3G4RichTrajectoryPoint@@SAXPEAX@Z
+	??3G4SmoothTrajectory@@SAXPEAX@Z
+	??3G4SmoothTrajectoryPoint@@SAXPEAX@Z
+	??3G4TouchableHistory@@SAXPEAX@Z
+	??3G4Trajectory@@SAXPEAX@Z
+	??3G4TrajectoryPoint@@SAXPEAX@Z
+	??4?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEAAAEAV0@AEBV0@@Z
+	??4?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEAAAEAV0@PEAVG4VTouchable@@@Z
+	??4G4AttDef@@QEAAAEAV0@AEBV0@@Z
+	??4G4String@@QEAAAEAV0@PEBD@Z
+	??8G4VTrajectory@@QEBA_NAEBV0@@Z
+	??8G4VTrajectoryPoint@@QEBA_NAEBV0@@Z
+	??A?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@QEAAAEAVG4AttDef@@AEBVG4String@@@Z
+	??C?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEBAPEAVG4VTouchable@@XZ
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??XG4AffineTransform@@QEAAAEAV0@AEBV0@@Z
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??__Fzerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@YAXXZ
+	??__Fzerovector@?1??GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@YAXXZ
+	?AddaSphericalSurface@G4AdjointCrossSurfChecker@@QEAA_NAEBVG4String@@NVHep3Vector@CLHEP@@AEAN@Z
+	?AddaSphericalSurfaceWithCenterAtTheCenterOfAVolume@G4AdjointCrossSurfChecker@@QEAA_NAEBVG4String@@N0AEAVHep3Vector@CLHEP@@AEAN@Z
+	?AddanExtSurfaceOfAvolume@G4AdjointCrossSurfChecker@@QEAA_NAEBVG4String@@0AEAN@Z
+	?AddanInterfaceBetweenTwoVolumes@G4AdjointCrossSurfChecker@@QEAA_NAEBVG4String@@00AEAN@Z
+	?AlongStepDoItAllDone@G4SteppingVerbose@@UEAAXXZ
+	?AlongStepDoItOneByOne@G4SteppingVerbose@@UEAAXXZ
+	?AppendStep@G4RichTrajectory@@UEAAXPEBVG4Step@@@Z
+	?AppendStep@G4SmoothTrajectory@@UEAAXPEBVG4Step@@@Z
+	?AppendStep@G4Trajectory@@UEAAXPEBVG4Step@@@Z
+	?ApplyProductionCut@G4SteppingManager@@AEAAXPEAVG4Track@@@Z
+	?AtRestDoItInvoked@G4SteppingVerbose@@UEAAXXZ
+	?CalculateSafety@G4SteppingManager@@AEAANXZ
+	?ClearEndOfAdjointTrackInfoVectors@G4AdjointTrackingAction@@QEAAXXZ
+	?ClearListOfSelectedSurface@G4AdjointCrossSurfChecker@@QEAAXXZ
+	?CopyState@G4VSteppingVerbose@@QEAAXXZ
+	?CreateAttValues@G4RichTrajectory@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4RichTrajectoryPoint@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4SmoothTrajectory@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4SmoothTrajectoryPoint@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4Trajectory@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4TrajectoryPoint@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4VTrajectory@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4VTrajectoryPoint@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateTouchableHistory@G4Navigator@@QEBAPEAVG4TouchableHistory@@XZ
+	?CrossingAGivenRegisteredSurface@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@AEBVG4String@@AEAVHep3Vector@CLHEP@@AEANAEA_N@Z
+	?CrossingAGivenRegisteredSurface@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@HAEAVHep3Vector@CLHEP@@AEANAEA_N@Z
+	?CrossingASphere@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@NVHep3Vector@CLHEP@@AEAV34@AEANAEA_N@Z
+	?CrossingAnInterfaceBetweenTwoVolumes@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@AEBVG4String@@1AEAVHep3Vector@CLHEP@@AEANAEA_N@Z
+	?CrossingOneOfTheRegisteredSurface@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@AEAVG4String@@AEAVHep3Vector@CLHEP@@AEANAEA_N@Z
+	?DPSLAlongStep@G4SteppingVerbose@@UEAAXXZ
+	?DPSLPostStep@G4SteppingVerbose@@UEAAXXZ
+	?DPSLStarted@G4SteppingVerbose@@UEAAXXZ
+	?DPSLUserLimit@G4SteppingVerbose@@UEAAXXZ
+	?DefineMaterial@G4VEnergyLossProcess@@AEAAXPEBVG4MaterialCutsCouple@@@Z
+	?DefinePhysicalStepLength@G4SteppingManager@@AEAAXXZ
+	?DrawTrajectory@G4RichTrajectory@@UEBAXXZ
+	?DrawTrajectory@G4SmoothTrajectory@@UEBAXXZ
+	?DrawTrajectory@G4Trajectory@@UEBAXXZ
+	?DrawTrajectory@G4VTrajectory@@UEBAXXZ
+	?EventAborted@G4TrackingManager@@QEAAXXZ
+	?FindRegisteredSurface@G4AdjointCrossSurfChecker@@AEAAHAEBVG4String@@@Z
+	?GetAllocatedSize@?$G4Allocator@V?$G4CountedObject@X@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4RichTrajectory@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4RichTrajectoryPoint@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4SmoothTrajectory@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4TouchableHistory@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4Trajectory@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4TrajectoryPoint@@@@UEBA_KXZ
+	?GetAttDefs@G4RichTrajectory@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4RichTrajectoryPoint@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4SmoothTrajectory@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4SmoothTrajectoryPoint@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4Trajectory@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4TrajectoryPoint@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4VTrajectory@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4VTrajectoryPoint@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAuxiliaryPoints@G4RichTrajectoryPoint@@UEBAPEBV?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@XZ
+	?GetAuxiliaryPoints@G4SmoothTrajectoryPoint@@UEBAPEBV?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@XZ
+	?GetAuxiliaryPoints@G4VTrajectoryPoint@@UEBAPEBV?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@XZ
+	?GetCharge@G4SmoothTrajectory@@UEBANXZ
+	?GetCharge@G4Trajectory@@UEBANXZ
+	?GetCurrentValue@G4TrackingMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetInitialMomentum@G4SmoothTrajectory@@UEBA?AVHep3Vector@CLHEP@@XZ
+	?GetInitialMomentum@G4Trajectory@@UEBA?AVHep3Vector@CLHEP@@XZ
+	?GetInstance@G4AdjointCrossSurfChecker@@SAPEAV1@XZ
+	?GetInstance@G4VSteppingVerbose@@SAPEAV1@XZ
+	?GetLimitScaledRangeForScaledEnergy@G4VEnergyLossProcess@@AEAANN@Z
+	?GetMomentum@G4Track@@QEBA?AVHep3Vector@CLHEP@@XZ
+	?GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ
+	?GetNoPages@?$G4Allocator@V?$G4CountedObject@X@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4RichTrajectory@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4RichTrajectoryPoint@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4SmoothTrajectory@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4TouchableHistory@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4Trajectory@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4TrajectoryPoint@@@@UEBAHXZ
+	?GetPDGEncoding@G4SmoothTrajectory@@UEBAHXZ
+	?GetPDGEncoding@G4Trajectory@@UEBAHXZ
+	?GetPageSize@?$G4Allocator@V?$G4CountedObject@X@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4RichTrajectory@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4RichTrajectoryPoint@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4SmoothTrajectory@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4TouchableHistory@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4Trajectory@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4TrajectoryPoint@@@@UEBA_KXZ
+	?GetParentID@G4SmoothTrajectory@@UEBAHXZ
+	?GetParentID@G4Trajectory@@UEBAHXZ
+	?GetParticleDefinition@G4SmoothTrajectory@@QEAAPEAVG4ParticleDefinition@@XZ
+	?GetParticleDefinition@G4Trajectory@@QEAAPEAVG4ParticleDefinition@@XZ
+	?GetParticleName@G4SmoothTrajectory@@UEBA?AVG4String@@XZ
+	?GetParticleName@G4Trajectory@@UEBA?AVG4String@@XZ
+	?GetPoint@G4RichTrajectory@@UEBAPEAVG4VTrajectoryPoint@@H@Z
+	?GetPoint@G4SmoothTrajectory@@UEBAPEAVG4VTrajectoryPoint@@H@Z
+	?GetPoint@G4Trajectory@@UEBAPEAVG4VTrajectoryPoint@@H@Z
+	?GetPointEntries@G4RichTrajectory@@UEBAHXZ
+	?GetPointEntries@G4SmoothTrajectory@@UEBAHXZ
+	?GetPointEntries@G4Trajectory@@UEBAHXZ
+	?GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ
+	?GetPoolType@?$G4Allocator@V?$G4CountedObject@X@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4RichTrajectory@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4RichTrajectoryPoint@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4SmoothTrajectory@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4TouchableHistory@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4Trajectory@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4TrajectoryPoint@@@@UEBAPEBDXZ
+	?GetPosition@G4SmoothTrajectoryPoint@@UEBA?BVHep3Vector@CLHEP@@XZ
+	?GetPosition@G4TrajectoryPoint@@UEBA?BVHep3Vector@CLHEP@@XZ
+	?GetProcessNumber@G4SteppingManager@@QEAAXXZ
+	?GetScaledRangeForScaledEnergy@G4VEnergyLossProcess@@AEAANN@Z
+	?GetSilent@G4VSteppingVerbose@@SAHXZ
+	?GetSilentStepInfo@G4VSteppingVerbose@@SAHXZ
+	?GetTrackID@G4SmoothTrajectory@@UEBAHXZ
+	?GetTrackID@G4Trajectory@@UEBAHXZ
+	?GoingInOrOutOfaVolume@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@AEBVG4String@@AEANAEA_N@Z
+	?GoingInOrOutOfaVolumeByExtSurface@G4AdjointCrossSurfChecker@@QEAA_NPEBVG4Step@@AEBVG4String@@1AEANAEA_N@Z
+	?IncreasePageSize@?$G4Allocator@V?$G4CountedObject@X@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4RichTrajectory@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4RichTrajectoryPoint@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4SmoothTrajectory@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4TouchableHistory@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4Trajectory@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4TrajectoryPoint@@@@UEAAXI@Z
+	?InitializeStep@G4Step@@QEAAXPEAVG4Track@@@Z
+	?InvokeAlongStepDoItProcs@G4SteppingManager@@AEAAXXZ
+	?InvokeAtRestDoItProcs@G4SteppingManager@@AEAAXXZ
+	?InvokePSDIP@G4SteppingManager@@AEAAX_K@Z
+	?InvokePostStepDoItProcs@G4SteppingManager@@AEAAXXZ
+	?MergeTrajectory@G4RichTrajectory@@UEAAXPEAVG4VTrajectory@@@Z
+	?MergeTrajectory@G4SmoothTrajectory@@UEAAXPEAVG4VTrajectory@@@Z
+	?MergeTrajectory@G4Trajectory@@UEAAXPEAVG4VTrajectory@@@Z
+	?NewStep@G4SteppingVerbose@@UEAAXXZ
+	?PostStepDoItAllDone@G4SteppingVerbose@@UEAAXXZ
+	?PostStepDoItOneByOne@G4SteppingVerbose@@UEAAXXZ
+	?PostUserTrackingAction@G4AdjointTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PostUserTrackingAction@G4MultiTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PostUserTrackingAction@G4UserTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PreUserTrackingAction@G4AdjointTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PreUserTrackingAction@G4MultiTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PreUserTrackingAction@G4UserTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?ProcessOneTrack@G4TrackingManager@@QEAAXPEAVG4Track@@@Z
+	?ResetStorage@?$G4Allocator@V?$G4CountedObject@X@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4RichTrajectory@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4RichTrajectoryPoint@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4SmoothTrajectory@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4SmoothTrajectoryPoint@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4TouchableHistory@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4Trajectory@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4TrajectoryPoint@@@@UEAAXXZ
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetInitialStep@G4SteppingManager@@QEAAXPEAVG4Track@@@Z
+	?SetInstance@G4VSteppingVerbose@@SAXPEAV1@@Z
+	?SetManager@G4VSteppingVerbose@@QEAAXQEAVG4SteppingManager@@@Z
+	?SetNewValue@G4TrackingMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetSilent@G4VSteppingVerbose@@SAXH@Z
+	?SetSilentStepInfo@G4VSteppingVerbose@@SAXH@Z
+	?SetSteppingManagerPointer@G4MultiSteppingAction@@UEAAXPEAVG4SteppingManager@@@Z
+	?SetSteppingManagerPointer@G4UserSteppingAction@@UEAAXPEAVG4SteppingManager@@@Z
+	?SetTrackingManagerPointer@G4MultiTrackingAction@@UEAAXPEAVG4TrackingManager@@@Z
+	?SetTrackingManagerPointer@G4UserTrackingAction@@UEAAXPEAVG4TrackingManager@@@Z
+	?SetTrajectory@G4TrackingManager@@QEAAXPEAVG4VTrajectory@@@Z
+	?ShowStep@G4SteppingVerbose@@QEBAXXZ
+	?ShowTrajectory@G4RichTrajectory@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?ShowTrajectory@G4SmoothTrajectory@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?ShowTrajectory@G4Trajectory@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?ShowTrajectory@G4VTrajectory@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?StepInfo@G4SteppingVerbose@@UEAAXXZ
+	?Stepping@G4SteppingManager@@QEAA?AW4G4StepStatus@@XZ
+	?TrackBanner@G4TrackingManager@@AEAAXXZ
+	?TrackingStarted@G4SteppingVerbose@@UEAAXXZ
+	?UpdateTrack@G4Step@@QEAAXXZ
+	?UserSteppingAction@G4AdjointSteppingAction@@UEAAXPEBVG4Step@@@Z
+	?UserSteppingAction@G4MultiSteppingAction@@UEAAXPEBVG4Step@@@Z
+	?UserSteppingAction@G4UserSteppingAction@@UEAAXPEBVG4Step@@@Z
+	?VerboseParticleChange@G4SteppingVerbose@@UEAAXXZ
+	?VerboseTrack@G4SteppingVerbose@@UEAAXXZ
+	?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AEAAXQEAN_K1@Z
+	?_Change_array@?$vector@PEAVG4VTrajectoryPoint@@V?$allocator@PEAVG4VTrajectoryPoint@@@std@@@std@@AEAAXQEAPEAVG4VTrajectoryPoint@@_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Change_array@?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@AEAAXQEAVHep3Vector@CLHEP@@_K1@Z
+	?_Destroy@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@AEAAXPEAVG4AttValue@@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Getal@?$_Tree@V?$_Tmap_traits@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@$0A@@std@@@std@@IEAAAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@2@XZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@AEAAXXZ
+	?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@HV?$allocator@H@std@@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4Track@@V?$allocator@PEAVG4Track@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VTrajectoryPoint@@V?$allocator@PEAVG4VTrajectoryPoint@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?aRichTrajectoryAllocator@@YAAEAPEAV?$G4Allocator@VG4RichTrajectory@@@@XZ
+	?aRichTrajectoryPointAllocator@@YAAEAPEAV?$G4Allocator@VG4RichTrajectoryPoint@@@@XZ
+	?aSmoothTrajectoryAllocator@@YAAEAPEAV?$G4Allocator@VG4SmoothTrajectory@@@@XZ
+	?aSmoothTrajectoryPointAllocator@@YAAEAPEAV?$G4Allocator@VG4SmoothTrajectoryPoint@@@@XZ
+	?aTrajectoryAllocator@@YAAEAPEAV?$G4Allocator@VG4Trajectory@@@@XZ
+	?aTrajectoryPointAllocator@@YAAEAPEAV?$G4Allocator@VG4TrajectoryPoint@@@@XZ
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@N@std@@QEAAPEAN_K@Z
+	?allocate@?$allocator@PEAVG4VTrajectoryPoint@@@std@@QEAAPEAPEAVG4VTrajectoryPoint@@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?allocate@?$allocator@VHep3Vector@CLHEP@@@std@@QEAAPEAVHep3Vector@CLHEP@@_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@H@std@@QEAAXQEAH_K@Z
+	?deallocate@?$allocator@N@std@@QEAAXQEAN_K@Z
+	?deallocate@?$allocator@PEAVG4Track@@@std@@QEAAXQEAPEAVG4Track@@_K@Z
+	?deallocate@?$allocator@PEAVG4VTrajectoryPoint@@@std@@QEAAXQEAPEAVG4VTrajectoryPoint@@_K@Z
+	?deallocate@?$allocator@VG4AttValue@@@std@@QEAAXQEAVG4AttValue@@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?deallocate@?$allocator@VHep3Vector@CLHEP@@@std@@QEAAXQEAVHep3Vector@CLHEP@@_K@Z
+	?mag@Hep3Vector@CLHEP@@QEBANXZ
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?push_back@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@QEAAX$$QEAVG4AttValue@@@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?str@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@exception@std@@UEBAPEBDXZ

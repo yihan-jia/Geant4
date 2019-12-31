@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\AxisAngle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BasicVector3D.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Boost.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BoostX.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BoostY.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BoostZ.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\DoubConv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\DualRand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\EngineFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\engineIDulong.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\erfQ.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\EulerAngles.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Evaluator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\flatToGaussian.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\gammln.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\JamesRandom.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzRotation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzRotationC.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzRotationD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorB.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorC.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorK.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorL.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorR.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\MixMaxRng.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\MTwistEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\NonRandomEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Normal3D.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Plane3D.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Point3D.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandBinomial.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandBit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandBreitWigner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandChiSquare.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandExponential.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandFlat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGamma.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGauss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGaussQ.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGeneral.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandLandau.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Random.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandomEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandPoisson.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandPoissonQ.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandStudentT.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RanecuEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Ranlux64Engine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RanluxEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RanshiEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationA.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Rotation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationC.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationE.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationInterfaces.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationIO.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationL.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationP.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationX.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationY.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationZ.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\setStdMath.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\setSystemOfUnits.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVectorD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVectorP.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVectorR.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\StaticRandomStates.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\ThreeVector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\ThreeVectorR.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Transform3D.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\TwoVector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Vector3D.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\ZMinput.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\Evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\BasicVector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Normal3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Plane3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Point3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Transform3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\DoubConv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\DualRand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\EngineFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\engineIDulong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\JamesRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\MixMaxRng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\MTwistEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\NonRandomEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBinomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBreitWigner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandChiSquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandExponential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandFlat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGamma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGauss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGaussQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandLandau.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoissonQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandStudentT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandomEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Randomize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RanecuEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Ranlux64Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RanluxEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RanshiEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\SeedTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\StaticRandomStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Units\PhysicalConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Units\SystemOfUnits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\keywords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\noncopyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\use_atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\AxisAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\EulerAngles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzRotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Rotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\ThreeVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\TwoVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\hash_map.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\stack.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\string.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\mixmax_skip_N8.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\mixmax_skip_N17.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\mixmax_skip_N240.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBinomial.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBreitWigner.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandChiSquare.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandExponential.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandFlat.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGamma.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGauss.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGaussQ.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGeneral.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandLandau.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoisson.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoissonQ.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandStudentT.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Random.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandomEngine.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\gaussQTables.cdat" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\gaussTables.cdat" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\poissonTables.cdat" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\AxisAngle.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Boost.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostX.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostY.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostZ.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\EulerAngles.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzRotation.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzVector.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Rotation.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationInterfaces.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationX.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationY.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationZ.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\ThreeVector.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\TwoVector.icc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF1853CA-56C7-3BA8-A775-C24C28174412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F733656-C433-322F-838E-D7A6D7A4F353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

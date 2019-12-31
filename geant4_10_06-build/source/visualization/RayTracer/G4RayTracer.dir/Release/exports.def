@@ -1,0 +1,446 @@
+EXPORTS 
+	??_R0?AV?$BasicVector3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4Event@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4PrimaryParticle@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4PrimaryVertex@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4RayTrajectory@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4RayTrajectoryPoint@@@@@8 	 DATA
+	??_R0?AV?$G4THitsMap@VG4Colour@@@@@8 	 DATA
+	??_R0?AV?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@@8 	 DATA
+	??_R0?AV?$Point3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$Vector3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4BufferError@@@8 	 DATA
+	??_R0?AVG4Event@@@8 	 DATA
+	??_R0?AVG4HitsCollection@@@8 	 DATA
+	??_R0?AVG4IndexError@@@8 	 DATA
+	??_R0?AVG4MemoryError@@@8 	 DATA
+	??_R0?AVG4PhysicalVolumeModel@@@8 	 DATA
+	??_R0?AVG4PrimaryParticle@@@8 	 DATA
+	??_R0?AVG4PrimaryVertex@@@8 	 DATA
+	??_R0?AVG4RTJpegMaker@@@8 	 DATA
+	??_R0?AVG4RTMessenger@@@8 	 DATA
+	??_R0?AVG4RTPrimaryGeneratorAction@@@8 	 DATA
+	??_R0?AVG4RTRun@@@8 	 DATA
+	??_R0?AVG4RTRunAction@@@8 	 DATA
+	??_R0?AVG4RTSimpleScanner@@@8 	 DATA
+	??_R0?AVG4RTSteppingAction@@@8 	 DATA
+	??_R0?AVG4RTTrackingAction@@@8 	 DATA
+	??_R0?AVG4RTWorkerInitialization@@@8 	 DATA
+	??_R0?AVG4RayTracer@@@8 	 DATA
+	??_R0?AVG4RayTracerSceneHandler@@@8 	 DATA
+	??_R0?AVG4RayTracerViewer@@@8 	 DATA
+	??_R0?AVG4RayTrajectory@@@8 	 DATA
+	??_R0?AVG4RayTrajectoryPoint@@@8 	 DATA
+	??_R0?AVG4Run@@@8 	 DATA
+	??_R0?AVG4TheMTRayTracer@@@8 	 DATA
+	??_R0?AVG4TheRayTracer@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4UserRunAction@@@8 	 DATA
+	??_R0?AVG4UserSteppingAction@@@8 	 DATA
+	??_R0?AVG4UserTrackingAction@@@8 	 DATA
+	??_R0?AVG4UserWorkerInitialization@@@8 	 DATA
+	??_R0?AVG4VFigureFileMaker@@@8 	 DATA
+	??_R0?AVG4VGraphicsScene@@@8 	 DATA
+	??_R0?AVG4VGraphicsSystem@@@8 	 DATA
+	??_R0?AVG4VHitsCollection@@@8 	 DATA
+	??_R0?AVG4VModel@@@8 	 DATA
+	??_R0?AVG4VRTScanner@@@8 	 DATA
+	??_R0?AVG4VSceneHandler@@@8 	 DATA
+	??_R0?AVG4VTrajectory@@@8 	 DATA
+	??_R0?AVG4VTrajectoryPoint@@@8 	 DATA
+	??_R0?AVG4VUserPrimaryGeneratorAction@@@8 	 DATA
+	??_R0?AVG4VViewer@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?fSceneIdCount@G4RayTracerSceneHandler@@0HA 	 DATA
+	?fpInstance@G4RTMessenger@@0PEAV1@EA 	 DATA
+	?ignoreTransparency@G4RTSteppingAction@@0_NA 	 DATA
+	?theInstance@G4TheMTRayTracer@@0PEAV1@EA 	 DATA
+	?theRTPrimaryGeneratorAction@G4RTWorkerInitialization@@0PEAVG4RTPrimaryGeneratorAction@@EA 	 DATA
+	?theRTRunAction@G4RTWorkerInitialization@@0PEAVG4RTRunAction@@EA 	 DATA
+	?theRTSteppingAction@G4RTWorkerInitialization@@0PEAVG4RTSteppingAction@@EA 	 DATA
+	?theRTTrackingAction@G4RTWorkerInitialization@@0PEAVG4RTTrackingAction@@EA 	 DATA
+	?theUserEventAction@G4RTWorkerInitialization@@0PEBVG4UserEventAction@@EB 	 DATA
+	?theUserPrimaryGeneratorAction@G4RTWorkerInitialization@@0PEBVG4VUserPrimaryGeneratorAction@@EB 	 DATA
+	?theUserRunAction@G4RTWorkerInitialization@@0PEBVG4UserRunAction@@EB 	 DATA
+	?theUserStackingAction@G4RTWorkerInitialization@@0PEBVG4UserStackingAction@@EB 	 DATA
+	?theUserSteppingAction@G4RTWorkerInitialization@@0PEBVG4UserSteppingAction@@EB 	 DATA
+	?theUserTrackingAction@G4RTWorkerInitialization@@0PEBVG4UserTrackingAction@@EB 	 DATA
+	??$?0AEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@$$Z$$V@?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@QEAA@AEAV?$tuple@AEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?6DU?$char_traits@D@std@@D@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Fillobj@D@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBD$$QEAV10@@Z
+	??$?YVG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@QEBAAEAV0@AEBV0@@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Assign_range@PEAN@?$vector@NV?$allocator@N@std@@@std@@AEAAXPEAN0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAV?$Plane3D@N@HepGeom@@@?$vector@V?$Plane3D@N@HepGeom@@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@AEAAXPEAV?$Plane3D@N@HepGeom@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAVPVNameCopyNo@G4ModelingParameters@@@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAXPEAVPVNameCopyNo@G4ModelingParameters@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAVVisAttributesModifier@G4ModelingParameters@@@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@AEAAXPEAVVisAttributesModifier@G4ModelingParameters@@0Uforward_iterator_tag@1@@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAVG4RayTrajectoryPoint@@PEAPEAV1@@std@@YAPEAPEAVG4RayTrajectoryPoint@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4Scene@@PEAPEAV1@@std@@YAPEAPEAVG4Scene@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAV?$Plane3D@N@HepGeom@@PEAV12@@std@@YAPEAV?$Plane3D@N@HepGeom@@PEAV12@00@Z
+	??$_Copy_unchecked@PEAVPVNameCopyNo@G4ModelingParameters@@PEAV12@@std@@YAPEAVPVNameCopyNo@G4ModelingParameters@@PEAV12@00@Z
+	??$_Copy_unchecked@PEAVVisAttributesModifier@G4ModelingParameters@@PEAV12@@std@@YAPEAVVisAttributesModifier@G4ModelingParameters@@PEAV12@00@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4RayTrajectoryPoint@@@std@@@std@@YAXPEAPEAVG4RayTrajectoryPoint@@QEAPEAV1@AEAV?$allocator@PEAVG4RayTrajectoryPoint@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4Scene@@@std@@@std@@YAXPEAPEAVG4Scene@@QEAPEAV1@AEAV?$allocator@PEAVG4Scene@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@YAXPEAV?$Plane3D@N@HepGeom@@QEAV12@AEAV?$allocator@V?$Plane3D@N@HepGeom@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAXPEAVPVNameCopyNo@G4ModelingParameters@@QEAV12@AEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Destroy_range@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@YAXPEAVPVPointerCopyNo@G4ModelingParameters@@QEAV12@AEAV?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Destroy_range@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAXPEAVVisAttributesModifier@G4ModelingParameters@@QEAV12@AEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@@Z
+	??$_Emplace_reallocate@AEBQEAVG4RayTrajectoryPoint@@@?$vector@PEAVG4RayTrajectoryPoint@@V?$allocator@PEAVG4RayTrajectoryPoint@@@std@@@std@@QEAAPEAPEAVG4RayTrajectoryPoint@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4Scene@@@?$vector@PEAVG4Scene@@V?$allocator@PEAVG4Scene@@@std@@@std@@QEAAPEAPEAVG4Scene@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@PEAVG4RayTrajectoryPoint@@@?$vector@PEAVG4RayTrajectoryPoint@@V?$allocator@PEAVG4RayTrajectoryPoint@@@std@@@std@@QEAAPEAPEAVG4RayTrajectoryPoint@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Emplace_reallocate@VPVPointerCopyNo@G4ModelingParameters@@@?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@QEAAPEAVPVPointerCopyNo@G4ModelingParameters@@QEAV23@$$QEAV23@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4Colour@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@1@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@N@std@@@std@@YAXAEAV?$allocator@N@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@YAXAEAV?$allocator@V?$Plane3D@N@HepGeom@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAXAEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAXAEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD2@Z
+	??$_Refancy@PEAN$0A@@std@@YAPEANPEAN@Z
+	??$_Refancy@PEAV?$Plane3D@N@HepGeom@@$0A@@std@@YAPEAV?$Plane3D@N@HepGeom@@PEAV12@@Z
+	??$_Try_emplace@AEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@$$V@?$map@V?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@UPathLessThan@G4RayTracerSceneHandler@@V?$allocator@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@@2@@std@@AEAA?AU?$pair@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@_N@1@AEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@1@@Z
+	??$_Uninitialized_copy@PEAVPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAPEAVPVNameCopyNo@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_copy@PEAVPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@YAPEAVPVPointerCopyNo@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_copy@PEAVVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAPEAVVisAttributesModifier@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4RayTrajectoryPoint@@V?$allocator@PEAVG4RayTrajectoryPoint@@@std@@@std@@YAPEAPEAVG4RayTrajectoryPoint@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4RayTrajectoryPoint@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4Scene@@V?$allocator@PEAVG4Scene@@@std@@@std@@YAPEAPEAVG4Scene@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4Scene@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_move@PEAVPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@YAPEAVPVPointerCopyNo@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@0@@Z
+	??$add@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@$0A@@?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@QEBA_KAEBHAEAVG4Colour@@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$setfill@D@std@@YA?AU?$_Fillobj@D@0@D@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??0?$G4Allocator@VG4Event@@@@QEAA@XZ
+	??0?$G4Allocator@VG4PrimaryParticle@@@@QEAA@XZ
+	??0?$G4Allocator@VG4PrimaryVertex@@@@QEAA@XZ
+	??0?$G4Allocator@VG4RayTrajectory@@@@QEAA@XZ
+	??0?$G4Allocator@VG4RayTrajectoryPoint@@@@QEAA@XZ
+	??0?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@QEAA@VG4String@@0@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0G4BufferError@@QEAA@PEBD@Z
+	??0G4IndexError@@QEAA@HHPEBD@Z
+	??0G4JpegCoder@@QEAA@PEAE00@Z
+	??0G4MemoryError@@QEAA@HPEBD@Z
+	??0G4OutBitStream@@QEAA@H@Z
+	??0G4RTJpegMaker@@QEAA@XZ
+	??0G4RTMessenger@@AEAA@PEAVG4TheRayTracer@@@Z
+	??0G4RTPrimaryGeneratorAction@@QEAA@XZ
+	??0G4RTRun@@QEAA@XZ
+	??0G4RTRunAction@@QEAA@XZ
+	??0G4RTSimpleScanner@@QEAA@XZ
+	??0G4RTSteppingAction@@QEAA@XZ
+	??0G4RTWorkerInitialization@@QEAA@XZ
+	??0G4RayTracer@@QEAA@XZ
+	??0G4RayTracerSceneHandler@@QEAA@AEAVG4VGraphicsSystem@@AEBVG4String@@@Z
+	??0G4RayTracerViewer@@QEAA@AEAVG4VSceneHandler@@AEBVG4String@@PEAVG4TheRayTracer@@@Z
+	??0G4RayTrajectory@@QEAA@AEAV0@@Z
+	??0G4RayTrajectory@@QEAA@XZ
+	??0G4RayTrajectoryPoint@@QEAA@XZ
+	??0G4TheMTRayTracer@@QEAA@PEAVG4VFigureFileMaker@@PEAVG4VRTScanner@@@Z
+	??0G4TheRayTracer@@QEAA@PEAVG4VFigureFileMaker@@PEAVG4VRTScanner@@@Z
+	??0G4VRTScanner@@QEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$BasicVector3D@N@HepGeom@@UEAA@XZ
+	??1?$G4Allocator@VG4Event@@@@UEAA@XZ
+	??1?$G4Allocator@VG4PrimaryParticle@@@@UEAA@XZ
+	??1?$G4Allocator@VG4PrimaryVertex@@@@UEAA@XZ
+	??1?$G4Allocator@VG4RayTrajectory@@@@UEAA@XZ
+	??1?$G4Allocator@VG4RayTrajectoryPoint@@@@UEAA@XZ
+	??1?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$map@V?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@UPathLessThan@G4RayTracerSceneHandler@@V?$allocator@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@@2@@std@@QEAA@XZ
+	??1?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1G4JpegCoder@@QEAA@XZ
+	??1G4OutBitStream@@QEAA@XZ
+	??1G4RTJpegMaker@@UEAA@XZ
+	??1G4RTMessenger@@UEAA@XZ
+	??1G4RTPrimaryGeneratorAction@@UEAA@XZ
+	??1G4RTRun@@UEAA@XZ
+	??1G4RTRunAction@@UEAA@XZ
+	??1G4RTSimpleScanner@@UEAA@XZ
+	??1G4RTSteppingAction@@UEAA@XZ
+	??1G4RTTrackingAction@@UEAA@XZ
+	??1G4RTWorkerInitialization@@UEAA@XZ
+	??1G4RayTracer@@UEAA@XZ
+	??1G4RayTracerSceneHandler@@UEAA@XZ
+	??1G4RayTracerViewer@@UEAA@XZ
+	??1G4RayTrajectory@@UEAA@XZ
+	??1G4RayTrajectoryPoint@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4TheMTRayTracer@@UEAA@XZ
+	??1G4TheRayTracer@@UEAA@XZ
+	??1G4VFigureFileMaker@@UEAA@XZ
+	??1G4VRTScanner@@UEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??2G4RayTrajectoryPoint@@SAPEAX_K@Z
+	??3G4Event@@SAXPEAX@Z
+	??3G4PrimaryParticle@@SAXPEAX@Z
+	??3G4PrimaryVertex@@SAXPEAX@Z
+	??3G4RayTrajectory@@SAXPEAX@Z
+	??3G4RayTrajectoryPoint@@SAXPEAX@Z
+	??4G4ViewParameters@@QEAAAEAV0@AEBV0@@Z
+	??RPathLessThan@G4RayTracerSceneHandler@@QEBA_NAEBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@0@Z
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Circle@@@Z
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Polyhedron@@@Z
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Polyline@@@Z
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Polymarker@@@Z
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Scale@@@Z
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Square@@@Z
+	?AddPrimitive@G4RayTracerSceneHandler@@UEAAXAEBVG4Text@@@Z
+	?AppendStep@G4RayTrajectory@@UEAAXPEBVG4Step@@@Z
+	?Attenuate@G4RTRun@@AEAA?AVG4Colour@@PEAVG4RayTrajectoryPoint@@V2@@Z
+	?Attenuate@G4TheRayTracer@@IEAA?AVG4Colour@@PEAVG4RayTrajectoryPoint@@AEBV2@@Z
+	?BeginOfRunAction@G4RTRunAction@@UEAAXPEBVG4Run@@@Z
+	?BuildVisAttsMap@G4RayTracerSceneHandler@@QEAAXAEBVG4VSolid@@@Z
+	?ClearStore@G4RayTracerSceneHandler@@UEAAXXZ
+	?ClearView@G4RayTracerViewer@@UEAAXXZ
+	?CodeHuffman@G4JpegCoder@@IEAAXH@Z
+	?CodeMCU@G4JpegCoder@@IEAAXXZ
+	?Coords@G4RTSimpleScanner@@UEAA_NAEAH0@Z
+	?CopyByte@G4OutBitStream@@QEAAXPEBDH@Z
+	?CreateAttValues@G4VTrajectory@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4VTrajectoryPoint@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateBitMap@G4TheMTRayTracer@@MEAA_NXZ
+	?CreateBitMap@G4TheRayTracer@@MEAA_NXZ
+	?CreateFigureFile@G4RTJpegMaker@@UEAAXAEBVG4String@@HHPEAE11@Z
+	?CreateFigureFile@G4TheRayTracer@@IEAAXAEBVG4String@@@Z
+	?CreateSceneHandler@G4RayTracer@@UEAAPEAVG4VSceneHandler@@AEBVG4String@@@Z
+	?CreateViewer@G4RayTracer@@UEAAPEAVG4VViewer@@AEAVG4VSceneHandler@@AEBVG4String@@@Z
+	?DoCoding@G4JpegCoder@@QEAAHXZ
+	?Draw@G4VRTScanner@@UEAAXEEE@Z
+	?DrawAllHits@?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@UEAAXXZ
+	?DrawTrajectory@G4RayTrajectory@@UEBAXXZ
+	?DrawView@G4RayTracerViewer@@UEAAXXZ
+	?EndOfRunAction@G4RTRunAction@@UEAAXPEBVG4Run@@@Z
+	?ForwardDCT@G4JpegCoder@@IEAAXPEAH@Z
+	?FullBit@G4OutBitStream@@IEAAXXZ
+	?GenerateColour@G4TheRayTracer@@IEAA_NPEAVG4Event@@@Z
+	?GeneratePrimaries@G4RTPrimaryGeneratorAction@@UEAAXPEAVG4Event@@@Z
+	?GenerateRun@G4RTRunAction@@UEAAPEAVG4Run@@XZ
+	?GetAllocatedSize@?$G4Allocator@VG4Event@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4PrimaryParticle@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4PrimaryVertex@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4RayTrajectory@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4RayTrajectoryPoint@@@@UEBA_KXZ
+	?GetAttDefs@G4VTrajectory@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4VTrajectoryPoint@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAuxiliaryPoints@G4VTrajectoryPoint@@UEBAPEBV?$vector@VHep3Vector@CLHEP@@V?$allocator@VHep3Vector@CLHEP@@@std@@@std@@XZ
+	?GetCharge@G4RayTrajectory@@UEBANXZ
+	?GetCurrentValue@G4RTMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetGSName@G4RTSimpleScanner@@UEBAAEBVG4String@@XZ
+	?GetGSNickname@G4RTSimpleScanner@@UEBAAEBVG4String@@XZ
+	?GetHit@?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@UEBAPEAVG4VHit@@_K@Z
+	?GetIgnoreTransparency@G4RTSteppingAction@@SA_NXZ
+	?GetInitialMomentum@G4RayTrajectory@@UEBA?AVHep3Vector@CLHEP@@XZ
+	?GetInstance@G4RTMessenger@@SAPEAV1@PEAVG4TheRayTracer@@@Z
+	?GetJpegData@G4JpegCoder@@QEAAXPEAPEADAEAH@Z
+	?GetMixedColour@G4RTRun@@AEAA?AVG4Colour@@V2@0N@Z
+	?GetMixedColour@G4TheRayTracer@@IEAA?AVG4Colour@@AEBV2@0N@Z
+	?GetNoPages@?$G4Allocator@VG4Event@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4PrimaryParticle@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4PrimaryVertex@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4RayTrajectory@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4RayTrajectoryPoint@@@@UEBAHXZ
+	?GetPDGEncoding@G4RayTrajectory@@UEBAHXZ
+	?GetPageSize@?$G4Allocator@VG4Event@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4PrimaryParticle@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4PrimaryVertex@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4RayTrajectory@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4RayTrajectoryPoint@@@@UEBA_KXZ
+	?GetParentID@G4RayTrajectory@@UEBAHXZ
+	?GetParticleName@G4RayTrajectory@@UEBA?AVG4String@@XZ
+	?GetPoint@G4RayTrajectory@@UEBAPEAVG4VTrajectoryPoint@@H@Z
+	?GetPointEntries@G4RayTrajectory@@UEBAHXZ
+	?GetPoolType@?$G4Allocator@VG4Event@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4PrimaryParticle@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4PrimaryVertex@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4RayTrajectory@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4RayTrajectoryPoint@@@@UEBAPEBDXZ
+	?GetPosition@G4RayTrajectoryPoint@@UEBA?BVHep3Vector@CLHEP@@XZ
+	?GetPrivateVisAttributesModifiers@G4VViewer@@UEBAPEBV?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@XZ
+	?GetSize@?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@UEBA_KXZ
+	?GetSurfaceColour@G4RTRun@@AEAA?AVG4Colour@@PEAVG4RayTrajectoryPoint@@@Z
+	?GetSurfaceColour@G4TheRayTracer@@IEAA?AVG4Colour@@PEAVG4RayTrajectoryPoint@@@Z
+	?GetTrackID@G4RayTrajectory@@UEBAHXZ
+	?IncBuf@G4OutBitStream@@IEAAXXZ
+	?IncreasePageSize@?$G4Allocator@VG4Event@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4PrimaryParticle@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4PrimaryVertex@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4RayTrajectory@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4RayTrajectoryPoint@@@@UEAAXI@Z
+	?Initialise@G4RayTracerViewer@@UEAAXXZ
+	?Initialize@G4RTSimpleScanner@@UEAAXHH@Z
+	?Merge@G4RTRun@@UEAAXPEBVG4Run@@@Z
+	?MergeTrajectory@G4RayTrajectory@@UEAAXPEAVG4VTrajectory@@@Z
+	?PostUserTrackingAction@G4RTTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PreUserTrackingAction@G4RTTrackingAction@@UEAAXPEBVG4Track@@@Z
+	?PrintAllHits@?$G4VTHitsMap@VG4Colour@@V?$map@HPEAVG4Colour@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4Colour@@@std@@@3@@std@@@@UEAAXXZ
+	?Quantization@G4JpegCoder@@IEAAXH@Z
+	?RecordEvent@G4RTRun@@UEAAXPEBVG4Event@@@Z
+	?RequestPrimitives@G4RayTracerSceneHandler@@UEAAXAEBVG4VSolid@@@Z
+	?ResetStorage@?$G4Allocator@VG4Event@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4PrimaryParticle@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4PrimaryVertex@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4RayTrajectory@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4RayTrajectoryPoint@@@@UEAAXXZ
+	?ResetView@G4VViewer@@UEAAXXZ
+	?RestoreUserActions@G4TheMTRayTracer@@MEAAXXZ
+	?RestoreUserActions@G4TheRayTracer@@MEAAXXZ
+	?Set8Bits@G4OutBitStream@@IEAAXEH@Z
+	?SetBits2Byte@G4OutBitStream@@IEAAXEH@Z
+	?SetBits@G4OutBitStream@@QEAAXHH@Z
+	?SetByte@G4OutBitStream@@QEAAXE@Z
+	?SetFewBits@G4OutBitStream@@IEAAXEH@Z
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetIgnoreTransparency@G4RTSteppingAction@@SAX_N@Z
+	?SetJpegProperty@G4JpegCoder@@QEAAXAEBUG4JpegProperty@@@Z
+	?SetMaster@G4UserRunAction@@UEAAX_N@Z
+	?SetNewValue@G4RTMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNext@G4PrimaryParticle@@QEAAXPEAV1@@Z
+	?SetNext@G4PrimaryVertex@@QEAAXPEAV1@@Z
+	?SetUp@G4RTPrimaryGeneratorAction@@QEAAXXZ
+	?SetView@G4RayTracerViewer@@UEAAXXZ
+	?SetWord@G4OutBitStream@@QEAAXI@Z
+	?ShowTrajectory@G4RayTrajectory@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?StoreUserActions@G4TheMTRayTracer@@MEAAXXZ
+	?StoreUserActions@G4TheRayTracer@@MEAAXXZ
+	?Trace@G4TheMTRayTracer@@UEAAXAEBVG4String@@@Z
+	?Trace@G4TheRayTracer@@UEAAXAEBVG4String@@@Z
+	?UserSteppingAction@G4RTSteppingAction@@UEAAXPEBVG4Step@@@Z
+	?ValidColour@G4RTRun@@AEAA_NPEBVG4VisAttributes@@@Z
+	?ValidColour@G4TheRayTracer@@IEAA_NPEBVG4VisAttributes@@@Z
+	?WorkerRunEnd@G4RTWorkerInitialization@@UEBAXXZ
+	?WorkerRunStart@G4RTWorkerInitialization@@UEBAXXZ
+	?WriteEOI@G4JpegCoder@@IEAAXXZ
+	?WriteHeader@G4JpegCoder@@IEAAXXZ
+	?_Buy_raw@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAX_K@Z
+	?_Change_array@?$vector@PEAVG4RayTrajectoryPoint@@V?$allocator@PEAVG4RayTrajectoryPoint@@@std@@@std@@AEAAXQEAPEAVG4RayTrajectoryPoint@@_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Clear_and_reserve_geometric@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@AEAAX_K@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4Colour@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4Colour@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBV?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@VG4VisAttributes@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAXXZ
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4RayTrajectoryPoint@@V?$allocator@PEAVG4RayTrajectoryPoint@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4Scene@@V?$allocator@PEAVG4Scene@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$Plane3D@N@HepGeom@@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VPVPointerCopyNo@G4ModelingParameters@@V?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@PEAVG4RayTrajectoryPoint@@@std@@QEAAPEAPEAVG4RayTrajectoryPoint@@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?allocate@?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@QEAAPEAVPVPointerCopyNo@G4ModelingParameters@@_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@PEAVG4RayTrajectoryPoint@@@std@@QEAAXQEAPEAVG4RayTrajectoryPoint@@_K@Z
+	?deallocate@?$allocator@PEAVG4Scene@@@std@@QEAAXQEAPEAVG4Scene@@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?deallocate@?$allocator@VPVPointerCopyNo@G4ModelingParameters@@@std@@QEAAXQEAVPVPointerCopyNo@G4ModelingParameters@@_K@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?makeYCC@G4JpegCoder@@IEAAXHH@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?rayTrajectoryAllocator@@YAAEAPEAV?$G4Allocator@VG4RayTrajectory@@@@XZ
+	?rayTrajectoryPointAllocator@@YAAEAPEAV?$G4Allocator@VG4RayTrajectoryPoint@@@@XZ
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z

@@ -1,0 +1,684 @@
+EXPORTS 
+	??_R0?AV?$BasicVector3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$Point3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4Circle@@@8 	 DATA
+	??_R0?AVG4GMocrenFile@@@8 	 DATA
+	??_R0?AVG4GMocrenFileSceneHandler@@@8 	 DATA
+	??_R0?AVG4GMocrenFileViewer@@@8 	 DATA
+	??_R0?AVG4GMocrenMessenger@@@8 	 DATA
+	??_R0?AVG4GMocrenTouchable@@@8 	 DATA
+	??_R0?AVG4PhantomParameterisation@@@8 	 DATA
+	??_R0?AVG4PhysicalVolumeModel@@@8 	 DATA
+	??_R0?AVG4ScoringBox@@@8 	 DATA
+	??_R0?AVG4Square@@@8 	 DATA
+	??_R0?AVG4TrajectoriesModel@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4VGraphicsScene@@@8 	 DATA
+	??_R0?AVG4VGraphicsSystem@@@8 	 DATA
+	??_R0?AVG4VHitsCollection@@@8 	 DATA
+	??_R0?AVG4VMarker@@@8 	 DATA
+	??_R0?AVG4VModel@@@8 	 DATA
+	??_R0?AVG4VNestedParameterisation@@@8 	 DATA
+	??_R0?AVG4VPVParameterisation@@@8 	 DATA
+	??_R0?AVG4VSceneHandler@@@8 	 DATA
+	??_R0?AVG4VScoringMesh@@@8 	 DATA
+	??_R0?AVG4VTouchable@@@8 	 DATA
+	??_R0?AVG4VViewer@@@8 	 DATA
+	??_R0?AVG4Visible@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	?GMocrenFileCTDensMap@@3PANA 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Psave@?$_Facetptr@V?$ctype@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?dummy@?1???RHep3Vector@CLHEP@@QEAAAEANH@Z@4NA 	 DATA
+	?kComment@G4GMocrenIO@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A 	 DATA
+	?kDetectors@G4GMocrenIO@@2V?$vector@VGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@A 	 DATA
+	?kDose@G4GMocrenIO@@2V?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@A 	 DATA
+	?kDoseUnit@G4GMocrenIO@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A 	 DATA
+	?kFileName@G4GMocrenIO@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A 	 DATA
+	?kId@G4GMocrenIO@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A 	 DATA
+	?kLittleEndianInput@G4GMocrenIO@@2DA 	 DATA
+	?kLittleEndianOutput@G4GMocrenIO@@2DA 	 DATA
+	?kModality@G4GMocrenIO@@2V?$GMocrenDataPrimitive@F@@A 	 DATA
+	?kModalityImageDensityMap@G4GMocrenIO@@2V?$vector@MV?$allocator@M@std@@@std@@A 	 DATA
+	?kModalityUnit@G4GMocrenIO@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A 	 DATA
+	?kNumberOfEvents@G4GMocrenIO@@2HA 	 DATA
+	?kPointerToDetectorData@G4GMocrenIO@@2IA 	 DATA
+	?kPointerToDoseDistData@G4GMocrenIO@@2V?$vector@IV?$allocator@I@std@@@std@@A 	 DATA
+	?kPointerToModalityData@G4GMocrenIO@@2IA 	 DATA
+	?kPointerToROIData@G4GMocrenIO@@2IA 	 DATA
+	?kPointerToTrackData@G4GMocrenIO@@2IA 	 DATA
+	?kRoi@G4GMocrenIO@@2V?$vector@V?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@A 	 DATA
+	?kSceneIdCount@G4GMocrenFileSceneHandler@@0HA 	 DATA
+	?kStepColors@G4GMocrenIO@@2V?$vector@PEAEV?$allocator@PEAE@std@@@std@@A 	 DATA
+	?kSteps@G4GMocrenIO@@2V?$vector@PEAMV?$allocator@PEAM@std@@@std@@A 	 DATA
+	?kTracks@G4GMocrenIO@@2V?$vector@VGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@A 	 DATA
+	?kVerbose@G4GMocrenIO@@2HA 	 DATA
+	?kVersion@G4GMocrenIO@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A 	 DATA
+	?kVoxelSpacing@G4GMocrenIO@@2PAMA 	 DATA
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVIndex3D@G4GMocrenFileSceneHandler@@$$Z$$V@?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVIndex3D@G4GMocrenFileSceneHandler@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVIndex3D@G4GMocrenFileSceneHandler@@$$Z$$V@?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVIndex3D@G4GMocrenFileSceneHandler@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@QEAA@AEAV?$tuple@AEBVIndex3D@G4GMocrenFileSceneHandler@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@QEAA@AEAV?$tuple@AEBVIndex3D@G4GMocrenFileSceneHandler@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@D@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Fillobj@D@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Assign_range@PEAN@?$vector@NV?$allocator@N@std@@@std@@AEAAXPEAN0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAV?$Plane3D@N@HepGeom@@@?$vector@V?$Plane3D@N@HepGeom@@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@AEAAXPEAV?$Plane3D@N@HepGeom@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAVPVNameCopyNo@G4ModelingParameters@@@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAXPEAVPVNameCopyNo@G4ModelingParameters@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAVVisAttributesModifier@G4ModelingParameters@@@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@AEAAXPEAVVisAttributesModifier@G4ModelingParameters@@0Uforward_iterator_tag@1@@Z
+	??$_Const_cast@$$CBUEdge@GMocrenDetector@@@std@@YAPEAUEdge@GMocrenDetector@@PEBU12@@Z
+	??$_Const_cast@$$CBUModel@G4Scene@@@std@@YAPEAUModel@G4Scene@@PEBU12@@Z
+	??$_Const_cast@$$CBUStep@GMocrenTrack@@@std@@YAPEAUStep@GMocrenTrack@@PEBU12@@Z
+	??$_Const_cast@$$CBVDetector@G4GMocrenFileSceneHandler@@@std@@YAPEAVDetector@G4GMocrenFileSceneHandler@@PEBV12@@Z
+	??$_Const_cast@$$CBVG4AttValue@@@std@@YAPEAVG4AttValue@@PEBV1@@Z
+	??$_Const_cast@$$CBVGMocrenDetector@@@std@@YAPEAVGMocrenDetector@@PEBV1@@Z
+	??$_Const_cast@$$CBVGMocrenTrack@@@std@@YAPEAVGMocrenTrack@@PEBV1@@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEAIPEAI@std@@YAPEAIPEAI00@Z
+	??$_Copy_memmove@PEAMPEAM@std@@YAPEAMPEAM00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAEPEAPEAE@std@@YAPEAPEAEPEAPEAE00@Z
+	??$_Copy_memmove@PEAPEAFPEAPEAF@std@@YAPEAPEAFPEAPEAF00@Z
+	??$_Copy_memmove@PEAPEAMPEAPEAM@std@@YAPEAPEAMPEAPEAM00@Z
+	??$_Copy_memmove@PEAPEANPEAPEAN@std@@YAPEAPEANPEAPEAN00@Z
+	??$_Copy_memmove@PEAPEAVG4UIparameter@@PEAPEAV1@@std@@YAPEAPEAVG4UIparameter@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAUEdge@GMocrenDetector@@PEAU12@@std@@YAPEAUEdge@GMocrenDetector@@PEAU12@00@Z
+	??$_Copy_memmove@PEAUStep@GMocrenTrack@@PEAU12@@std@@YAPEAUStep@GMocrenTrack@@PEAU12@00@Z
+	??$_Copy_memmove@PEAV?$Plane3D@N@HepGeom@@PEAV12@@std@@YAPEAV?$Plane3D@N@HepGeom@@PEAV12@00@Z
+	??$_Copy_nodes@U_Copy_tag@?$_Tree@V?$_Tmap_traits@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@$0A@@std@@@std@@@?$_Tree@V?$_Tmap_traits@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@$0A@@std@@@std@@IEAAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@1@PEAU21@0U_Copy_tag@01@@Z
+	??$_Copy_unchecked@PEAVPVNameCopyNo@G4ModelingParameters@@PEAV12@@std@@YAPEAVPVNameCopyNo@G4ModelingParameters@@PEAV12@00@Z
+	??$_Copy_unchecked@PEAVVisAttributesModifier@G4ModelingParameters@@PEAV12@@std@@YAPEAVVisAttributesModifier@G4ModelingParameters@@PEAV12@00@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@I@std@@@std@@YAXPEAIQEAIAEAV?$allocator@I@0@@Z
+	??$_Destroy_range@V?$allocator@M@std@@@std@@YAXPEAMQEAMAEAV?$allocator@M@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAE@std@@@std@@YAXPEAPEAEQEAPEAEAEAV?$allocator@PEAE@0@@Z
+	??$_Destroy_range@V?$allocator@PEAF@std@@@std@@YAXPEAPEAFQEAPEAFAEAV?$allocator@PEAF@0@@Z
+	??$_Destroy_range@V?$allocator@PEAM@std@@@std@@YAXPEAPEAMQEAPEAMAEAV?$allocator@PEAM@0@@Z
+	??$_Destroy_range@V?$allocator@PEAN@std@@@std@@YAXPEAPEANQEAPEANAEAV?$allocator@PEAN@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAXPEAPEAVG4UIparameter@@QEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Destroy_range@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@YAXPEAUEdge@GMocrenDetector@@QEAU12@AEAV?$allocator@UEdge@GMocrenDetector@@@0@@Z
+	??$_Destroy_range@V?$allocator@UModel@G4Scene@@@std@@@std@@YAXPEAUModel@G4Scene@@QEAU12@AEAV?$allocator@UModel@G4Scene@@@0@@Z
+	??$_Destroy_range@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@YAXPEAUStep@GMocrenTrack@@QEAU12@AEAV?$allocator@UStep@GMocrenTrack@@@0@@Z
+	??$_Destroy_range@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAXPEAUyystype@G4UItokenNum@@QEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@YAXPEAV?$GMocrenDataPrimitive@F@@QEAV1@AEAV?$allocator@V?$GMocrenDataPrimitive@F@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@YAXPEAV?$GMocrenDataPrimitive@N@@QEAV1@AEAV?$allocator@V?$GMocrenDataPrimitive@N@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@YAXPEAV?$Plane3D@N@HepGeom@@QEAV12@AEAV?$allocator@V?$Plane3D@N@HepGeom@@@0@@Z
+	??$_Destroy_range@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@YAXPEAVDetector@G4GMocrenFileSceneHandler@@QEAV12@AEAV?$allocator@VDetector@G4GMocrenFileSceneHandler@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4AttValue@@@std@@@std@@YAXPEAVG4AttValue@@QEAV1@AEAV?$allocator@VG4AttValue@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@VGMocrenDetector@@@std@@@std@@YAXPEAVGMocrenDetector@@QEAV1@AEAV?$allocator@VGMocrenDetector@@@0@@Z
+	??$_Destroy_range@V?$allocator@VGMocrenTrack@@@std@@@std@@YAXPEAVGMocrenTrack@@QEAV1@AEAV?$allocator@VGMocrenTrack@@@0@@Z
+	??$_Destroy_range@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAXPEAVPVNameCopyNo@G4ModelingParameters@@QEAV12@AEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Destroy_range@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAXPEAVVisAttributesModifier@G4ModelingParameters@@QEAV12@AEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@@Z
+	??$_Emplace_reallocate@AEBI@?$vector@IV?$allocator@I@std@@@std@@QEAAPEAIQEAIAEBI@Z
+	??$_Emplace_reallocate@AEBM@?$vector@MV?$allocator@M@std@@@std@@QEAAPEAMQEAMAEBM@Z
+	??$_Emplace_reallocate@AEBQEAE@?$vector@PEAEV?$allocator@PEAE@std@@@std@@QEAAPEAPEAEQEAPEAEAEBQEAE@Z
+	??$_Emplace_reallocate@AEBQEAF@?$vector@PEAFV?$allocator@PEAF@std@@@std@@QEAAPEAPEAFQEAPEAFAEBQEAF@Z
+	??$_Emplace_reallocate@AEBQEAM@?$vector@PEAMV?$allocator@PEAM@std@@@std@@QEAAPEAPEAMQEAPEAMAEBQEAM@Z
+	??$_Emplace_reallocate@AEBQEAN@?$vector@PEANV?$allocator@PEAN@std@@@std@@QEAAPEAPEANQEAPEANAEBQEAN@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIparameter@@@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@QEAAPEAPEAVG4UIparameter@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBUEdge@GMocrenDetector@@@?$vector@UEdge@GMocrenDetector@@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@QEAAPEAUEdge@GMocrenDetector@@QEAU23@AEBU23@@Z
+	??$_Emplace_reallocate@AEBUStep@GMocrenTrack@@@?$vector@UStep@GMocrenTrack@@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@QEAAPEAUStep@GMocrenTrack@@QEAU23@AEBU23@@Z
+	??$_Emplace_reallocate@AEBV?$GMocrenDataPrimitive@F@@@?$vector@V?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@QEAAPEAV?$GMocrenDataPrimitive@F@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBV?$GMocrenDataPrimitive@N@@@?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@QEAAPEAV?$GMocrenDataPrimitive@N@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBVDetector@G4GMocrenFileSceneHandler@@@?$vector@VDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@QEAAPEAVDetector@G4GMocrenFileSceneHandler@@QEAV23@AEBV23@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBVGMocrenDetector@@@?$vector@VGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@QEAAPEAVGMocrenDetector@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@AEBVGMocrenTrack@@@?$vector@VGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@QEAAPEAVGMocrenTrack@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@M@?$vector@MV?$allocator@M@std@@@std@@QEAAPEAMQEAM$$QEAM@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHM@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@1@@Z
+	??$_Erase_tree_and_orphan@V?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@1@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@U?$less@VG4String@@@3@V?$allocator@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@@3@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@M@std@@@std@@YAXAEAV?$allocator@M@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@N@std@@@std@@YAXAEAV?$allocator@N@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAE@std@@@std@@YAXAEAV?$allocator@PEAE@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAM@std@@@std@@YAXAEAV?$allocator@PEAM@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@std@@@std@@YAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@YAXAEAV?$allocator@UEdge@GMocrenDetector@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@YAXAEAV?$allocator@UStep@GMocrenTrack@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@YAXAEAV?$allocator@V?$Plane3D@N@HepGeom@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAXAEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAXAEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_e1befb086ad3257e3f042a63030725f7>@@_KD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_e1befb086ad3257e3f042a63030725f7>@@_KD@Z
+	??$_Refancy@PEAM$0A@@std@@YAPEAMPEAM@Z
+	??$_Refancy@PEAN$0A@@std@@YAPEANPEAN@Z
+	??$_Refancy@PEAPEAE$0A@@std@@YAPEAPEAEPEAPEAE@Z
+	??$_Refancy@PEAPEAM$0A@@std@@YAPEAPEAMPEAPEAM@Z
+	??$_Refancy@PEAUEdge@GMocrenDetector@@$0A@@std@@YAPEAUEdge@GMocrenDetector@@PEAU12@@Z
+	??$_Refancy@PEAUStep@GMocrenTrack@@$0A@@std@@YAPEAUStep@GMocrenTrack@@PEAU12@@Z
+	??$_Refancy@PEAV?$Plane3D@N@HepGeom@@$0A@@std@@YAPEAV?$Plane3D@N@HepGeom@@PEAV12@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Traits_compare@U?$char_traits@D@std@@@std@@YAHQEBD_K01@Z
+	??$_Uninitialized_copy@PEAPEAFV?$allocator@PEAF@std@@@std@@YAPEAPEAFQEAPEAF0PEAPEAFAEAV?$allocator@PEAF@0@@Z
+	??$_Uninitialized_copy@PEAPEANV?$allocator@PEAN@std@@@std@@YAPEAPEANQEAPEAN0PEAPEANAEAV?$allocator@PEAN@0@@Z
+	??$_Uninitialized_copy@PEAUEdge@GMocrenDetector@@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@YAPEAUEdge@GMocrenDetector@@QEAU12@0PEAU12@AEAV?$allocator@UEdge@GMocrenDetector@@@0@@Z
+	??$_Uninitialized_copy@PEAUModel@G4Scene@@V?$allocator@UModel@G4Scene@@@std@@@std@@YAPEAUModel@G4Scene@@QEAU12@0PEAU12@AEAV?$allocator@UModel@G4Scene@@@0@@Z
+	??$_Uninitialized_copy@PEAUStep@GMocrenTrack@@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@YAPEAUStep@GMocrenTrack@@QEAU12@0PEAU12@AEAV?$allocator@UStep@GMocrenTrack@@@0@@Z
+	??$_Uninitialized_copy@PEAUyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@QEAU12@0PEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Uninitialized_copy@PEAV?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@YAPEAV?$GMocrenDataPrimitive@F@@QEAV1@0PEAV1@AEAV?$allocator@V?$GMocrenDataPrimitive@F@@@0@@Z
+	??$_Uninitialized_copy@PEAV?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@YAPEAV?$GMocrenDataPrimitive@N@@QEAV1@0PEAV1@AEAV?$allocator@V?$GMocrenDataPrimitive@N@@@0@@Z
+	??$_Uninitialized_copy@PEAVDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@YAPEAVDetector@G4GMocrenFileSceneHandler@@QEAV12@0PEAV12@AEAV?$allocator@VDetector@G4GMocrenFileSceneHandler@@@0@@Z
+	??$_Uninitialized_copy@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_copy@PEAVGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@YAPEAVGMocrenDetector@@QEAV1@0PEAV1@AEAV?$allocator@VGMocrenDetector@@@0@@Z
+	??$_Uninitialized_copy@PEAVGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@YAPEAVGMocrenTrack@@QEAV1@0PEAV1@AEAV?$allocator@VGMocrenTrack@@@0@@Z
+	??$_Uninitialized_copy@PEAVPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAPEAVPVNameCopyNo@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_copy@PEAVVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAPEAVVisAttributesModifier@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_move@PEAIV?$allocator@I@std@@@std@@YAPEAIQEAI0PEAIAEAV?$allocator@I@0@@Z
+	??$_Uninitialized_move@PEAMV?$allocator@M@std@@@std@@YAPEAMQEAM0PEAMAEAV?$allocator@M@0@@Z
+	??$_Uninitialized_move@PEAPEAEV?$allocator@PEAE@std@@@std@@YAPEAPEAEQEAPEAE0PEAPEAEAEAV?$allocator@PEAE@0@@Z
+	??$_Uninitialized_move@PEAPEAFV?$allocator@PEAF@std@@@std@@YAPEAPEAFQEAPEAF0PEAPEAFAEAV?$allocator@PEAF@0@@Z
+	??$_Uninitialized_move@PEAPEAMV?$allocator@PEAM@std@@@std@@YAPEAPEAMQEAPEAM0PEAPEAMAEAV?$allocator@PEAM@0@@Z
+	??$_Uninitialized_move@PEAPEANV?$allocator@PEAN@std@@@std@@YAPEAPEANQEAPEAN0PEAPEANAEAV?$allocator@PEAN@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAPEAPEAVG4UIparameter@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Uninitialized_move@PEAUEdge@GMocrenDetector@@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@YAPEAUEdge@GMocrenDetector@@QEAU12@0PEAU12@AEAV?$allocator@UEdge@GMocrenDetector@@@0@@Z
+	??$_Uninitialized_move@PEAUStep@GMocrenTrack@@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@YAPEAUStep@GMocrenTrack@@QEAU12@0PEAU12@AEAV?$allocator@UStep@GMocrenTrack@@@0@@Z
+	??$_Uninitialized_move@PEAV?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@YAPEAV?$GMocrenDataPrimitive@F@@QEAV1@0PEAV1@AEAV?$allocator@V?$GMocrenDataPrimitive@F@@@0@@Z
+	??$_Uninitialized_move@PEAV?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@YAPEAV?$GMocrenDataPrimitive@N@@QEAV1@0PEAV1@AEAV?$allocator@V?$GMocrenDataPrimitive@N@@@0@@Z
+	??$_Uninitialized_move@PEAVDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@YAPEAVDetector@G4GMocrenFileSceneHandler@@QEAV12@0PEAV12@AEAV?$allocator@VDetector@G4GMocrenFileSceneHandler@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_move@PEAVGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@YAPEAVGMocrenDetector@@QEAV1@0PEAV1@AEAV?$allocator@VGMocrenDetector@@@0@@Z
+	??$_Uninitialized_move@PEAVGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@YAPEAVGMocrenTrack@@QEAV1@0PEAV1@AEAV?$allocator@VGMocrenTrack@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@PEAU12@_KAEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$convertEndian@F@G4GMocrenIO@@IEAAXPEADAEAF@Z
+	??$convertEndian@H@G4GMocrenIO@@IEAAXPEADAEAH@Z
+	??$convertEndian@I@G4GMocrenIO@@IEAAXPEADAEAI@Z
+	??$convertEndian@M@G4GMocrenIO@@IEAAXPEADAEAM@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$ends@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHM@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$invertByteOrder@F@G4GMocrenIO@@IEAAXPEADAEAF@Z
+	??$invertByteOrder@H@G4GMocrenIO@@IEAAXPEADAEAH@Z
+	??$invertByteOrder@M@G4GMocrenIO@@IEAAXPEADAEAM@Z
+	??$setfill@D@std@@YA?AU?$_Fillobj@D@0@D@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??$use_facet@V?$ctype@D@std@@@std@@YAAEBV?$ctype@D@0@AEBVlocale@0@@Z
+	??0?$GMocrenDataPrimitive@F@@QEAA@AEBV0@@Z
+	??0?$GMocrenDataPrimitive@F@@QEAA@XZ
+	??0?$GMocrenDataPrimitive@N@@QEAA@AEBV0@@Z
+	??0?$GMocrenDataPrimitive@N@@QEAA@XZ
+	??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$vector@PEANV?$allocator@PEAN@std@@@std@@QEAA@AEBV01@@Z
+	??0?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@AEBV01@@Z
+	??0Detector@G4GMocrenFileSceneHandler@@QEAA@AEBV01@@Z
+	??0Detector@G4GMocrenFileSceneHandler@@QEAA@XZ
+	??0G4GMocrenFile@@QEAA@XZ
+	??0G4GMocrenFileCTtoDensityMap@@QEAA@XZ
+	??0G4GMocrenFileSceneHandler@@QEAA@AEAVG4GMocrenFile@@AEAVG4GMocrenMessenger@@AEBVG4String@@@Z
+	??0G4GMocrenFileViewer@@QEAA@AEAVG4GMocrenFileSceneHandler@@AEAVG4GMocrenMessenger@@AEBVG4String@@@Z
+	??0G4GMocrenIO@@QEAA@XZ
+	??0G4GMocrenMessenger@@QEAA@XZ
+	??0GMocrenDetector@@QEAA@AEBV0@@Z
+	??0GMocrenDetector@@QEAA@XZ
+	??0GMocrenTrack@@QEAA@AEBV0@@Z
+	??0GMocrenTrack@@QEAA@XZ
+	??0Index3D@G4GMocrenFileSceneHandler@@QEAA@AEBV01@@Z
+	??0Index3D@G4GMocrenFileSceneHandler@@QEAA@HHH@Z
+	??0Index3D@G4GMocrenFileSceneHandler@@QEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$BasicVector3D@N@HepGeom@@UEAA@XZ
+	??1?$GMocrenDataPrimitive@F@@QEAA@XZ
+	??1?$GMocrenDataPrimitive@N@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VGMocrenDetector@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VGMocrenTrack@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@QEAA@XZ
+	??1?$map@VG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@U?$less@VG4String@@@3@V?$allocator@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@@3@@std@@QEAA@XZ
+	??1?$map@VIndex3D@G4GMocrenFileSceneHandler@@MU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@@4@@std@@QEAA@XZ
+	??1?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@QEAA@XZ
+	??1?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@MV?$allocator@M@std@@@std@@QEAA@XZ
+	??1?$vector@PEAFV?$allocator@PEAF@std@@@std@@QEAA@XZ
+	??1?$vector@PEAMV?$allocator@PEAM@std@@@std@@QEAA@XZ
+	??1?$vector@PEANV?$allocator@PEAN@std@@@std@@QEAA@XZ
+	??1?$vector@UEdge@GMocrenDetector@@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@QEAA@XZ
+	??1?$vector@UStep@GMocrenTrack@@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@QEAA@XZ
+	??1?$vector@VDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1Detector@G4GMocrenFileSceneHandler@@QEAA@XZ
+	??1G4GMocrenFile@@UEAA@XZ
+	??1G4GMocrenFileCTtoDensityMap@@QEAA@XZ
+	??1G4GMocrenFileSceneHandler@@UEAA@XZ
+	??1G4GMocrenFileViewer@@UEAA@XZ
+	??1G4GMocrenIO@@QEAA@XZ
+	??1G4GMocrenMessenger@@UEAA@XZ
+	??1G4GMocrenTouchable@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4Tokenizer@@QEAA@XZ
+	??1GMocrenDetector@@QEAA@XZ
+	??1GMocrenTrack@@QEAA@XZ
+	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@$$QEAV01@@Z
+	??4G4ViewParameters@@QEAAAEAV0@AEBV0@@Z
+	??8Index3D@G4GMocrenFileSceneHandler@@QEBA_NAEBV01@@Z
+	??MIndex3D@G4GMocrenFileSceneHandler@@QEBA_NAEBV01@@Z
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??RG4String@@QEAA?AV0@_K0@Z
+	??Y?$GMocrenDataPrimitive@N@@QEAAAEAV0@AEBV0@@Z
+	??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?AddCompound@G4GMocrenFileSceneHandler@@UEAAXAEBV?$G4THitsMap@N@@@Z
+	?AddCompound@G4GMocrenFileSceneHandler@@UEAAXAEBV?$G4THitsMap@VG4StatDouble@@@@@Z
+	?AddCompound@G4GMocrenFileSceneHandler@@UEAAXAEBVG4VDigi@@@Z
+	?AddCompound@G4GMocrenFileSceneHandler@@UEAAXAEBVG4VHit@@@Z
+	?AddCompound@G4GMocrenFileSceneHandler@@UEAAXAEBVG4VTrajectory@@@Z
+	?AddDetector@G4GMocrenFileSceneHandler@@AEAAXAEBVG4VSolid@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Circle@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Polyhedron@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Polyline@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Polymarker@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Scale@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Square@@@Z
+	?AddPrimitive@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Text@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Box@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Cons@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Ellipsoid@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Orb@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Para@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Polycone@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Polyhedra@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Sphere@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4TessellatedSolid@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Torus@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Trap@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Trd@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4Tubs@@@Z
+	?AddSolid@G4GMocrenFileSceneHandler@@UEAAXAEBVG4VSolid@@@Z
+	?BeginModeling@G4GMocrenFileSceneHandler@@UEAAXXZ
+	?BeginPrimitives@G4GMocrenFileSceneHandler@@UEAAXAEBVTransform3D@HepGeom@@@Z
+	?BeginSavingGdd@G4GMocrenFileSceneHandler@@QEAAXXZ
+	?ClearTransientStore@G4GMocrenFileSceneHandler@@UEAAXXZ
+	?ClearView@G4GMocrenFileViewer@@UEAAXXZ
+	?CreateSceneHandler@G4GMocrenFile@@UEAAPEAVG4VSceneHandler@@AEBVG4String@@@Z
+	?CreateViewer@G4GMocrenFile@@UEAAPEAVG4VViewer@@AEAVG4VSceneHandler@@AEBVG4String@@@Z
+	?DrawView@G4GMocrenFileViewer@@UEAAXXZ
+	?EndModeling@G4GMocrenFileSceneHandler@@UEAAXXZ
+	?EndPrimitives@G4GMocrenFileSceneHandler@@UEAAXXZ
+	?EndSavingGdd@G4GMocrenFileSceneHandler@@QEAAXXZ
+	?ExtractDetector@G4GMocrenFileSceneHandler@@AEAAXXZ
+	?GFBeginModeling@G4GMocrenFileSceneHandler@@QEAAXXZ
+	?GFEndModeling@G4GMocrenFileSceneHandler@@QEAAXXZ
+	?GetCurrentValue@G4GMocrenMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetDensity@G4GMocrenFileCTtoDensityMap@@QEBANAEAH@Z
+	?GetHit@G4VHitsCollection@@UEBAPEAVG4VHit@@_K@Z
+	?GetInfo@G4VMarker@@UEBAAEBVG4String@@XZ
+	?GetNestedVolumeIndex@G4GMocrenFileSceneHandler@@AEAAXHQEAH@Z
+	?GetPrivateVisAttributesModifiers@G4VViewer@@UEBAPEBV?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@XZ
+	?GetReplicaNumber@G4GMocrenTouchable@@UEBAHH@Z
+	?GetRotation@G4GMocrenTouchable@@UEBAPEBVHepRotation@CLHEP@@H@Z
+	?GetSize@G4VHitsCollection@@UEBA_KXZ
+	?GetTranslation@G4GMocrenTouchable@@UEBAAEBVHep3Vector@CLHEP@@H@Z
+	?Initialise@G4VViewer@@UEAAXXZ
+	?InitializeParameters@G4GMocrenFileSceneHandler@@AEAAXXZ
+	?IsVisible@G4GMocrenFileSceneHandler@@AEAA_NXZ
+	?ResetView@G4VViewer@@UEAAXXZ
+	?SetGddFileName@G4GMocrenFileSceneHandler@@QEAAXXZ
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetInfo@G4VMarker@@UEAAXAEBVG4String@@@Z
+	?SetNewValue@G4GMocrenMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetParameter@G4UIcommand@@QEAAXQEAVG4UIparameter@@@Z
+	?SetView@G4GMocrenFileViewer@@UEAAXXZ
+	?ShowView@G4GMocrenFileViewer@@UEAAXXZ
+	?_Buy_raw@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAX_K@Z
+	?_Change_array@?$vector@MV?$allocator@M@std@@@std@@AEAAXQEAM_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Clear_and_reserve_geometric@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@AEAAX_K@Z
+	?_Destroy@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAXPEAUyystype@G4UItokenNum@@0@Z
+	?_Destroy@?$vector@V?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@AEAAXPEAV?$GMocrenDataPrimitive@F@@0@Z
+	?_Destroy@?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@AEAAXPEAV?$GMocrenDataPrimitive@N@@0@Z
+	?_Destroy@?$vector@VDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@AEAAXPEAVDetector@G4GMocrenFileSceneHandler@@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Destroy@?$vector@VGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@AEAAXPEAVGMocrenDetector@@0@Z
+	?_Destroy@?$vector@VGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@AEAAXPEAVGMocrenTrack@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Getal@?$_Tree@V?$_Tmap_traits@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@$0A@@std@@@std@@IEAAAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@2@XZ
+	?_Getal@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAAEAV?$allocator@Uyystype@G4UItokenNum@@@2@XZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$vector@UEdge@GMocrenDetector@@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@UStep@GMocrenTrack@@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAXXZ
+	?_Ufill@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAPEAUyystype@G4UItokenNum@@PEAU34@_KU_Value_init_tag@2@@Z
+	?_Umove@?$vector@V?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@AEAAPEAV?$GMocrenDataPrimitive@F@@PEAV3@00@Z
+	?_Umove@?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@AEAAPEAV?$GMocrenDataPrimitive@N@@PEAV3@00@Z
+	?_Umove@?$vector@VDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@AEAAPEAVDetector@G4GMocrenFileSceneHandler@@PEAV34@00@Z
+	?_Umove@?$vector@VGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@AEAAPEAVGMocrenDetector@@PEAV3@00@Z
+	?_Umove@?$vector@VGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@AEAAPEAVGMocrenTrack@@PEAV3@00@Z
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@IV?$allocator@I@std@@@std@@CAXXZ
+	?_Xlength@?$vector@MV?$allocator@M@std@@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAEV?$allocator@PEAE@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAFV?$allocator@PEAF@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAMV?$allocator@PEAM@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEANV?$allocator@PEAN@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@UEdge@GMocrenDetector@@V?$allocator@UEdge@GMocrenDetector@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@UStep@GMocrenTrack@@V?$allocator@UStep@GMocrenTrack@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$GMocrenDataPrimitive@F@@V?$allocator@V?$GMocrenDataPrimitive@F@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$Plane3D@N@HepGeom@@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VDetector@G4GMocrenFileSceneHandler@@V?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VGMocrenDetector@@V?$allocator@VGMocrenDetector@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VGMocrenTrack@@V?$allocator@VGMocrenTrack@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?addDetector@G4GMocrenIO@@QEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@PEAMV?$allocator@PEAM@std@@@3@QEAE@Z
+	?addDoseDist@G4GMocrenIO@@QEAA_NAEAV?$vector@PEANV?$allocator@PEAN@std@@@std@@H@Z
+	?addEdge@GMocrenDetector@@QEAAXMMMMMM@Z
+	?addImage@?$GMocrenDataPrimitive@F@@QEAAXPEAF@Z
+	?addImage@?$GMocrenDataPrimitive@N@@QEAAXPEAN@Z
+	?addOneEvent@G4GMocrenIO@@QEAAXXZ
+	?addPointAttributes@G4GMocrenMessenger@@UEAA_NXZ
+	?addPointerToDoseDistData@G4GMocrenIO@@QEAAXAEAI@Z
+	?addStep@GMocrenTrack@@QEAAXMMMMMM@Z
+	?addTrack@G4GMocrenIO@@QEAAXAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@QEAE@Z
+	?addTrack@G4GMocrenIO@@QEAAXPEAM@Z
+	?addTrackColor@G4GMocrenIO@@QEAAXPEAE@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@I@std@@QEAAPEAI_K@Z
+	?allocate@?$allocator@M@std@@QEAAPEAM_K@Z
+	?allocate@?$allocator@PEAE@std@@QEAAPEAPEAE_K@Z
+	?allocate@?$allocator@PEAF@std@@QEAAPEAPEAF_K@Z
+	?allocate@?$allocator@PEAM@std@@QEAAPEAPEAM_K@Z
+	?allocate@?$allocator@PEAN@std@@QEAAPEAPEAN_K@Z
+	?allocate@?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$map@VIndex3D@G4GMocrenFileSceneHandler@@NU?$less@VIndex3D@G4GMocrenFileSceneHandler@@@std@@V?$allocator@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@N@std@@@4@@std@@@std@@PEAX@2@_K@Z
+	?allocate@?$allocator@U?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVIndex3D@G4GMocrenFileSceneHandler@@M@std@@PEAX@2@_K@Z
+	?allocate@?$allocator@UEdge@GMocrenDetector@@@std@@QEAAPEAUEdge@GMocrenDetector@@_K@Z
+	?allocate@?$allocator@UStep@GMocrenTrack@@@std@@QEAAPEAUStep@GMocrenTrack@@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?appendGeometry@G4GMocrenMessenger@@UEAA_NXZ
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?calcDoseDistScale@G4GMocrenIO@@IEAAXXZ
+	?calcPointers2@G4GMocrenIO@@AEAAXXZ
+	?calcPointers3@G4GMocrenIO@@AEAAXXZ
+	?calcPointers4@G4GMocrenIO@@AEAAXXZ
+	?clear@?$GMocrenDataPrimitive@F@@QEAAXXZ
+	?clear@?$GMocrenDataPrimitive@N@@QEAAXXZ
+	?clear@Detector@G4GMocrenFileSceneHandler@@QEAAXXZ
+	?clearDoseDistAll@G4GMocrenIO@@QEAAXXZ
+	?clearImage@?$GMocrenDataPrimitive@F@@QEAAXXZ
+	?clearImage@?$GMocrenDataPrimitive@N@@QEAAXXZ
+	?clearModalityImage@G4GMocrenIO@@QEAAXXZ
+	?clearROIAll@G4GMocrenIO@@QEAAXXZ
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?convertDensityToHU@G4GMocrenIO@@QEAAFAEAM@Z
+	?copyDoseDist@G4GMocrenIO@@QEAAXAEAV?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@@Z
+	?copyTracks@G4GMocrenIO@@QEAAXAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@AEAV?$vector@PEAEV?$allocator@PEAE@std@@@3@@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@I@std@@QEAAXQEAI_K@Z
+	?deallocate@?$allocator@M@std@@QEAAXQEAM_K@Z
+	?deallocate@?$allocator@PEAE@std@@QEAAXQEAPEAE_K@Z
+	?deallocate@?$allocator@PEAF@std@@QEAAXQEAPEAF_K@Z
+	?deallocate@?$allocator@PEAM@std@@QEAAXQEAPEAM_K@Z
+	?deallocate@?$allocator@PEAN@std@@QEAAXQEAPEAN_K@Z
+	?deallocate@?$allocator@PEAVG4UIparameter@@@std@@QEAAXQEAPEAVG4UIparameter@@_K@Z
+	?deallocate@?$allocator@UEdge@GMocrenDetector@@@std@@QEAAXQEAUEdge@GMocrenDetector@@_K@Z
+	?deallocate@?$allocator@UStep@GMocrenTrack@@@std@@QEAAXQEAUStep@GMocrenTrack@@_K@Z
+	?deallocate@?$allocator@Uyystype@G4UItokenNum@@@std@@QEAAXQEAUyystype@G4UItokenNum@@_K@Z
+	?deallocate@?$allocator@V?$GMocrenDataPrimitive@F@@@std@@QEAAXQEAV?$GMocrenDataPrimitive@F@@_K@Z
+	?deallocate@?$allocator@V?$GMocrenDataPrimitive@N@@@std@@QEAAXQEAV?$GMocrenDataPrimitive@N@@_K@Z
+	?deallocate@?$allocator@VDetector@G4GMocrenFileSceneHandler@@@std@@QEAAXQEAVDetector@G4GMocrenFileSceneHandler@@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?deallocate@?$allocator@VGMocrenDetector@@@std@@QEAAXQEAVGMocrenDetector@@_K@Z
+	?deallocate@?$allocator@VGMocrenTrack@@@std@@QEAAXQEAVGMocrenTrack@@_K@Z
+	?getCenterPosition@?$GMocrenDataPrimitive@F@@QEAAXQEAM@Z
+	?getCenterPosition@?$GMocrenDataPrimitive@N@@QEAAXQEAM@Z
+	?getDetector@G4GMocrenIO@@QEAAXHAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@AEAV?$vector@PEAEV?$allocator@PEAE@std@@@3@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+	?getDoseDist@G4GMocrenIO@@QEAAPEANHH@Z
+	?getDoseDistCenterPosition@G4GMocrenIO@@QEAAXQEAMH@Z
+	?getDoseDistMinMax@G4GMocrenIO@@QEAAXQEAFH@Z
+	?getDoseDistMinMax@G4GMocrenIO@@QEAAXQEANH@Z
+	?getDoseDistName@G4GMocrenIO@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+	?getDoseDistScale@G4GMocrenIO@@QEAANH@Z
+	?getDoseDistSize@G4GMocrenIO@@QEAAXQEAHH@Z
+	?getDoseDistUnit@G4GMocrenIO@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+	?getDrawVolumeGrid@G4GMocrenMessenger@@UEAA_NXZ
+	?getEdge@GMocrenDetector@@QEAAXAEAM00000H@Z
+	?getEventNumberSuffix@G4GMocrenMessenger@@UEAA?AVG4String@@XZ
+	?getHitNames@G4GMocrenMessenger@@UEAA?AV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?getHitScorerNames@G4GMocrenMessenger@@UEAA?AV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?getImage@?$GMocrenDataPrimitive@F@@QEAAPEAFH@Z
+	?getImage@?$GMocrenDataPrimitive@N@@QEAAAEAV?$vector@PEANV?$allocator@PEAN@std@@@std@@XZ
+	?getImage@?$GMocrenDataPrimitive@N@@QEAAPEANH@Z
+	?getMinMax@?$GMocrenDataPrimitive@F@@QEAAXQEAF@Z
+	?getMinMax@?$GMocrenDataPrimitive@N@@QEAAXQEAN@Z
+	?getModalityCenterPosition@G4GMocrenIO@@QEAAXQEAM@Z
+	?getModalityImage@G4GMocrenIO@@QEAAPEAFH@Z
+	?getModalityImageDensityMap@G4GMocrenIO@@QEAAAEAV?$vector@MV?$allocator@M@std@@@std@@XZ
+	?getModalityImageMax@G4GMocrenIO@@QEAAFXZ
+	?getModalityImageMin@G4GMocrenIO@@QEAAFXZ
+	?getModalityImageMinMax@G4GMocrenIO@@QEAAXQEAF@Z
+	?getModalityImageScale@G4GMocrenIO@@QEAANXZ
+	?getModalityImageSize@G4GMocrenIO@@QEAAXQEAH@Z
+	?getModalityImageUnit@G4GMocrenIO@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+	?getName@?$GMocrenDataPrimitive@N@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+	?getNoVoxels@G4GMocrenMessenger@@UEBAXAEAH00@Z
+	?getNumDoseDist@G4GMocrenIO@@QEAAHXZ
+	?getNumROI@G4GMocrenIO@@QEAAHXZ
+	?getNumTracks4@G4GMocrenIO@@QEAAHXZ
+	?getNumTracks@G4GMocrenIO@@QEAAHXZ
+	?getNumberOfDetectors@G4GMocrenIO@@QEAAHXZ
+	?getNumberOfEvents@G4GMocrenIO@@QEAAAEAHXZ
+	?getPointerToDoseDistData@G4GMocrenIO@@QEAAIH@Z
+	?getPointerToModalityData@G4GMocrenIO@@QEAAIXZ
+	?getPointerToROIData@G4GMocrenIO@@QEAAIXZ
+	?getPointerToTrackData@G4GMocrenIO@@QEAAIXZ
+	?getROI@G4GMocrenIO@@QEAAPEAFHH@Z
+	?getROICenterPosition@G4GMocrenIO@@QEAAXQEAMH@Z
+	?getROIMinMax@G4GMocrenIO@@QEAAXQEAFH@Z
+	?getROIScale@G4GMocrenIO@@QEAANH@Z
+	?getROISize@G4GMocrenIO@@QEAAXQEAHH@Z
+	?getScale@?$GMocrenDataPrimitive@F@@QEAANXZ
+	?getScale@?$GMocrenDataPrimitive@N@@QEAANXZ
+	?getScoringMeshName@G4GMocrenMessenger@@UEAA?AVG4String@@XZ
+	?getShortDoseDist@G4GMocrenIO@@QEAAXPEAFHH@Z
+	?getShortDoseDistMinMax@G4GMocrenIO@@QEAAXQEAFH@Z
+	?getSize@?$GMocrenDataPrimitive@F@@QEAAXQEAH@Z
+	?getSize@?$GMocrenDataPrimitive@N@@QEAAXQEAH@Z
+	?getStep@GMocrenTrack@@QEAAXAEAM00000H@Z
+	?getTrack@G4GMocrenIO@@QEAAXHAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@AEAV?$vector@PEAEV?$allocator@PEAE@std@@@3@@Z
+	?getTrackColors@G4GMocrenIO@@QEAAAEAV?$vector@PEAEV?$allocator@PEAE@std@@@std@@XZ
+	?getTracks@G4GMocrenIO@@QEAAAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@XZ
+	?getVersion@G4GMocrenIO@@QEAAAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+	?getVolumeName@G4GMocrenMessenger@@UEAA?AVG4String@@XZ
+	?getVoxelSpacing@G4GMocrenIO@@QEAAXQEAM@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?initialize@G4GMocrenIO@@QEAAXXZ
+	?isDoseEmpty@G4GMocrenIO@@IEAA_NXZ
+	?isROIEmpty@G4GMocrenIO@@IEAA_NXZ
+	?list@G4GMocrenMessenger@@UEAAXXZ
+	?mergeDoseDist@G4GMocrenIO@@QEAA_NAEAV?$vector@V?$GMocrenDataPrimitive@N@@V?$allocator@V?$GMocrenDataPrimitive@N@@@std@@@std@@@Z
+	?mergeTracks@G4GMocrenIO@@QEAAXAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@AEAV?$vector@PEAEV?$allocator@PEAE@std@@@3@@Z
+	?newDoseDist@G4GMocrenIO@@QEAAXXZ
+	?newROI@G4GMocrenIO@@QEAAXXZ
+	?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@PEBDHH@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?push_back@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAXAEBVG4String@@@Z
+	?retrieveData2@G4GMocrenIO@@QEAA_NPEAD@Z
+	?retrieveData2@G4GMocrenIO@@QEAA_NXZ
+	?retrieveData3@G4GMocrenIO@@QEAA_NPEAD@Z
+	?retrieveData3@G4GMocrenIO@@QEAA_NXZ
+	?retrieveData4@G4GMocrenIO@@QEAA_NPEAD@Z
+	?retrieveData4@G4GMocrenIO@@QEAA_NXZ
+	?retrieveData@G4GMocrenIO@@QEAA_NPEAD@Z
+	?retrieveData@G4GMocrenIO@@QEAA_NXZ
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setCenterPosition@?$GMocrenDataPrimitive@F@@QEAAXQEAM@Z
+	?setCenterPosition@?$GMocrenDataPrimitive@N@@QEAAXQEAM@Z
+	?setDoseDist@G4GMocrenIO@@QEAAXPEANH@Z
+	?setDoseDistCenterPosition@G4GMocrenIO@@QEAAXQEAMH@Z
+	?setDoseDistMinMax@G4GMocrenIO@@QEAAXQEAFH@Z
+	?setDoseDistMinMax@G4GMocrenIO@@QEAAXQEANH@Z
+	?setDoseDistName@G4GMocrenIO@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+	?setDoseDistScale@G4GMocrenIO@@QEAAXAEANH@Z
+	?setDoseDistSize@G4GMocrenIO@@QEAAXQEAHH@Z
+	?setDoseDistUnit@G4GMocrenIO@@QEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+	?setID@G4GMocrenIO@@QEAAXXZ
+	?setLittleEndianInput@G4GMocrenIO@@QEAAX_N@Z
+	?setLittleEndianOutput@G4GMocrenIO@@QEAAX_N@Z
+	?setMinMax@?$GMocrenDataPrimitive@F@@QEAAXQEAF@Z
+	?setMinMax@?$GMocrenDataPrimitive@N@@QEAAXQEAN@Z
+	?setModalityCenterPosition@G4GMocrenIO@@QEAAXQEAM@Z
+	?setModalityImage@G4GMocrenIO@@QEAAXPEAF@Z
+	?setModalityImageDensityMap@G4GMocrenIO@@QEAAXAEAV?$vector@MV?$allocator@M@std@@@std@@@Z
+	?setModalityImageMinMax@G4GMocrenIO@@QEAAXQEAF@Z
+	?setModalityImageScale@G4GMocrenIO@@QEAAXAEAN@Z
+	?setModalityImageSize@G4GMocrenIO@@QEAAXQEAH@Z
+	?setModalityImageUnit@G4GMocrenIO@@QEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?setName@?$GMocrenDataPrimitive@N@@QEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?setNumberOfEvents@G4GMocrenIO@@QEAAXAEAH@Z
+	?setPointerToModalityData@G4GMocrenIO@@QEAAXAEAI@Z
+	?setPointerToROIData@G4GMocrenIO@@QEAAXAEAI@Z
+	?setPointerToTrackData@G4GMocrenIO@@QEAAXAEAI@Z
+	?setROI@G4GMocrenIO@@QEAAXPEAFH@Z
+	?setROICenterPosition@G4GMocrenIO@@QEAAXQEAMH@Z
+	?setROIMinMax@G4GMocrenIO@@QEAAXQEAFH@Z
+	?setROIScale@G4GMocrenIO@@QEAAXAEANH@Z
+	?setROISize@G4GMocrenIO@@QEAAXQEAHH@Z
+	?setScale@?$GMocrenDataPrimitive@F@@QEAAXAEAN@Z
+	?setScale@?$GMocrenDataPrimitive@N@@QEAAXAEAN@Z
+	?setShortDoseDist@G4GMocrenIO@@QEAAXPEAFH@Z
+	?setSize@?$GMocrenDataPrimitive@F@@QEAAXQEAH@Z
+	?setSize@?$GMocrenDataPrimitive@N@@QEAAXQEAH@Z
+	?setTrackColors@G4GMocrenIO@@QEAAXAEAV?$vector@PEAEV?$allocator@PEAE@std@@@std@@@Z
+	?setTracks@G4GMocrenIO@@QEAAXAEAV?$vector@PEAMV?$allocator@PEAM@std@@@std@@@Z
+	?setVerboseLevel@G4GMocrenIO@@QEAAXH@Z
+	?setVersion@G4GMocrenIO@@QEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?setVoxelSpacing@G4GMocrenIO@@QEAAXQEAM@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?storeData2@G4GMocrenIO@@QEAA_NPEAD@Z
+	?storeData2@G4GMocrenIO@@QEAA_NXZ
+	?storeData3@G4GMocrenIO@@QEAA_NXZ
+	?storeData4@G4GMocrenIO@@QEAA_NPEAD@Z
+	?storeData4@G4GMocrenIO@@QEAA_NXZ
+	?storeData@G4GMocrenIO@@QEAA_NPEAD@Z
+	?storeData@G4GMocrenIO@@QEAA_NXZ
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?translate@GMocrenDetector@@QEAAXAEAV?$vector@MV?$allocator@M@std@@@std@@@Z
+	?translate@GMocrenTrack@@QEAAXAEAV?$vector@MV?$allocator@M@std@@@std@@@Z
+	?translateDetector@G4GMocrenIO@@QEAAXAEAV?$vector@MV?$allocator@M@std@@@std@@@Z
+	?translateTracks@G4GMocrenIO@@QEAAXAEAV?$vector@MV?$allocator@M@std@@@std@@@Z
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?useSolids@G4GMocrenMessenger@@UEAA_NXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?writeInvisibles@G4GMocrenMessenger@@UEAA_NXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z

@@ -1,0 +1,1600 @@
+EXPORTS 
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@N@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAVG4String@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$Register@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@G4AutoDelete@@YAXPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@4HA 	 DATA
+	?$TSS0@?1???$Register@VG4String@@@G4AutoDelete@@YAXPEAVG4String@@@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@N@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAVG4String@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	??_R0?AV?$G4Allocator@VG4DynamicParticle@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4ElectronOccupancy@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4PrimaryParticle@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4PrimaryVertex@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@N@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAVG4String@@@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@VG4String@@@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4AdjointIons@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4DalitzDecayChannel@@@8 	 DATA
+	??_R0?AVG4DecayTableMessenger@@@8 	 DATA
+	??_R0?AVG4DiQuarks@@@8 	 DATA
+	??_R0?AVG4DynamicParticle@@@8 	 DATA
+	??_R0?AVG4ElectronOccupancy@@@8 	 DATA
+	??_R0?AVG4ExcitedBaryonConstructor@@@8 	 DATA
+	??_R0?AVG4ExcitedBaryons@@@8 	 DATA
+	??_R0?AVG4ExcitedDeltaConstructor@@@8 	 DATA
+	??_R0?AVG4ExcitedLambdaConstructor@@@8 	 DATA
+	??_R0?AVG4ExcitedMesonConstructor@@@8 	 DATA
+	??_R0?AVG4ExcitedMesons@@@8 	 DATA
+	??_R0?AVG4ExcitedNucleonConstructor@@@8 	 DATA
+	??_R0?AVG4ExcitedSigmaConstructor@@@8 	 DATA
+	??_R0?AVG4ExcitedXiConstructor@@@8 	 DATA
+	??_R0?AVG4Gluons@@@8 	 DATA
+	??_R0?AVG4HtmlPPReporter@@@8 	 DATA
+	??_R0?AVG4IonTable@@@8 	 DATA
+	??_R0?AVG4Ions@@@8 	 DATA
+	??_R0?AVG4IsotopeMagneticMomentTable@@@8 	 DATA
+	??_R0?AVG4IsotopeProperty@@@8 	 DATA
+	??_R0?AVG4KL3DecayChannel@@@8 	 DATA
+	??_R0?AVG4MuonDecayChannel@@@8 	 DATA
+	??_R0?AVG4MuonDecayChannelWithSpin@@@8 	 DATA
+	??_R0?AVG4MuonRadiativeDecayChannelWithSpin@@@8 	 DATA
+	??_R0?AVG4MuonicAtom@@@8 	 DATA
+	??_R0?AVG4NeutronBetaDecayChannel@@@8 	 DATA
+	??_R0?AVG4NuclideTable@@@8 	 DATA
+	??_R0?AVG4NuclideTableMessenger@@@8 	 DATA
+	??_R0?AVG4ParticleDefinition@@@8 	 DATA
+	??_R0?AVG4ParticleMessenger@@@8 	 DATA
+	??_R0?AVG4ParticlePropertyData@@@8 	 DATA
+	??_R0?AVG4ParticlePropertyMessenger@@@8 	 DATA
+	??_R0?AVG4ParticlePropertyTable@@@8 	 DATA
+	??_R0?AVG4ParticleTable@@@8 	 DATA
+	??_R0?AVG4PhaseSpaceDecayChannel@@@8 	 DATA
+	??_R0?AVG4PionRadiativeDecayChannel@@@8 	 DATA
+	??_R0?AVG4PrimaryParticle@@@8 	 DATA
+	??_R0?AVG4PrimaryVertex@@@8 	 DATA
+	??_R0?AVG4Quarks@@@8 	 DATA
+	??_R0?AVG4SimplePPReporter@@@8 	 DATA
+	??_R0?AVG4TauLeptonicDecayChannel@@@8 	 DATA
+	??_R0?AVG4TextPPReporter@@@8 	 DATA
+	??_R0?AVG4TextPPRetriever@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4VDecayChannel@@@8 	 DATA
+	??_R0?AVG4VIsotopeTable@@@8 	 DATA
+	??_R0?AVG4VParticlePropertyReporter@@@8 	 DATA
+	??_R0?AVG4VParticlePropertyRetriever@@@8 	 DATA
+	??_R0?AVG4VShortLivedParticle@@@8 	 DATA
+	??_R0?AVG4VUserPrimaryParticleInformation@@@8 	 DATA
+	??_R0?AVG4VUserPrimaryVertexInformation@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0N@8 	 DATA
+	??_R0PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0PEAVG4String@@@8 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Psave@?$_Facetptr@V?$ctype@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@CAAEAPEAV?$vector@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ@4PEAV34@EA 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAVG4String@@@@CAAEAPEAV?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@N@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAVG4String@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@N@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAVG4String@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?container@?1???$Register@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@G4AutoDelete@@YAXPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@4V?$G4ThreadLocalSingleton@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@A 	 DATA
+	?container@?1???$Register@VG4String@@@G4AutoDelete@@YAXPEAVG4String@@@Z@4V?$G4ThreadLocalSingleton@VG4String@@@@A 	 DATA
+	?dstrctr@?$G4Cache@N@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4String@@@@0U?$atomic@I@std@@A 	 DATA
+	?eB@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eLFONT@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eSUB@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eSUP@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eSYMBOL@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eTABLE@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eTD@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?eTR@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?electronMass@G4NucleiPropertiesTableAME12@@0PANA 	 DATA
+	?elementName@G4IonTable@@2QBVG4String@@B 	 DATA
+	?fDictionary@G4ParticleTable@@2PEAV?$map@VG4String@@PEAVG4ParticleDefinition@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@4@@std@@EA 	 DATA
+	?fDictionaryShadow@G4ParticleTable@@2PEAV?$map@VG4String@@PEAVG4ParticleDefinition@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@4@@std@@EA 	 DATA
+	?fEncodingDictionary@G4ParticleTable@@2PEAV?$map@HPEAVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@3@@std@@EA 	 DATA
+	?fEncodingDictionaryShadow@G4ParticleTable@@2PEAV?$map@HPEAVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@3@@std@@EA 	 DATA
+	?fIonList@G4IonTable@@2PEAV?$multimap@HPEBVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@3@@std@@EA 	 DATA
+	?fIonListShadow@G4IonTable@@2PEAV?$multimap@HPEBVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@3@@std@@EA 	 DATA
+	?fIonTable@G4ParticleTable@@2PEAVG4IonTable@@EA 	 DATA
+	?fIsotopeTableList@G4IonTable@@2PEAV?$vector@PEAVG4VIsotopeTable@@V?$allocator@PEAVG4VIsotopeTable@@@std@@@std@@EA 	 DATA
+	?fIsotopeTableListShadow@G4IonTable@@2PEAV?$vector@PEAVG4VIsotopeTable@@V?$allocator@PEAVG4VIsotopeTable@@@std@@@std@@EA 	 DATA
+	?fIterator@G4ParticleTable@@2PEAV?$G4ParticleTableIterator@VG4String@@PEAVG4ParticleDefinition@@@@EA 	 DATA
+	?fIteratorShadow@G4ParticleTable@@2PEAV?$G4ParticleTableIterator@VG4String@@PEAVG4ParticleDefinition@@@@EA 	 DATA
+	?fParticleMessenger@G4ParticleTable@@2PEAVG4ParticleMessenger@@EA 	 DATA
+	?fParticleMessengerShadow@G4ParticleTable@@2PEAVG4ParticleMessenger@@EA 	 DATA
+	?fgParticlePropertyTable@G4ParticlePropertyTable@@0PEAV1@EA 	 DATA
+	?fgParticleTable@G4ParticleTable@@2PEAV1@EA 	 DATA
+	?flb@?1??FloatLevelBase@G4Ions@@SA?AW4G4FloatLevelBase@2@H@Z@4PAW432@A 	 DATA
+	?flbChar@?1??FloatLevelBaseChar@G4Ions@@SADW4G4FloatLevelBase@2@@Z@4PADA 	 DATA
+	?instancesctr@?$G4Cache@N@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4String@@@@0U?$atomic@I@std@@A 	 DATA
+	?isConstructed@G4ShortLivedConstructor@@0_NA 	 DATA
+	?isIntialized@G4NucleiPropertiesTableAME12@@0_NA 	 DATA
+	?mass_He3@G4NucleiProperties@@0NA 	 DATA
+	?mass_alpha@G4NucleiProperties@@0NA 	 DATA
+	?mass_deuteron@G4NucleiProperties@@0NA 	 DATA
+	?mass_neutron@G4NucleiProperties@@0NA 	 DATA
+	?mass_proton@G4NucleiProperties@@0NA 	 DATA
+	?mass_triton@G4NucleiProperties@@0NA 	 DATA
+	?name@G4ExcitedDeltaConstructor@@0PAPEBDA 	 DATA
+	?name@G4ExcitedLambdaConstructor@@0PAPEBDA 	 DATA
+	?name@G4ExcitedMesonConstructor@@1PAY04PEBDA 	 DATA
+	?name@G4ExcitedNucleonConstructor@@0PAPEBDA 	 DATA
+	?name@G4ExcitedSigmaConstructor@@0PAPEBDA 	 DATA
+	?name@G4ExcitedXiConstructor@@0PAPEBDA 	 DATA
+	?noName@G4VDecayChannel@@1VG4String@@B 	 DATA
+	?sB@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sLFONT@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sSUB@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sSUP@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sSYMBOL@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sTABLE@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sTD@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?sTR@G4HtmlPPReporter@@0PEBDEB 	 DATA
+	?subInstanceManager@G4ParticleDefinition@@0VG4PDefManager@@A 	 DATA
+	?theInstance@G4AdjointAlpha@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointDeuteron@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointElectron@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointElectronFI@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointGamma@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointGenericIon@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointHe3@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointPositron@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointProton@@0PEAV1@EA 	 DATA
+	?theInstance@G4AdjointTriton@@0PEAV1@EA 	 DATA
+	?theInstance@G4Alpha@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiAlpha@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiBMesonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiBsMesonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiDMesonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiDeuteron@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiHe3@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiKaonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiLambda@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiLambdab@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiLambdacPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiNeutrinoE@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiNeutrinoMu@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiNeutrinoTau@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiNeutron@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiOmegaMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiOmegabMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiOmegacZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiProton@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmaMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmaPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmaZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmabMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmabPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmabZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmacPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmacPlusPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiSigmacZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiTriton@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiXiMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiXiZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiXibMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiXibZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiXicPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4AntiXicZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4BMesonMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4BMesonPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4BMesonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4BcMesonMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4BcMesonPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4BsMesonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4ChargedGeantino@@0PEAV1@EA 	 DATA
+	?theInstance@G4DMesonMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4DMesonPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4DMesonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4Deuteron@@0PEAV1@EA 	 DATA
+	?theInstance@G4DsMesonMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4DsMesonPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4Electron@@0PEAV1@EA 	 DATA
+	?theInstance@G4Eta@@0PEAV1@EA 	 DATA
+	?theInstance@G4EtaPrime@@0PEAV1@EA 	 DATA
+	?theInstance@G4Etac@@0PEAV1@EA 	 DATA
+	?theInstance@G4Gamma@@0PEAV1@EA 	 DATA
+	?theInstance@G4Geantino@@0PEAV1@EA 	 DATA
+	?theInstance@G4GenericIon@@0PEAV1@EA 	 DATA
+	?theInstance@G4GenericMuonicAtom@@0PEAV1@EA 	 DATA
+	?theInstance@G4He3@@0PEAV1@EA 	 DATA
+	?theInstance@G4JPsi@@0PEAV1@EA 	 DATA
+	?theInstance@G4KaonMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4KaonPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4KaonZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4KaonZeroLong@@0PEAV1@EA 	 DATA
+	?theInstance@G4KaonZeroShort@@0PEAV1@EA 	 DATA
+	?theInstance@G4Lambda@@0PEAV1@EA 	 DATA
+	?theInstance@G4Lambdab@@0PEAV1@EA 	 DATA
+	?theInstance@G4LambdacPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4MuonMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4MuonPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4NeutrinoE@@0PEAV1@EA 	 DATA
+	?theInstance@G4NeutrinoMu@@0PEAV1@EA 	 DATA
+	?theInstance@G4NeutrinoTau@@0PEAV1@EA 	 DATA
+	?theInstance@G4Neutron@@0PEAV1@EA 	 DATA
+	?theInstance@G4OmegaMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4OmegabMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4OmegacZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4OpticalPhoton@@0PEAV1@EA 	 DATA
+	?theInstance@G4PhononLong@@0PEAV1@EA 	 DATA
+	?theInstance@G4PhononTransFast@@0PEAV1@EA 	 DATA
+	?theInstance@G4PhononTransSlow@@0PEAV1@EA 	 DATA
+	?theInstance@G4PionMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4PionPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4PionZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4Positron@@0PEAV1@EA 	 DATA
+	?theInstance@G4Proton@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmaMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmaPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmaZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmabMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmabPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmabZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmacPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmacPlusPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4SigmacZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4TauMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4TauPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4Triton@@0PEAV1@EA 	 DATA
+	?theInstance@G4UnknownParticle@@0PEAV1@EA 	 DATA
+	?theInstance@G4Upsilon@@0PEAV1@EA 	 DATA
+	?theInstance@G4XiMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4XiZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4XibMinus@@0PEAV1@EA 	 DATA
+	?theInstance@G4XibZero@@0PEAV1@EA 	 DATA
+	?theInstance@G4XicPlus@@0PEAV1@EA 	 DATA
+	?theInstance@G4XicZero@@0PEAV1@EA 	 DATA
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBVerror_code@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?8DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBD$$QEAV10@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$G4TypeMutex@V?$G4Cache@N@@@@YAAEAVmutex@std@@AEBI@Z
+	??$G4TypeMutex@V?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$G4TypeMutex@V?$G4Cache@PEAVG4String@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$Register@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@G4AutoDelete@@YAXPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	??$Register@VG4String@@@G4AutoDelete@@YAXPEAVG4String@@@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Atomic_address_as@$$CBJ$$CBU?$_Atomic_padded@I@std@@@std@@YAPEDJAEBU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@I@std@@@std@@YAPECJAEAU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_reinterpret_as@JI@std@@YAJAEBI@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4String@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4String@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4String@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4String@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_backward_memmove@PEAPEAVG4VDecayChannel@@PEAPEAV1@@std@@YAPEAPEAVG4VDecayChannel@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAPEAV12@@std@@YAPEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEAPEAV10@00@Z
+	??$_Copy_memmove@PEAPEAVG4DynamicParticle@@PEAPEAV1@@std@@YAPEAPEAVG4DynamicParticle@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4IsotopeProperty@@PEAPEAV1@@std@@YAPEAPEAVG4IsotopeProperty@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4ParticlePropertyData@@PEAPEAV1@@std@@YAPEAPEAVG4ParticlePropertyData@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4String@@PEAPEAV1@@std@@YAPEAPEAVG4String@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VDecayChannel@@PEAPEAV1@@std@@YAPEAPEAVG4VDecayChannel@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VIsotopeTable@@PEAPEAV1@@std@@YAPEAPEAVG4VIsotopeTable@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVmutex@std@@PEAPEAV12@@std@@YAPEAPEAVmutex@0@PEAPEAV10@00@Z
+	??$_Copy_nodes@U_Copy_tag@?$_Tree@V?$_Tmap_traits@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@$00@std@@@std@@@?$_Tree@V?$_Tmap_traits@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@$00@std@@@std@@IEAAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@1@PEAU21@0U_Copy_tag@01@@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4String@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4String@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAXPEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEAPEAV10@AEAV?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4DynamicParticle@@@std@@@std@@YAXPEAPEAVG4DynamicParticle@@QEAPEAV1@AEAV?$allocator@PEAVG4DynamicParticle@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4IsotopeProperty@@@std@@@std@@YAXPEAPEAVG4IsotopeProperty@@QEAPEAV1@AEAV?$allocator@PEAVG4IsotopeProperty@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4ParticlePropertyData@@@std@@@std@@YAXPEAPEAVG4ParticlePropertyData@@QEAPEAV1@AEAV?$allocator@PEAVG4ParticlePropertyData@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4String@@@std@@@std@@YAXPEAPEAVG4String@@QEAPEAV1@AEAV?$allocator@PEAVG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VDecayChannel@@@std@@@std@@YAXPEAPEAVG4VDecayChannel@@QEAPEAV1@AEAV?$allocator@PEAVG4VDecayChannel@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VIsotopeTable@@@std@@@std@@YAXPEAPEAVG4VIsotopeTable@@QEAPEAV1@AEAV?$allocator@PEAVG4VIsotopeTable@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVmutex@std@@@std@@@std@@YAXPEAPEAVmutex@0@QEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Emplace_reallocate@AEBQEAVG4DynamicParticle@@@?$vector@PEAVG4DynamicParticle@@V?$allocator@PEAVG4DynamicParticle@@@std@@@std@@QEAAPEAPEAVG4DynamicParticle@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4IsotopeProperty@@@?$vector@PEAVG4IsotopeProperty@@V?$allocator@PEAVG4IsotopeProperty@@@std@@@std@@QEAAPEAPEAVG4IsotopeProperty@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4ParticlePropertyData@@@?$vector@PEAVG4ParticlePropertyData@@V?$allocator@PEAVG4ParticlePropertyData@@@std@@@std@@QEAAPEAPEAVG4ParticlePropertyData@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VDecayChannel@@@?$vector@PEAVG4VDecayChannel@@V?$allocator@PEAVG4VDecayChannel@@@std@@@std@@QEAAPEAPEAVG4VDecayChannel@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VIsotopeTable@@@?$vector@PEAVG4VIsotopeTable@@V?$allocator@PEAVG4VIsotopeTable@@@std@@@std@@QEAAPEAPEAVG4VIsotopeTable@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_head@V?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@1@@Z
+	??$_Erase_tree_and_orphan@V?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@1@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@PEAVG4ParticleDefinition@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@4@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Find_unchecked1@PEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VG4String@@@std@@YAPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBV10@QEBV10@AEBVG4String@@U?$integral_constant@_N$0A@@0@@Z
+	??$_Find_unchecked@PEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VG4String@@@std@@YAPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBV10@0AEBVG4String@@@Z
+	??$_Freenode@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@1@PEAU01@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Move_backward_unchecked@PEAPEAVG4VDecayChannel@@PEAPEAV1@@std@@YAPEAPEAVG4VDecayChannel@@PEAPEAV1@00@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD2@Z
+	??$_Resize_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@AEAAX_KAEBN@Z
+	??$_Resize_reallocate@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAAX_KAEBQEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_Resize_reallocate@PEAVG4String@@@?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@AEAAX_KAEBQEAVG4String@@@Z
+	??$_Resize_reallocate@PEAVmutex@std@@@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAX_KAEBQEAVmutex@1@@Z
+	??$_Swap_adl@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@0@Z
+	??$_Swap_adl@U?$less@N@std@@@std@@YAXAEAU?$less@N@0@0@Z
+	??$_Uninitialized_fill_n@V?$allocator@N@std@@@std@@YAPEANPEAN_KAEBNAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAPEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4String@@@std@@@std@@YAPEAPEAVG4String@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4String@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVmutex@std@@@std@@@std@@YAPEAPEAVmutex@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_move@PEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4DynamicParticle@@V?$allocator@PEAVG4DynamicParticle@@@std@@@std@@YAPEAPEAVG4DynamicParticle@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4DynamicParticle@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4IsotopeProperty@@V?$allocator@PEAVG4IsotopeProperty@@@std@@@std@@YAPEAPEAVG4IsotopeProperty@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4IsotopeProperty@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4ParticlePropertyData@@V?$allocator@PEAVG4ParticlePropertyData@@@std@@@std@@YAPEAPEAVG4ParticlePropertyData@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4ParticlePropertyData@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@YAPEAPEAVG4String@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4String@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VDecayChannel@@V?$allocator@PEAVG4VDecayChannel@@@std@@@std@@YAPEAPEAVG4VDecayChannel@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VDecayChannel@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VIsotopeTable@@V?$allocator@PEAVG4VIsotopeTable@@@std@@@std@@YAPEAPEAVG4VIsotopeTable@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VIsotopeTable@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@YAPEAPEAVmutex@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@PEAVG4IsotopeProperty@@@std@@@std@@YAPEAPEAVG4IsotopeProperty@@PEAPEAV1@_KAEAV?$allocator@PEAVG4IsotopeProperty@@@0@@Z
+	??$_Zero_range@PEAPEAVG4IsotopeProperty@@@std@@YAPEAPEAVG4IsotopeProperty@@QEAPEAV1@0@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$find@PEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VG4String@@@std@@YAPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBV10@QEBV10@AEBVG4String@@@Z
+	??$insert@$00$0A@@?$_Tree@V?$_Tmap_traits@HPEBVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@3@$00@std@@@std@@QEAA?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@@1@$$QEAU?$pair@$$CBHPEBVG4ParticleDefinition@@@1@@Z
+	??$insert@U?$pair@HPEAVG4ParticleDefinition@@@std@@X@?$map@HPEAVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@3@@std@@QEAA?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@@std@@_N@1@$$QEAU?$pair@HPEAVG4ParticleDefinition@@@1@@Z
+	??$insert@U?$pair@HV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@X@?$map@HV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@@2@@std@@QEAA?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@@std@@@std@@@std@@_N@1@$$QEAU?$pair@HV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@1@@Z
+	??$insert@U?$pair@NPEAVG4IsotopeProperty@@@std@@X@?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@QEAA?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@std@@@std@@@1@$$QEAU?$pair@NPEAVG4IsotopeProperty@@@1@@Z
+	??$insert@U?$pair@VG4String@@PEAVG4ParticleDefinition@@@std@@X@?$map@VG4String@@PEAVG4ParticleDefinition@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@4@@std@@QEAA?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@@std@@_N@1@$$QEAU?$pair@VG4String@@PEAVG4ParticleDefinition@@@1@@Z
+	??$swap@DX@std@@YAXAEAD0@Z
+	??$swap@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@X@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@0@0@Z
+	??$swap@U?$less@N@std@@X@std@@YAXAEAU?$less@N@0@0@Z
+	??$swap@_KX@std@@YAXAEA_K0@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??$use_facet@V?$ctype@D@std@@@std@@YAAEBV?$ctype@D@0@AEBVlocale@0@@Z
+	??0?$G4Allocator@VG4DynamicParticle@@@@QEAA@XZ
+	??0?$G4Allocator@VG4ElectronOccupancy@@@@QEAA@XZ
+	??0?$G4Allocator@VG4PrimaryParticle@@@@QEAA@XZ
+	??0?$G4Allocator@VG4PrimaryVertex@@@@QEAA@XZ
+	??0?$G4Cache@N@@QEAA@XZ
+	??0?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@XZ
+	??0?$G4Cache@PEAVG4String@@@@QEAA@XZ
+	??0?$G4ThreadLocalSingleton@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAA@XZ
+	??0?$G4ThreadLocalSingleton@VG4String@@@@QEAA@XZ
+	??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0G4AdjointIons@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@10HN@Z
+	??0G4BaryonConstructor@@QEAA@XZ
+	??0G4BosonConstructor@@QEAA@XZ
+	??0G4DalitzDecayChannel@@AEAA@XZ
+	??0G4DalitzDecayChannel@@IEAA@AEBV0@@Z
+	??0G4DalitzDecayChannel@@QEAA@AEBVG4String@@N00@Z
+	??0G4DecayProducts@@QEAA@AEBV0@@Z
+	??0G4DecayProducts@@QEAA@AEBVG4DynamicParticle@@@Z
+	??0G4DecayProducts@@QEAA@XZ
+	??0G4DecayTable@@QEAA@XZ
+	??0G4DecayTableMessenger@@QEAA@PEAVG4ParticleTable@@@Z
+	??0G4DiQuarks@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@@Z
+	??0G4DynamicParticle@@QEAA@AEBV0@@Z
+	??0G4DynamicParticle@@QEAA@PEBVG4ParticleDefinition@@AEBVHep3Vector@CLHEP@@@Z
+	??0G4DynamicParticle@@QEAA@PEBVG4ParticleDefinition@@AEBVHep3Vector@CLHEP@@N@Z
+	??0G4DynamicParticle@@QEAA@PEBVG4ParticleDefinition@@AEBVHep3Vector@CLHEP@@NN@Z
+	??0G4DynamicParticle@@QEAA@PEBVG4ParticleDefinition@@AEBVHepLorentzVector@CLHEP@@@Z
+	??0G4DynamicParticle@@QEAA@PEBVG4ParticleDefinition@@NAEBVHep3Vector@CLHEP@@@Z
+	??0G4DynamicParticle@@QEAA@XZ
+	??0G4ElectronOccupancy@@QEAA@AEBV0@@Z
+	??0G4ElectronOccupancy@@QEAA@H@Z
+	??0G4ExcitedBaryonConstructor@@QEAA@HH@Z
+	??0G4ExcitedBaryons@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@@Z
+	??0G4ExcitedDeltaConstructor@@QEAA@XZ
+	??0G4ExcitedLambdaConstructor@@QEAA@XZ
+	??0G4ExcitedMesonConstructor@@QEAA@HH@Z
+	??0G4ExcitedMesons@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@@Z
+	??0G4ExcitedNucleonConstructor@@QEAA@XZ
+	??0G4ExcitedSigmaConstructor@@QEAA@XZ
+	??0G4ExcitedXiConstructor@@QEAA@XZ
+	??0G4Gluons@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@@Z
+	??0G4HtmlPPReporter@@QEAA@XZ
+	??0G4IonConstructor@@QEAA@XZ
+	??0G4IonTable@@QEAA@XZ
+	??0G4Ions@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@10HNH@Z
+	??0G4IsotopeMagneticMomentTable@@IEAA@AEBV0@@Z
+	??0G4IsotopeMagneticMomentTable@@QEAA@XZ
+	??0G4IsotopeProperty@@QEAA@AEBV0@@Z
+	??0G4IsotopeProperty@@QEAA@XZ
+	??0G4KL3DecayChannel@@AEAA@XZ
+	??0G4KL3DecayChannel@@IEAA@AEBV0@@Z
+	??0G4KL3DecayChannel@@QEAA@AEBVG4String@@N000@Z
+	??0G4LeptonConstructor@@QEAA@XZ
+	??0G4MesonConstructor@@QEAA@XZ
+	??0G4MuonDecayChannel@@IEAA@AEBV0@@Z
+	??0G4MuonDecayChannel@@IEAA@XZ
+	??0G4MuonDecayChannel@@QEAA@AEBVG4String@@N@Z
+	??0G4MuonDecayChannelWithSpin@@AEAA@XZ
+	??0G4MuonDecayChannelWithSpin@@IEAA@AEBV0@@Z
+	??0G4MuonDecayChannelWithSpin@@QEAA@AEBVG4String@@N@Z
+	??0G4MuonRadiativeDecayChannelWithSpin@@AEAA@XZ
+	??0G4MuonRadiativeDecayChannelWithSpin@@IEAA@AEBV0@@Z
+	??0G4MuonRadiativeDecayChannelWithSpin@@QEAA@AEBVG4String@@N@Z
+	??0G4MuonicAtom@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@10PEBVG4Ions@@HNHNN@Z
+	??0G4NeutronBetaDecayChannel@@IEAA@AEBV0@@Z
+	??0G4NeutronBetaDecayChannel@@IEAA@XZ
+	??0G4NeutronBetaDecayChannel@@QEAA@AEBVG4String@@N@Z
+	??0G4NucleiPropertiesTableAME12@@AEAA@XZ
+	??0G4NuclideTable@@AEAA@XZ
+	??0G4NuclideTableMessenger@@QEAA@PEAVG4NuclideTable@@@Z
+	??0G4PDGCodeChecker@@QEAA@XZ
+	??0G4PDefManager@@QEAA@XZ
+	??0G4ParticleDefinition@@IEAA@AEBV0@@Z
+	??0G4ParticleDefinition@@IEAA@XZ
+	??0G4ParticleDefinition@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@10HN@Z
+	??0G4ParticleMessenger@@QEAA@PEAVG4ParticleTable@@@Z
+	??0G4ParticlePropertyData@@QEAA@AEBV0@@Z
+	??0G4ParticlePropertyData@@QEAA@AEBVG4String@@@Z
+	??0G4ParticlePropertyMessenger@@QEAA@PEAVG4ParticleTable@@@Z
+	??0G4ParticlePropertyTable@@IEAA@AEBV0@@Z
+	??0G4ParticlePropertyTable@@IEAA@XZ
+	??0G4ParticleTable@@IEAA@AEBV0@@Z
+	??0G4ParticleTable@@IEAA@XZ
+	??0G4ParticlesWorkspace@@QEAA@_N@Z
+	??0G4PhaseSpaceDecayChannel@@QEAA@AEBVG4String@@NH0000@Z
+	??0G4PhaseSpaceDecayChannel@@QEAA@H@Z
+	??0G4PionRadiativeDecayChannel@@IEAA@AEBV0@@Z
+	??0G4PionRadiativeDecayChannel@@IEAA@XZ
+	??0G4PionRadiativeDecayChannel@@QEAA@AEBVG4String@@N@Z
+	??0G4PrimaryParticle@@QEAA@AEBV0@@Z
+	??0G4PrimaryParticle@@QEAA@H@Z
+	??0G4PrimaryParticle@@QEAA@HNNN@Z
+	??0G4PrimaryParticle@@QEAA@HNNNN@Z
+	??0G4PrimaryParticle@@QEAA@PEBVG4ParticleDefinition@@@Z
+	??0G4PrimaryParticle@@QEAA@PEBVG4ParticleDefinition@@NNN@Z
+	??0G4PrimaryParticle@@QEAA@PEBVG4ParticleDefinition@@NNNN@Z
+	??0G4PrimaryParticle@@QEAA@XZ
+	??0G4PrimaryVertex@@QEAA@AEBV0@@Z
+	??0G4PrimaryVertex@@QEAA@NNNN@Z
+	??0G4PrimaryVertex@@QEAA@VHep3Vector@CLHEP@@N@Z
+	??0G4PrimaryVertex@@QEAA@XZ
+	??0G4Quarks@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@@Z
+	??0G4ShortLivedConstructor@@QEAA@XZ
+	??0G4SimplePPReporter@@QEAA@XZ
+	??0G4String@@QEAA@PEBD@Z
+	??0G4TauLeptonicDecayChannel@@IEAA@AEBV0@@Z
+	??0G4TauLeptonicDecayChannel@@IEAA@XZ
+	??0G4TauLeptonicDecayChannel@@QEAA@AEBVG4String@@N0@Z
+	??0G4TextPPReporter@@QEAA@XZ
+	??0G4TextPPRetriever@@QEAA@XZ
+	??0G4VDecayChannel@@IEAA@AEBV0@@Z
+	??0G4VDecayChannel@@IEAA@XZ
+	??0G4VDecayChannel@@QEAA@AEBVG4String@@0NH0000@Z
+	??0G4VDecayChannel@@QEAA@AEBVG4String@@H@Z
+	??0G4VIsotopeTable@@QEAA@AEBV0@@Z
+	??0G4VIsotopeTable@@QEAA@AEBVG4String@@@Z
+	??0G4VIsotopeTable@@QEAA@XZ
+	??0G4VParticlePropertyReporter@@QEAA@XZ
+	??0G4VShortLivedParticle@@QEAA@AEBVG4String@@NNNHHHHHH0HHH_NNPEAVG4DecayTable@@@Z
+	??0G4VUserPrimaryParticleInformation@@QEAA@XZ
+	??0G4VUserPrimaryVertexInformation@@QEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$G4Allocator@VG4DynamicParticle@@@@UEAA@XZ
+	??1?$G4Allocator@VG4ElectronOccupancy@@@@UEAA@XZ
+	??1?$G4Allocator@VG4PrimaryParticle@@@@UEAA@XZ
+	??1?$G4Allocator@VG4PrimaryVertex@@@@UEAA@XZ
+	??1?$G4Cache@N@@UEAA@XZ
+	??1?$G4Cache@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@UEAA@XZ
+	??1?$G4Cache@PEAVG4String@@@@UEAA@XZ
+	??1?$G4TemplateAutoLock@Vmutex@std@@@@QEAA@XZ
+	??1?$G4ThreadLocalSingleton@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@UEAA@XZ
+	??1?$G4ThreadLocalSingleton@VG4String@@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4String@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_head_scoped_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node@V?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$list@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
+	??1?$list@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@QEAA@XZ
+	??1?$map@HV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@QEAA@XZ
+	??1?$pair@HV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@QEAA@XZ
+	??1?$pair@VG4String@@PEAVG4ParticleDefinition@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@PEAVG4IsotopeProperty@@V?$allocator@PEAVG4IsotopeProperty@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4ParticlePropertyData@@V?$allocator@PEAVG4ParticlePropertyData@@@std@@@std@@QEAA@XZ
+	??1G4AdjointIons@@UEAA@XZ
+	??1G4BaryonConstructor@@QEAA@XZ
+	??1G4BosonConstructor@@QEAA@XZ
+	??1G4DalitzDecayChannel@@UEAA@XZ
+	??1G4DecayProducts@@QEAA@XZ
+	??1G4DecayTable@@QEAA@XZ
+	??1G4DecayTableMessenger@@UEAA@XZ
+	??1G4DiQuarks@@UEAA@XZ
+	??1G4DynamicParticle@@QEAA@XZ
+	??1G4ElectronOccupancy@@UEAA@XZ
+	??1G4ExcitedBaryonConstructor@@UEAA@XZ
+	??1G4ExcitedBaryons@@UEAA@XZ
+	??1G4ExcitedDeltaConstructor@@UEAA@XZ
+	??1G4ExcitedLambdaConstructor@@UEAA@XZ
+	??1G4ExcitedMesonConstructor@@UEAA@XZ
+	??1G4ExcitedMesons@@UEAA@XZ
+	??1G4ExcitedNucleonConstructor@@UEAA@XZ
+	??1G4ExcitedSigmaConstructor@@UEAA@XZ
+	??1G4ExcitedXiConstructor@@UEAA@XZ
+	??1G4Gluons@@UEAA@XZ
+	??1G4HtmlPPReporter@@UEAA@XZ
+	??1G4IonConstructor@@QEAA@XZ
+	??1G4IonTable@@UEAA@XZ
+	??1G4Ions@@UEAA@XZ
+	??1G4IsotopeMagneticMomentTable@@UEAA@XZ
+	??1G4IsotopeProperty@@UEAA@XZ
+	??1G4KL3DecayChannel@@UEAA@XZ
+	??1G4LeptonConstructor@@QEAA@XZ
+	??1G4MesonConstructor@@QEAA@XZ
+	??1G4MuonDecayChannel@@UEAA@XZ
+	??1G4MuonDecayChannelWithSpin@@UEAA@XZ
+	??1G4MuonRadiativeDecayChannelWithSpin@@UEAA@XZ
+	??1G4MuonicAtom@@UEAA@XZ
+	??1G4NeutronBetaDecayChannel@@UEAA@XZ
+	??1G4NuclideTable@@UEAA@XZ
+	??1G4NuclideTableMessenger@@UEAA@XZ
+	??1G4PDGCodeChecker@@QEAA@XZ
+	??1G4ParticleDefinition@@UEAA@XZ
+	??1G4ParticleMessenger@@UEAA@XZ
+	??1G4ParticlePropertyData@@UEAA@XZ
+	??1G4ParticlePropertyMessenger@@UEAA@XZ
+	??1G4ParticlePropertyTable@@UEAA@XZ
+	??1G4ParticleTable@@UEAA@XZ
+	??1G4ParticlesWorkspace@@QEAA@XZ
+	??1G4PhaseSpaceDecayChannel@@UEAA@XZ
+	??1G4PionRadiativeDecayChannel@@UEAA@XZ
+	??1G4PrimaryParticle@@UEAA@XZ
+	??1G4PrimaryVertex@@UEAA@XZ
+	??1G4Quarks@@UEAA@XZ
+	??1G4ShortLivedConstructor@@QEAA@XZ
+	??1G4SimplePPReporter@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4TauLeptonicDecayChannel@@UEAA@XZ
+	??1G4TextPPReporter@@UEAA@XZ
+	??1G4TextPPRetriever@@UEAA@XZ
+	??1G4Tokenizer@@QEAA@XZ
+	??1G4VDecayChannel@@UEAA@XZ
+	??1G4VIsotopeTable@@UEAA@XZ
+	??1G4VParticlePropertyReporter@@UEAA@XZ
+	??1G4VParticlePropertyRetriever@@UEAA@XZ
+	??1G4VShortLivedParticle@@UEAA@XZ
+	??1G4VUserPrimaryParticleInformation@@UEAA@XZ
+	??1G4VUserPrimaryVertexInformation@@UEAA@XZ
+	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1mutex@std@@QEAA@XZ
+	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??2G4DynamicParticle@@SAPEAX_K@Z
+	??2G4ElectronOccupancy@@SAPEAX_K@Z
+	??2G4PrimaryParticle@@SAPEAX_K@Z
+	??3G4DynamicParticle@@SAXPEAX@Z
+	??3G4ElectronOccupancy@@SAXPEAX@Z
+	??3G4PrimaryParticle@@SAXPEAX@Z
+	??3G4PrimaryVertex@@SAXPEAX@Z
+	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@$$QEAV01@@Z
+	??4G4DalitzDecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4DecayProducts@@QEAAAEAV0@AEBV0@@Z
+	??4G4DynamicParticle@@QEAAAEAV0@AEBV0@@Z
+	??4G4ElectronOccupancy@@QEAAAEAV0@AEBV0@@Z
+	??4G4IsotopeMagneticMomentTable@@IEAAAEAV0@AEBV0@@Z
+	??4G4IsotopeProperty@@QEAAAEAV0@AEAV0@@Z
+	??4G4KL3DecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4MuonDecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4MuonDecayChannelWithSpin@@IEAAAEAV0@AEBV0@@Z
+	??4G4MuonRadiativeDecayChannelWithSpin@@IEAAAEAV0@AEBV0@@Z
+	??4G4NeutronBetaDecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleDefinition@@AEAAAEBV0@AEBV0@@Z
+	??4G4ParticlePropertyData@@QEAAAEAV0@AEBV0@@Z
+	??4G4ParticlePropertyTable@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleTable@@IEAAAEAV0@AEBV0@@Z
+	??4G4PionRadiativeDecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4PrimaryParticle@@QEAAAEAV0@AEBV0@@Z
+	??4G4PrimaryVertex@@QEAAAEAV0@AEBV0@@Z
+	??4G4TauLeptonicDecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4VDecayChannel@@IEAAAEAV0@AEBV0@@Z
+	??4G4VIsotopeTable@@QEAAAEAV0@AEBV0@@Z
+	??8G4DynamicParticle@@QEBA_NAEBV0@@Z
+	??8G4ElectronOccupancy@@QEBA_NAEBV0@@Z
+	??8G4IsotopeProperty@@QEBA_NAEBV0@@Z
+	??8G4ParticleDefinition@@QEBA_NAEBV0@@Z
+	??8G4ParticlePropertyData@@QEBA_NAEBV0@@Z
+	??8G4ParticlePropertyTable@@QEBA_NAEBV0@@Z
+	??8G4PrimaryParticle@@QEBA_NAEBV0@@Z
+	??8G4PrimaryVertex@@QEBA_NAEBV0@@Z
+	??8G4VShortLivedParticle@@QEBA_NAEBV0@@Z
+	??9G4DynamicParticle@@QEBA_NAEBV0@@Z
+	??9G4ElectronOccupancy@@QEBA_NAEBV0@@Z
+	??9G4IsotopeProperty@@QEBA_NAEBV0@@Z
+	??9G4ParticleDefinition@@QEBA_NAEBV0@@Z
+	??9G4ParticlePropertyData@@QEBA_NAEBV0@@Z
+	??9G4ParticlePropertyTable@@QEBA_NAEBV0@@Z
+	??9G4PrimaryParticle@@QEBA_NAEBV0@@Z
+	??9G4PrimaryVertex@@QEBA_NAEBV0@@Z
+	??9G4VShortLivedParticle@@QEBA_NAEBV0@@Z
+	??AG4DecayProducts@@QEBAPEAVG4DynamicParticle@@H@Z
+	??E?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@U_Iterator_base0@2@@std@@QEAAAEAV01@XZ
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??RG4String@@QEAA?AV0@_K0@Z
+	??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?Add2EtaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add2KMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add2KPiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add2PiEtaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add2PiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add2PiOmegaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add2PiRhoMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add3PiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?Add4PiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddDeltaKMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddDeltaPiMode@G4ExcitedDeltaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddDeltaPiMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddElectron@G4ElectronOccupancy@@QEAAHHH@Z
+	?AddKEtaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKKStarMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKOmegaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKPiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKRhoMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKStar2PiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKStarPiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddKTwoPiMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddLambdaEtaMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddLambdaGammaMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddLambdaKMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddLambdaKMode@G4ExcitedXiConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddLambdaOmegaMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddLambdaPiMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddLambdaStarPiMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddN2PiMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNEtaMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNGammaMode@G4ExcitedDeltaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNGammaMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNKMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNKMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNKStarMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNKStarMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNOmegaMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNPiMode@G4ExcitedDeltaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNPiMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNRhoMode@G4ExcitedDeltaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNRhoMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNStarPiMode@G4ExcitedDeltaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddNStarPiMode@G4ExcitedNucleonConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddPiA2Mode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddPiEtaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddPiF0Mode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddPiF2Mode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddPiGammaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddPiOmegaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddPiRhoMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddProcessManager@G4IonTable@@IEAAXPEAVG4ParticleDefinition@@@Z
+	?AddRhoEtaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddRhoGammaMode@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NHH@Z
+	?AddSigmaEtaMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddSigmaKMode@G4ExcitedXiConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddSigmaPiMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddSigmaPiMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddSigmaStarPiMode@G4ExcitedLambdaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddSigmaStarPiMode@G4ExcitedSigmaConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddState@G4NuclideTable@@QEAAXHHNHNHN@Z
+	?AddState@G4NuclideTable@@QEAAXHHNNHN@Z
+	?AddState@G4NuclideTable@@QEAAXHHNW4G4FloatLevelBase@G4Ions@@NHN@Z
+	?AddXiGammaMode@G4ExcitedXiConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AddXiPiMode@G4ExcitedXiConstructor@@AEAAPEAVG4DecayTable@@PEAV2@AEBVG4String@@NH_N@Z
+	?AdjointElectron@G4AdjointElectron@@SAPEAV1@XZ
+	?AdjointElectronDefinition@G4AdjointElectron@@SAPEAV1@XZ
+	?AdjointElectronFI@G4AdjointElectronFI@@SAPEAV1@XZ
+	?AdjointElectronFIDefinition@G4AdjointElectronFI@@SAPEAV1@XZ
+	?AdjointGamma@G4AdjointGamma@@SAPEAV1@XZ
+	?AdjointGammaDefinition@G4AdjointGamma@@SAPEAV1@XZ
+	?AdjointPositron@G4AdjointPositron@@SAPEAV1@XZ
+	?AdjointPositronDefinition@G4AdjointPositron@@SAPEAV1@XZ
+	?AdjointProton@G4AdjointProton@@SAPEAV1@XZ
+	?AdjointProtonDefinition@G4AdjointProton@@SAPEAV1@XZ
+	?AllocateElectronOccupancy@G4DynamicParticle@@IEAAXXZ
+	?Alpha@G4AdjointAlpha@@SAPEAV1@XZ
+	?Alpha@G4Alpha@@SAPEAV1@XZ
+	?AlphaDefinition@G4AdjointAlpha@@SAPEAV1@XZ
+	?AlphaDefinition@G4Alpha@@SAPEAV1@XZ
+	?AntiAlpha@G4AntiAlpha@@SAPEAV1@XZ
+	?AntiAlphaDefinition@G4AntiAlpha@@SAPEAV1@XZ
+	?AntiBMesonZero@G4AntiBMesonZero@@SAPEAV1@XZ
+	?AntiBMesonZeroDefinition@G4AntiBMesonZero@@SAPEAV1@XZ
+	?AntiBsMesonZero@G4AntiBsMesonZero@@SAPEAV1@XZ
+	?AntiBsMesonZeroDefinition@G4AntiBsMesonZero@@SAPEAV1@XZ
+	?AntiDMesonZero@G4AntiDMesonZero@@SAPEAV1@XZ
+	?AntiDMesonZeroDefinition@G4AntiDMesonZero@@SAPEAV1@XZ
+	?AntiDeuteron@G4AntiDeuteron@@SAPEAV1@XZ
+	?AntiDeuteronDefinition@G4AntiDeuteron@@SAPEAV1@XZ
+	?AntiHe3@G4AntiHe3@@SAPEAV1@XZ
+	?AntiHe3Definition@G4AntiHe3@@SAPEAV1@XZ
+	?AntiKaonZero@G4AntiKaonZero@@SAPEAV1@XZ
+	?AntiKaonZeroDefinition@G4AntiKaonZero@@SAPEAV1@XZ
+	?AntiLambda@G4AntiLambda@@SAPEAV1@XZ
+	?AntiLambdaDefinition@G4AntiLambda@@SAPEAV1@XZ
+	?AntiLambdab@G4AntiLambdab@@SAPEAV1@XZ
+	?AntiLambdabDefinition@G4AntiLambdab@@SAPEAV1@XZ
+	?AntiLambdacPlus@G4AntiLambdacPlus@@SAPEAV1@XZ
+	?AntiLambdacPlusDefinition@G4AntiLambdacPlus@@SAPEAV1@XZ
+	?AntiNeutrinoE@G4AntiNeutrinoE@@SAPEAV1@XZ
+	?AntiNeutrinoEDefinition@G4AntiNeutrinoE@@SAPEAV1@XZ
+	?AntiNeutrinoMu@G4AntiNeutrinoMu@@SAPEAV1@XZ
+	?AntiNeutrinoMuDefinition@G4AntiNeutrinoMu@@SAPEAV1@XZ
+	?AntiNeutrinoTau@G4AntiNeutrinoTau@@SAPEAV1@XZ
+	?AntiNeutrinoTauDefinition@G4AntiNeutrinoTau@@SAPEAV1@XZ
+	?AntiNeutron@G4AntiNeutron@@SAPEAV1@XZ
+	?AntiNeutronDefinition@G4AntiNeutron@@SAPEAV1@XZ
+	?AntiOmegaMinus@G4AntiOmegaMinus@@SAPEAV1@XZ
+	?AntiOmegaMinusDefinition@G4AntiOmegaMinus@@SAPEAV1@XZ
+	?AntiOmegabMinus@G4AntiOmegabMinus@@SAPEAV1@XZ
+	?AntiOmegabMinusDefinition@G4AntiOmegabMinus@@SAPEAV1@XZ
+	?AntiOmegacZero@G4AntiOmegacZero@@SAPEAV1@XZ
+	?AntiOmegacZeroDefinition@G4AntiOmegacZero@@SAPEAV1@XZ
+	?AntiProton@G4AntiProton@@SAPEAV1@XZ
+	?AntiProtonDefinition@G4AntiProton@@SAPEAV1@XZ
+	?AntiSigmaMinus@G4AntiSigmaMinus@@SAPEAV1@XZ
+	?AntiSigmaMinusDefinition@G4AntiSigmaMinus@@SAPEAV1@XZ
+	?AntiSigmaPlus@G4AntiSigmaPlus@@SAPEAV1@XZ
+	?AntiSigmaPlusDefinition@G4AntiSigmaPlus@@SAPEAV1@XZ
+	?AntiSigmaZero@G4AntiSigmaZero@@SAPEAV1@XZ
+	?AntiSigmaZeroDefinition@G4AntiSigmaZero@@SAPEAV1@XZ
+	?AntiSigmabMinus@G4AntiSigmabMinus@@SAPEAV1@XZ
+	?AntiSigmabMinusDefinition@G4AntiSigmabMinus@@SAPEAV1@XZ
+	?AntiSigmabPlus@G4AntiSigmabPlus@@SAPEAV1@XZ
+	?AntiSigmabPlusDefinition@G4AntiSigmabPlus@@SAPEAV1@XZ
+	?AntiSigmabZero@G4AntiSigmabZero@@SAPEAV1@XZ
+	?AntiSigmabZeroDefinition@G4AntiSigmabZero@@SAPEAV1@XZ
+	?AntiSigmacPlus@G4AntiSigmacPlus@@SAPEAV1@XZ
+	?AntiSigmacPlusDefinition@G4AntiSigmacPlus@@SAPEAV1@XZ
+	?AntiSigmacPlusPlus@G4AntiSigmacPlusPlus@@SAPEAV1@XZ
+	?AntiSigmacPlusPlusDefinition@G4AntiSigmacPlusPlus@@SAPEAV1@XZ
+	?AntiSigmacZero@G4AntiSigmacZero@@SAPEAV1@XZ
+	?AntiSigmacZeroDefinition@G4AntiSigmacZero@@SAPEAV1@XZ
+	?AntiTriton@G4AntiTriton@@SAPEAV1@XZ
+	?AntiTritonDefinition@G4AntiTriton@@SAPEAV1@XZ
+	?AntiXiMinus@G4AntiXiMinus@@SAPEAV1@XZ
+	?AntiXiMinusDefinition@G4AntiXiMinus@@SAPEAV1@XZ
+	?AntiXiZero@G4AntiXiZero@@SAPEAV1@XZ
+	?AntiXiZeroDefinition@G4AntiXiZero@@SAPEAV1@XZ
+	?AntiXibMinus@G4AntiXibMinus@@SAPEAV1@XZ
+	?AntiXibMinusDefinition@G4AntiXibMinus@@SAPEAV1@XZ
+	?AntiXibZero@G4AntiXibZero@@SAPEAV1@XZ
+	?AntiXibZeroDefinition@G4AntiXibZero@@SAPEAV1@XZ
+	?AntiXicPlus@G4AntiXicPlus@@SAPEAV1@XZ
+	?AntiXicPlusDefinition@G4AntiXicPlus@@SAPEAV1@XZ
+	?AntiXicZero@G4AntiXicZero@@SAPEAV1@XZ
+	?AntiXicZeroDefinition@G4AntiXicZero@@SAPEAV1@XZ
+	?AtomicMass@G4NucleiProperties@@CANNN@Z
+	?BMesonMinus@G4BMesonMinus@@SAPEAV1@XZ
+	?BMesonMinusDefinition@G4BMesonMinus@@SAPEAV1@XZ
+	?BMesonPlus@G4BMesonPlus@@SAPEAV1@XZ
+	?BMesonPlusDefinition@G4BMesonPlus@@SAPEAV1@XZ
+	?BMesonZero@G4BMesonZero@@SAPEAV1@XZ
+	?BMesonZeroDefinition@G4BMesonZero@@SAPEAV1@XZ
+	?BcMesonMinus@G4BcMesonMinus@@SAPEAV1@XZ
+	?BcMesonMinusDefinition@G4BcMesonMinus@@SAPEAV1@XZ
+	?BcMesonPlus@G4BcMesonPlus@@SAPEAV1@XZ
+	?BcMesonPlusDefinition@G4BcMesonPlus@@SAPEAV1@XZ
+	?BindingEnergy@G4NucleiProperties@@CANNN@Z
+	?Boost@G4DecayProducts@@QEAAXNAEBVHep3Vector@CLHEP@@@Z
+	?Boost@G4DecayProducts@@QEAAXNNN@Z
+	?BsMesonZero@G4BsMesonZero@@SAPEAV1@XZ
+	?BsMesonZeroDefinition@G4BsMesonZero@@SAPEAV1@XZ
+	?CalculateAnomaly@G4ParticleDefinition@@QEBANXZ
+	?ChargedGeantino@G4ChargedGeantino@@SAPEAV1@XZ
+	?ChargedGeantinoDefinition@G4ChargedGeantino@@SAPEAV1@XZ
+	?CheckAndFillParent@G4VDecayChannel@@IEAAXXZ
+	?CheckCharge@G4PDGCodeChecker@@QEBA_NN@Z
+	?CheckForBaryons@G4PDGCodeChecker@@AEAAHXZ
+	?CheckForDiQuarks@G4PDGCodeChecker@@AEAAHXZ
+	?CheckForMesons@G4PDGCodeChecker@@AEAAHXZ
+	?CheckForNuclei@G4PDGCodeChecker@@AEAAHXZ
+	?CheckForQuarks@G4PDGCodeChecker@@AEAAHXZ
+	?CheckPDGCode@G4PDGCodeChecker@@QEAAHHVG4String@@@Z
+	?CheckReadiness@G4ParticleTable@@AEBAXXZ
+	?Clean@G4ParticleDefinition@@SAXXZ
+	?Clear@?$G4ThreadLocalSingleton@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEAAXXZ
+	?Clear@?$G4ThreadLocalSingleton@VG4String@@@@AEAAXXZ
+	?Clear@G4ParticlePropertyTable@@QEAAXXZ
+	?Clear@G4VParticlePropertyReporter@@UEAAXXZ
+	?ClearDaughtersName@G4VDecayChannel@@IEAAXXZ
+	?Construct@G4ExcitedBaryonConstructor@@UEAAXH@Z
+	?Construct@G4ExcitedMesonConstructor@@UEAAXH@Z
+	?ConstructAntiParticle@G4ExcitedBaryonConstructor@@MEAAXH@Z
+	?ConstructBaryons@G4ShortLivedConstructor@@KAXXZ
+	?ConstructBottomBaryons@G4BaryonConstructor@@KAXXZ
+	?ConstructBottomMesons@G4MesonConstructor@@KAXXZ
+	?ConstructCharmBaryons@G4BaryonConstructor@@KAXXZ
+	?ConstructCharmMesons@G4MesonConstructor@@KAXXZ
+	?ConstructELeptons@G4LeptonConstructor@@KAXXZ
+	?ConstructLightIons@G4IonConstructor@@KAXXZ
+	?ConstructLightMesons@G4MesonConstructor@@KAXXZ
+	?ConstructMesons@G4ExcitedMesonConstructor@@IEAAXHH@Z
+	?ConstructMesons@G4ShortLivedConstructor@@KAXXZ
+	?ConstructMuLeptons@G4LeptonConstructor@@KAXXZ
+	?ConstructMuonicAtom@G4MuonicAtomHelper@@SAPEAVG4MuonicAtom@@VG4String@@HPEBVG4Ions@@@Z
+	?ConstructNucleons@G4BaryonConstructor@@KAXXZ
+	?ConstructParticle@G4BaryonConstructor@@SAXXZ
+	?ConstructParticle@G4BosonConstructor@@SAXXZ
+	?ConstructParticle@G4ExcitedBaryonConstructor@@MEAAXH@Z
+	?ConstructParticle@G4IonConstructor@@SAXXZ
+	?ConstructParticle@G4LeptonConstructor@@SAXXZ
+	?ConstructParticle@G4MesonConstructor@@SAXXZ
+	?ConstructParticle@G4ShortLivedConstructor@@SAXXZ
+	?ConstructQuarks@G4ShortLivedConstructor@@KAXXZ
+	?ConstructResonances@G4ShortLivedConstructor@@KAXXZ
+	?ConstructStrangeBaryons@G4BaryonConstructor@@KAXXZ
+	?ConstructTauLeptons@G4LeptonConstructor@@KAXXZ
+	?Contains@G4IonTable@@QEBA_NPEBVG4ParticleDefinition@@@Z
+	?CreateAllIon@G4IonTable@@QEAAXXZ
+	?CreateAllIsomer@G4IonTable@@QEAAXXZ
+	?CreateDecayTable@G4ExcitedDeltaConstructor@@MEAAPEAVG4DecayTable@@AEBVG4String@@HH_N@Z
+	?CreateDecayTable@G4ExcitedLambdaConstructor@@MEAAPEAVG4DecayTable@@AEBVG4String@@HH_N@Z
+	?CreateDecayTable@G4ExcitedMesonConstructor@@IEAAPEAVG4DecayTable@@AEBVG4String@@HHH@Z
+	?CreateDecayTable@G4ExcitedNucleonConstructor@@MEAAPEAVG4DecayTable@@AEBVG4String@@HH_N@Z
+	?CreateDecayTable@G4ExcitedSigmaConstructor@@MEAAPEAVG4DecayTable@@AEBVG4String@@HH_N@Z
+	?CreateDecayTable@G4ExcitedXiConstructor@@MEAAPEAVG4DecayTable@@AEBVG4String@@HH_N@Z
+	?CreateIon@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHH@Z
+	?CreateIon@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHHH@Z
+	?CreateIon@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHHNW4G4FloatLevelBase@G4Ions@@@Z
+	?CreateIon@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHNW4G4FloatLevelBase@G4Ions@@@Z
+	?CreateMessenger@G4ParticleTable@@QEAAPEAVG4UImessenger@@XZ
+	?CreateSubInstance@G4PDefManager@@QEAAHXZ
+	?DMesonMinus@G4DMesonMinus@@SAPEAV1@XZ
+	?DMesonMinusDefinition@G4DMesonMinus@@SAPEAV1@XZ
+	?DMesonPlus@G4DMesonPlus@@SAPEAV1@XZ
+	?DMesonPlusDefinition@G4DMesonPlus@@SAPEAV1@XZ
+	?DMesonZero@G4DMesonZero@@SAPEAV1@XZ
+	?DMesonZeroDefinition@G4DMesonZero@@SAPEAV1@XZ
+	?DalitzDensity@G4KL3DecayChannel@@IEAANNNNNNNN@Z
+	?DecayIt@G4DalitzDecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4KL3DecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4MuonDecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4MuonDecayChannelWithSpin@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4MuonRadiativeDecayChannelWithSpin@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4NeutronBetaDecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4PhaseSpaceDecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4PionRadiativeDecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?DecayIt@G4TauLeptonicDecayChannel@@UEAAPEAVG4DecayProducts@@N@Z
+	?Definition@G4AdjointAlpha@@SAPEAV1@XZ
+	?Definition@G4AdjointDeuteron@@SAPEAV1@XZ
+	?Definition@G4AdjointElectron@@SAPEAV1@XZ
+	?Definition@G4AdjointElectronFI@@SAPEAV1@XZ
+	?Definition@G4AdjointGamma@@SAPEAV1@XZ
+	?Definition@G4AdjointGenericIon@@SAPEAV1@XZ
+	?Definition@G4AdjointHe3@@SAPEAV1@XZ
+	?Definition@G4AdjointPositron@@SAPEAV1@XZ
+	?Definition@G4AdjointProton@@SAPEAV1@XZ
+	?Definition@G4AdjointTriton@@SAPEAV1@XZ
+	?Definition@G4Alpha@@SAPEAV1@XZ
+	?Definition@G4AntiAlpha@@SAPEAV1@XZ
+	?Definition@G4AntiBMesonZero@@SAPEAV1@XZ
+	?Definition@G4AntiBsMesonZero@@SAPEAV1@XZ
+	?Definition@G4AntiDMesonZero@@SAPEAV1@XZ
+	?Definition@G4AntiDeuteron@@SAPEAV1@XZ
+	?Definition@G4AntiHe3@@SAPEAV1@XZ
+	?Definition@G4AntiKaonZero@@SAPEAV1@XZ
+	?Definition@G4AntiLambda@@SAPEAV1@XZ
+	?Definition@G4AntiLambdab@@SAPEAV1@XZ
+	?Definition@G4AntiLambdacPlus@@SAPEAV1@XZ
+	?Definition@G4AntiNeutrinoE@@SAPEAV1@XZ
+	?Definition@G4AntiNeutrinoMu@@SAPEAV1@XZ
+	?Definition@G4AntiNeutrinoTau@@SAPEAV1@XZ
+	?Definition@G4AntiNeutron@@SAPEAV1@XZ
+	?Definition@G4AntiOmegaMinus@@SAPEAV1@XZ
+	?Definition@G4AntiOmegabMinus@@SAPEAV1@XZ
+	?Definition@G4AntiOmegacZero@@SAPEAV1@XZ
+	?Definition@G4AntiProton@@SAPEAV1@XZ
+	?Definition@G4AntiSigmaMinus@@SAPEAV1@XZ
+	?Definition@G4AntiSigmaPlus@@SAPEAV1@XZ
+	?Definition@G4AntiSigmaZero@@SAPEAV1@XZ
+	?Definition@G4AntiSigmabMinus@@SAPEAV1@XZ
+	?Definition@G4AntiSigmabPlus@@SAPEAV1@XZ
+	?Definition@G4AntiSigmabZero@@SAPEAV1@XZ
+	?Definition@G4AntiSigmacPlus@@SAPEAV1@XZ
+	?Definition@G4AntiSigmacPlusPlus@@SAPEAV1@XZ
+	?Definition@G4AntiSigmacZero@@SAPEAV1@XZ
+	?Definition@G4AntiTriton@@SAPEAV1@XZ
+	?Definition@G4AntiXiMinus@@SAPEAV1@XZ
+	?Definition@G4AntiXiZero@@SAPEAV1@XZ
+	?Definition@G4AntiXibMinus@@SAPEAV1@XZ
+	?Definition@G4AntiXibZero@@SAPEAV1@XZ
+	?Definition@G4AntiXicPlus@@SAPEAV1@XZ
+	?Definition@G4AntiXicZero@@SAPEAV1@XZ
+	?Definition@G4BMesonMinus@@SAPEAV1@XZ
+	?Definition@G4BMesonPlus@@SAPEAV1@XZ
+	?Definition@G4BMesonZero@@SAPEAV1@XZ
+	?Definition@G4BcMesonMinus@@SAPEAV1@XZ
+	?Definition@G4BcMesonPlus@@SAPEAV1@XZ
+	?Definition@G4BsMesonZero@@SAPEAV1@XZ
+	?Definition@G4ChargedGeantino@@SAPEAV1@XZ
+	?Definition@G4DMesonMinus@@SAPEAV1@XZ
+	?Definition@G4DMesonPlus@@SAPEAV1@XZ
+	?Definition@G4DMesonZero@@SAPEAV1@XZ
+	?Definition@G4Deuteron@@SAPEAV1@XZ
+	?Definition@G4DsMesonMinus@@SAPEAV1@XZ
+	?Definition@G4DsMesonPlus@@SAPEAV1@XZ
+	?Definition@G4Electron@@SAPEAV1@XZ
+	?Definition@G4Eta@@SAPEAV1@XZ
+	?Definition@G4EtaPrime@@SAPEAV1@XZ
+	?Definition@G4Etac@@SAPEAV1@XZ
+	?Definition@G4Gamma@@SAPEAV1@XZ
+	?Definition@G4Geantino@@SAPEAV1@XZ
+	?Definition@G4GenericIon@@SAPEAV1@XZ
+	?Definition@G4GenericMuonicAtom@@SAPEAV1@XZ
+	?Definition@G4He3@@SAPEAV1@XZ
+	?Definition@G4JPsi@@SAPEAV1@XZ
+	?Definition@G4KaonMinus@@SAPEAV1@XZ
+	?Definition@G4KaonPlus@@SAPEAV1@XZ
+	?Definition@G4KaonZero@@SAPEAV1@XZ
+	?Definition@G4KaonZeroLong@@SAPEAV1@XZ
+	?Definition@G4KaonZeroShort@@SAPEAV1@XZ
+	?Definition@G4Lambda@@SAPEAV1@XZ
+	?Definition@G4Lambdab@@SAPEAV1@XZ
+	?Definition@G4LambdacPlus@@SAPEAV1@XZ
+	?Definition@G4MuonMinus@@SAPEAV1@XZ
+	?Definition@G4MuonPlus@@SAPEAV1@XZ
+	?Definition@G4NeutrinoE@@SAPEAV1@XZ
+	?Definition@G4NeutrinoMu@@SAPEAV1@XZ
+	?Definition@G4NeutrinoTau@@SAPEAV1@XZ
+	?Definition@G4Neutron@@SAPEAV1@XZ
+	?Definition@G4OmegaMinus@@SAPEAV1@XZ
+	?Definition@G4OmegabMinus@@SAPEAV1@XZ
+	?Definition@G4OmegacZero@@SAPEAV1@XZ
+	?Definition@G4OpticalPhoton@@SAPEAV1@XZ
+	?Definition@G4PhononLong@@SAPEAV1@XZ
+	?Definition@G4PhononTransFast@@SAPEAV1@XZ
+	?Definition@G4PhononTransSlow@@SAPEAV1@XZ
+	?Definition@G4PionMinus@@SAPEAV1@XZ
+	?Definition@G4PionPlus@@SAPEAV1@XZ
+	?Definition@G4PionZero@@SAPEAV1@XZ
+	?Definition@G4Positron@@SAPEAV1@XZ
+	?Definition@G4Proton@@SAPEAV1@XZ
+	?Definition@G4SigmaMinus@@SAPEAV1@XZ
+	?Definition@G4SigmaPlus@@SAPEAV1@XZ
+	?Definition@G4SigmaZero@@SAPEAV1@XZ
+	?Definition@G4SigmabMinus@@SAPEAV1@XZ
+	?Definition@G4SigmabPlus@@SAPEAV1@XZ
+	?Definition@G4SigmabZero@@SAPEAV1@XZ
+	?Definition@G4SigmacPlus@@SAPEAV1@XZ
+	?Definition@G4SigmacPlusPlus@@SAPEAV1@XZ
+	?Definition@G4SigmacZero@@SAPEAV1@XZ
+	?Definition@G4TauMinus@@SAPEAV1@XZ
+	?Definition@G4TauPlus@@SAPEAV1@XZ
+	?Definition@G4Triton@@SAPEAV1@XZ
+	?Definition@G4UnknownParticle@@SAPEAV1@XZ
+	?Definition@G4Upsilon@@SAPEAV1@XZ
+	?Definition@G4XiMinus@@SAPEAV1@XZ
+	?Definition@G4XiZero@@SAPEAV1@XZ
+	?Definition@G4XibMinus@@SAPEAV1@XZ
+	?Definition@G4XibZero@@SAPEAV1@XZ
+	?Definition@G4XicPlus@@SAPEAV1@XZ
+	?Definition@G4XicZero@@SAPEAV1@XZ
+	?DeleteAllParticles@G4ParticleTable@@QEAAXXZ
+	?DeleteMessenger@G4ParticleTable@@QEAAXXZ
+	?Destroy@?$G4CacheReference@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QEAAXI_N@Z
+	?Destroy@?$G4CacheReference@PEAVG4String@@@@QEAAXI_N@Z
+	?DestroyWorkerG4IonTable@G4IonTable@@QEAAXXZ
+	?DestroyWorkerG4ParticleTable@G4ParticleTable@@QEAAXXZ
+	?DestroyWorkspace@G4ParticlesWorkspace@@QEAAXXZ
+	?Deuteron@G4AdjointDeuteron@@SAPEAV1@XZ
+	?Deuteron@G4Deuteron@@SAPEAV1@XZ
+	?DeuteronDefinition@G4AdjointDeuteron@@SAPEAV1@XZ
+	?DeuteronDefinition@G4Deuteron@@SAPEAV1@XZ
+	?DsMesonMinus@G4DsMesonMinus@@SAPEAV1@XZ
+	?DsMesonMinusDefinition@G4DsMesonMinus@@SAPEAV1@XZ
+	?DsMesonPlus@G4DsMesonPlus@@SAPEAV1@XZ
+	?DsMesonPlusDefinition@G4DsMesonPlus@@SAPEAV1@XZ
+	?DumpInfo@G4DecayProducts@@QEBAXXZ
+	?DumpInfo@G4DecayTable@@QEBAXXZ
+	?DumpInfo@G4DynamicParticle@@QEBAXH@Z
+	?DumpInfo@G4ElectronOccupancy@@QEBAXXZ
+	?DumpInfo@G4IsotopeProperty@@QEBAXXZ
+	?DumpInfo@G4VDecayChannel@@QEAAXXZ
+	?DumpTable@G4IonTable@@QEBAXAEBVG4String@@@Z
+	?DumpTable@G4ParticleDefinition@@QEBAXXZ
+	?DumpTable@G4ParticleTable@@QEAAXAEBVG4String@@@Z
+	?DumpTable@G4VIsotopeTable@@QEAAXHH@Z
+	?DynamicalMass@G4VDecayChannel@@IEBANNNN@Z
+	?Electron@G4Electron@@SAPEAV1@XZ
+	?ElectronDefinition@G4Electron@@SAPEAV1@XZ
+	?ElectronicBindingEnergy@G4NucleiPropertiesTheoreticalTable@@CANH@Z
+	?Entries@G4IonTable@@QEBAHXZ
+	?Eta@G4Eta@@SAPEAV1@XZ
+	?EtaDefinition@G4Eta@@SAPEAV1@XZ
+	?EtaPrime@G4EtaPrime@@SAPEAV1@XZ
+	?EtaPrimeDefinition@G4EtaPrime@@SAPEAV1@XZ
+	?Etac@G4Etac@@SAPEAV1@XZ
+	?EtacDefinition@G4Etac@@SAPEAV1@XZ
+	?Exist@G4ExcitedDeltaConstructor@@MEAA_NH@Z
+	?Exist@G4ExcitedLambdaConstructor@@MEAA_NH@Z
+	?Exist@G4ExcitedMesonConstructor@@IEAA_NHH@Z
+	?Exist@G4ExcitedNucleonConstructor@@MEAA_NH@Z
+	?Exist@G4ExcitedSigmaConstructor@@MEAA_NH@Z
+	?Exist@G4ExcitedXiConstructor@@MEAA_NH@Z
+	?FillDaughters@G4VDecayChannel@@AEAAXXZ
+	?FillHardCodeList@G4NuclideTable@@IEAAXXZ
+	?FillList@G4VParticlePropertyReporter@@UEAA_NVG4String@@@Z
+	?FillParent@G4VDecayChannel@@AEAAXXZ
+	?FillQuarkContents@G4ParticleDefinition@@IEAAHXZ
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHH@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHH@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHNDH@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHNH@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHNW4G4FloatLevelBase@G4Ions@@H@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHNDH@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHNH@Z
+	?FindIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHNW4G4FloatLevelBase@G4Ions@@H@Z
+	?FindIonInMaster@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHH@Z
+	?FindIonInMaster@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHHH@Z
+	?FindIonInMaster@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHHNW4G4FloatLevelBase@G4Ions@@H@Z
+	?FindIonInMaster@G4IonTable@@IEAAPEAVG4ParticleDefinition@@HHNW4G4FloatLevelBase@G4Ions@@H@Z
+	?FindIsotope@G4IonTable@@IEBAPEAVG4IsotopeProperty@@HHH@Z
+	?FindIsotope@G4IonTable@@IEBAPEAVG4IsotopeProperty@@HHNW4G4FloatLevelBase@G4Ions@@@Z
+	?FindIsotope@G4IsotopeMagneticMomentTable@@UEAA_NPEAVG4IsotopeProperty@@@Z
+	?FindParticle@G4ParticleTable@@QEAAPEAVG4ParticleDefinition@@AEBVG4String@@@Z
+	?FindParticle@G4ParticleTable@@QEAAPEAVG4ParticleDefinition@@H@Z
+	?FindParticle@G4ParticleTable@@QEAAPEAVG4ParticleDefinition@@PEBV2@@Z
+	?FloatLevelBase@G4Ions@@SA?AW4G4FloatLevelBase@1@D@Z
+	?FreeSlave@G4PDefManager@@QEAAXXZ
+	?FreeWorkArea@G4PDefManager@@QEAAPEAVG4PDefData@@XZ
+	?Gamma@G4Gamma@@SAPEAV1@XZ
+	?GammaDefinition@G4Gamma@@SAPEAV1@XZ
+	?Geantino@G4Geantino@@SAPEAV1@XZ
+	?GeantinoDefinition@G4Geantino@@SAPEAV1@XZ
+	?GenerateIndex@G4HtmlPPReporter@@AEAAXXZ
+	?GenerateNuclide@G4NuclideTable@@QEAAXXZ
+	?GeneratePropertyTable@G4HtmlPPReporter@@AEAAXPEBVG4ParticleDefinition@@@Z
+	?GeneratePropertyTable@G4TextPPReporter@@IEAAXPEBVG4ParticleDefinition@@@Z
+	?GenericIon@G4AdjointGenericIon@@SAPEAV1@XZ
+	?GenericIon@G4GenericIon@@SAPEAV1@XZ
+	?GenericIonDefinition@G4AdjointGenericIon@@SAPEAV1@XZ
+	?GenericIonDefinition@G4GenericIon@@SAPEAV1@XZ
+	?GenericMuonicAtom@G4GenericMuonicAtom@@SAPEAV1@XZ
+	?GenericMuonicAtomDefinition@G4GenericMuonicAtom@@SAPEAV1@XZ
+	?GetAllocatedSize@?$G4Allocator@VG4DynamicParticle@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4ElectronOccupancy@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4PrimaryParticle@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4PrimaryVertex@@@@UEBA_KXZ
+	?GetAngularMomentum@G4VDecayChannel@@QEAAHXZ
+	?GetAtomicMass@G4HyperNucleiProperties@@SANHHH@Z
+	?GetAtomicMass@G4NucleiProperties@@CANNN@Z
+	?GetAtomicMass@G4NucleiPropertiesTableAME12@@CANHH@Z
+	?GetAtomicMass@G4NucleiPropertiesTheoreticalTable@@CANHH@Z
+	?GetBetaDecayEnergy@G4NucleiPropertiesTableAME12@@CANHH@Z
+	?GetBindingEnergy@G4NucleiProperties@@SANHH@Z
+	?GetBindingEnergy@G4NucleiProperties@@SANNN@Z
+	?GetBindingEnergy@G4NucleiPropertiesTableAME12@@CANHH@Z
+	?GetBindingEnergy@G4NucleiPropertiesTheoreticalTable@@CANHH@Z
+	?GetCache@?$G4Cache@N@@AEBAAEANXZ
+	?GetCharge@G4ExcitedBaryonConstructor@@MEAANH@Z
+	?GetCharge@G4ExcitedMesonConstructor@@IEAANHH@Z
+	?GetCurrentValue@G4DecayTableMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4ParticleMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4ParticlePropertyMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetDictionary@G4ParticleTable@@IEBAPEBV?$map@VG4String@@PEAVG4ParticleDefinition@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@4@@std@@XZ
+	?GetDigits@G4PDGCodeChecker@@AEAAXH@Z
+	?GetElectronMass@G4DynamicParticle@@IEBANXZ
+	?GetEncoding@G4ExcitedBaryonConstructor@@MEAAHHH@Z
+	?GetEncoding@G4ExcitedDeltaConstructor@@MEAAHHH@Z
+	?GetEncoding@G4ExcitedMesonConstructor@@IEAAHHHH@Z
+	?GetEncoding@G4ExcitedNucleonConstructor@@MEAAHHH@Z
+	?GetEncodingDictionary@G4ParticleTable@@IEBAPEBV?$map@HPEAVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@3@@std@@XZ
+	?GetEncodingOffset@G4ExcitedDeltaConstructor@@MEAAHH@Z
+	?GetEncodingOffset@G4ExcitedLambdaConstructor@@MEAAHH@Z
+	?GetEncodingOffset@G4ExcitedNucleonConstructor@@MEAAHH@Z
+	?GetEncodingOffset@G4ExcitedSigmaConstructor@@MEAAHH@Z
+	?GetEncodingOffset@G4ExcitedXiConstructor@@MEAAHH@Z
+	?GetIndex@G4NucleiPropertiesTableAME12@@CAHHH@Z
+	?GetIndex@G4NucleiPropertiesTheoreticalTable@@CAHHH@Z
+	?GetInstance@G4NuclideTable@@SAPEAV1@XZ
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@H@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHH@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHH@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHNDH@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHNH@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHHNW4G4FloatLevelBase@G4Ions@@H@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHNDH@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHNH@Z
+	?GetIon@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HHNW4G4FloatLevelBase@G4Ions@@H@Z
+	?GetIonMass@G4IonTable@@QEBANHHHH@Z
+	?GetIonName@G4IonTable@@QEBAAEBVG4String@@HHH@Z
+	?GetIonName@G4IonTable@@QEBAAEBVG4String@@HHHH@Z
+	?GetIonName@G4IonTable@@QEBAAEBVG4String@@HHHNW4G4FloatLevelBase@G4Ions@@@Z
+	?GetIonName@G4IonTable@@QEBAAEBVG4String@@HHNW4G4FloatLevelBase@G4Ions@@@Z
+	?GetIonTable@G4ParticleTable@@QEBAPEAVG4IonTable@@XZ
+	?GetIsomerMass@G4IonTable@@QEBANHHH@Z
+	?GetIsotope@G4IsotopeMagneticMomentTable@@UEAAPEAVG4IsotopeProperty@@HHNW4G4FloatLevelBase@G4Ions@@@Z
+	?GetIsotope@G4NuclideTable@@UEAAPEAVG4IsotopeProperty@@HHNW4G4FloatLevelBase@G4Ions@@@Z
+	?GetIsotopeByIsoLvl@G4IsotopeMagneticMomentTable@@UEAAPEAVG4IsotopeProperty@@HHH@Z
+	?GetIsotopeByIsoLvl@G4NuclideTable@@UEAAPEAVG4IsotopeProperty@@HHH@Z
+	?GetIsotopeByIsoLvl@G4VIsotopeTable@@UEAAPEAVG4IsotopeProperty@@HHH@Z
+	?GetIsotopeTable@G4IonTable@@QEBAPEAVG4VIsotopeTable@@_K@Z
+	?GetIterator@G4ParticleTable@@QEBAPEAV?$G4ParticleTableIterator@VG4String@@PEAVG4ParticleDefinition@@@@XZ
+	?GetKShellEnergy@G4MuonicAtomHelper@@SANN@Z
+	?GetLifeTime@G4IonTable@@QEBANHHND@Z
+	?GetLifeTime@G4IonTable@@QEBANHHNW4G4FloatLevelBase@G4Ions@@@Z
+	?GetLifeTime@G4IonTable@@QEBANPEBVG4ParticleDefinition@@@Z
+	?GetLightAntiIon@G4IonTable@@IEBAPEAVG4ParticleDefinition@@HH@Z
+	?GetLightIon@G4IonTable@@IEBAPEAVG4ParticleDefinition@@HH@Z
+	?GetLinApprox@G4MuonicAtomHelper@@SANHQEBN0N@Z
+	?GetMass@G4ExcitedDeltaConstructor@@MEAANHH@Z
+	?GetMass@G4ExcitedLambdaConstructor@@MEAANHH@Z
+	?GetMass@G4ExcitedNucleonConstructor@@MEAANHH@Z
+	?GetMass@G4ExcitedSigmaConstructor@@MEAANHH@Z
+	?GetMass@G4ExcitedXiConstructor@@MEAANHH@Z
+	?GetMassExcess@G4NucleiProperties@@SANHH@Z
+	?GetMassExcess@G4NucleiProperties@@SANNN@Z
+	?GetMassExcess@G4NucleiPropertiesTableAME12@@CANHH@Z
+	?GetMassExcess@G4NucleiPropertiesTheoreticalTable@@CANHH@Z
+	?GetMultipletName@G4ExcitedDeltaConstructor@@MEAA?AVG4String@@H@Z
+	?GetMultipletName@G4ExcitedLambdaConstructor@@MEAA?AVG4String@@H@Z
+	?GetMultipletName@G4ExcitedNucleonConstructor@@MEAA?AVG4String@@H@Z
+	?GetMultipletName@G4ExcitedSigmaConstructor@@MEAA?AVG4String@@H@Z
+	?GetMultipletName@G4ExcitedXiConstructor@@MEAA?AVG4String@@H@Z
+	?GetMuonCaptureRate@G4MuonicAtomHelper@@SANHH@Z
+	?GetMuonDecayRate@G4MuonicAtomHelper@@SANH@Z
+	?GetMuonZeff@G4MuonicAtomHelper@@SANH@Z
+	?GetMuonicAtom@G4IonTable@@QEAAPEAVG4ParticleDefinition@@HH@Z
+	?GetMuonicAtom@G4IonTable@@QEAAPEAVG4ParticleDefinition@@PEBVG4Ions@@@Z
+	?GetName@G4ExcitedDeltaConstructor@@MEAA?AVG4String@@HH@Z
+	?GetName@G4ExcitedLambdaConstructor@@MEAA?AVG4String@@HH@Z
+	?GetName@G4ExcitedMesonConstructor@@IEAA?AVG4String@@HHH@Z
+	?GetName@G4ExcitedNucleonConstructor@@MEAA?AVG4String@@HH@Z
+	?GetName@G4ExcitedSigmaConstructor@@MEAA?AVG4String@@HH@Z
+	?GetName@G4ExcitedXiConstructor@@MEAA?AVG4String@@HH@Z
+	?GetNoName@G4VDecayChannel@@AEBAAEBVG4String@@XZ
+	?GetNoPages@?$G4Allocator@VG4DynamicParticle@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4ElectronOccupancy@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4PrimaryParticle@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4PrimaryVertex@@@@UEBAHXZ
+	?GetNuclearMass@G4HyperNucleiProperties@@SANHHH@Z
+	?GetNuclearMass@G4NucleiProperties@@SANHH@Z
+	?GetNuclearMass@G4NucleiProperties@@SANNN@Z
+	?GetNuclearMass@G4NucleiPropertiesTableAME12@@CANHH@Z
+	?GetNuclearMass@G4NucleiPropertiesTheoreticalTable@@CANHH@Z
+	?GetNucleusByEncoding@G4IonTable@@SA_NHAEAH00AEAN0@Z
+	?GetNucleusByEncoding@G4IonTable@@SA_NHAEAH0AEAN0@Z
+	?GetNucleusEncoding@G4IonTable@@SAHHHHNH@Z
+	?GetNucleusEncoding@G4IonTable@@SAHHHNH@Z
+	?GetNucleusMass@G4IonTable@@QEBANHHHH@Z
+	?GetOffset@G4PDefManager@@QEAAPEAVG4PDefData@@XZ
+	?GetPageSize@?$G4Allocator@VG4DynamicParticle@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4ElectronOccupancy@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4PrimaryParticle@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4PrimaryVertex@@@@UEBA_KXZ
+	?GetParticle@G4IonTable@@QEBAPEAVG4ParticleDefinition@@H@Z
+	?GetParticle@G4ParticleTable@@QEBAPEAVG4ParticleDefinition@@H@Z
+	?GetParticleName@G4ParticleTable@@QEBAAEBVG4String@@H@Z
+	?GetParticleProperty@G4ParticlePropertyTable@@QEAAPEAVG4ParticlePropertyData@@AEBVG4String@@@Z
+	?GetParticleProperty@G4ParticlePropertyTable@@QEAAPEAVG4ParticlePropertyData@@PEBVG4ParticleDefinition@@@Z
+	?GetParticlePropertyTable@G4ParticlePropertyTable@@SAPEAV1@XZ
+	?GetParticleTable@G4ParticleTable@@SAPEAV1@XZ
+	?GetPool@G4ParticlesWorkspace@@SAPEAV?$G4TWorkspacePool@VG4ParticlesWorkspace@@@@XZ
+	?GetPoolType@?$G4Allocator@VG4DynamicParticle@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4ElectronOccupancy@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4PrimaryParticle@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4PrimaryVertex@@@@UEBAPEBDXZ
+	?GetPrimary@G4PrimaryVertex@@QEBAPEAVG4PrimaryParticle@@H@Z
+	?GetProcessManager@G4ParticleDefinition@@QEBAPEAVG4ProcessManager@@XZ
+	?GetQuarkContent@G4ParticleDefinition@@QEBAHH@Z
+	?GetQuarkContents@G4ExcitedDeltaConstructor@@MEAAHHH@Z
+	?GetQuarkContents@G4ExcitedLambdaConstructor@@MEAAHHH@Z
+	?GetQuarkContents@G4ExcitedMesonConstructor@@IEAAHHHH@Z
+	?GetQuarkContents@G4ExcitedNucleonConstructor@@MEAAHHH@Z
+	?GetQuarkContents@G4ExcitedSigmaConstructor@@MEAAHHH@Z
+	?GetQuarkContents@G4ExcitedXiConstructor@@MEAAHHH@Z
+	?GetSubInstanceManager@G4ParticleDefinition@@SAAEBVG4PDefManager@@XZ
+	?GetVerboseLevel@G4IonTable@@IEBAHXZ
+	?GetWidth@G4ExcitedDeltaConstructor@@MEAANHH@Z
+	?GetWidth@G4ExcitedLambdaConstructor@@MEAANHH@Z
+	?GetWidth@G4ExcitedNucleonConstructor@@MEAANHH@Z
+	?GetWidth@G4ExcitedSigmaConstructor@@MEAANHH@Z
+	?GetWidth@G4ExcitedXiConstructor@@MEAANHH@Z
+	?GetiParity@G4ExcitedDeltaConstructor@@MEAAHH@Z
+	?GetiParity@G4ExcitedLambdaConstructor@@MEAAHH@Z
+	?GetiParity@G4ExcitedNucleonConstructor@@MEAAHH@Z
+	?GetiParity@G4ExcitedSigmaConstructor@@MEAAHH@Z
+	?GetiParity@G4ExcitedXiConstructor@@MEAAHH@Z
+	?GetiSpin@G4ExcitedDeltaConstructor@@MEAAHH@Z
+	?GetiSpin@G4ExcitedLambdaConstructor@@MEAAHH@Z
+	?GetiSpin@G4ExcitedNucleonConstructor@@MEAAHH@Z
+	?GetiSpin@G4ExcitedSigmaConstructor@@MEAAHH@Z
+	?GetiSpin@G4ExcitedXiConstructor@@MEAAHH@Z
+	?He3@G4AdjointHe3@@SAPEAV1@XZ
+	?He3@G4He3@@SAPEAV1@XZ
+	?He3Definition@G4AdjointHe3@@SAPEAV1@XZ
+	?He3Definition@G4He3@@SAPEAV1@XZ
+	?IncreasePageSize@?$G4Allocator@VG4DynamicParticle@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4ElectronOccupancy@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4PrimaryParticle@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4PrimaryVertex@@@@UEAAXI@Z
+	?Init@antilightions@@YAXXZ
+	?Init@lightions@@YAXXZ
+	?InitialiseParticles@G4ParticlesWorkspace@@IEAAXXZ
+	?InitialiseWorkspace@G4ParticlesWorkspace@@QEAAXXZ
+	?InitializeLightIons@G4IonTable@@QEAAXXZ
+	?Insert@G4DecayTable@@QEAAXPEAVG4VDecayChannel@@@Z
+	?Insert@G4IonTable@@QEAAXPEBVG4ParticleDefinition@@@Z
+	?Insert@G4ParticleTable@@QEAAPEAVG4ParticleDefinition@@PEAV2@@Z
+	?InsertWorker@G4IonTable@@IEAAXPEBVG4ParticleDefinition@@@Z
+	?IonsDefinition@G4AdjointIons@@QEAAPEAV1@XZ
+	?IsAntiIon@G4IonTable@@SA_NPEBVG4ParticleDefinition@@@Z
+	?IsChecked@G4DecayProducts@@QEBA_NXZ
+	?IsInStableTable@G4NucleiProperties@@SA_NHH@Z
+	?IsInStableTable@G4NucleiProperties@@SA_NNN@Z
+	?IsInTable@G4NucleiPropertiesTableAME12@@CA_NHH@Z
+	?IsInTable@G4NucleiPropertiesTheoreticalTable@@CA_NHH@Z
+	?IsIon@G4IonTable@@SA_NPEBVG4ParticleDefinition@@@Z
+	?IsLightAntiIon@G4IonTable@@IEBA_NPEBVG4ParticleDefinition@@@Z
+	?IsLightIon@G4IonTable@@IEBA_NPEBVG4ParticleDefinition@@@Z
+	?IsOKWithParentMass@G4PhaseSpaceDecayChannel@@UEAA_NN@Z
+	?IsOKWithParentMass@G4VDecayChannel@@UEAA_NN@Z
+	?JPsi@G4JPsi@@SAPEAV1@XZ
+	?JPsiDefinition@G4JPsi@@SAPEAV1@XZ
+	?KaonMinus@G4KaonMinus@@SAPEAV1@XZ
+	?KaonMinusDefinition@G4KaonMinus@@SAPEAV1@XZ
+	?KaonPlus@G4KaonPlus@@SAPEAV1@XZ
+	?KaonPlusDefinition@G4KaonPlus@@SAPEAV1@XZ
+	?KaonZero@G4KaonZero@@SAPEAV1@XZ
+	?KaonZeroDefinition@G4KaonZero@@SAPEAV1@XZ
+	?KaonZeroLong@G4KaonZeroLong@@SAPEAV1@XZ
+	?KaonZeroLongDefinition@G4KaonZeroLong@@SAPEAV1@XZ
+	?KaonZeroShort@G4KaonZeroShort@@SAPEAV1@XZ
+	?KaonZeroShortDefinition@G4KaonZeroShort@@SAPEAV1@XZ
+	?Lambda@G4Lambda@@SAPEAV1@XZ
+	?LambdaDefinition@G4Lambda@@SAPEAV1@XZ
+	?Lambdab@G4Lambdab@@SAPEAV1@XZ
+	?LambdabDefinition@G4Lambdab@@SAPEAV1@XZ
+	?LambdacPlus@G4LambdacPlus@@SAPEAV1@XZ
+	?LambdacPlusDefinition@G4LambdacPlus@@SAPEAV1@XZ
+	?ManyBodyDecayIt@G4PhaseSpaceDecayChannel@@AEAAPEAVG4DecayProducts@@XZ
+	?MassExcess@G4NucleiProperties@@CANNN@Z
+	?MaxZ@G4NucleiPropertiesTableAME12@@CAHH@Z
+	?MinZ@G4NucleiPropertiesTableAME12@@CAHH@Z
+	?ModifyPropertyTable@G4TextPPRetriever@@IEAA_NPEBVG4ParticleDefinition@@@Z
+	?MuonMinus@G4MuonMinus@@SAPEAV1@XZ
+	?MuonMinusDefinition@G4MuonMinus@@SAPEAV1@XZ
+	?MuonPlus@G4MuonPlus@@SAPEAV1@XZ
+	?MuonPlusDefinition@G4MuonPlus@@SAPEAV1@XZ
+	?NeutrinoE@G4NeutrinoE@@SAPEAV1@XZ
+	?NeutrinoEDefinition@G4NeutrinoE@@SAPEAV1@XZ
+	?NeutrinoMu@G4NeutrinoMu@@SAPEAV1@XZ
+	?NeutrinoMuDefinition@G4NeutrinoMu@@SAPEAV1@XZ
+	?NeutrinoTau@G4NeutrinoTau@@SAPEAV1@XZ
+	?NeutrinoTauDefinition@G4NeutrinoTau@@SAPEAV1@XZ
+	?Neutron@G4Neutron@@SAPEAV1@XZ
+	?NeutronDefinition@G4Neutron@@SAPEAV1@XZ
+	?NewSubInstances@G4PDefManager@@QEAAXXZ
+	?NuclearMass@G4NucleiProperties@@CANNN@Z
+	?OmegaMinus@G4OmegaMinus@@SAPEAV1@XZ
+	?OmegaMinusDefinition@G4OmegaMinus@@SAPEAV1@XZ
+	?OmegabMinus@G4OmegabMinus@@SAPEAV1@XZ
+	?OmegabMinusDefinition@G4OmegabMinus@@SAPEAV1@XZ
+	?OmegacZero@G4OmegacZero@@SAPEAV1@XZ
+	?OmegacZeroDefinition@G4OmegacZero@@SAPEAV1@XZ
+	?OneBodyDecayIt@G4PhaseSpaceDecayChannel@@AEAAPEAVG4DecayProducts@@XZ
+	?OpticalPhoton@G4OpticalPhoton@@SAPEAV1@XZ
+	?OpticalPhotonDefinition@G4OpticalPhoton@@SAPEAV1@XZ
+	?PhaseSpace@G4KL3DecayChannel@@IEAAXNPEBNPEAN1@Z
+	?PhononDefinition@G4PhononLong@@SAPEAV1@XZ
+	?PhononDefinition@G4PhononTransFast@@SAPEAV1@XZ
+	?PhononDefinition@G4PhononTransSlow@@SAPEAV1@XZ
+	?PionMinus@G4PionMinus@@SAPEAV1@XZ
+	?PionMinusDefinition@G4PionMinus@@SAPEAV1@XZ
+	?PionPlus@G4PionPlus@@SAPEAV1@XZ
+	?PionPlusDefinition@G4PionPlus@@SAPEAV1@XZ
+	?PionZero@G4PionZero@@SAPEAV1@XZ
+	?PionZeroDefinition@G4PionZero@@SAPEAV1@XZ
+	?Pmx@G4PhaseSpaceDecayChannel@@SANNNN@Z
+	?PopProducts@G4DecayProducts@@QEAAPEAVG4DynamicParticle@@XZ
+	?Positron@G4Positron@@SAPEAV1@XZ
+	?PositronDefinition@G4Positron@@SAPEAV1@XZ
+	?PreloadNuclide@G4IonTable@@QEAAXXZ
+	?PrepareNuclideTable@G4IonTable@@QEAAXXZ
+	?Print@G4HtmlPPReporter@@UEAAXAEBVG4String@@@Z
+	?Print@G4ParticlePropertyData@@QEBAXXZ
+	?Print@G4PrimaryParticle@@QEBAXXZ
+	?Print@G4PrimaryVertex@@QEBAXXZ
+	?Print@G4SimplePPReporter@@UEAAXAEBVG4String@@@Z
+	?Print@G4TextPPReporter@@UEAAXAEBVG4String@@@Z
+	?PrintFooter@G4HtmlPPReporter@@AEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z
+	?PrintHeader@G4HtmlPPReporter@@AEAAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z
+	?Proton@G4Proton@@SAPEAV1@XZ
+	?ProtonDefinition@G4Proton@@SAPEAV1@XZ
+	?PushProducts@G4DecayProducts@@QEAAHPEAVG4DynamicParticle@@@Z
+	?R_c@G4MuonDecayChannelWithSpin@@AEAANNN@Z
+	?Register@?$G4ThreadLocalSingleton@V?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@AEBAXPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?Register@?$G4ThreadLocalSingleton@VG4String@@@@AEBAXPEAVG4String@@@Z
+	?RegisterIsotopeTable@G4IonTable@@QEAAXPEAVG4VIsotopeTable@@@Z
+	?ReleaseWorkspace@G4ParticlesWorkspace@@QEAAXXZ
+	?Remove@G4IonTable@@QEAAXPEBVG4ParticleDefinition@@@Z
+	?Remove@G4ParticleTable@@QEAAPEAVG4ParticleDefinition@@PEAV2@@Z
+	?RemoveAllParticles@G4ParticleTable@@QEAAXXZ
+	?RemoveElectron@G4ElectronOccupancy@@QEAAHHH@Z
+	?ResetStorage@?$G4Allocator@VG4DynamicParticle@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4ElectronOccupancy@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4PrimaryParticle@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4PrimaryVertex@@@@UEAAXXZ
+	?Retrieve@G4TextPPRetriever@@UEAAXAEBVG4String@@@Z
+	?SampleDaughterMasses@G4PhaseSpaceDecayChannel@@QEAA_NXZ
+	?SelectADecayChannel@G4DecayTable@@QEAAPEAVG4VDecayChannel@@N@Z
+	?Set4Momentum@G4DynamicParticle@@QEAAXAEBVHepLorentzVector@CLHEP@@@Z
+	?Set4Momentum@G4PrimaryParticle@@QEAAXNNNN@Z
+	?SetApplyCutsFlag@G4ParticleDefinition@@QEAAX_N@Z
+	?SetBR@G4VDecayChannel@@QEAAXN@Z
+	?SetCurrentParticle@G4DecayTableMessenger@@AEAAPEAVG4ParticleDefinition@@XZ
+	?SetCurrentParticle@G4ParticlePropertyMessenger@@AEAAPEAVG4ParticleDefinition@@XZ
+	?SetDaughter@G4VDecayChannel@@QEAAXHAEBVG4String@@@Z
+	?SetDaughter@G4VDecayChannel@@QEAAXHPEBVG4ParticleDefinition@@@Z
+	?SetDaughterMasses@G4PhaseSpaceDecayChannel@@QEAA_NQEAN@Z
+	?SetDefinition@G4DynamicParticle@@QEAAXPEBVG4ParticleDefinition@@@Z
+	?SetMomentum@G4DynamicParticle@@QEAAXAEBVHep3Vector@CLHEP@@@Z
+	?SetMomentum@G4PrimaryParticle@@QEAAXNNN@Z
+	?SetMultipletName@G4ExcitedBaryons@@QEAAXAEBVG4String@@@Z
+	?SetMultipletName@G4ExcitedMesons@@QEAAXAEBVG4String@@@Z
+	?SetNewValue@G4DecayTableMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4NuclideTableMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4ParticleMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4ParticlePropertyMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNumberOfDaughters@G4VDecayChannel@@QEAAXH@Z
+	?SetPDGcode@G4PrimaryParticle@@QEAAXH@Z
+	?SetParent@G4VDecayChannel@@QEAAXAEBVG4String@@@Z
+	?SetParent@G4VDecayChannel@@QEAAXPEBVG4ParticleDefinition@@@Z
+	?SetParentParticle@G4DecayProducts@@QEAAXAEBVG4DynamicParticle@@@Z
+	?SetParticleDefinition@G4PrimaryParticle@@QEAAXPEBVG4ParticleDefinition@@@Z
+	?SetParticleDefinitionID@G4ParticleDefinition@@QEAAXH@Z
+	?SetParticleProperty@G4ParticlePropertyTable@@QEAA_NAEBVG4ParticlePropertyData@@@Z
+	?SetProcessManager@G4ParticleDefinition@@QEAAXPEAVG4ProcessManager@@@Z
+	?SetThresholdOfHalfLife@G4NuclideTable@@QEAAXN@Z
+	?SigmaMinus@G4SigmaMinus@@SAPEAV1@XZ
+	?SigmaMinusDefinition@G4SigmaMinus@@SAPEAV1@XZ
+	?SigmaPlus@G4SigmaPlus@@SAPEAV1@XZ
+	?SigmaPlusDefinition@G4SigmaPlus@@SAPEAV1@XZ
+	?SigmaZero@G4SigmaZero@@SAPEAV1@XZ
+	?SigmaZeroDefinition@G4SigmaZero@@SAPEAV1@XZ
+	?SigmabMinus@G4SigmabMinus@@SAPEAV1@XZ
+	?SigmabMinusDefinition@G4SigmabMinus@@SAPEAV1@XZ
+	?SigmabPlus@G4SigmabPlus@@SAPEAV1@XZ
+	?SigmabPlusDefinition@G4SigmabPlus@@SAPEAV1@XZ
+	?SigmabZero@G4SigmabZero@@SAPEAV1@XZ
+	?SigmabZeroDefinition@G4SigmabZero@@SAPEAV1@XZ
+	?SigmacPlus@G4SigmacPlus@@SAPEAV1@XZ
+	?SigmacPlusDefinition@G4SigmacPlus@@SAPEAV1@XZ
+	?SigmacPlusPlus@G4SigmacPlusPlus@@SAPEAV1@XZ
+	?SigmacPlusPlusDefinition@G4SigmacPlusPlus@@SAPEAV1@XZ
+	?SigmacZero@G4SigmacZero@@SAPEAV1@XZ
+	?SigmacZeroDefinition@G4SigmacZero@@SAPEAV1@XZ
+	?SlaveG4IonTable@G4IonTable@@QEAAXXZ
+	?SlaveG4ParticleTable@G4ParticleTable@@QEAAXXZ
+	?SparseOption@G4HtmlPPReporter@@AEAAXAEBVG4String@@@Z
+	?SparseOption@G4TextPPReporter@@IEAAXAEBVG4String@@@Z
+	?SparseOption@G4TextPPRetriever@@IEAAXAEBVG4String@@@Z
+	?StripFloatLevelBase@G4NuclideTable@@AEAA?AW4G4FloatLevelBase@G4Ions@@VG4String@@@Z
+	?StripFloatLevelBase@G4NuclideTable@@AEAANNAEAH@Z
+	?TauMinus@G4TauMinus@@SAPEAV1@XZ
+	?TauMinusDefinition@G4TauMinus@@SAPEAV1@XZ
+	?TauPlus@G4TauPlus@@SAPEAV1@XZ
+	?TauPlusDefinition@G4TauPlus@@SAPEAV1@XZ
+	?ThreeBodyDecayIt@G4PhaseSpaceDecayChannel@@AEAAPEAVG4DecayProducts@@XZ
+	?Triton@G4AdjointTriton@@SAPEAV1@XZ
+	?Triton@G4Triton@@SAPEAV1@XZ
+	?TritonDefinition@G4AdjointTriton@@SAPEAV1@XZ
+	?TritonDefinition@G4Triton@@SAPEAV1@XZ
+	?TwoBodyDecayIt@G4PhaseSpaceDecayChannel@@AEAAPEAVG4DecayProducts@@XZ
+	?UnknownParticle@G4UnknownParticle@@SAPEAV1@XZ
+	?UnknownParticleDefinition@G4UnknownParticle@@SAPEAV1@XZ
+	?Upsilon@G4Upsilon@@SAPEAV1@XZ
+	?UpsilonDefinition@G4Upsilon@@SAPEAV1@XZ
+	?UseWorkArea@G4PDefManager@@QEAAXPEAVG4PDefData@@@Z
+	?UseWorkspace@G4ParticlesWorkspace@@QEAAXXZ
+	?WorkerG4IonTable@G4IonTable@@QEAAXXZ
+	?WorkerG4ParticleTable@G4ParticleTable@@QEAAXXZ
+	?XiMinus@G4XiMinus@@SAPEAV1@XZ
+	?XiMinusDefinition@G4XiMinus@@SAPEAV1@XZ
+	?XiZero@G4XiZero@@SAPEAV1@XZ
+	?XiZeroDefinition@G4XiZero@@SAPEAV1@XZ
+	?XibMinus@G4XibMinus@@SAPEAV1@XZ
+	?XibMinusDefinition@G4XibMinus@@SAPEAV1@XZ
+	?XibZero@G4XibZero@@SAPEAV1@XZ
+	?XibZeroDefinition@G4XibZero@@SAPEAV1@XZ
+	?XicPlus@G4XicPlus@@SAPEAV1@XZ
+	?XicPlusDefinition@G4XicPlus@@SAPEAV1@XZ
+	?XicZero@G4XicZero@@SAPEAV1@XZ
+	?XicZeroDefinition@G4XicZero@@SAPEAV1@XZ
+	?_Become_small@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Extract@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@2@V?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@U_Iterator_base0@2@@2@@Z
+	?_Extract@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@2@V?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@U_Iterator_base0@2@@2@@Z
+	?_Extract@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@2@V?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@U_Iterator_base0@2@@2@@Z
+	?_Getal@?$_Tree@V?$_Tmap_traits@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@$00@std@@@std@@IEAAAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@2@XZ
+	?_Getal@?$vector@NV?$allocator@N@std@@@std@@AEAAAEAV?$allocator@N@2@XZ
+	?_Getal@?$vector@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAAAEAV?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@XZ
+	?_Getal@?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4String@@@2@XZ
+	?_Getal@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAAEAV?$allocator@PEAVmutex@std@@@2@XZ
+	?_Init@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXPEBD_KH@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHV?$multimap@NPEAVG4IsotopeProperty@@U?$less@N@std@@V?$allocator@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@3@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Lrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@2@@Z
+	?_Lrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@2@@Z
+	?_Lrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@2@@Z
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Rrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@PEAX@2@@Z
+	?_Rrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@PEAX@2@@Z
+	?_Rrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4ParticleDefinition@@@std@@PEAX@2@@Z
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXXZ
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4DynamicParticle@@V?$allocator@PEAVG4DynamicParticle@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4IsotopeProperty@@V?$allocator@PEAVG4IsotopeProperty@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4ParticlePropertyData@@V?$allocator@PEAVG4ParticlePropertyData@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VDecayChannel@@V?$allocator@PEAVG4VDecayChannel@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VIsotopeTable@@V?$allocator@PEAVG4VIsotopeTable@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?_Xrange@?$vector@PEAVG4DynamicParticle@@V?$allocator@PEAVG4DynamicParticle@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?aElectronOccupancyAllocator@@YAAEAPEAV?$G4Allocator@VG4ElectronOccupancy@@@@XZ
+	?aPrimaryParticleAllocator@@YAAEAPEAV?$G4Allocator@VG4PrimaryParticle@@@@XZ
+	?aPrimaryVertexAllocator@@YAAEAPEAV?$G4Allocator@VG4PrimaryVertex@@@@XZ
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@PEAVG4IsotopeProperty@@@std@@QEAAPEAPEAVG4IsotopeProperty@@_K@Z
+	?allocate@?$allocator@U?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBNPEAVG4IsotopeProperty@@@std@@PEAX@2@_K@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?cache@?$G4CacheReference@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@CAAEAPEAV?$vector@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+	?cache@?$G4CacheReference@PEAVG4String@@@@CAAEAPEAV?$vector@PEAVG4String@@V?$allocator@PEAVG4String@@@std@@@std@@XZ
+	?clear@?$_Tree@V?$_Tmap_traits@HPEAVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4ParticleDefinition@@@std@@@3@$0A@@std@@@std@@QEAAXXZ
+	?clear@?$_Tree@V?$_Tmap_traits@HPEBVG4ParticleDefinition@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEBVG4ParticleDefinition@@@std@@@3@$00@std@@@std@@QEAAXXZ
+	?clear@G4IonTable@@QEAAXXZ
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?contains@G4ParticleTable@@QEBA_NAEBVG4String@@@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@N@std@@QEAAXQEAN_K@Z
+	?deallocate@?$allocator@PEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAAXQEAPEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_K@Z
+	?deallocate@?$allocator@PEAVG4DynamicParticle@@@std@@QEAAXQEAPEAVG4DynamicParticle@@_K@Z
+	?deallocate@?$allocator@PEAVG4IsotopeProperty@@@std@@QEAAXQEAPEAVG4IsotopeProperty@@_K@Z
+	?deallocate@?$allocator@PEAVG4ParticlePropertyData@@@std@@QEAAXQEAPEAVG4ParticlePropertyData@@_K@Z
+	?deallocate@?$allocator@PEAVG4String@@@std@@QEAAXQEAPEAVG4String@@_K@Z
+	?deallocate@?$allocator@PEAVG4VDecayChannel@@@std@@QEAAXQEAPEAVG4VDecayChannel@@_K@Z
+	?deallocate@?$allocator@PEAVG4VIsotopeTable@@@std@@QEAAXQEAPEAVG4VIsotopeTable@@_K@Z
+	?deallocate@?$allocator@PEAVmutex@std@@@std@@QEAAXQEAPEAVmutex@2@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?entries@G4ParticleTable@@QEBAHXZ
+	?fron@G4MuonRadiativeDecayChannelWithSpin@@AEAANNNNNNN@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?initialize@G4PDefData@@QEAAXXZ
+	?offset@G4PDefManager@@SAAEAPEAVG4PDefData@@XZ
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pDynamicParticleAllocator@@YAAEAPEAV?$G4Allocator@VG4DynamicParticle@@@@XZ
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K@Z
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?size@G4IonTable@@QEBAHXZ
+	?size@G4ParticleTable@@QEBAHXZ
+	?slavetotalspace@G4PDefManager@@SAAEAHXZ
+	?spectrum@G4TauLeptonicDecayChannel@@CANNNNN@Z
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?unit@Hep3Vector@CLHEP@@QEBA?AV12@XZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z

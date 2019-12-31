@@ -1,0 +1,4 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/MinSizeRel/G4DCtable.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/MinSizeRel/G4DMmessenger.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/MinSizeRel/G4DigiManager.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/MinSizeRel/G4VDigitizerModule.obj

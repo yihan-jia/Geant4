@@ -1,0 +1,2309 @@
+EXPORTS 
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAVG4DiffElasticRatio@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$Register@VG4DiffElasticRatio@@@G4AutoDelete@@YAXPEAVG4DiffElasticRatio@@@Z@4HA 	 DATA
+	?$TSS0@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4HA 	 DATA
+	?$TSS0@?1??GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAVG4DiffElasticRatio@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	??_R0?AU?$FuncRef1@XV?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAVG4String@@@G4AnyMethod@@@8 	 DATA
+	??_R0?AU?$FuncRef1@XVG4VModularPhysicsList@@H@G4AnyMethod@@@8 	 DATA
+	??_R0?AUtoBeCached@G4ParticleHPProduct@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4DynamicParticle@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4ElectronOccupancy@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAVG4DiffElasticRatio@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@@8 	 DATA
+	??_R0?AV?$G4MoleculeIterator@VG4MoleculeDefinition@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@V?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VFTFP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VFTFP_BERT_ATL@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VFTFP_BERT_HP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VFTFP_BERT_TRV@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VFTFQGSP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VFTF_BIC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VLBE@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VNuBeam@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQBBC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGSP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGSP_BERT_HP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGSP_BIC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGSP_BIC_AllHP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGSP_BIC_HP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGSP_FTFP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VQGS_BIC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VShielding@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VShieldingLEND@@@@@8 	 DATA
+	??_R0?AV?$G4PhysListStamper@VShieldingM@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4ChargeExchangePhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4DecayPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAChemistry@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAChemistry_option1@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAChemistry_option2@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option1@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option2@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option3@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option4@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option5@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option6@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option7@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option8@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option2@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option4@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option6@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmExtraPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmLivermorePhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmLivermorePolarizedPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmLowEPPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmPenelopePhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsGS@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsSS@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsWVI@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option1@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option2@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option3@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option4@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4FastSimulationPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4GenericBiasingPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronDElasticPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsHP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsLEND@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsPHP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsXS@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronHElasticPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronInelasticQBBC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_ATL@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_HP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_TRV@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFQGSP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTF_BIC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsINCLXX@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsNuBeam@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BERT_HP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC_AllHP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC_HP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_FTFP_BERT@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGS_BIC@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsShielding@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4HadronPhysicsShieldingLEND@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4ImportanceBiasing@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonBinaryCascadePhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonElasticPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonINCLXXPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonPhysicsPHP@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonPhysicsXS@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4IonQMDPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4MuonicAtomDecayPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4NeutronCrossSectionXS@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4NeutronTrackingCut@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4OpticalPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4ParallelWorldPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4RadioactiveDecayPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4SpinDecayPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4StepLimiterPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4StoppingPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4StoppingPhysicsFritiofWithBinaryCascade@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4UnknownDecayPhysics@@@@@8 	 DATA
+	??_R0?AV?$G4PhysicsConstructorFactory@VG4WeightWindowBiasing@@@@@8 	 DATA
+	??_R0?AV?$G4QGSModel@VG4GammaParticipants@@@@@8 	 DATA
+	??_R0?AV?$G4QGSModel@VG4QGSParticipants@@@@@8 	 DATA
+	??_R0?AV?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@VG4DiffElasticRatio@@@@@8 	 DATA
+	??_R0?AV?$Ref@N@G4AnyType@@@8 	 DATA
+	??_R0?AV?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@@8 	 DATA
+	??_R0?AV?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@@8 	 DATA
+	??_R0?AV?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@@8 	 DATA
+	??_R0?AV?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@@8 	 DATA
+	??_R0?AV?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVFTFP_BERT@@@8 	 DATA
+	??_R0?AVFTFP_BERT_ATL@@@8 	 DATA
+	??_R0?AVFTFP_BERT_HP@@@8 	 DATA
+	??_R0?AVFTFP_BERT_TRV@@@8 	 DATA
+	??_R0?AVFTFQGSP_BERT@@@8 	 DATA
+	??_R0?AVFTF_BIC@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4AlphaBuilder@@@8 	 DATA
+	??_R0?AVG4AlphaPHPBuilder@@@8 	 DATA
+	??_R0?AVG4AntiBarionBuilder@@@8 	 DATA
+	??_R0?AVG4BadArgument@@@8 	 DATA
+	??_R0?AVG4BertiniElectroNuclearBuilder@@@8 	 DATA
+	??_R0?AVG4BertiniKaonBuilder@@@8 	 DATA
+	??_R0?AVG4BertiniNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4BertiniPiKBuilder@@@8 	 DATA
+	??_R0?AVG4BertiniPionBuilder@@@8 	 DATA
+	??_R0?AVG4BertiniProtonBuilder@@@8 	 DATA
+	??_R0?AVG4BiasingProcessInterface@@@8 	 DATA
+	??_R0?AVG4BinaryAlphaBuilder@@@8 	 DATA
+	??_R0?AVG4BinaryDeuteronBuilder@@@8 	 DATA
+	??_R0?AVG4BinaryHe3Builder@@@8 	 DATA
+	??_R0?AVG4BinaryNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4BinaryPiKBuilder@@@8 	 DATA
+	??_R0?AVG4BinaryPionBuilder@@@8 	 DATA
+	??_R0?AVG4BinaryProtonBuilder@@@8 	 DATA
+	??_R0?AVG4BinaryTritonBuilder@@@8 	 DATA
+	??_R0?AVG4ChargeExchangePhysics@@@8 	 DATA
+	??_R0?AVG4DNASancheExcitationModel@@@8 	 DATA
+	??_R0?AVG4DecayPhysics@@@8 	 DATA
+	??_R0?AVG4DeuteronBuilder@@@8 	 DATA
+	??_R0?AVG4DeuteronPHPBuilder@@@8 	 DATA
+	??_R0?AVG4DynamicParticle@@@8 	 DATA
+	??_R0?AVG4ElectronOccupancy@@@8 	 DATA
+	??_R0?AVG4EmDNAChemistry@@@8 	 DATA
+	??_R0?AVG4EmDNAChemistry_option1@@@8 	 DATA
+	??_R0?AVG4EmDNAChemistry_option2@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysicsActivator@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option1@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option2@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option3@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option4@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option5@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option6@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option7@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_option8@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_stationary@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_stationary_option2@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_stationary_option4@@@8 	 DATA
+	??_R0?AVG4EmDNAPhysics_stationary_option6@@@8 	 DATA
+	??_R0?AVG4EmExtraPhysics@@@8 	 DATA
+	??_R0?AVG4EmLEPTSPhysics@@@8 	 DATA
+	??_R0?AVG4EmLivermorePhysics@@@8 	 DATA
+	??_R0?AVG4EmLivermorePolarizedPhysics@@@8 	 DATA
+	??_R0?AVG4EmLowEPPhysics@@@8 	 DATA
+	??_R0?AVG4EmMessenger@@@8 	 DATA
+	??_R0?AVG4EmPenelopePhysics@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysics@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysicsGS@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysicsSS@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysicsWVI@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysics_option1@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysics_option2@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysics_option3@@@8 	 DATA
+	??_R0?AVG4EmStandardPhysics_option4@@@8 	 DATA
+	??_R0?AVG4FTFBinaryKaonBuilder@@@8 	 DATA
+	??_R0?AVG4FTFBinaryNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4FTFBinaryPiKBuilder@@@8 	 DATA
+	??_R0?AVG4FTFBinaryPionBuilder@@@8 	 DATA
+	??_R0?AVG4FTFBinaryProtonBuilder@@@8 	 DATA
+	??_R0?AVG4FTFBuilder@@@8 	 DATA
+	??_R0?AVG4FTFPAntiBarionBuilder@@@8 	 DATA
+	??_R0?AVG4FTFPKaonBuilder@@@8 	 DATA
+	??_R0?AVG4FTFPNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4FTFPPiKBuilder@@@8 	 DATA
+	??_R0?AVG4FTFPPionBuilder@@@8 	 DATA
+	??_R0?AVG4FTFPProtonBuilder@@@8 	 DATA
+	??_R0?AVG4FastSimulationManagerProcess@@@8 	 DATA
+	??_R0?AVG4FastSimulationPhysics@@@8 	 DATA
+	??_R0?AVG4GammaGeneralProcess@@@8 	 DATA
+	??_R0?AVG4GammaParticipants@@@8 	 DATA
+	??_R0?AVG4GenericBiasingPhysics@@@8 	 DATA
+	??_R0?AVG4HadronDElasticPhysics@@@8 	 DATA
+	??_R0?AVG4HadronElasticPhysics@@@8 	 DATA
+	??_R0?AVG4HadronElasticPhysicsHP@@@8 	 DATA
+	??_R0?AVG4HadronElasticPhysicsLEND@@@8 	 DATA
+	??_R0?AVG4HadronElasticPhysicsPHP@@@8 	 DATA
+	??_R0?AVG4HadronElasticPhysicsXS@@@8 	 DATA
+	??_R0?AVG4HadronHElasticPhysics@@@8 	 DATA
+	??_R0?AVG4HadronInelasticProcess@@@8 	 DATA
+	??_R0?AVG4HadronInelasticQBBC@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsFTFP_BERT@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsFTFP_BERT_ATL@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsFTFP_BERT_HP@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsFTFP_BERT_TRV@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsFTFQGSP_BERT@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsFTF_BIC@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsINCLXX@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsNuBeam@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGSP_BERT@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGSP_BERT_HP@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGSP_BIC@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGSP_BIC_AllHP@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGSP_BIC_HP@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGSP_FTFP_BERT@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsQGS_BIC@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsShielding@@@8 	 DATA
+	??_R0?AVG4HadronPhysicsShieldingLEND@@@8 	 DATA
+	??_R0?AVG4HadronicInteraction@@@8 	 DATA
+	??_R0?AVG4HadronicProcess@@@8 	 DATA
+	??_R0?AVG4He3Builder@@@8 	 DATA
+	??_R0?AVG4He3PHPBuilder@@@8 	 DATA
+	??_R0?AVG4HyperonFTFPBuilder@@@8 	 DATA
+	??_R0?AVG4INCLXXNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4INCLXXPionBuilder@@@8 	 DATA
+	??_R0?AVG4INCLXXProtonBuilder@@@8 	 DATA
+	??_R0?AVG4ImportanceBiasing@@@8 	 DATA
+	??_R0?AVG4IonBinaryCascadePhysics@@@8 	 DATA
+	??_R0?AVG4IonElasticPhysics@@@8 	 DATA
+	??_R0?AVG4IonINCLXXPhysics@@@8 	 DATA
+	??_R0?AVG4IonPhysics@@@8 	 DATA
+	??_R0?AVG4IonPhysicsPHP@@@8 	 DATA
+	??_R0?AVG4IonPhysicsXS@@@8 	 DATA
+	??_R0?AVG4IonQMDPhysics@@@8 	 DATA
+	??_R0?AVG4KaonBuilder@@@8 	 DATA
+	??_R0?AVG4LENDBertiniGammaElectroNuclearBuilder@@@8 	 DATA
+	??_R0?AVG4LENDCapture@@@8 	 DATA
+	??_R0?AVG4LENDCaptureCrossSection@@@8 	 DATA
+	??_R0?AVG4LENDCrossSection@@@8 	 DATA
+	??_R0?AVG4LENDElastic@@@8 	 DATA
+	??_R0?AVG4LENDElasticCrossSection@@@8 	 DATA
+	??_R0?AVG4LENDFission@@@8 	 DATA
+	??_R0?AVG4LENDFissionCrossSection@@@8 	 DATA
+	??_R0?AVG4LENDInelastic@@@8 	 DATA
+	??_R0?AVG4LENDInelasticCrossSection@@@8 	 DATA
+	??_R0?AVG4LENDModel@@@8 	 DATA
+	??_R0?AVG4MaxTimeCuts@@@8 	 DATA
+	??_R0?AVG4MinEkineCuts@@@8 	 DATA
+	??_R0?AVG4MuonicAtomDecayPhysics@@@8 	 DATA
+	??_R0?AVG4NeutronBuilder@@@8 	 DATA
+	??_R0?AVG4NeutronCrossSectionXS@@@8 	 DATA
+	??_R0?AVG4NeutronLENDBuilder@@@8 	 DATA
+	??_R0?AVG4NeutronPHPBuilder@@@8 	 DATA
+	??_R0?AVG4NeutronTrackingCut@@@8 	 DATA
+	??_R0?AVG4OpticalPhysics@@@8 	 DATA
+	??_R0?AVG4OpticalPhysicsMessenger@@@8 	 DATA
+	??_R0?AVG4ParallelWorldPhysics@@@8 	 DATA
+	??_R0?AVG4PhotoNuclearProcess@@@8 	 DATA
+	??_R0?AVG4PhysListFactoryMessenger@@@8 	 DATA
+	??_R0?AVG4PhysicsBuilderInterface@@@8 	 DATA
+	??_R0?AVG4PiKBuilder@@@8 	 DATA
+	??_R0?AVG4PionBuilder@@@8 	 DATA
+	??_R0?AVG4PrecoNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4PrecoProtonBuilder@@@8 	 DATA
+	??_R0?AVG4ProtonBuilder@@@8 	 DATA
+	??_R0?AVG4ProtonPHPBuilder@@@8 	 DATA
+	??_R0?AVG4QGSBinaryKaonBuilder@@@8 	 DATA
+	??_R0?AVG4QGSBinaryNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4QGSBinaryPiKBuilder@@@8 	 DATA
+	??_R0?AVG4QGSBinaryPionBuilder@@@8 	 DATA
+	??_R0?AVG4QGSBinaryProtonBuilder@@@8 	 DATA
+	??_R0?AVG4QGSBuilder@@@8 	 DATA
+	??_R0?AVG4QGSPKaonBuilder@@@8 	 DATA
+	??_R0?AVG4QGSPLundStrFragmProtonBuilder@@@8 	 DATA
+	??_R0?AVG4QGSPNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4QGSPPiKBuilder@@@8 	 DATA
+	??_R0?AVG4QGSPPionBuilder@@@8 	 DATA
+	??_R0?AVG4QGSPProtonBuilder@@@8 	 DATA
+	??_R0?AVG4QGSParticipants@@@8 	 DATA
+	??_R0?AVG4RadioactiveDecayPhysics@@@8 	 DATA
+	??_R0?AVG4SpecialCuts@@@8 	 DATA
+	??_R0?AVG4SpinDecayPhysics@@@8 	 DATA
+	??_R0?AVG4StepLimiterPhysics@@@8 	 DATA
+	??_R0?AVG4StoppingPhysics@@@8 	 DATA
+	??_R0?AVG4StoppingPhysicsFritiofWithBinaryCascade@@@8 	 DATA
+	??_R0?AVG4String@@@8 	 DATA
+	??_R0?AVG4ThermalNeutrons@@@8 	 DATA
+	??_R0?AVG4TritonBuilder@@@8 	 DATA
+	??_R0?AVG4TritonPHPBuilder@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4UnknownDecayPhysics@@@8 	 DATA
+	??_R0?AVG4VAlphaBuilder@@@8 	 DATA
+	??_R0?AVG4VAntiBarionBuilder@@@8 	 DATA
+	??_R0?AVG4VBasePhysConstrFactory@@@8 	 DATA
+	??_R0?AVG4VBasePhysListStamper@@@8 	 DATA
+	??_R0?AVG4VCrossSectionDataSet@@@8 	 DATA
+	??_R0?AVG4VDeuteronBuilder@@@8 	 DATA
+	??_R0?AVG4VDiscreteProcess@@@8 	 DATA
+	??_R0?AVG4VEmModel@@@8 	 DATA
+	??_R0?AVG4VEmProcess@@@8 	 DATA
+	??_R0?AVG4VHadronModelBuilder@@@8 	 DATA
+	??_R0?AVG4VHadronPhysics@@@8 	 DATA
+	??_R0?AVG4VHe3Builder@@@8 	 DATA
+	??_R0?AVG4VHighEnergyGenerator@@@8 	 DATA
+	??_R0?AVG4VKaonBuilder@@@8 	 DATA
+	??_R0?AVG4VModularPhysicsList@@@8 	 DATA
+	??_R0?AVG4VNeutronBuilder@@@8 	 DATA
+	??_R0?AVG4VParticipants@@@8 	 DATA
+	??_R0?AVG4VPartonStringModel@@@8 	 DATA
+	??_R0?AVG4VPhysicsConstructor@@@8 	 DATA
+	??_R0?AVG4VPiKBuilder@@@8 	 DATA
+	??_R0?AVG4VPionBuilder@@@8 	 DATA
+	??_R0?AVG4VProcess@@@8 	 DATA
+	??_R0?AVG4VProtonBuilder@@@8 	 DATA
+	??_R0?AVG4VTritonBuilder@@@8 	 DATA
+	??_R0?AVG4VUserChemistryList@@@8 	 DATA
+	??_R0?AVG4VUserPhysicsList@@@8 	 DATA
+	??_R0?AVG4WeightWindowBiasing@@@8 	 DATA
+	??_R0?AVLBE@@@8 	 DATA
+	??_R0?AVNuBeam@@@8 	 DATA
+	??_R0?AVPlaceholder@G4AnyMethod@@@8 	 DATA
+	??_R0?AVPlaceholder@G4AnyType@@@8 	 DATA
+	??_R0?AVQBBC@@@8 	 DATA
+	??_R0?AVQGSP_BERT@@@8 	 DATA
+	??_R0?AVQGSP_BERT_HP@@@8 	 DATA
+	??_R0?AVQGSP_BIC@@@8 	 DATA
+	??_R0?AVQGSP_BIC_AllHP@@@8 	 DATA
+	??_R0?AVQGSP_BIC_HP@@@8 	 DATA
+	??_R0?AVQGSP_FTFP_BERT@@@8 	 DATA
+	??_R0?AVQGS_BIC@@@8 	 DATA
+	??_R0?AVShielding@@@8 	 DATA
+	??_R0?AVShieldingLEND@@@8 	 DATA
+	??_R0?AVShieldingM@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0H@8 	 DATA
+	??_R0N@8 	 DATA
+	??_R0PEAUtoBeCached@G4ParticleHPContAngularPar@@@8 	 DATA
+	??_R0PEAVG4DiffElasticRatio@@@8 	 DATA
+	?FTFP_BERTFactory@@3AEBV?$G4PhysListStamper@VFTFP_BERT@@@@EB 	 DATA
+	?FTFP_BERT_ATLFactory@@3AEBV?$G4PhysListStamper@VFTFP_BERT_ATL@@@@EB 	 DATA
+	?FTFP_BERT_HPFactory@@3AEBV?$G4PhysListStamper@VFTFP_BERT_HP@@@@EB 	 DATA
+	?FTFP_BERT_TRVFactory@@3AEBV?$G4PhysListStamper@VFTFP_BERT_TRV@@@@EB 	 DATA
+	?FTFP_INCLXXFactory@@3AEBV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@@@EB 	 DATA
+	?FTFP_INCLXX_HPFactory@@3AEBV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@@@EB 	 DATA
+	?FTFQGSP_BERTFactory@@3AEBV?$G4PhysListStamper@VFTFQGSP_BERT@@@@EB 	 DATA
+	?FTF_BICFactory@@3AEBV?$G4PhysListStamper@VFTF_BIC@@@@EB 	 DATA
+	?G4ChargeExchangePhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4ChargeExchangePhysics@@@@EB 	 DATA
+	?G4DecayPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4DecayPhysics@@@@EB 	 DATA
+	?G4EmDNAChemistryFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAChemistry@@@@EB 	 DATA
+	?G4EmDNAChemistry_option1Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAChemistry_option1@@@@EB 	 DATA
+	?G4EmDNAChemistry_option2Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAChemistry_option2@@@@EB 	 DATA
+	?G4EmDNAPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics@@@@EB 	 DATA
+	?G4EmDNAPhysics_option1Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option1@@@@EB 	 DATA
+	?G4EmDNAPhysics_option2Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option2@@@@EB 	 DATA
+	?G4EmDNAPhysics_option3Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option3@@@@EB 	 DATA
+	?G4EmDNAPhysics_option4Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option4@@@@EB 	 DATA
+	?G4EmDNAPhysics_option5Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option5@@@@EB 	 DATA
+	?G4EmDNAPhysics_option6Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option6@@@@EB 	 DATA
+	?G4EmDNAPhysics_option7Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option7@@@@EB 	 DATA
+	?G4EmDNAPhysics_option8Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option8@@@@EB 	 DATA
+	?G4EmDNAPhysics_stationaryFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary@@@@EB 	 DATA
+	?G4EmDNAPhysics_stationary_option2Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option2@@@@EB 	 DATA
+	?G4EmDNAPhysics_stationary_option4Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option4@@@@EB 	 DATA
+	?G4EmDNAPhysics_stationary_option6Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option6@@@@EB 	 DATA
+	?G4EmExtraPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmExtraPhysics@@@@EB 	 DATA
+	?G4EmLivermorePhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmLivermorePhysics@@@@EB 	 DATA
+	?G4EmLivermorePolarizedPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmLivermorePolarizedPhysics@@@@EB 	 DATA
+	?G4EmLowEPPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmLowEPPhysics@@@@EB 	 DATA
+	?G4EmPenelopePhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmPenelopePhysics@@@@EB 	 DATA
+	?G4EmStandardPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics@@@@EB 	 DATA
+	?G4EmStandardPhysicsGSFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsGS@@@@EB 	 DATA
+	?G4EmStandardPhysicsSSFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsSS@@@@EB 	 DATA
+	?G4EmStandardPhysicsWVIFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsWVI@@@@EB 	 DATA
+	?G4EmStandardPhysics_option1Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option1@@@@EB 	 DATA
+	?G4EmStandardPhysics_option2Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option2@@@@EB 	 DATA
+	?G4EmStandardPhysics_option3Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option3@@@@EB 	 DATA
+	?G4EmStandardPhysics_option4Factory@@3AEBV?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option4@@@@EB 	 DATA
+	?G4FastSimulationPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4FastSimulationPhysics@@@@EB 	 DATA
+	?G4GenericBiasingPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4GenericBiasingPhysics@@@@EB 	 DATA
+	?G4GenericPhysicsListFactory@@3AEBV?$G4PhysListStamper@V?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@@@EB 	 DATA
+	?G4HadronDElasticPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronDElasticPhysics@@@@EB 	 DATA
+	?G4HadronElasticPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysics@@@@EB 	 DATA
+	?G4HadronElasticPhysicsHPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsHP@@@@EB 	 DATA
+	?G4HadronElasticPhysicsLENDFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsLEND@@@@EB 	 DATA
+	?G4HadronElasticPhysicsPHPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsPHP@@@@EB 	 DATA
+	?G4HadronElasticPhysicsXSFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsXS@@@@EB 	 DATA
+	?G4HadronHElasticPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronHElasticPhysics@@@@EB 	 DATA
+	?G4HadronInelasticQBBCFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronInelasticQBBC@@@@EB 	 DATA
+	?G4HadronPhysicsFTFP_BERTFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT@@@@EB 	 DATA
+	?G4HadronPhysicsFTFP_BERT_ATLFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_ATL@@@@EB 	 DATA
+	?G4HadronPhysicsFTFP_BERT_HPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_HP@@@@EB 	 DATA
+	?G4HadronPhysicsFTFP_BERT_TRVFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_TRV@@@@EB 	 DATA
+	?G4HadronPhysicsFTFQGSP_BERTFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFQGSP_BERT@@@@EB 	 DATA
+	?G4HadronPhysicsFTF_BICFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTF_BIC@@@@EB 	 DATA
+	?G4HadronPhysicsINCLXXFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsINCLXX@@@@EB 	 DATA
+	?G4HadronPhysicsNuBeamFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsNuBeam@@@@EB 	 DATA
+	?G4HadronPhysicsQGSP_BERTFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BERT@@@@EB 	 DATA
+	?G4HadronPhysicsQGSP_BERT_HPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BERT_HP@@@@EB 	 DATA
+	?G4HadronPhysicsQGSP_BICFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC@@@@EB 	 DATA
+	?G4HadronPhysicsQGSP_BIC_AllHPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC_AllHP@@@@EB 	 DATA
+	?G4HadronPhysicsQGSP_BIC_HPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC_HP@@@@EB 	 DATA
+	?G4HadronPhysicsQGSP_FTFP_BERTFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_FTFP_BERT@@@@EB 	 DATA
+	?G4HadronPhysicsQGS_BICFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGS_BIC@@@@EB 	 DATA
+	?G4HadronPhysicsShieldingFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsShielding@@@@EB 	 DATA
+	?G4HadronPhysicsShieldingLENDFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4HadronPhysicsShieldingLEND@@@@EB 	 DATA
+	?G4ImportanceBiasingFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4ImportanceBiasing@@@@EB 	 DATA
+	?G4IonBinaryCascadePhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonBinaryCascadePhysics@@@@EB 	 DATA
+	?G4IonElasticPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonElasticPhysics@@@@EB 	 DATA
+	?G4IonINCLXXPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonINCLXXPhysics@@@@EB 	 DATA
+	?G4IonPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonPhysics@@@@EB 	 DATA
+	?G4IonPhysicsPHPFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonPhysicsPHP@@@@EB 	 DATA
+	?G4IonPhysicsXSFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonPhysicsXS@@@@EB 	 DATA
+	?G4IonQMDPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4IonQMDPhysics@@@@EB 	 DATA
+	?G4MuonicAtomDecayPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4MuonicAtomDecayPhysics@@@@EB 	 DATA
+	?G4NeutronCrossSectionXSFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4NeutronCrossSectionXS@@@@EB 	 DATA
+	?G4NeutronTrackingCutFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4NeutronTrackingCut@@@@EB 	 DATA
+	?G4OpticalPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4OpticalPhysics@@@@EB 	 DATA
+	?G4ParallelWorldPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4ParallelWorldPhysics@@@@EB 	 DATA
+	?G4RadioactiveDecayPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4RadioactiveDecayPhysics@@@@EB 	 DATA
+	?G4SpinDecayPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4SpinDecayPhysics@@@@EB 	 DATA
+	?G4StepLimiterPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4StepLimiterPhysics@@@@EB 	 DATA
+	?G4StoppingPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4StoppingPhysics@@@@EB 	 DATA
+	?G4StoppingPhysicsFritiofWithBinaryCascadeFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4StoppingPhysicsFritiofWithBinaryCascade@@@@EB 	 DATA
+	?G4UnknownDecayPhysicsFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4UnknownDecayPhysics@@@@EB 	 DATA
+	?G4WeightWindowBiasingFactory@@3AEBV?$G4PhysicsConstructorFactory@VG4WeightWindowBiasing@@@@EB 	 DATA
+	?LBEFactory@@3AEBV?$G4PhysListStamper@VLBE@@@@EB 	 DATA
+	?NuBeamFactory@@3AEBV?$G4PhysListStamper@VNuBeam@@@@EB 	 DATA
+	?QBBCFactory@@3AEBV?$G4PhysListStamper@VQBBC@@@@EB 	 DATA
+	?QGSP_BERTFactory@@3AEBV?$G4PhysListStamper@VQGSP_BERT@@@@EB 	 DATA
+	?QGSP_BERT_HPFactory@@3AEBV?$G4PhysListStamper@VQGSP_BERT_HP@@@@EB 	 DATA
+	?QGSP_BICFactory@@3AEBV?$G4PhysListStamper@VQGSP_BIC@@@@EB 	 DATA
+	?QGSP_BIC_AllHPFactory@@3AEBV?$G4PhysListStamper@VQGSP_BIC_AllHP@@@@EB 	 DATA
+	?QGSP_BIC_HPFactory@@3AEBV?$G4PhysListStamper@VQGSP_BIC_HP@@@@EB 	 DATA
+	?QGSP_FTFP_BERTFactory@@3AEBV?$G4PhysListStamper@VQGSP_FTFP_BERT@@@@EB 	 DATA
+	?QGSP_INCLXXFactory@@3AEBV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@@@EB 	 DATA
+	?QGSP_INCLXX_HPFactory@@3AEBV?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@@@EB 	 DATA
+	?QGS_BICFactory@@3AEBV?$G4PhysListStamper@VQGS_BIC@@@@EB 	 DATA
+	?ShieldingFactory@@3AEBV?$G4PhysListStamper@VShielding@@@@EB 	 DATA
+	?ShieldingLENDFactory@@3AEBV?$G4PhysListStamper@VShieldingLEND@@@@EB 	 DATA
+	?ShieldingMFactory@@3AEBV?$G4PhysListStamper@VShieldingM@@@@EB 	 DATA
+	?_Psave@?$_Facetptr@V?$ctype@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@CAAEAPEAV?$vector@PEAUtoBeCached@G4ParticleHPContAngularPar@@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAVG4DiffElasticRatio@@@@CAAEAPEAV?$vector@PEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@UtoBeCached@G4ParticleHPProduct@@@@CAAEAPEAV?$vector@PEAUtoBeCached@G4ParticleHPProduct@@V?$allocator@PEAUtoBeCached@G4ParticleHPProduct@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAVG4DiffElasticRatio@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAVG4DiffElasticRatio@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?builders@G4VHadronPhysics@@0PEAV?$vector@PEAVG4VHadronModelBuilder@@V?$allocator@PEAVG4VHadronModelBuilder@@@std@@@std@@EA 	 DATA
+	?container@?1???$Register@VG4DiffElasticRatio@@@G4AutoDelete@@YAXPEAVG4DiffElasticRatio@@@Z@4V?$G4ThreadLocalSingleton@VG4DiffElasticRatio@@@@A 	 DATA
+	?diffRatio@G4HadronHElasticPhysics@@0PEAVG4DiffElasticRatio@@EA 	 DATA
+	?dstrctr@?$G4Cache@N@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAV?$vector@HV?$allocator@H@std@@@std@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4DiffElasticRatio@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4HadFinalState@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4ParticleHPContAngularPar@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@UtoBeCached@G4ParticleHPEnAngCorrelation@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@UtoBeCached@G4VParticleHPEnergyAngular@@@@0U?$atomic@I@std@@A 	 DATA
+	?fAbsorptionProcess@G4OpticalPhysics@@0PEAVG4OpAbsorption@@EA 	 DATA
+	?fBoundaryProcess@G4OpticalPhysics@@0PEAVG4OpBoundaryProcess@@EA 	 DATA
+	?fCerenkovProcess@G4OpticalPhysics@@0PEAVG4Cerenkov@@EA 	 DATA
+	?fDecayProcess@G4DecayPhysics@@0PEAVG4Decay@@EA 	 DATA
+	?fDecayProcess@G4UnknownDecayPhysics@@0PEAVG4UnknownDecay@@EA 	 DATA
+	?fID@?$G4TrackStateID@VG4ITNavigator@@@@0HB 	 DATA
+	?fMieProcess@G4OpticalPhysics@@0PEAVG4OpMieHG@@EA 	 DATA
+	?fRayleighProcess@G4OpticalPhysics@@0PEAVG4OpRayleigh@@EA 	 DATA
+	?fScintillationProcess@G4OpticalPhysics@@0PEAVG4Scintillation@@EA 	 DATA
+	?fWLSProcess@G4OpticalPhysics@@0PEAVG4OpWLS@@EA 	 DATA
+	?instancesctr@?$G4Cache@N@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAV?$vector@HV?$allocator@H@std@@@std@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4DiffElasticRatio@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4HadFinalState@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4ParticleHPContAngularPar@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@UtoBeCached@G4ParticleHPEnAngCorrelation@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@UtoBeCached@G4VParticleHPEnergyAngular@@@@0U?$atomic@I@std@@A 	 DATA
+	?nameT@G4GammaGeneralProcess@@0PAVG4String@@A 	 DATA
+	?theBuilder@G4IonPhysics@@0PEAVG4FTFBuilder@@EA 	 DATA
+	?theBuilder@G4IonPhysicsPHP@@0PEAVG4FTFBuilder@@EA 	 DATA
+	?theFTFPBuilder@G4IonINCLXXPhysics@@0PEAVG4FTFBuilder@@EA 	 DATA
+	?theFTFPBuilder@G4IonQMDPhysics@@0PEAVG4FTFBuilder@@EA 	 DATA
+	?theHandler@G4GammaGeneralProcess@@0PEAVG4EmDataHandler@@EA 	 DATA
+	?theINCLXXAlpha@G4IonINCLXXPhysics@@0PEAVG4INCLXXInterface@@EA 	 DATA
+	?theINCLXXDeuteron@G4IonINCLXXPhysics@@0PEAVG4INCLXXInterface@@EA 	 DATA
+	?theINCLXXHe3@G4IonINCLXXPhysics@@0PEAVG4INCLXXInterface@@EA 	 DATA
+	?theINCLXXIons@G4IonINCLXXPhysics@@0PEAVG4INCLXXInterface@@EA 	 DATA
+	?theINCLXXTriton@G4IonINCLXXPhysics@@0PEAVG4INCLXXInterface@@EA 	 DATA
+	?theInstance@G4PhysListRegistry@@0PEAV1@EA 	 DATA
+	?theInstance@G4PhysicsConstructorRegistry@@0PEAV1@EA 	 DATA
+	?theT@G4GammaGeneralProcess@@0PA_NA 	 DATA
+	?tpdata@G4HadronPhysicsQGSP_BIC_AllHP@@0PEAUThreadPrivate@1@EA 	 DATA
+	?tpdata@G4HadronPhysicsQGSP_BIC_HP@@0PEAUThreadPrivate@1@EA 	 DATA
+	?wasActivated@G4DecayPhysics@@0_NA 	 DATA
+	?wasActivated@G4StoppingPhysics@@0_NA 	 DATA
+	?wasActivated@G4StoppingPhysicsFritiofWithBinaryCascade@@0_NA 	 DATA
+	?wasActivated@G4UnknownDecayPhysics@@0_NA 	 DATA
+	?zerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4V34@B 	 DATA
+	?zerovector@?1??GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4V34@B 	 DATA
+	??$?0AEBH$$Z$$V@?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBH@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@V1@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBVG4String@@$$Z$$V@?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBH@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@AEAV?$tuple@AEBH@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@V1@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@AEAV?$tuple@AEBVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?5DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBVerror_code@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?8DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NQEBDAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$G4TypeMutex@V?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$G4TypeMutex@V?$G4Cache@PEAVG4DiffElasticRatio@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$G4TypeMutex@V?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$Register@VG4DiffElasticRatio@@@G4AutoDelete@@YAXPEAVG4DiffElasticRatio@@@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Assign_range@PEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEBVG4String@@0Uforward_iterator_tag@1@@Z
+	??$_Atomic_address_as@$$CBJ$$CBU?$_Atomic_padded@I@std@@@std@@YAPEDJAEBU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@I@std@@@std@@YAPECJAEAU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_reinterpret_as@JI@std@@YAJAEBI@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4DiffElasticRatio@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4DiffElasticRatio@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4DiffElasticRatio@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4DiffElasticRatio@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z
+	??$_Copy_memmove@PEAIPEAI@std@@YAPEAIPEAI00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAUtoBeCached@G4ParticleHPContAngularPar@@PEAPEAU12@@std@@YAPEAPEAUtoBeCached@G4ParticleHPContAngularPar@@PEAPEAU12@00@Z
+	??$_Copy_memmove@PEAPEAVG4DiffElasticRatio@@PEAPEAV1@@std@@YAPEAPEAVG4DiffElasticRatio@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4ExcitedString@@PEAPEAV1@@std@@YAPEAPEAVG4ExcitedString@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIparameter@@PEAPEAV1@@std@@YAPEAPEAVG4UIparameter@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VAlphaBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VAlphaBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VAntiBarionBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VAntiBarionBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VDeuteronBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VDeuteronBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VHadronModelBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VHadronModelBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VHe3Builder@@PEAPEAV1@@std@@YAPEAPEAVG4VHe3Builder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VKaonBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VKaonBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VNeutronBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VNeutronBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VPhysicsConstructor@@PEAPEAV1@@std@@YAPEAPEAVG4VPhysicsConstructor@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VPiKBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VPiKBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VPionBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VPionBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VProcess@@PEAPEAV1@@std@@YAPEAPEAVG4VProcess@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VProtonBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VProtonBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VTritonBuilder@@PEAPEAV1@@std@@YAPEAPEAVG4VTritonBuilder@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVmutex@std@@PEAPEAV12@@std@@YAPEAPEAVmutex@0@PEAPEAV10@00@Z
+	??$_Copy_memmove@PEAPEBVG4MolecularConfiguration@@PEAPEBV1@@std@@YAPEAPEBVG4MolecularConfiguration@@PEAPEBV1@00@Z
+	??$_Copy_unchecked@PEBVG4String@@PEAV1@@std@@YAPEAVG4String@@PEBV1@0PEAV1@@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4DiffElasticRatio@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4DiffElasticRatio@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@NPEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@NPEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPEAHQEAHAEAV?$allocator@H@0@@Z
+	??$_Destroy_range@V?$allocator@I@std@@@std@@YAXPEAIQEAIAEAV?$allocator@I@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@YAXPEAPEAUtoBeCached@G4ParticleHPContAngularPar@@QEAPEAU12@AEAV?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAUtoBeCached@G4ParticleHPProduct@@@std@@@std@@YAXPEAPEAUtoBeCached@G4ParticleHPProduct@@QEAPEAU12@AEAV?$allocator@PEAUtoBeCached@G4ParticleHPProduct@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@YAXPEAPEAVG4DiffElasticRatio@@QEAPEAV1@AEAV?$allocator@PEAVG4DiffElasticRatio@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4ExcitedString@@@std@@@std@@YAXPEAPEAVG4ExcitedString@@QEAPEAV1@AEAV?$allocator@PEAVG4ExcitedString@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAXPEAPEAVG4UIparameter@@QEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VAlphaBuilder@@@std@@@std@@YAXPEAPEAVG4VAlphaBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VAlphaBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VAntiBarionBuilder@@@std@@@std@@YAXPEAPEAVG4VAntiBarionBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VAntiBarionBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VDeuteronBuilder@@@std@@@std@@YAXPEAPEAVG4VDeuteronBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VDeuteronBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VHadronModelBuilder@@@std@@@std@@YAXPEAPEAVG4VHadronModelBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VHadronModelBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VHe3Builder@@@std@@@std@@YAXPEAPEAVG4VHe3Builder@@QEAPEAV1@AEAV?$allocator@PEAVG4VHe3Builder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VKaonBuilder@@@std@@@std@@YAXPEAPEAVG4VKaonBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VKaonBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VNeutronBuilder@@@std@@@std@@YAXPEAPEAVG4VNeutronBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VNeutronBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@YAXPEAPEAVG4VPhysicsConstructor@@QEAPEAV1@AEAV?$allocator@PEAVG4VPhysicsConstructor@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VPiKBuilder@@@std@@@std@@YAXPEAPEAVG4VPiKBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VPiKBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VPionBuilder@@@std@@@std@@YAXPEAPEAVG4VPionBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VPionBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VProcess@@@std@@@std@@YAXPEAPEAVG4VProcess@@QEAPEAV1@AEAV?$allocator@PEAVG4VProcess@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VProtonBuilder@@@std@@@std@@YAXPEAPEAVG4VProtonBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VProtonBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VTritonBuilder@@@std@@@std@@YAXPEAPEAVG4VTritonBuilder@@QEAPEAV1@AEAV?$allocator@PEAVG4VTritonBuilder@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVmutex@std@@@std@@@std@@YAXPEAPEAVmutex@0@QEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEBVG4MolecularConfiguration@@@std@@@std@@YAXPEAPEBVG4MolecularConfiguration@@QEAPEBV1@AEAV?$allocator@PEBVG4MolecularConfiguration@@@0@@Z
+	??$_Destroy_range@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAXPEAUyystype@G4UItokenNum@@QEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@std@@YAXPEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@0@QEAV10@AEAV?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Emplace_reallocate@AEBH@?$vector@HV?$allocator@H@std@@@std@@QEAAPEAHQEAHAEBH@Z
+	??$_Emplace_reallocate@AEBQEAVG4ExcitedString@@@?$vector@PEAVG4ExcitedString@@V?$allocator@PEAVG4ExcitedString@@@std@@@std@@QEAAPEAPEAVG4ExcitedString@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIparameter@@@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@QEAAPEAPEAVG4UIparameter@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VAlphaBuilder@@@?$vector@PEAVG4VAlphaBuilder@@V?$allocator@PEAVG4VAlphaBuilder@@@std@@@std@@QEAAPEAPEAVG4VAlphaBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VAntiBarionBuilder@@@?$vector@PEAVG4VAntiBarionBuilder@@V?$allocator@PEAVG4VAntiBarionBuilder@@@std@@@std@@QEAAPEAPEAVG4VAntiBarionBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VDeuteronBuilder@@@?$vector@PEAVG4VDeuteronBuilder@@V?$allocator@PEAVG4VDeuteronBuilder@@@std@@@std@@QEAAPEAPEAVG4VDeuteronBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VHadronModelBuilder@@@?$vector@PEAVG4VHadronModelBuilder@@V?$allocator@PEAVG4VHadronModelBuilder@@@std@@@std@@QEAAPEAPEAVG4VHadronModelBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VHe3Builder@@@?$vector@PEAVG4VHe3Builder@@V?$allocator@PEAVG4VHe3Builder@@@std@@@std@@QEAAPEAPEAVG4VHe3Builder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VKaonBuilder@@@?$vector@PEAVG4VKaonBuilder@@V?$allocator@PEAVG4VKaonBuilder@@@std@@@std@@QEAAPEAPEAVG4VKaonBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VNeutronBuilder@@@?$vector@PEAVG4VNeutronBuilder@@V?$allocator@PEAVG4VNeutronBuilder@@@std@@@std@@QEAAPEAPEAVG4VNeutronBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VPhysicsConstructor@@@?$vector@PEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@QEAAPEAPEAVG4VPhysicsConstructor@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VPiKBuilder@@@?$vector@PEAVG4VPiKBuilder@@V?$allocator@PEAVG4VPiKBuilder@@@std@@@std@@QEAAPEAPEAVG4VPiKBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VPionBuilder@@@?$vector@PEAVG4VPionBuilder@@V?$allocator@PEAVG4VPionBuilder@@@std@@@std@@QEAAPEAPEAVG4VPionBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VProtonBuilder@@@?$vector@PEAVG4VProtonBuilder@@V?$allocator@PEAVG4VProtonBuilder@@@std@@@std@@QEAAPEAPEAVG4VProtonBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VTritonBuilder@@@?$vector@PEAVG4VTritonBuilder@@V?$allocator@PEAVG4VTritonBuilder@@@std@@@std@@QEAAPEAPEAVG4VTritonBuilder@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@?$vector@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@2@@std@@QEAAPEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@1@QEAV21@AEBV21@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@H@?$vector@HV?$allocator@H@std@@@std@@QEAAPEAHQEAH$$QEAH@Z
+	??$_Emplace_reallocate@PEAVG4VProcess@@@?$vector@PEAVG4VProcess@@V?$allocator@PEAVG4VProcess@@@std@@@std@@QEAAPEAPEAVG4VProcess@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_head@V?$allocator@U?$_Tree_node@NPEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@N@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@NPEAX@std@@@1@@Z
+	??$_Erase_head@V?$allocator@U?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNH@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@std@@@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@NPEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@N@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@NPEAX@std@@@1@PEAU?$_Tree_node@NPEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBNH@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@V1@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@1@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@PEAVG4VBasePhysConstrFactory@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@@4@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@V1@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@V1@@std@@@3@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Find_unchecked1@PEAVG4String@@V1@@std@@YAPEAVG4String@@PEAV1@QEAV1@AEBV1@U?$integral_constant@_N$0A@@0@@Z
+	??$_Find_unchecked@PEAVG4String@@V1@@std@@YAPEAVG4String@@QEAV1@0AEBV1@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Idl_distance@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA_JAEBV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@0@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Refancy@PEAVG4String@@$0A@@std@@YAPEAVG4String@@PEAV1@@Z
+	??$_Resize_reallocate@I@?$vector@IV?$allocator@I@std@@@std@@AEAAX_KAEBI@Z
+	??$_Resize_reallocate@PEAUtoBeCached@G4ParticleHPContAngularPar@@@?$vector@PEAUtoBeCached@G4ParticleHPContAngularPar@@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@AEAAX_KAEBQEAUtoBeCached@G4ParticleHPContAngularPar@@@Z
+	??$_Resize_reallocate@PEAVG4DiffElasticRatio@@@?$vector@PEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@AEAAX_KAEBQEAVG4DiffElasticRatio@@@Z
+	??$_Resize_reallocate@PEAVmutex@std@@@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAX_KAEBQEAVmutex@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Traits_find@U?$char_traits@D@std@@@std@@YA_KQEBD_K101@Z
+	??$_Try_emplace@AEBVG4String@@$$V@?$map@VG4String@@PEAVG4VBasePhysListStamper@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@@4@@std@@AEAA?AU?$pair@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@_N@1@AEBVG4String@@@Z
+	??$_Try_emplace@AEBVG4String@@$$V@?$map@VG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@U?$less@VG4String@@@3@V?$allocator@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@3@@std@@AEAA?AU?$pair@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@_N@1@AEBVG4String@@@Z
+	??$_Unfancy_maybe_null@I@std@@YAPEAIPEAI@Z
+	??$_Uninitialized_copy@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_copy@PEAPEBVG4MolecularConfiguration@@V?$allocator@PEBVG4MolecularConfiguration@@@std@@@std@@YAPEAPEBVG4MolecularConfiguration@@QEAPEBV1@0PEAPEBV1@AEAV?$allocator@PEBVG4MolecularConfiguration@@@0@@Z
+	??$_Uninitialized_copy@PEAUyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@QEAU12@0PEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Uninitialized_copy@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_copy@PEBVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEBV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@I@std@@@std@@YAPEAIPEAI_KAEBIAEAV?$allocator@I@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@YAPEAPEAUtoBeCached@G4ParticleHPContAngularPar@@PEAPEAU12@_KAEBQEAU12@AEAV?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@YAPEAPEAVG4DiffElasticRatio@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4DiffElasticRatio@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVmutex@std@@@std@@@std@@YAPEAPEAVmutex@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAHV?$allocator@H@std@@@std@@YAPEAHQEAH0PEAHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_move@PEAIV?$allocator@I@std@@@std@@YAPEAIQEAI0PEAIAEAV?$allocator@I@0@@Z
+	??$_Uninitialized_move@PEAPEAUtoBeCached@G4ParticleHPContAngularPar@@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@YAPEAPEAUtoBeCached@G4ParticleHPContAngularPar@@QEAPEAU12@0PEAPEAU12@AEAV?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@YAPEAPEAVG4DiffElasticRatio@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4DiffElasticRatio@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4ExcitedString@@V?$allocator@PEAVG4ExcitedString@@@std@@@std@@YAPEAPEAVG4ExcitedString@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4ExcitedString@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAPEAPEAVG4UIparameter@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VAlphaBuilder@@V?$allocator@PEAVG4VAlphaBuilder@@@std@@@std@@YAPEAPEAVG4VAlphaBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VAlphaBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VAntiBarionBuilder@@V?$allocator@PEAVG4VAntiBarionBuilder@@@std@@@std@@YAPEAPEAVG4VAntiBarionBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VAntiBarionBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VDeuteronBuilder@@V?$allocator@PEAVG4VDeuteronBuilder@@@std@@@std@@YAPEAPEAVG4VDeuteronBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VDeuteronBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VHadronModelBuilder@@V?$allocator@PEAVG4VHadronModelBuilder@@@std@@@std@@YAPEAPEAVG4VHadronModelBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VHadronModelBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VHe3Builder@@V?$allocator@PEAVG4VHe3Builder@@@std@@@std@@YAPEAPEAVG4VHe3Builder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VHe3Builder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VKaonBuilder@@V?$allocator@PEAVG4VKaonBuilder@@@std@@@std@@YAPEAPEAVG4VKaonBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VKaonBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VNeutronBuilder@@V?$allocator@PEAVG4VNeutronBuilder@@@std@@@std@@YAPEAPEAVG4VNeutronBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VNeutronBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@YAPEAPEAVG4VPhysicsConstructor@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VPhysicsConstructor@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VPiKBuilder@@V?$allocator@PEAVG4VPiKBuilder@@@std@@@std@@YAPEAPEAVG4VPiKBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VPiKBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VPionBuilder@@V?$allocator@PEAVG4VPionBuilder@@@std@@@std@@YAPEAPEAVG4VPionBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VPionBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VProcess@@V?$allocator@PEAVG4VProcess@@@std@@@std@@YAPEAPEAVG4VProcess@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VProcess@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VProtonBuilder@@V?$allocator@PEAVG4VProtonBuilder@@@std@@@std@@YAPEAPEAVG4VProtonBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VProtonBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VTritonBuilder@@V?$allocator@PEAVG4VTritonBuilder@@@std@@@std@@YAPEAPEAVG4VTritonBuilder@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VTritonBuilder@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@YAPEAPEAVmutex@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@2@@std@@YAPEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@PEAU12@_KAEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$construct@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEBV12@@?$_Default_allocator_traits@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@std@@SAXAEAV?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@1@QEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@1@AEBV31@@Z
+	??$copy_backward@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@V10@00@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@NPEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@NPEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBNH@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAVG4Navigator@@AEAPEAV1@@std@@YAPEAVG4Navigator@@AEAPEAV1@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$fill@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@_N@std@@YAXV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@0AEB_N@Z
+	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@VG4String@@@std@@@std@@@std@@VG4String@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@VG4String@@@std@@@std@@@0@V10@V10@AEBVG4String@@@Z
+	??$use_facet@V?$ctype@D@std@@@std@@YAAEBV?$ctype@D@0@AEBVlocale@0@@Z
+	??0?$G4Allocator@VG4DynamicParticle@@@@QEAA@XZ
+	??0?$G4Allocator@VG4ElectronOccupancy@@@@QEAA@XZ
+	??0?$G4Cache@PEAVG4DiffElasticRatio@@@@QEAA@XZ
+	??0?$G4QGSModel@VG4GammaParticipants@@@@QEAA@XZ
+	??0?$G4QGSModel@VG4QGSParticipants@@@@QEAA@XZ
+	??0?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@QEAA@PEBVG4ParticleDefinition@@AEBVG4String@@@Z
+	??0?$G4ThreadLocalSingleton@VG4DiffElasticRatio@@@@QEAA@XZ
+	??0?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@QEAA@H@Z
+	??0?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@QEAA@H@Z
+	??0?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@QEAA@H@Z
+	??0?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@QEAA@H@Z
+	??0?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@QEAA@H@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z
+	??0?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@AEBV01@@Z
+	??0FTFP_BERT@@QEAA@H@Z
+	??0FTFP_BERT_ATL@@QEAA@H@Z
+	??0FTFP_BERT_HP@@QEAA@H@Z
+	??0FTFP_BERT_TRV@@QEAA@H@Z
+	??0FTFQGSP_BERT@@QEAA@H@Z
+	??0FTF_BIC@@QEAA@H@Z
+	??0G4AlphaBuilder@@QEAA@XZ
+	??0G4AlphaPHPBuilder@@QEAA@XZ
+	??0G4AntiBarionBuilder@@QEAA@XZ
+	??0G4BadArgument@@QEAA@AEBV0@@Z
+	??0G4BadArgument@@QEAA@XZ
+	??0G4BertiniElectroNuclearBuilder@@QEAA@_N@Z
+	??0G4BertiniKaonBuilder@@QEAA@XZ
+	??0G4BertiniNeutronBuilder@@QEAA@XZ
+	??0G4BertiniPiKBuilder@@QEAA@XZ
+	??0G4BertiniPionBuilder@@QEAA@XZ
+	??0G4BertiniProtonBuilder@@QEAA@XZ
+	??0G4BinaryAlphaBuilder@@QEAA@XZ
+	??0G4BinaryDeuteronBuilder@@QEAA@XZ
+	??0G4BinaryHe3Builder@@QEAA@XZ
+	??0G4BinaryNeutronBuilder@@QEAA@XZ
+	??0G4BinaryPiKBuilder@@QEAA@XZ
+	??0G4BinaryPionBuilder@@QEAA@XZ
+	??0G4BinaryProtonBuilder@@QEAA@XZ
+	??0G4BinaryTritonBuilder@@QEAA@XZ
+	??0G4ChargeExchangePhysics@@QEAA@H@Z
+	??0G4DecayPhysics@@QEAA@AEBVG4String@@H@Z
+	??0G4DecayPhysics@@QEAA@H@Z
+	??0G4DeuteronBuilder@@QEAA@XZ
+	??0G4DeuteronPHPBuilder@@QEAA@XZ
+	??0G4EmDNAChemistry@@QEAA@XZ
+	??0G4EmDNAChemistry_option1@@QEAA@XZ
+	??0G4EmDNAChemistry_option2@@QEAA@XZ
+	??0G4EmDNAPhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysicsActivator@@QEAA@H@Z
+	??0G4EmDNAPhysics_option1@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option2@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option3@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option4@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option5@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option6@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option7@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_option8@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_stationary@@QEAA@H@Z
+	??0G4EmDNAPhysics_stationary@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_stationary_option2@@QEAA@H@Z
+	??0G4EmDNAPhysics_stationary_option2@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_stationary_option4@@QEAA@H@Z
+	??0G4EmDNAPhysics_stationary_option4@@QEAA@HAEBVG4String@@@Z
+	??0G4EmDNAPhysics_stationary_option6@@QEAA@H@Z
+	??0G4EmDNAPhysics_stationary_option6@@QEAA@HAEBVG4String@@@Z
+	??0G4EmExtraPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4EmExtraPhysics@@QEAA@H@Z
+	??0G4EmLEPTSPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4EmLivermorePhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4EmLivermorePolarizedPhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4EmLowEPPhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4EmMessenger@@QEAA@PEAVG4EmExtraPhysics@@@Z
+	??0G4EmModelActivator@@QEAA@AEBVG4String@@@Z
+	??0G4EmParticleList@@QEAA@XZ
+	??0G4EmPenelopePhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4EmStandardPhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4EmStandardPhysicsGS@@QEAA@HAEBVG4String@@@Z
+	??0G4EmStandardPhysicsSS@@QEAA@H@Z
+	??0G4EmStandardPhysicsWVI@@QEAA@H@Z
+	??0G4EmStandardPhysics_option1@@QEAA@HAEBVG4String@@@Z
+	??0G4EmStandardPhysics_option2@@QEAA@HAEBVG4String@@@Z
+	??0G4EmStandardPhysics_option3@@QEAA@HAEBVG4String@@@Z
+	??0G4EmStandardPhysics_option4@@QEAA@HAEBVG4String@@@Z
+	??0G4FTFBinaryKaonBuilder@@QEAA@_N@Z
+	??0G4FTFBinaryNeutronBuilder@@QEAA@_N@Z
+	??0G4FTFBinaryPiKBuilder@@QEAA@_N@Z
+	??0G4FTFBinaryPionBuilder@@QEAA@_N@Z
+	??0G4FTFBinaryProtonBuilder@@QEAA@_N@Z
+	??0G4FTFBuilder@@QEAA@AEBVG4String@@PEAVG4PreCompoundModel@@@Z
+	??0G4FTFPAntiBarionBuilder@@QEAA@_N@Z
+	??0G4FTFPKaonBuilder@@QEAA@_N@Z
+	??0G4FTFPNeutronBuilder@@QEAA@_N@Z
+	??0G4FTFPPiKBuilder@@QEAA@_N@Z
+	??0G4FTFPPionBuilder@@QEAA@_N@Z
+	??0G4FTFPProtonBuilder@@QEAA@_N@Z
+	??0G4FastSimulationPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4GammaGeneralProcess@@QEAA@XZ
+	??0G4GenericBiasingPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4HadronDElasticPhysics@@QEAA@H@Z
+	??0G4HadronElasticPhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4HadronElasticPhysicsHP@@QEAA@H@Z
+	??0G4HadronElasticPhysicsLEND@@QEAA@HAEBVG4String@@@Z
+	??0G4HadronElasticPhysicsPHP@@QEAA@H@Z
+	??0G4HadronElasticPhysicsXS@@QEAA@H@Z
+	??0G4HadronHElasticPhysics@@QEAA@H_N@Z
+	??0G4HadronInelasticQBBC@@QEAA@AEBVG4String@@H_N1111@Z
+	??0G4HadronInelasticQBBC@@QEAA@H@Z
+	??0G4HadronPhysicsFTFP_BERT@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsFTFP_BERT@@QEAA@H@Z
+	??0G4HadronPhysicsFTFP_BERT_ATL@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsFTFP_BERT_ATL@@QEAA@H@Z
+	??0G4HadronPhysicsFTFP_BERT_HP@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsFTFP_BERT_HP@@QEAA@H@Z
+	??0G4HadronPhysicsFTFP_BERT_TRV@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsFTFP_BERT_TRV@@QEAA@H@Z
+	??0G4HadronPhysicsFTFQGSP_BERT@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsFTFQGSP_BERT@@QEAA@H@Z
+	??0G4HadronPhysicsFTF_BIC@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsFTF_BIC@@QEAA@H@Z
+	??0G4HadronPhysicsINCLXX@@QEAA@AEBVG4String@@_N11@Z
+	??0G4HadronPhysicsINCLXX@@QEAA@H@Z
+	??0G4HadronPhysicsNuBeam@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsNuBeam@@QEAA@H@Z
+	??0G4HadronPhysicsQGSP_BERT@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGSP_BERT@@QEAA@H@Z
+	??0G4HadronPhysicsQGSP_BERT_HP@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGSP_BERT_HP@@QEAA@H@Z
+	??0G4HadronPhysicsQGSP_BIC@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGSP_BIC@@QEAA@H@Z
+	??0G4HadronPhysicsQGSP_BIC_AllHP@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGSP_BIC_AllHP@@QEAA@H@Z
+	??0G4HadronPhysicsQGSP_BIC_HP@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGSP_BIC_HP@@QEAA@H@Z
+	??0G4HadronPhysicsQGSP_FTFP_BERT@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGSP_FTFP_BERT@@QEAA@H@Z
+	??0G4HadronPhysicsQGS_BIC@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsQGS_BIC@@QEAA@H@Z
+	??0G4HadronPhysicsShielding@@QEAA@AEBVG4String@@HNN@Z
+	??0G4HadronPhysicsShielding@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsShielding@@QEAA@H@Z
+	??0G4HadronPhysicsShieldingLEND@@QEAA@AEBVG4String@@HNN@Z
+	??0G4HadronPhysicsShieldingLEND@@QEAA@AEBVG4String@@_N@Z
+	??0G4HadronPhysicsShieldingLEND@@QEAA@H@Z
+	??0G4He3Builder@@QEAA@XZ
+	??0G4He3PHPBuilder@@QEAA@XZ
+	??0G4HyperonFTFPBuilder@@QEAA@XZ
+	??0G4INCLXXNeutronBuilder@@QEAA@XZ
+	??0G4INCLXXPionBuilder@@QEAA@XZ
+	??0G4INCLXXProtonBuilder@@QEAA@XZ
+	??0G4ImportanceBiasing@@QEAA@AEBVG4String@@@Z
+	??0G4ImportanceBiasing@@QEAA@PEAVG4GeometrySampler@@AEBVG4String@@@Z
+	??0G4IonBinaryCascadePhysics@@QEAA@AEBVG4String@@H@Z
+	??0G4IonBinaryCascadePhysics@@QEAA@H@Z
+	??0G4IonElasticPhysics@@QEAA@H@Z
+	??0G4IonINCLXXPhysics@@QEAA@AEBVG4String@@H@Z
+	??0G4IonINCLXXPhysics@@QEAA@H@Z
+	??0G4IonPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4IonPhysics@@QEAA@H@Z
+	??0G4IonPhysicsPHP@@QEAA@AEBVG4String@@@Z
+	??0G4IonPhysicsPHP@@QEAA@H@Z
+	??0G4IonPhysicsXS@@QEAA@AEBVG4String@@@Z
+	??0G4IonPhysicsXS@@QEAA@H@Z
+	??0G4IonQMDPhysics@@QEAA@AEBVG4String@@H@Z
+	??0G4IonQMDPhysics@@QEAA@H@Z
+	??0G4KaonBuilder@@QEAA@XZ
+	??0G4LENDBertiniGammaElectroNuclearBuilder@@QEAA@_N@Z
+	??0G4MaxTimeCuts@@AEAA@AEAV0@@Z
+	??0G4MaxTimeCuts@@QEAA@AEBVG4String@@@Z
+	??0G4MinEkineCuts@@AEAA@AEAV0@@Z
+	??0G4MinEkineCuts@@QEAA@AEBVG4String@@@Z
+	??0G4MolecularDissociationChannel@@QEAA@AEBV0@@Z
+	??0G4MuonicAtomDecayPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4MuonicAtomDecayPhysics@@QEAA@H@Z
+	??0G4NeutronBuilder@@QEAA@_N@Z
+	??0G4NeutronCrossSectionXS@@QEAA@H@Z
+	??0G4NeutronLENDBuilder@@QEAA@VG4String@@@Z
+	??0G4NeutronPHPBuilder@@QEAA@XZ
+	??0G4NeutronTrackingCut@@QEAA@AEBVG4String@@H@Z
+	??0G4NeutronTrackingCut@@QEAA@H@Z
+	??0G4OpticalPhysics@@QEAA@HAEBVG4String@@@Z
+	??0G4OpticalPhysicsMessenger@@QEAA@PEAVG4OpticalPhysics@@@Z
+	??0G4ParallelWorldPhysics@@QEAA@AEBVG4String@@_N@Z
+	??0G4PhysListFactory@@QEAA@XZ
+	??0G4PhysListFactory@g4alt@@QEAA@XZ
+	??0G4PhysListFactoryMessenger@@QEAA@PEAVG4VModularPhysicsList@@@Z
+	??0G4PhysListRegistry@@AEAA@XZ
+	??0G4PhysicsConstructorRegistry@@AEAA@XZ
+	??0G4PiKBuilder@@QEAA@XZ
+	??0G4PionBuilder@@QEAA@XZ
+	??0G4PrecoNeutronBuilder@@QEAA@XZ
+	??0G4PrecoProtonBuilder@@QEAA@XZ
+	??0G4ProtonBuilder@@QEAA@XZ
+	??0G4ProtonPHPBuilder@@QEAA@XZ
+	??0G4QGSBinaryKaonBuilder@@QEAA@_N@Z
+	??0G4QGSBinaryNeutronBuilder@@QEAA@_N@Z
+	??0G4QGSBinaryPiKBuilder@@QEAA@_N@Z
+	??0G4QGSBinaryPionBuilder@@QEAA@_N@Z
+	??0G4QGSBinaryProtonBuilder@@QEAA@_N@Z
+	??0G4QGSBuilder@@QEAA@AEBVG4String@@PEAVG4PreCompoundModel@@_N@Z
+	??0G4QGSPKaonBuilder@@QEAA@_N@Z
+	??0G4QGSPLundStrFragmProtonBuilder@@QEAA@_N@Z
+	??0G4QGSPNeutronBuilder@@QEAA@_N@Z
+	??0G4QGSPPiKBuilder@@QEAA@_N@Z
+	??0G4QGSPPionBuilder@@QEAA@_N@Z
+	??0G4QGSPProtonBuilder@@QEAA@_N@Z
+	??0G4RadioactiveDecayPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4RadioactiveDecayPhysics@@QEAA@H@Z
+	??0G4SpecialCuts@@QEAA@AEBVG4String@@@Z
+	??0G4SpinDecayPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4SpinDecayPhysics@@QEAA@XZ
+	??0G4StepLimiterPhysics@@QEAA@AEBVG4String@@@Z
+	??0G4StoppingPhysics@@QEAA@AEBVG4String@@H_N@Z
+	??0G4StoppingPhysics@@QEAA@H@Z
+	??0G4StoppingPhysicsFritiofWithBinaryCascade@@QEAA@AEBVG4String@@H_N@Z
+	??0G4StoppingPhysicsFritiofWithBinaryCascade@@QEAA@H@Z
+	??0G4String@@QEAA@PEBD@Z
+	??0G4ThermalNeutrons@@QEAA@H@Z
+	??0G4TritonBuilder@@QEAA@XZ
+	??0G4TritonPHPBuilder@@QEAA@XZ
+	??0G4UnknownDecayPhysics@@QEAA@AEBVG4String@@H@Z
+	??0G4UnknownDecayPhysics@@QEAA@H@Z
+	??0G4VHadronModelBuilder@@QEAA@AEBVG4String@@@Z
+	??0G4VHadronPhysics@@QEAA@AEBVG4String@@H@Z
+	??0G4WarnPLStatus@@QEAA@XZ
+	??0G4WeightWindowBiasing@@QEAA@AEBVG4String@@@Z
+	??0G4WeightWindowBiasing@@QEAA@PEAVG4GeometrySampler@@PEAVG4VWeightWindowAlgorithm@@W4G4PlaceOfAction@@AEBVG4String@@@Z
+	??0LBE@@QEAA@H@Z
+	??0NuBeam@@QEAA@H@Z
+	??0QBBC@@QEAA@HAEBVG4String@@@Z
+	??0QGSP_BERT@@QEAA@H@Z
+	??0QGSP_BERT_HP@@QEAA@H@Z
+	??0QGSP_BIC@@QEAA@H@Z
+	??0QGSP_BIC_AllHP@@QEAA@H@Z
+	??0QGSP_BIC_HP@@QEAA@H@Z
+	??0QGSP_FTFP_BERT@@QEAA@H@Z
+	??0QGS_BIC@@QEAA@H@Z
+	??0Shielding@@QEAA@HAEBVG4String@@0@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$G4Allocator@VG4DynamicParticle@@@@UEAA@XZ
+	??1?$G4Allocator@VG4ElectronOccupancy@@@@UEAA@XZ
+	??1?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@UEAA@XZ
+	??1?$G4Cache@PEAVG4DiffElasticRatio@@@@UEAA@XZ
+	??1?$G4Cache@UtoBeCached@G4ParticleHPProduct@@@@UEAA@XZ
+	??1?$G4MoleculeIterator@VG4MoleculeDefinition@@@@UEAA@XZ
+	??1?$G4QGSModel@VG4GammaParticipants@@@@UEAA@XZ
+	??1?$G4QGSModel@VG4QGSParticipants@@@@UEAA@XZ
+	??1?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@UEAA@XZ
+	??1?$G4TemplateAutoLock@Vmutex@std@@@@QEAA@XZ
+	??1?$G4ThreadLocalSingleton@VG4DiffElasticRatio@@@@UEAA@XZ
+	??1?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@UEAA@XZ
+	??1?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@UEAA@XZ
+	??1?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@UEAA@XZ
+	??1?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@UEAA@XZ
+	??1?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4DiffElasticRatio@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$list@PEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@QEAA@XZ
+	??1?$map@VG4String@@PEAVG4VBasePhysListStamper@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@@4@@std@@QEAA@XZ
+	??1?$map@VG4String@@V1@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@V1@@std@@@3@@std@@QEAA@XZ
+	??1?$map@VG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@U?$less@VG4String@@@3@V?$allocator@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@3@@std@@QEAA@XZ
+	??1?$pair@$$CBVG4String@@V1@@std@@QEAA@XZ
+	??1?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAA@XZ
+	??1?$unique_ptr@VG4Navigator@@U?$default_delete@VG4Navigator@@@std@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VAlphaBuilder@@V?$allocator@PEAVG4VAlphaBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VAntiBarionBuilder@@V?$allocator@PEAVG4VAntiBarionBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VDeuteronBuilder@@V?$allocator@PEAVG4VDeuteronBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VHe3Builder@@V?$allocator@PEAVG4VHe3Builder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VKaonBuilder@@V?$allocator@PEAVG4VKaonBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VNeutronBuilder@@V?$allocator@PEAVG4VNeutronBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VPiKBuilder@@V?$allocator@PEAVG4VPiKBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VPionBuilder@@V?$allocator@PEAVG4VPionBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VProcess@@V?$allocator@PEAVG4VProcess@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VProtonBuilder@@V?$allocator@PEAVG4VProtonBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VTritonBuilder@@V?$allocator@PEAVG4VTritonBuilder@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEBVG4MolecularConfiguration@@V?$allocator@PEBVG4MolecularConfiguration@@@std@@@std@@QEAA@XZ
+	??1?$vector@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$vector@_NV?$allocator@_N@std@@@std@@QEAA@XZ
+	??1FTFP_BERT@@UEAA@XZ
+	??1FTFP_BERT_ATL@@UEAA@XZ
+	??1FTFP_BERT_HP@@UEAA@XZ
+	??1FTFP_BERT_TRV@@UEAA@XZ
+	??1FTFQGSP_BERT@@UEAA@XZ
+	??1FTF_BIC@@UEAA@XZ
+	??1G4AlphaBuilder@@UEAA@XZ
+	??1G4AlphaPHPBuilder@@UEAA@XZ
+	??1G4AntiBarionBuilder@@UEAA@XZ
+	??1G4AnyMethod@@QEAA@XZ
+	??1G4AnyType@@QEAA@XZ
+	??1G4BadArgument@@UEAA@XZ
+	??1G4BertiniElectroNuclearBuilder@@UEAA@XZ
+	??1G4BertiniKaonBuilder@@UEAA@XZ
+	??1G4BertiniNeutronBuilder@@UEAA@XZ
+	??1G4BertiniPiKBuilder@@UEAA@XZ
+	??1G4BertiniPionBuilder@@UEAA@XZ
+	??1G4BertiniProtonBuilder@@UEAA@XZ
+	??1G4BinaryAlphaBuilder@@UEAA@XZ
+	??1G4BinaryDeuteronBuilder@@UEAA@XZ
+	??1G4BinaryHe3Builder@@UEAA@XZ
+	??1G4BinaryNeutronBuilder@@UEAA@XZ
+	??1G4BinaryPiKBuilder@@UEAA@XZ
+	??1G4BinaryPionBuilder@@UEAA@XZ
+	??1G4BinaryProtonBuilder@@UEAA@XZ
+	??1G4BinaryTritonBuilder@@UEAA@XZ
+	??1G4ChargeExchangePhysics@@UEAA@XZ
+	??1G4DecayPhysics@@UEAA@XZ
+	??1G4DeuteronBuilder@@UEAA@XZ
+	??1G4DeuteronPHPBuilder@@UEAA@XZ
+	??1G4EmDNAChemistry@@UEAA@XZ
+	??1G4EmDNAChemistry_option1@@UEAA@XZ
+	??1G4EmDNAChemistry_option2@@UEAA@XZ
+	??1G4EmDNAPhysics@@UEAA@XZ
+	??1G4EmDNAPhysicsActivator@@UEAA@XZ
+	??1G4EmDNAPhysics_option1@@UEAA@XZ
+	??1G4EmDNAPhysics_option2@@UEAA@XZ
+	??1G4EmDNAPhysics_option3@@UEAA@XZ
+	??1G4EmDNAPhysics_option4@@UEAA@XZ
+	??1G4EmDNAPhysics_option5@@UEAA@XZ
+	??1G4EmDNAPhysics_option6@@UEAA@XZ
+	??1G4EmDNAPhysics_option7@@UEAA@XZ
+	??1G4EmDNAPhysics_option8@@UEAA@XZ
+	??1G4EmDNAPhysics_stationary@@UEAA@XZ
+	??1G4EmDNAPhysics_stationary_option2@@UEAA@XZ
+	??1G4EmDNAPhysics_stationary_option4@@UEAA@XZ
+	??1G4EmDNAPhysics_stationary_option6@@UEAA@XZ
+	??1G4EmExtraPhysics@@UEAA@XZ
+	??1G4EmLEPTSPhysics@@UEAA@XZ
+	??1G4EmLivermorePhysics@@UEAA@XZ
+	??1G4EmLivermorePolarizedPhysics@@UEAA@XZ
+	??1G4EmLowEPPhysics@@UEAA@XZ
+	??1G4EmMessenger@@UEAA@XZ
+	??1G4EmModelActivator@@QEAA@XZ
+	??1G4EmParticleList@@QEAA@XZ
+	??1G4EmPenelopePhysics@@UEAA@XZ
+	??1G4EmStandardPhysics@@UEAA@XZ
+	??1G4EmStandardPhysicsGS@@UEAA@XZ
+	??1G4EmStandardPhysicsSS@@UEAA@XZ
+	??1G4EmStandardPhysicsWVI@@UEAA@XZ
+	??1G4EmStandardPhysics_option1@@UEAA@XZ
+	??1G4EmStandardPhysics_option2@@UEAA@XZ
+	??1G4EmStandardPhysics_option3@@UEAA@XZ
+	??1G4EmStandardPhysics_option4@@UEAA@XZ
+	??1G4FTFBinaryKaonBuilder@@UEAA@XZ
+	??1G4FTFBinaryNeutronBuilder@@UEAA@XZ
+	??1G4FTFBinaryPiKBuilder@@UEAA@XZ
+	??1G4FTFBinaryPionBuilder@@UEAA@XZ
+	??1G4FTFBinaryProtonBuilder@@UEAA@XZ
+	??1G4FTFBuilder@@UEAA@XZ
+	??1G4FTFPAntiBarionBuilder@@UEAA@XZ
+	??1G4FTFPKaonBuilder@@UEAA@XZ
+	??1G4FTFPNeutronBuilder@@UEAA@XZ
+	??1G4FTFPPiKBuilder@@UEAA@XZ
+	??1G4FTFPPionBuilder@@UEAA@XZ
+	??1G4FTFPProtonBuilder@@UEAA@XZ
+	??1G4FastSimulationPhysics@@UEAA@XZ
+	??1G4GammaGeneralProcess@@UEAA@XZ
+	??1G4GammaParticipants@@UEAA@XZ
+	??1G4GenericBiasingPhysics@@UEAA@XZ
+	??1G4HadronDElasticPhysics@@UEAA@XZ
+	??1G4HadronElasticPhysics@@UEAA@XZ
+	??1G4HadronElasticPhysicsHP@@UEAA@XZ
+	??1G4HadronElasticPhysicsLEND@@UEAA@XZ
+	??1G4HadronElasticPhysicsPHP@@UEAA@XZ
+	??1G4HadronElasticPhysicsXS@@UEAA@XZ
+	??1G4HadronHElasticPhysics@@UEAA@XZ
+	??1G4HadronInelasticQBBC@@UEAA@XZ
+	??1G4HadronPhysicsFTFP_BERT@@UEAA@XZ
+	??1G4HadronPhysicsFTFP_BERT_ATL@@UEAA@XZ
+	??1G4HadronPhysicsFTFP_BERT_HP@@UEAA@XZ
+	??1G4HadronPhysicsFTFP_BERT_TRV@@UEAA@XZ
+	??1G4HadronPhysicsFTFQGSP_BERT@@UEAA@XZ
+	??1G4HadronPhysicsFTF_BIC@@UEAA@XZ
+	??1G4HadronPhysicsINCLXX@@UEAA@XZ
+	??1G4HadronPhysicsNuBeam@@UEAA@XZ
+	??1G4HadronPhysicsQGSP_BERT@@UEAA@XZ
+	??1G4HadronPhysicsQGSP_BERT_HP@@UEAA@XZ
+	??1G4HadronPhysicsQGSP_BIC@@UEAA@XZ
+	??1G4HadronPhysicsQGSP_BIC_AllHP@@UEAA@XZ
+	??1G4HadronPhysicsQGSP_BIC_HP@@UEAA@XZ
+	??1G4HadronPhysicsQGS_BIC@@UEAA@XZ
+	??1G4HadronPhysicsShielding@@UEAA@XZ
+	??1G4HadronPhysicsShieldingLEND@@UEAA@XZ
+	??1G4He3Builder@@UEAA@XZ
+	??1G4He3PHPBuilder@@UEAA@XZ
+	??1G4HyperonFTFPBuilder@@UEAA@XZ
+	??1G4INCLXXNeutronBuilder@@UEAA@XZ
+	??1G4INCLXXPionBuilder@@UEAA@XZ
+	??1G4INCLXXProtonBuilder@@UEAA@XZ
+	??1G4ImportanceBiasing@@UEAA@XZ
+	??1G4InterpolationManager@@QEAA@XZ
+	??1G4IonBinaryCascadePhysics@@UEAA@XZ
+	??1G4IonElasticPhysics@@UEAA@XZ
+	??1G4IonINCLXXPhysics@@UEAA@XZ
+	??1G4IonPhysics@@UEAA@XZ
+	??1G4IonPhysicsPHP@@UEAA@XZ
+	??1G4IonPhysicsXS@@UEAA@XZ
+	??1G4IonQMDPhysics@@UEAA@XZ
+	??1G4KaonBuilder@@UEAA@XZ
+	??1G4LENDBertiniGammaElectroNuclearBuilder@@UEAA@XZ
+	??1G4MaxTimeCuts@@UEAA@XZ
+	??1G4MinEkineCuts@@UEAA@XZ
+	??1G4MuonicAtomDecayPhysics@@UEAA@XZ
+	??1G4NeutronBuilder@@UEAA@XZ
+	??1G4NeutronCrossSectionXS@@UEAA@XZ
+	??1G4NeutronLENDBuilder@@UEAA@XZ
+	??1G4NeutronPHPBuilder@@UEAA@XZ
+	??1G4NeutronTrackingCut@@UEAA@XZ
+	??1G4OpticalPhysics@@UEAA@XZ
+	??1G4OpticalPhysicsMessenger@@UEAA@XZ
+	??1G4ParallelWorldPhysics@@UEAA@XZ
+	??1G4ParticleHPContAngularPar@@QEAA@XZ
+	??1G4ParticleHPLegendreTable@@QEAA@XZ
+	??1G4ParticleHPList@@QEAA@XZ
+	??1G4ParticleHPProduct@@QEAA@XZ
+	??1G4PhysListFactory@@QEAA@XZ
+	??1G4PhysListFactory@g4alt@@QEAA@XZ
+	??1G4PhysListFactoryMessenger@@UEAA@XZ
+	??1G4PhysListRegistry@@QEAA@XZ
+	??1G4PhysicsBuilderInterface@@UEAA@XZ
+	??1G4PhysicsConstructorRegistry@@QEAA@XZ
+	??1G4PiKBuilder@@UEAA@XZ
+	??1G4PionBuilder@@UEAA@XZ
+	??1G4PrecoNeutronBuilder@@UEAA@XZ
+	??1G4PrecoProtonBuilder@@UEAA@XZ
+	??1G4ProtonBuilder@@UEAA@XZ
+	??1G4ProtonPHPBuilder@@UEAA@XZ
+	??1G4QGSBinaryKaonBuilder@@UEAA@XZ
+	??1G4QGSBinaryNeutronBuilder@@UEAA@XZ
+	??1G4QGSBinaryPiKBuilder@@UEAA@XZ
+	??1G4QGSBinaryPionBuilder@@UEAA@XZ
+	??1G4QGSBinaryProtonBuilder@@UEAA@XZ
+	??1G4QGSBuilder@@UEAA@XZ
+	??1G4QGSPKaonBuilder@@UEAA@XZ
+	??1G4QGSPLundStrFragmProtonBuilder@@UEAA@XZ
+	??1G4QGSPNeutronBuilder@@UEAA@XZ
+	??1G4QGSPPiKBuilder@@UEAA@XZ
+	??1G4QGSPPionBuilder@@UEAA@XZ
+	??1G4QGSPProtonBuilder@@UEAA@XZ
+	??1G4RadioactiveDecayPhysics@@UEAA@XZ
+	??1G4SpecialCuts@@UEAA@XZ
+	??1G4SpinDecayPhysics@@UEAA@XZ
+	??1G4StepLimiterPhysics@@UEAA@XZ
+	??1G4StoppingPhysics@@UEAA@XZ
+	??1G4StoppingPhysicsFritiofWithBinaryCascade@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4ThermalNeutrons@@UEAA@XZ
+	??1G4TritonBuilder@@UEAA@XZ
+	??1G4TritonPHPBuilder@@UEAA@XZ
+	??1G4UnknownDecayPhysics@@UEAA@XZ
+	??1G4VAlphaBuilder@@UEAA@XZ
+	??1G4VAntiBarionBuilder@@UEAA@XZ
+	??1G4VDeuteronBuilder@@UEAA@XZ
+	??1G4VHadronModelBuilder@@UEAA@XZ
+	??1G4VHadronPhysics@@UEAA@XZ
+	??1G4VHe3Builder@@UEAA@XZ
+	??1G4VKaonBuilder@@UEAA@XZ
+	??1G4VNeutronBuilder@@UEAA@XZ
+	??1G4VPiKBuilder@@UEAA@XZ
+	??1G4VPionBuilder@@UEAA@XZ
+	??1G4VProtonBuilder@@UEAA@XZ
+	??1G4VTritonBuilder@@UEAA@XZ
+	??1G4WarnPLStatus@@QEAA@XZ
+	??1G4WeightWindowBiasing@@UEAA@XZ
+	??1LBE@@UEAA@XZ
+	??1NuBeam@@UEAA@XZ
+	??1Placeholder@G4AnyMethod@@UEAA@XZ
+	??1Placeholder@G4AnyType@@UEAA@XZ
+	??1QBBC@@UEAA@XZ
+	??1QGSP_BERT@@UEAA@XZ
+	??1QGSP_BERT_HP@@UEAA@XZ
+	??1QGSP_BIC@@UEAA@XZ
+	??1QGSP_BIC_AllHP@@UEAA@XZ
+	??1QGSP_BIC_HP@@UEAA@XZ
+	??1QGSP_FTFP_BERT@@UEAA@XZ
+	??1QGS_BIC@@UEAA@XZ
+	??1Shielding@@UEAA@XZ
+	??1ShieldingLEND@@UEAA@XZ
+	??1ShieldingM@@UEAA@XZ
+	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1mutex@std@@QEAA@XZ
+	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??3G4DynamicParticle@@SAXPEAX@Z
+	??3G4ElectronOccupancy@@SAXPEAX@Z
+	??8G4String@@QEBA_NPEBD@Z
+	??9G4String@@QEBA_NPEBD@Z
+	??A?$map@HV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@2@@std@@QEAAAEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@1@AEBH@Z
+	??A?$map@VG4String@@PEAVG4VBasePhysConstrFactory@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@@4@@std@@QEAAAEAPEAVG4VBasePhysConstrFactory@@AEBVG4String@@@Z
+	??A?$map@VG4String@@V1@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@V1@@std@@@3@@std@@QEAAAEAVG4String@@AEBV2@@Z
+	??R?$FuncRef1@XV?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAVG4String@@@G4AnyMethod@@UEAAXPEAX@Z
+	??R?$FuncRef1@XV?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAVG4String@@@G4AnyMethod@@UEAAXPEAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	??R?$FuncRef1@XVG4VModularPhysicsList@@H@G4AnyMethod@@UEAAXPEAX@Z
+	??R?$FuncRef1@XVG4VModularPhysicsList@@H@G4AnyMethod@@UEAAXPEAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_H@YAXPEAX_K1P6APEAX0@Z@Z
+	??__Fzerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@YAXXZ
+	??__Fzerovector@?1??GetPolarization@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@YAXXZ
+	?ActivateEmOptions@G4EmModelActivator@@AEAAXXZ
+	?ActivateFastSimulation@G4FastSimulationPhysics@@QEAAXAEBVG4String@@0@Z
+	?ActivateFastSimulation@G4FastSimulationPhysics@@QEAAXAEBVG4String@@@Z
+	?ActivateMicroElec@G4EmModelActivator@@AEAAXXZ
+	?ActivatePAI@G4EmModelActivator@@AEAAXXZ
+	?AddCaptureCrossSection@G4VHadronPhysics@@QEAAXPEAVG4VCrossSectionDataSet@@@Z
+	?AddDiscreteProcess@G4ProcessManager@@QEAAHPEAVG4VProcess@@H@Z
+	?AddElasticCrossSection@G4VHadronPhysics@@QEAAXAEBVG4String@@PEAVG4VCrossSectionDataSet@@@Z
+	?AddElasticCrossSection@G4VHadronPhysics@@QEAAXPEBVG4ParticleDefinition@@PEAVG4VCrossSectionDataSet@@@Z
+	?AddElectronModels0@G4EmDNAPhysicsActivator@@AEAAXAEBVG4String@@PEAVG4LowECapture@@_NNN@Z
+	?AddEmProcess@G4GammaGeneralProcess@@QEAAXPEAVG4VEmProcess@@@Z
+	?AddFactory@G4PhysListRegistry@@QEAAXVG4String@@PEAVG4VBasePhysListStamper@@@Z
+	?AddFactory@G4PhysicsConstructorRegistry@@QEAAXVG4String@@PEAVG4VBasePhysConstrFactory@@@Z
+	?AddFissionCrossSection@G4VHadronPhysics@@QEAAXPEAVG4VCrossSectionDataSet@@@Z
+	?AddGenericIonModels0@G4EmDNAPhysicsActivator@@AEAAXAEBVG4String@@N@Z
+	?AddHadProcess@G4GammaGeneralProcess@@QEAAXPEAVG4HadronicProcess@@@Z
+	?AddHeliumModels0@G4EmDNAPhysicsActivator@@AEAAXAEBVG4String@@_N1NNN@Z
+	?AddInelasticCrossSection@G4VHadronPhysics@@QEAAXAEBVG4String@@PEAVG4VCrossSectionDataSet@@@Z
+	?AddInelasticCrossSection@G4VHadronPhysics@@QEAAXPEBVG4ParticleDefinition@@PEAVG4VCrossSectionDataSet@@@Z
+	?AddMMProcess@G4GammaGeneralProcess@@QEAAXPEAVG4GammaConversionToMuons@@@Z
+	?AddParallelGeometry@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@0@Z
+	?AddParallelGeometry@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@AEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?AddParallelGeometry@G4GenericBiasingPhysics@@QEAAXHHAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@_N@Z
+	?AddParallelGeometry@G4GenericBiasingPhysics@@QEAAXHHAEBVG4String@@_N@Z
+	?AddParallelGeometryAllCharged@G4GenericBiasingPhysics@@QEAAXAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@_N@Z
+	?AddParallelGeometryAllCharged@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@_N@Z
+	?AddParallelGeometryAllNeutral@G4GenericBiasingPhysics@@QEAAXAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@_N@Z
+	?AddParallelGeometryAllNeutral@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@_N@Z
+	?AddPhysicsExtension@G4PhysListRegistry@@QEAAXVG4String@@0@Z
+	?AddProcess@G4IonINCLXXPhysics@@AEAAXAEBVG4String@@PEAVG4ParticleDefinition@@PEAVG4HadronicInteraction@@2PEAVG4VCrossSectionDataSet@@@Z
+	?AddProcess@G4IonPhysics@@EEAAXAEBVG4String@@PEAVG4ParticleDefinition@@PEAVG4HadronicInteraction@@2PEAVG4VCrossSectionDataSet@@@Z
+	?AddProcess@G4IonPhysicsPHP@@AEAAXAEBVG4String@@PEAVG4ParticleDefinition@@PEAVG4ParticleHPInelasticData@@PEAVG4HadronicInteraction@@33PEAVG4VCrossSectionDataSet@@@Z
+	?AddProcess@G4IonPhysicsXS@@EEAAXAEBVG4String@@PEAVG4ParticleDefinition@@PEAVG4HadronicInteraction@@2PEAVG4VCrossSectionDataSet@@@Z
+	?AddProcess@G4IonQMDPhysics@@AEAAXAEBVG4String@@PEAVG4ParticleDefinition@@PEAVG4BinaryLightIonReaction@@PEAVG4QMDReaction@@PEAVG4HadronicInteraction@@PEAVG4VCrossSectionDataSet@@@Z
+	?AddProtonModels0@G4EmDNAPhysicsActivator@@AEAAXAEBVG4String@@_NNNN@Z
+	?AddStandardScattering@G4EmModelActivator@@AEAAXPEBVG4ParticleDefinition@@PEAVG4EmConfigurator@@PEAVG4VMscModel@@AEBVG4String@@NN@Z
+	?AddTransportation@LBE@@MEAAXXZ
+	?AddXSection@G4HadronElasticPhysics@@QEBAXPEBVG4ParticleDefinition@@PEAVG4VCrossSectionDataSet@@@Z
+	?Address@?$Ref@N@G4AnyType@@UEBAPEAXXZ
+	?AlongStepDoIt@G4SpecialCuts@@UEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@@Z
+	?AlongStepDoIt@G4VDiscreteProcess@@UEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@@Z
+	?AlongStepGetPhysicalInteractionLength@G4SpecialCuts@@UEAANAEBVG4Track@@NNAEANPEAW4G4GPILSelection@@@Z
+	?AlongStepGetPhysicalInteractionLength@G4VDiscreteProcess@@UEAANAEBVG4Track@@NNAEANPEAW4G4GPILSelection@@@Z
+	?ArgType@?$FuncRef1@XV?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAVG4String@@@G4AnyMethod@@UEBAAEBVtype_info@@_K@Z
+	?ArgType@?$FuncRef1@XVG4VModularPhysicsList@@H@G4AnyMethod@@UEBAAEBVtype_info@@_K@Z
+	?AssociateParallelGeometries@G4GenericBiasingPhysics@@AEAAXXZ
+	?AtRestDoIt@G4SpecialCuts@@UEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@@Z
+	?AtRestDoIt@G4VDiscreteProcess@@UEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@@Z
+	?AtRestGetPhysicalInteractionLength@G4SpecialCuts@@UEAANAEBVG4Track@@PEAW4G4ForceCondition@@@Z
+	?AtRestGetPhysicalInteractionLength@G4VDiscreteProcess@@UEAANAEBVG4Track@@PEAW4G4ForceCondition@@@Z
+	?AvailablePhysLists@G4PhysListFactory@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysLists@G4PhysListFactory@g4alt@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysLists@G4PhysListRegistry@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysListsEM@G4PhysListFactory@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysListsEM@G4PhysListFactory@g4alt@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysListsEM@G4PhysListRegistry@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysicsConstructors@G4PhysicsConstructorRegistry@@QEBA?AV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?AvailablePhysicsExtensions@G4PhysListRegistry@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?Bias@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@@Z
+	?Bias@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@AEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?BiasAddPDGRange@G4GenericBiasingPhysics@@QEAAXHH_N@Z
+	?BiasAllCharged@G4GenericBiasingPhysics@@QEAAX_N@Z
+	?BiasAllNeutral@G4GenericBiasingPhysics@@QEAAX_N@Z
+	?Build@G4AlphaBuilder@@UEAAXXZ
+	?Build@G4AlphaPHPBuilder@@UEAAXPEAVG4AlphaInelasticProcess@@@Z
+	?Build@G4AlphaPHPBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4AntiBarionBuilder@@UEAAXXZ
+	?Build@G4BertiniElectroNuclearBuilder@@UEAAXXZ
+	?Build@G4BertiniKaonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BertiniKaonBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4BertiniKaonBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4BertiniKaonBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4BertiniKaonBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4BertiniNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4BertiniNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BertiniNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4BertiniNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4BertiniPiKBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4BertiniPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BertiniPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4BertiniPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4BertiniProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BertiniProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4BinaryAlphaBuilder@@UEAAXPEAVG4AlphaInelasticProcess@@@Z
+	?Build@G4BinaryAlphaBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryDeuteronBuilder@@UEAAXPEAVG4DeuteronInelasticProcess@@@Z
+	?Build@G4BinaryDeuteronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryHe3Builder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryHe3Builder@@UEAAXPEAVG4He3InelasticProcess@@@Z
+	?Build@G4BinaryNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4BinaryNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4BinaryNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4BinaryPiKBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4BinaryPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4BinaryPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4BinaryProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4BinaryTritonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4BinaryTritonBuilder@@UEAAXPEAVG4TritonInelasticProcess@@@Z
+	?Build@G4DeuteronBuilder@@UEAAXXZ
+	?Build@G4DeuteronPHPBuilder@@UEAAXPEAVG4DeuteronInelasticProcess@@@Z
+	?Build@G4DeuteronPHPBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFBinaryKaonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFBinaryKaonBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4FTFBinaryKaonBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4FTFBinaryKaonBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4FTFBinaryKaonBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4FTFBinaryNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4FTFBinaryNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFBinaryNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4FTFBinaryNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4FTFBinaryPiKBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4FTFBinaryPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFBinaryPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4FTFBinaryPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4FTFBinaryProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFBinaryProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4AntiAlphaInelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4AntiDeuteronInelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4AntiHe3InelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4AntiNeutronInelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4AntiProtonInelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4AntiTritonInelasticProcess@@@Z
+	?Build@G4FTFPAntiBarionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFPKaonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFPKaonBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4FTFPKaonBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4FTFPKaonBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4FTFPKaonBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4FTFPNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4FTFPNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFPNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4FTFPNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4FTFPPiKBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4FTFPPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFPPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4FTFPPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4FTFPProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4FTFPProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4He3Builder@@UEAAXXZ
+	?Build@G4He3PHPBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4He3PHPBuilder@@UEAAXPEAVG4He3InelasticProcess@@@Z
+	?Build@G4HyperonFTFPBuilder@@UEAAXXZ
+	?Build@G4INCLXXNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4INCLXXNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4INCLXXNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4INCLXXNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4INCLXXPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4INCLXXPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4INCLXXPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4INCLXXProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4INCLXXProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4KaonBuilder@@UEAAXXZ
+	?Build@G4LENDBertiniGammaElectroNuclearBuilder@@UEAAXXZ
+	?Build@G4NeutronBuilder@@UEAAXXZ
+	?Build@G4NeutronLENDBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4NeutronLENDBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4NeutronLENDBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4NeutronLENDBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4NeutronPHPBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4NeutronPHPBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4NeutronPHPBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4NeutronPHPBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4PhysicsBuilderInterface@@UEAAXXZ
+	?Build@G4PiKBuilder@@UEAAXXZ
+	?Build@G4PionBuilder@@UEAAXXZ
+	?Build@G4PrecoNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4PrecoNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4PrecoNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4PrecoNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4PrecoProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4PrecoProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4ProtonBuilder@@UEAAXXZ
+	?Build@G4ProtonPHPBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4ProtonPHPBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4QGSBinaryKaonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSBinaryKaonBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4QGSBinaryKaonBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4QGSBinaryKaonBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4QGSBinaryKaonBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4QGSBinaryNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4QGSBinaryNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSBinaryNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4QGSBinaryNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4QGSBinaryPiKBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4QGSBinaryPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSBinaryPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4QGSBinaryPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4QGSBinaryProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSBinaryProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4QGSPKaonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSPKaonBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4QGSPKaonBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4QGSPKaonBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4QGSPKaonBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4QGSPLundStrFragmProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSPLundStrFragmProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4QGSPNeutronBuilder@@UEAAXPEAVG4HadronCaptureProcess@@@Z
+	?Build@G4QGSPNeutronBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSPNeutronBuilder@@UEAAXPEAVG4HadronFissionProcess@@@Z
+	?Build@G4QGSPNeutronBuilder@@UEAAXPEAVG4NeutronInelasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4KaonMinusInelasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4KaonPlusInelasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4KaonZeroLInelasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4KaonZeroSInelasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4QGSPPiKBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4QGSPPionBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSPPionBuilder@@UEAAXPEAVG4PionMinusInelasticProcess@@@Z
+	?Build@G4QGSPPionBuilder@@UEAAXPEAVG4PionPlusInelasticProcess@@@Z
+	?Build@G4QGSPProtonBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4QGSPProtonBuilder@@UEAAXPEAVG4ProtonInelasticProcess@@@Z
+	?Build@G4TritonBuilder@@UEAAXXZ
+	?Build@G4TritonPHPBuilder@@UEAAXPEAVG4HadronElasticProcess@@@Z
+	?Build@G4TritonPHPBuilder@@UEAAXPEAVG4TritonInelasticProcess@@@Z
+	?BuildModel@G4FTFBuilder@@MEAAPEAVG4HadronicInteraction@@XZ
+	?BuildModel@G4QGSBuilder@@MEAAPEAVG4HadronicInteraction@@XZ
+	?BuildModel@G4VHadronPhysics@@QEAAPEAVG4HadronicInteraction@@PEAVG4VHadronModelBuilder@@NN@Z
+	?BuildPhysicsTable@G4GammaGeneralProcess@@UEAAXAEBVG4ParticleDefinition@@@Z
+	?BuildPhysicsTable@G4LENDModel@@UEAAXAEBVG4ParticleDefinition@@@Z
+	?BuildPhysicsTable@G4VProcess@@UEAAXAEBVG4ParticleDefinition@@@Z
+	?ChangeDefaultEvaluation@G4LENDCrossSection@@QEAAXVG4String@@@Z
+	?ChangeDefaultEvaluation@G4LENDModel@@QEAAXVG4String@@@Z
+	?Clean@G4PhysicsConstructorRegistry@@QEAAXXZ
+	?Clear@?$G4ThreadLocalSingleton@VG4DiffElasticRatio@@@@AEAAXXZ
+	?Clone@?$FuncRef1@XV?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAVG4String@@@G4AnyMethod@@UEBAPEAVPlaceholder@2@XZ
+	?Clone@?$FuncRef1@XVG4VModularPhysicsList@@H@G4AnyMethod@@UEBAPEAVPlaceholder@2@XZ
+	?Clone@?$Ref@N@G4AnyType@@UEBAPEAVPlaceholder@2@XZ
+	?ComputeCurrentLambda@G4VEmProcess@@AEAANN@Z
+	?ComputeDEDX@G4VEmModel@@UEAANPEBVG4MaterialCutsCouple@@PEBVG4ParticleDefinition@@NN@Z
+	?Configure@G4OpticalPhysics@@QEAAXW4G4OpticalProcessIndex@@_N@Z
+	?ConstructDissociationChannels@G4EmDNAChemistry@@UEAAXXZ
+	?ConstructDissociationChannels@G4EmDNAChemistry_option1@@UEAAXXZ
+	?ConstructDissociationChannels@G4EmDNAChemistry_option2@@UEAAXXZ
+	?ConstructEM@LBE@@MEAAXXZ
+	?ConstructGammaElectroNuclear@G4EmExtraPhysics@@AEAAXXZ
+	?ConstructGeneral@LBE@@MEAAXXZ
+	?ConstructHad@LBE@@MEAAXXZ
+	?ConstructLENDGammaNuclear@G4EmExtraPhysics@@AEAAXPEAVG4CascadeInterface@@PEAVG4PhotoNuclearProcess@@@Z
+	?ConstructMolecule@G4EmDNAChemistry@@UEAAXXZ
+	?ConstructMolecule@G4EmDNAChemistry_option1@@UEAAXXZ
+	?ConstructMolecule@G4EmDNAChemistry_option2@@UEAAXXZ
+	?ConstructMyBaryons@LBE@@AEAAXXZ
+	?ConstructMyBosons@LBE@@AEAAXXZ
+	?ConstructMyIons@LBE@@AEAAXXZ
+	?ConstructMyLeptons@LBE@@AEAAXXZ
+	?ConstructMyMesons@LBE@@AEAAXXZ
+	?ConstructMyShortLiveds@LBE@@AEAAXXZ
+	?ConstructOp@LBE@@MEAAXXZ
+	?ConstructParticle@G4ChargeExchangePhysics@@UEAAXXZ
+	?ConstructParticle@G4DecayPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmDNAChemistry@@UEAAXXZ
+	?ConstructParticle@G4EmDNAChemistry_option1@@UEAAXXZ
+	?ConstructParticle@G4EmDNAChemistry_option2@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysicsActivator@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option1@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option2@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option3@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option4@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option5@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option6@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option7@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_option8@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_stationary@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_stationary_option2@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_stationary_option4@@UEAAXXZ
+	?ConstructParticle@G4EmDNAPhysics_stationary_option6@@UEAAXXZ
+	?ConstructParticle@G4EmExtraPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmLEPTSPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmLivermorePhysics@@UEAAXXZ
+	?ConstructParticle@G4EmLivermorePolarizedPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmLowEPPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmPenelopePhysics@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysics@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysicsGS@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysicsSS@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysicsWVI@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysics_option1@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysics_option2@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysics_option3@@UEAAXXZ
+	?ConstructParticle@G4EmStandardPhysics_option4@@UEAAXXZ
+	?ConstructParticle@G4FastSimulationPhysics@@UEAAXXZ
+	?ConstructParticle@G4GenericBiasingPhysics@@UEAAXXZ
+	?ConstructParticle@G4HadronDElasticPhysics@@UEAAXXZ
+	?ConstructParticle@G4HadronElasticPhysics@@UEAAXXZ
+	?ConstructParticle@G4HadronHElasticPhysics@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsFTFP_BERT@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsFTFQGSP_BERT@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsFTF_BIC@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsINCLXX@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsQGSP_BERT@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsQGSP_BIC@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsQGSP_BIC_AllHP@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsQGSP_BIC_HP@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsQGS_BIC@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsShielding@@UEAAXXZ
+	?ConstructParticle@G4HadronPhysicsShieldingLEND@@UEAAXXZ
+	?ConstructParticle@G4ImportanceBiasing@@UEAAXXZ
+	?ConstructParticle@G4IonElasticPhysics@@UEAAXXZ
+	?ConstructParticle@G4IonINCLXXPhysics@@UEAAXXZ
+	?ConstructParticle@G4IonPhysics@@UEAAXXZ
+	?ConstructParticle@G4IonPhysicsPHP@@UEAAXXZ
+	?ConstructParticle@G4IonQMDPhysics@@UEAAXXZ
+	?ConstructParticle@G4MuonicAtomDecayPhysics@@UEAAXXZ
+	?ConstructParticle@G4NeutronCrossSectionXS@@UEAAXXZ
+	?ConstructParticle@G4NeutronTrackingCut@@UEAAXXZ
+	?ConstructParticle@G4OpticalPhysics@@MEAAXXZ
+	?ConstructParticle@G4ParallelWorldPhysics@@UEAAXXZ
+	?ConstructParticle@G4RadioactiveDecayPhysics@@UEAAXXZ
+	?ConstructParticle@G4SpinDecayPhysics@@UEAAXXZ
+	?ConstructParticle@G4StepLimiterPhysics@@UEAAXXZ
+	?ConstructParticle@G4StoppingPhysics@@UEAAXXZ
+	?ConstructParticle@G4StoppingPhysicsFritiofWithBinaryCascade@@UEAAXXZ
+	?ConstructParticle@G4UnknownDecayPhysics@@UEAAXXZ
+	?ConstructParticle@G4VHadronPhysics@@UEAAXXZ
+	?ConstructParticle@G4VModularPhysicsList@@$4PPPPPPPM@A@EAAXXZ
+	?ConstructParticle@G4VModularPhysicsList@@$4PPPPPPPM@CA@EAAXXZ
+	?ConstructParticle@G4VModularPhysicsList@@$4PPPPPPPM@II@EAAXXZ
+	?ConstructParticle@G4WeightWindowBiasing@@UEAAXXZ
+	?ConstructParticle@LBE@@$2PPPPPPPM@A@EAAXXZ
+	?ConstructParticle@LBE@@MEAAXXZ
+	?ConstructProcess@G4ChargeExchangePhysics@@UEAAXXZ
+	?ConstructProcess@G4DecayPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmDNAChemistry@@UEAAXXZ
+	?ConstructProcess@G4EmDNAChemistry@@WBA@EAAXXZ
+	?ConstructProcess@G4EmDNAChemistry_option1@@UEAAXXZ
+	?ConstructProcess@G4EmDNAChemistry_option1@@WBA@EAAXXZ
+	?ConstructProcess@G4EmDNAChemistry_option2@@UEAAXXZ
+	?ConstructProcess@G4EmDNAChemistry_option2@@WBA@EAAXXZ
+	?ConstructProcess@G4EmDNAPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysicsActivator@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option1@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option2@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option3@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option4@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option5@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option6@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option7@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_option8@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_stationary@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_stationary_option2@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_stationary_option4@@UEAAXXZ
+	?ConstructProcess@G4EmDNAPhysics_stationary_option6@@UEAAXXZ
+	?ConstructProcess@G4EmExtraPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmLEPTSPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmLivermorePhysics@@UEAAXXZ
+	?ConstructProcess@G4EmLivermorePolarizedPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmLowEPPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmPenelopePhysics@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysics@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysicsGS@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysicsSS@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysicsWVI@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysics_option1@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysics_option2@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysics_option3@@UEAAXXZ
+	?ConstructProcess@G4EmStandardPhysics_option4@@UEAAXXZ
+	?ConstructProcess@G4FastSimulationPhysics@@UEAAXXZ
+	?ConstructProcess@G4GenericBiasingPhysics@@UEAAXXZ
+	?ConstructProcess@G4HadronDElasticPhysics@@UEAAXXZ
+	?ConstructProcess@G4HadronElasticPhysics@@UEAAXXZ
+	?ConstructProcess@G4HadronElasticPhysicsHP@@UEAAXXZ
+	?ConstructProcess@G4HadronElasticPhysicsLEND@@UEAAXXZ
+	?ConstructProcess@G4HadronElasticPhysicsPHP@@UEAAXXZ
+	?ConstructProcess@G4HadronElasticPhysicsXS@@UEAAXXZ
+	?ConstructProcess@G4HadronHElasticPhysics@@UEAAXXZ
+	?ConstructProcess@G4HadronInelasticQBBC@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsFTFP_BERT@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsFTFQGSP_BERT@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsFTF_BIC@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsINCLXX@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsQGSP_BERT@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsQGSP_BIC@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsQGSP_BIC_AllHP@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsQGSP_BIC_HP@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsQGS_BIC@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsShielding@@UEAAXXZ
+	?ConstructProcess@G4HadronPhysicsShieldingLEND@@UEAAXXZ
+	?ConstructProcess@G4ImportanceBiasing@@UEAAXXZ
+	?ConstructProcess@G4IonElasticPhysics@@UEAAXXZ
+	?ConstructProcess@G4IonINCLXXPhysics@@UEAAXXZ
+	?ConstructProcess@G4IonPhysics@@UEAAXXZ
+	?ConstructProcess@G4IonPhysicsPHP@@UEAAXXZ
+	?ConstructProcess@G4IonQMDPhysics@@UEAAXXZ
+	?ConstructProcess@G4MuonicAtomDecayPhysics@@UEAAXXZ
+	?ConstructProcess@G4NeutronCrossSectionXS@@UEAAXXZ
+	?ConstructProcess@G4NeutronTrackingCut@@UEAAXXZ
+	?ConstructProcess@G4OpticalPhysics@@MEAAXXZ
+	?ConstructProcess@G4ParallelWorldPhysics@@UEAAXXZ
+	?ConstructProcess@G4RadioactiveDecayPhysics@@UEAAXXZ
+	?ConstructProcess@G4SpinDecayPhysics@@UEAAXXZ
+	?ConstructProcess@G4StepLimiterPhysics@@UEAAXXZ
+	?ConstructProcess@G4StoppingPhysics@@UEAAXXZ
+	?ConstructProcess@G4StoppingPhysicsFritiofWithBinaryCascade@@UEAAXXZ
+	?ConstructProcess@G4ThermalNeutrons@@UEAAXXZ
+	?ConstructProcess@G4UnknownDecayPhysics@@UEAAXXZ
+	?ConstructProcess@G4VModularPhysicsList@@$4PPPPPPPM@A@EAAXXZ
+	?ConstructProcess@G4VModularPhysicsList@@$4PPPPPPPM@CA@EAAXXZ
+	?ConstructProcess@G4VModularPhysicsList@@$4PPPPPPPM@II@EAAXXZ
+	?ConstructProcess@G4WeightWindowBiasing@@UEAAXXZ
+	?ConstructProcess@LBE@@$2PPPPPPPM@A@EAAXXZ
+	?ConstructProcess@LBE@@MEAAXXZ
+	?ConstructReactionTable@G4EmDNAChemistry@@UEAAXPEAVG4DNAMolecularReactionTable@@@Z
+	?ConstructReactionTable@G4EmDNAChemistry_option1@@UEAAXPEAVG4DNAMolecularReactionTable@@@Z
+	?ConstructReactionTable@G4EmDNAChemistry_option2@@UEAAXPEAVG4DNAMolecularReactionTable@@@Z
+	?ConstructTimeStepModel@G4EmDNAChemistry@@UEAAXPEAVG4DNAMolecularReactionTable@@@Z
+	?ConstructTimeStepModel@G4EmDNAChemistry_option1@@UEAAXPEAVG4DNAMolecularReactionTable@@@Z
+	?ConstructTimeStepModel@G4EmDNAChemistry_option2@@UEAAXPEAVG4DNAMolecularReactionTable@@@Z
+	?CreateModels@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?CreateModels@G4HadronPhysicsFTFQGSP_BERT@@AEAAXXZ
+	?CreateModels@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?CreateModels@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?CreateModels@G4HadronPhysicsQGSP_BERT@@IEAAXXZ
+	?CreateModels@G4HadronPhysicsQGSP_BIC@@IEAAXXZ
+	?CreateModels@G4HadronPhysicsQGSP_BIC_AllHP@@AEAAXXZ
+	?CreateModels@G4HadronPhysicsQGSP_BIC_HP@@AEAAXXZ
+	?CreateModels@G4HadronPhysicsQGS_BIC@@IEAAXXZ
+	?CreateModels@G4HadronPhysicsShielding@@EEAAXXZ
+	?CreateModels@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?CrossSectionPerVolume@?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@UEAANPEBVG4Material@@PEBVG4ParticleDefinition@@NNN@Z
+	?CurrentSetup@G4VEmProcess@@QEAAXPEBVG4MaterialCutsCouple@@N@Z
+	?DeRegister@G4PhysicsConstructorRegistry@@QEAAXPEAVG4VPhysicsConstructor@@@Z
+	?DeactivateNuclearStopping@G4EmDNAPhysicsActivator@@AEAAXPEAVG4ProcessManager@@N@Z
+	?DeclareProperties@?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAAXXZ
+	?DeconstructPhysListName@G4PhysListRegistry@@QEBA_NAEBVG4String@@AEAV2@AEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAV?$vector@HV?$allocator@H@std@@@4@H@Z
+	?Deprecated@G4OpticalPhysicsMessenger@@AEAAXXZ
+	?Destroy@?$G4CacheReference@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@QEAAXI_N@Z
+	?Destroy@?$G4CacheReference@PEAVG4DiffElasticRatio@@@@QEAAXI_N@Z
+	?Destroy@?$G4CacheReference@UtoBeCached@G4ParticleHPProduct@@@@QEAAXI_N@Z
+	?DoLorentzBoost@G4QGSParticipants@@UEAAXVHep3Vector@CLHEP@@@Z
+	?DumpBanner@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?DumpBanner@G4HadronPhysicsFTFP_BERT_ATL@@EEAAXXZ
+	?DumpBanner@G4HadronPhysicsFTFP_BERT_HP@@MEAAXXZ
+	?DumpBanner@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?DumpBanner@G4HadronPhysicsNuBeam@@EEAAXXZ
+	?DumpBanner@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?DumpBanner@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?DumpBanner@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?DumpBanner@G4HadronPhysicsShielding@@EEAAXXZ
+	?DumpBanner@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?ElectroNuclear@G4EmExtraPhysics@@QEAAX_N@Z
+	?Experimental@G4WarnPLStatus@@QEBAXVG4String@@@Z
+	?ExtraConfiguration@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsFTFP_BERT_HP@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsFTFP_BERT_TRV@@EEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsQGSP_BERT_HP@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsShielding@@EEAAXXZ
+	?ExtraConfiguration@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?FindCaptureProcess@G4PhysListUtil@@SAPEAVG4HadronicProcess@@PEBVG4ParticleDefinition@@@Z
+	?FindCaptureProcess@G4VHadronPhysics@@IEAAPEAVG4HadronicProcess@@XZ
+	?FindElasticProcess@G4VHadronPhysics@@IEAAPEAVG4HadronicProcess@@AEBVG4String@@@Z
+	?FindElasticProcess@G4VHadronPhysics@@IEAAPEAVG4HadronicProcess@@PEBVG4ParticleDefinition@@@Z
+	?FindFissionProcess@G4PhysListUtil@@SAPEAVG4HadronicProcess@@PEBVG4ParticleDefinition@@@Z
+	?FindFissionProcess@G4VHadronPhysics@@IEAAPEAVG4HadronicProcess@@XZ
+	?FindInelasticProcess@G4PhysListUtil@@SAPEAVG4HadronicProcess@@PEBVG4ParticleDefinition@@@Z
+	?FindInelasticProcess@G4VHadronPhysics@@IEAAPEAVG4HadronicProcess@@AEBVG4String@@@Z
+	?FindInelasticProcess@G4VHadronPhysics@@IEAAPEAVG4HadronicProcess@@PEBVG4ParticleDefinition@@@Z
+	?FindLongestMatch@G4PhysListRegistry@@QEBA_NAEBVG4String@@0AEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAV2@H@Z
+	?FindOrAddProcess@G4EmModelActivator@@AEAAXPEBVG4ParticleDefinition@@AEBVG4String@@@Z
+	?FromString@?$Ref@N@G4AnyType@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?GammaNuclear@G4EmExtraPhysics@@QEAAX_N@Z
+	?GammaToMuMu@G4EmExtraPhysics@@QEAAX_N@Z
+	?GammaToMuMuFactor@G4EmExtraPhysics@@QEAAXN@Z
+	?GetAllocatedSize@?$G4Allocator@VG4DynamicParticle@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4ElectronOccupancy@@@@UEBA_KXZ
+	?GetCache@?$G4Cache@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@AEBAAEAPEAUtoBeCached@G4ParticleHPContAngularPar@@XZ
+	?GetDecayProcess@G4DecayPhysics@@UEAAPEAVG4Decay@@XZ
+	?GetDecayProcess@G4UnknownDecayPhysics@@UEAAPEAVG4UnknownDecay@@XZ
+	?GetElasticModel@G4HadronElasticPhysics@@QEBAPEAVG4HadronElastic@@PEBVG4ParticleDefinition@@@Z
+	?GetElasticProcess@G4HadronElasticPhysics@@QEBAPEAVG4HadronicProcess@@PEBVG4ParticleDefinition@@@Z
+	?GetEmProcess@G4GammaGeneralProcess@@UEAAPEAVG4VEmProcess@@AEBVG4String@@@Z
+	?GetGSModel@G4EmModelActivator@@AEAAPEAVG4VMscModel@@XZ
+	?GetLambda@G4VEmProcess@@QEAANNPEBVG4MaterialCutsCouple@@N@Z
+	?GetMeanFreePath@G4GammaGeneralProcess@@MEAANAEBVG4Track@@NPEAW4G4ForceCondition@@@Z
+	?GetModel@G4VHadronModelBuilder@@QEAAPEAVG4HadronicInteraction@@XZ
+	?GetModularPhysicsList@G4PhysListRegistry@@QEAAPEAVG4VModularPhysicsList@@AEBVG4String@@@Z
+	?GetModularPhysicsListFromEnv@G4PhysListRegistry@@QEAAPEAVG4VModularPhysicsList@@XZ
+	?GetNeutronModel@G4HadronElasticPhysics@@QEBAPEAVG4HadronElastic@@XZ
+	?GetNeutronProcess@G4HadronElasticPhysics@@QEBAPEAVG4HadronicProcess@@XZ
+	?GetNoPages@?$G4Allocator@VG4DynamicParticle@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4ElectronOccupancy@@@@UEBAHXZ
+	?GetPageSize@?$G4Allocator@VG4DynamicParticle@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4ElectronOccupancy@@@@UEBA_KXZ
+	?GetPenetration@?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@QEAAXNAEAVHep3Vector@CLHEP@@@Z
+	?GetPhysicsConstructor@G4PhysicsConstructorRegistry@@QEAAPEAVG4VPhysicsConstructor@@AEBVG4String@@@Z
+	?GetPoolType@?$G4Allocator@VG4DynamicParticle@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4ElectronOccupancy@@@@UEBAPEBDXZ
+	?GetProbability@G4GammaGeneralProcess@@AEAAN_K@Z
+	?GetProcessManager@G4VProcess@@UEAAPEBVG4ProcessManager@@XZ
+	?GetProcessName@G4GammaGeneralProcess@@QEBAAEBVG4String@@XZ
+	?GetProcessSubType@G4GammaGeneralProcess@@QEBAHXZ
+	?GetProjectileNucleus@?$G4QGSModel@VG4GammaParticipants@@@@UEBAPEAVG4V3DNucleus@@XZ
+	?GetProjectileNucleus@?$G4QGSModel@VG4QGSParticipants@@@@UEBAPEAVG4V3DNucleus@@XZ
+	?GetProjectileNucleus@G4QGSParticipants@@EEBAPEAVG4V3DNucleus@@XZ
+	?GetReferencePhysList@G4PhysListFactory@@QEAAPEAVG4VModularPhysicsList@@AEBVG4String@@@Z
+	?GetReferencePhysList@G4PhysListFactory@g4alt@@QEAAPEAVG4VModularPhysicsList@@AEBVG4String@@@Z
+	?GetStrings@?$G4QGSModel@VG4GammaParticipants@@@@UEAAPEAV?$vector@PEAVG4ExcitedString@@V?$allocator@PEAVG4ExcitedString@@@std@@@std@@XZ
+	?GetStrings@?$G4QGSModel@VG4QGSParticipants@@@@UEAAPEAV?$vector@PEAVG4ExcitedString@@V?$allocator@PEAVG4ExcitedString@@@std@@@std@@XZ
+	?GetUnknownFatal@G4PhysListFactory@g4alt@@QEBAHXZ
+	?GetVerbose@G4PhysListFactory@g4alt@@QEBAHXZ
+	?GetVerboseLevel@G4VCrossSectionDataSet@@UEBAHXZ
+	?GetWoundedNucleus@?$G4QGSModel@VG4GammaParticipants@@@@UEBAPEAVG4V3DNucleus@@XZ
+	?GetWoundedNucleus@?$G4QGSModel@VG4QGSParticipants@@@@UEBAPEAVG4V3DNucleus@@XZ
+	?GetWoundedNucleus@G4VParticipants@@UEBAPEAVG4V3DNucleus@@XZ
+	?HasMsc@G4EmDNAPhysicsActivator@@AEBA_NPEAVG4ProcessManager@@@Z
+	?HasMsc@G4EmModelActivator@@AEBA_NPEAVG4ProcessManager@@@Z
+	?IncreasePageSize@?$G4Allocator@VG4DynamicParticle@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4ElectronOccupancy@@@@UEAAXI@Z
+	?InelasticXS@G4VHadronPhysics@@QEAAPEAVG4CrossSectionInelastic@@AEBVG4String@@@Z
+	?Init@?$G4QGSModel@VG4GammaParticipants@@@@UEAAXAEBVG4Nucleus@@AEBVG4DynamicParticle@@@Z
+	?Init@?$G4QGSModel@VG4QGSParticipants@@@@UEAAXAEBVG4Nucleus@@AEBVG4DynamicParticle@@@Z
+	?Initialise@?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@UEAAXPEBVG4ParticleDefinition@@AEBVG4DataVector@@@Z
+	?InitialiseProcess@G4GammaGeneralProcess@@MEAAXPEBVG4ParticleDefinition@@@Z
+	?InitializeForPostStep@G4ParticleChangeForGamma@@QEAAXAEBVG4Track@@@Z
+	?Instance@G4PhysListRegistry@@SAPEAV1@XZ
+	?Instance@G4PhysicsConstructorRegistry@@SAPEAV1@XZ
+	?Instantiate@?$G4PhysListStamper@V?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@V?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VFTFP_BERT@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VFTFP_BERT_ATL@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VFTFP_BERT_HP@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VFTFP_BERT_TRV@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VFTFQGSP_BERT@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VFTF_BIC@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VLBE@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VNuBeam@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQBBC@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGSP_BERT@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGSP_BERT_HP@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGSP_BIC@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGSP_BIC_AllHP@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGSP_BIC_HP@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGSP_FTFP_BERT@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VQGS_BIC@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VShielding@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VShieldingLEND@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysListStamper@VShieldingM@@@@UEAAPEAVG4VModularPhysicsList@@H@Z
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4ChargeExchangePhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4DecayPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAChemistry@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAChemistry_option1@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAChemistry_option2@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option1@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option2@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option3@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option4@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option5@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option6@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option7@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_option8@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option2@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option4@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmDNAPhysics_stationary_option6@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmExtraPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmLivermorePhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmLivermorePolarizedPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmLowEPPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmPenelopePhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsGS@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsSS@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysicsWVI@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option1@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option2@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option3@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4EmStandardPhysics_option4@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4FastSimulationPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4GenericBiasingPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronDElasticPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronElasticPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsHP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsLEND@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsPHP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronElasticPhysicsXS@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronHElasticPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronInelasticQBBC@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_ATL@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_HP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFP_BERT_TRV@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTFQGSP_BERT@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsFTF_BIC@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsINCLXX@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsNuBeam@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BERT@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BERT_HP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC_AllHP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_BIC_HP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGSP_FTFP_BERT@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsQGS_BIC@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsShielding@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4HadronPhysicsShieldingLEND@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4ImportanceBiasing@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonBinaryCascadePhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonElasticPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonINCLXXPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonPhysicsPHP@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonPhysicsXS@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4IonQMDPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4MuonicAtomDecayPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4NeutronCrossSectionXS@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4NeutronTrackingCut@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4OpticalPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4ParallelWorldPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4RadioactiveDecayPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4SpinDecayPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4StepLimiterPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4StoppingPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4StoppingPhysicsFritiofWithBinaryCascade@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4UnknownDecayPhysics@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?Instantiate@?$G4PhysicsConstructorFactory@VG4WeightWindowBiasing@@@@UEAAPEAVG4VPhysicsConstructor@@XZ
+	?IsApplicable@G4GammaGeneralProcess@@UEAA_NAEBVG4ParticleDefinition@@@Z
+	?IsApplicable@G4VProcess@@UEAA_NAEBVG4ParticleDefinition@@@Z
+	?IsKnownPhysicsConstructor@G4PhysicsConstructorRegistry@@QEAA_NAEBVG4String@@@Z
+	?IsReferencePhysList@G4PhysListFactory@@QEAA_NAEBVG4String@@@Z
+	?IsReferencePhysList@G4PhysListFactory@g4alt@@QEAA_NAEBVG4String@@@Z
+	?IsReferencePhysList@G4PhysListRegistry@@QEBA_NVG4String@@@Z
+	?IsVerbose@G4EmDNAPhysicsActivator@@AEBA_NXZ
+	?Kaon@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?Kaon@G4HadronPhysicsFTFP_BERT_ATL@@EEAAXXZ
+	?Kaon@G4HadronPhysicsFTFP_BERT_TRV@@EEAAXXZ
+	?Kaon@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?Kaon@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?Kaon@G4HadronPhysicsNuBeam@@EEAAXXZ
+	?Kaon@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?Kaon@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?Kaon@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?Kaon@G4HadronPhysicsShielding@@EEAAXXZ
+	?Kaon@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?LENDGammaNuclear@G4EmExtraPhysics@@QEAAX_N@Z
+	?LogVectorValue@G4PhysicsVector@@QEBANNN@Z
+	?ModelDescription@?$G4QGSModel@VG4GammaParticipants@@@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?ModelDescription@?$G4QGSModel@VG4QGSParticipants@@@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?MuonNuclear@G4EmExtraPhysics@@QEAAX_N@Z
+	?NeutrinoActivated@G4EmExtraPhysics@@QEAAX_N@Z
+	?Neutron@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?Neutron@G4HadronPhysicsFTFP_BERT_ATL@@EEAAXXZ
+	?Neutron@G4HadronPhysicsFTFP_BERT_HP@@MEAAXXZ
+	?Neutron@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?Neutron@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?Neutron@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?Neutron@G4HadronPhysicsQGSP_BERT_HP@@MEAAXXZ
+	?Neutron@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?Neutron@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?Neutron@G4HadronPhysicsShielding@@EEAAXXZ
+	?Neutron@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?NewModel@G4VHadronPhysics@@QEAAPEAVG4HadronicInteraction@@PEAV2@NN@Z
+	?NonPhysicsBias@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@@Z
+	?NonPhysicsBiasAddPDGRange@G4GenericBiasingPhysics@@QEAAXHH_N@Z
+	?NonPhysicsBiasAllCharged@G4GenericBiasingPhysics@@QEAAX_N@Z
+	?NonPhysicsBiasAllNeutral@G4GenericBiasingPhysics@@QEAAX_N@Z
+	?NuETotXscActivated@G4EmExtraPhysics@@QEAAX_N@Z
+	?OnlyFromFactory@G4WarnPLStatus@@QEBAXVG4String@@0@Z
+	?Others@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?Others@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?Others@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?Others@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?Others@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?Others@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?Others@G4HadronPhysicsShielding@@EEAAXXZ
+	?Others@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?PartNames@G4EmParticleList@@QEBAAEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?PhysicsBias@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@@Z
+	?PhysicsBias@G4GenericBiasingPhysics@@QEAAXAEBVG4String@@AEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?PhysicsBiasAddPDGRange@G4GenericBiasingPhysics@@QEAAXHH_N@Z
+	?PhysicsBiasAllCharged@G4GenericBiasingPhysics@@QEAAX_N@Z
+	?PhysicsBiasAllNeutral@G4GenericBiasingPhysics@@QEAAX_N@Z
+	?Pion@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?Pion@G4HadronPhysicsFTFP_BERT_ATL@@EEAAXXZ
+	?Pion@G4HadronPhysicsFTFP_BERT_TRV@@EEAAXXZ
+	?Pion@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?Pion@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?Pion@G4HadronPhysicsNuBeam@@EEAAXXZ
+	?Pion@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?Pion@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?Pion@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?Pion@G4HadronPhysicsShielding@@EEAAXXZ
+	?Pion@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?PositronToHadrons@G4EmExtraPhysics@@QEAAX_N@Z
+	?PositronToHadronsFactor@G4EmExtraPhysics@@QEAAXN@Z
+	?PositronToMuMu@G4EmExtraPhysics@@QEAAX_N@Z
+	?PositronToMuMuFactor@G4EmExtraPhysics@@QEAAXN@Z
+	?PostStepDoIt@G4GammaGeneralProcess@@UEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@@Z
+	?PostStepDoIt@G4SpecialCuts@@UEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@@Z
+	?PostStepGetPhysicalInteractionLength@G4GammaGeneralProcess@@UEAANAEBVG4Track@@NPEAW4G4ForceCondition@@@Z
+	?PostStepGetPhysicalInteractionLength@G4MaxTimeCuts@@UEAANAEBVG4Track@@NPEAW4G4ForceCondition@@@Z
+	?PostStepGetPhysicalInteractionLength@G4MinEkineCuts@@UEAANAEBVG4Track@@NPEAW4G4ForceCondition@@@Z
+	?PostStepGetPhysicalInteractionLength@G4SpecialCuts@@UEAANAEBVG4Track@@NPEAW4G4ForceCondition@@@Z
+	?PreparePhysicsTable@G4GammaGeneralProcess@@UEAAXAEBVG4ParticleDefinition@@@Z
+	?PreparePhysicsTable@G4VProcess@@UEAAXAEBVG4ParticleDefinition@@@Z
+	?PrintAvailablePhysLists@G4PhysListFactory@g4alt@@QEBAXXZ
+	?PrintAvailablePhysLists@G4PhysListRegistry@@QEBAXXZ
+	?PrintAvailablePhysicsConstructors@G4PhysicsConstructorRegistry@@QEBAXXZ
+	?PrintInfo@G4VEmProcess@@UEAAXXZ
+	?PrintStatistics@G4OpticalPhysics@@AEBAXXZ
+	?ProcessDescription@G4GammaGeneralProcess@@UEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?Proton@G4HadronPhysicsFTFP_BERT@@MEAAXXZ
+	?Proton@G4HadronPhysicsFTFP_BERT_ATL@@EEAAXXZ
+	?Proton@G4HadronPhysicsFTF_BIC@@MEAAXXZ
+	?Proton@G4HadronPhysicsINCLXX@@MEAAXXZ
+	?Proton@G4HadronPhysicsNuBeam@@EEAAXXZ
+	?Proton@G4HadronPhysicsQGSP_BERT@@MEAAXXZ
+	?Proton@G4HadronPhysicsQGSP_BIC@@MEAAXXZ
+	?Proton@G4HadronPhysicsQGS_BIC@@MEAAXXZ
+	?Proton@G4HadronPhysicsShielding@@EEAAXXZ
+	?Proton@G4HadronPhysicsShieldingLEND@@EEAAXXZ
+	?ReferencePhysList@G4PhysListFactory@@QEAAPEAVG4VModularPhysicsList@@XZ
+	?ReferencePhysList@G4PhysListFactory@g4alt@@QEAAPEAVG4VModularPhysicsList@@XZ
+	?Register@?$G4ThreadLocalSingleton@VG4DiffElasticRatio@@@@AEBAXPEAVG4DiffElasticRatio@@@Z
+	?Register@G4PhysicsConstructorRegistry@@QEAAXPEAVG4VPhysicsConstructor@@@Z
+	?RegisterMe@G4AlphaBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4AntiBarionBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4DeuteronBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4He3Builder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4KaonBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4NeutronBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4PhysicsBuilderInterface@@UEAAXPEAV1@@Z
+	?RegisterMe@G4PiKBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4PionBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4ProtonBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterMe@G4TritonBuilder@@UEAAXPEAVG4PhysicsBuilderInterface@@@Z
+	?RegisterPhysicsConstructor@?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@AEAAXAEAVG4String@@@Z
+	?Replaced@G4WarnPLStatus@@QEBAXVG4String@@0@Z
+	?ResetStorage@?$G4Allocator@VG4DynamicParticle@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4ElectronOccupancy@@@@UEAAXXZ
+	?RetrievePhysicsTable@G4GammaGeneralProcess@@UEAA_NPEBVG4ParticleDefinition@@AEBVG4String@@_N@Z
+	?RetrievePhysicsTable@G4VProcess@@UEAA_NPEBVG4ParticleDefinition@@AEBVG4String@@_N@Z
+	?SampleSecondaries@?$G4TDNAOneStepThermalizationModel@UMeesungnoen2002@Penetration@DNA@@@@UEAAXPEAV?$vector@PEAVG4DynamicParticle@@V?$allocator@PEAVG4DynamicParticle@@@std@@@std@@PEBVG4MaterialCutsCouple@@PEBVG4DynamicParticle@@NN@Z
+	?SampleSecondaries@G4GammaGeneralProcess@@AEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@PEAVG4HadronicProcess@@@Z
+	?SampleSecondaries@G4GammaGeneralProcess@@AEAAPEAVG4VParticleChange@@AEBVG4Track@@AEBVG4Step@@PEAVG4VEmProcess@@@Z
+	?SetAbsorptionVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetAngularDistribution@G4VEmModel@@QEAAXPEAVG4VEmAngularDistribution@@@Z
+	?SetBoundaryVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetCerenkovStackPhotons@G4OpticalPhysics@@QEAAX_N@Z
+	?SetCerenkovTrackSecondariesFirst@G4OpticalPhysics@@QEAAX_N@Z
+	?SetCerenkovVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetCurrentCouple@G4VEmModel@@QEAAXPEBVG4MaterialCutsCouple@@@Z
+	?SetCuts@?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@?$TG4GenericPhysicsList@VG4VModularPhysicsList@@@@UEAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$00@@UEAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$00$0A@@@UEAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$00@@UEAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@?$TINCLXXPhysicsListHelper@VG4VModularPhysicsList@@$0A@$0A@@@UEAAXXZ
+	?SetCuts@FTFP_BERT_HP@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@FTFP_BERT_HP@@UEAAXXZ
+	?SetCuts@LBE@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@LBE@@UEAAXXZ
+	?SetCuts@QGSP_BERT_HP@@$4PPPPPPPM@A@EAAXXZ
+	?SetCuts@QGSP_BERT_HP@@UEAAXXZ
+	?SetDefaultReferencePhysList@G4PhysListFactory@g4alt@@QEAAXAEBVG4String@@@Z
+	?SetFiniteRiseTime@G4OpticalPhysics@@QEAAX_N@Z
+	?SetFluo@G4VAtomDeexcitation@@QEAAX_N@Z
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetInvokeSD@G4OpticalPhysics@@QEAAX_N@Z
+	?SetMaxBetaChangePerStep@G4OpticalPhysics@@QEAAXN@Z
+	?SetMaxEnergy@G4AlphaPHPBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BertiniKaonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BertiniNeutronBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BertiniPiKBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BertiniPionBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BertiniProtonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryAlphaBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryDeuteronBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryHe3Builder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryNeutronBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryPiKBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryPionBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryProtonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4BinaryTritonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4DeuteronPHPBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFBinaryKaonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFBinaryNeutronBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFBinaryPionBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFBinaryProtonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFPAntiBarionBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFPKaonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFPNeutronBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFPPiKBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFPPionBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4FTFPProtonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4He3PHPBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4INCLXXNeutronBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4INCLXXPionBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4INCLXXProtonBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4NeutronLENDBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4NeutronPHPBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4PhysicsBuilderInterface@@UEAAXN@Z
+	?SetMaxEnergy@G4ProtonPHPBuilder@@UEAAXN@Z
+	?SetMaxEnergy@G4TritonPHPBuilder@@UEAAXN@Z
+	?SetMaxNumPhotonsPerStep@G4OpticalPhysics@@QEAAXH@Z
+	?SetMieVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetMinEnergy@G4AlphaPHPBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BertiniKaonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BertiniNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BertiniPiKBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BertiniPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BertiniProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryAlphaBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryDeuteronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryHe3Builder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryPiKBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4BinaryTritonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4DeuteronPHPBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFBinaryKaonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFBinaryNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFBinaryPiKBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFBinaryPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFBinaryProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFPAntiBarionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFPKaonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFPNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFPPiKBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFPPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4FTFPProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4He3PHPBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4INCLXXNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4INCLXXPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4INCLXXProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4NeutronLENDBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4NeutronPHPBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4PhysicsBuilderInterface@@UEAAXN@Z
+	?SetMinEnergy@G4PrecoNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4PrecoProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4ProtonPHPBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSBinaryKaonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSBinaryNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSBinaryPiKBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSBinaryPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSBinaryProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSPKaonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSPLundStrFragmProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSPNeutronBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSPPiKBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSPPionBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4QGSPProtonBuilder@@UEAAXN@Z
+	?SetMinEnergy@G4TritonPHPBuilder@@UEAAXN@Z
+	?SetNewValue@G4EmMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4OpticalPhysicsMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4PhysListFactoryMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNuDetectorName@G4EmExtraPhysics@@QEAAXAEBVG4String@@@Z
+	?SetNuEleCcBias@G4EmExtraPhysics@@QEAAXN@Z
+	?SetNuEleNcBias@G4EmExtraPhysics@@QEAAXN@Z
+	?SetNuNucleusBias@G4EmExtraPhysics@@QEAAXN@Z
+	?SetParameter@G4UIcommand@@QEAAXQEAVG4UIparameter@@@Z
+	?SetProcessManager@G4VProcess@@UEAAXPEBVG4ProcessManager@@@Z
+	?SetRayleighVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetScintillationByParticleType@G4OpticalPhysics@@QEAAX_N@Z
+	?SetScintillationExcitationRatio@G4OpticalPhysics@@QEAAXN@Z
+	?SetScintillationStackPhotons@G4OpticalPhysics@@QEAAX_N@Z
+	?SetScintillationTrackInfo@G4OpticalPhysics@@QEAAX_N@Z
+	?SetScintillationTrackSecondariesFirst@G4OpticalPhysics@@QEAAX_N@Z
+	?SetScintillationVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetScintillationYieldFactor@G4OpticalPhysics@@QEAAXN@Z
+	?SetStepLimitType@G4VMultipleScattering@@QEAAXW4G4MscStepLimitType@@@Z
+	?SetTrackSecondariesFirst@G4OpticalPhysics@@QEAAXW4G4OpticalProcessIndex@@_N@Z
+	?SetUnknownFatal@G4PhysListFactory@g4alt@@QEAAXH@Z
+	?SetUserDefaultPhysList@G4PhysListRegistry@@QEAAXAEBVG4String@@@Z
+	?SetVerbose@G4PhysListFactory@g4alt@@QEAAXH@Z
+	?SetVerboseLevel@G4VCrossSectionDataSet@@UEAAXH@Z
+	?SetWLSTimeProfile@G4OpticalPhysics@@QEAAXVG4String@@@Z
+	?SetWLSVerbosity@G4OpticalPhysics@@QEAAXH@Z
+	?SetWorldVolume@G4Navigator@@QEAAXPEAVG4VPhysicalVolume@@@Z
+	?StartTracking@G4GammaGeneralProcess@@UEAAXPEAVG4Track@@@Z
+	?StorePhysicsTable@G4GammaGeneralProcess@@UEAA_NPEBVG4ParticleDefinition@@AEBVG4String@@_N@Z
+	?StorePhysicsTable@G4VProcess@@UEAA_NPEBVG4ParticleDefinition@@AEBVG4String@@_N@Z
+	?StreamProcessInfo@G4VEmProcess@@MEBAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?Synch@G4EmExtraPhysics@@QEAAX_N@Z
+	?SynchAll@G4EmExtraPhysics@@QEAAX_N@Z
+	?TerminateWorker@G4VModularPhysicsList@@$4PPPPPPPM@A@EAAXXZ
+	?TerminateWorker@G4VModularPhysicsList@@$4PPPPPPPM@CA@EAAXXZ
+	?TerminateWorker@G4VModularPhysicsList@@$4PPPPPPPM@CI@EAAXXZ
+	?TerminateWorker@G4VModularPhysicsList@@$4PPPPPPPM@II@EAAXXZ
+	?ToString@?$Ref@N@G4AnyType@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+	?TotalCrossSectionPerVolume@G4GammaGeneralProcess@@AEAANXZ
+	?TypeInfo@?$Ref@N@G4AnyType@@UEBAAEBVtype_info@@XZ
+	?Unsupported@G4WarnPLStatus@@QEBAXVG4String@@0@Z
+	?_Become_small@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Change_array@?$vector@HV?$allocator@H@std@@@std@@AEAAXQEAH_K1@Z
+	?_Change_array@?$vector@PEAVG4VProcess@@V?$allocator@PEAVG4VProcess@@@std@@@std@@AEAAXQEAPEAVG4VProcess@@_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Destroy@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAXPEAUyystype@G4UItokenNum@@0@Z
+	?_Destroy@?$vector@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@2@@std@@AEAAXPEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@2@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Getal@?$vector@IV?$allocator@I@std@@@std@@AEAAAEAV?$allocator@I@2@XZ
+	?_Getal@?$vector@PEAUtoBeCached@G4ParticleHPContAngularPar@@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@AEAAAEAV?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@2@XZ
+	?_Getal@?$vector@PEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4DiffElasticRatio@@@2@XZ
+	?_Getal@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAAEAV?$allocator@PEAVmutex@std@@@2@XZ
+	?_Getal@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAAEAV?$allocator@Uyystype@G4UItokenNum@@@2@XZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysConstrFactory@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VBasePhysListStamper@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@V1@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V1@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_x@?$vector@_NV?$allocator@_N@std@@@std@@QEAA_KV?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@_K@Z
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXXZ
+	?_Ufill@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAPEAUyystype@G4UItokenNum@@PEAU34@_KU_Value_init_tag@2@@Z
+	?_Umove@?$vector@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@2@@std@@AEAAPEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@2@PEAV32@00@Z
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlen@?$vector@_NV?$allocator@_N@std@@@std@@QEBAXXZ
+	?_Xlength@?$vector@HV?$allocator@H@std@@@std@@CAXXZ
+	?_Xlength@?$vector@IV?$allocator@I@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAUtoBeCached@G4ParticleHPContAngularPar@@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4ExcitedString@@V?$allocator@PEAVG4ExcitedString@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VAlphaBuilder@@V?$allocator@PEAVG4VAlphaBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VAntiBarionBuilder@@V?$allocator@PEAVG4VAntiBarionBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VDeuteronBuilder@@V?$allocator@PEAVG4VDeuteronBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VHadronModelBuilder@@V?$allocator@PEAVG4VHadronModelBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VHe3Builder@@V?$allocator@PEAVG4VHe3Builder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VKaonBuilder@@V?$allocator@PEAVG4VKaonBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VNeutronBuilder@@V?$allocator@PEAVG4VNeutronBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VPhysicsConstructor@@V?$allocator@PEAVG4VPhysicsConstructor@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VPiKBuilder@@V?$allocator@PEAVG4VPiKBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VPionBuilder@@V?$allocator@PEAVG4VPionBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VProcess@@V?$allocator@PEAVG4VProcess@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VProtonBuilder@@V?$allocator@PEAVG4VProtonBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VTritonBuilder@@V?$allocator@PEAVG4VTritonBuilder@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@V?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@H@std@@QEAAPEAH_K@Z
+	?allocate@?$allocator@I@std@@QEAAPEAI_K@Z
+	?allocate@?$allocator@N@std@@QEAAPEAN_K@Z
+	?allocate@?$allocator@PEAVG4VProcess@@@std@@QEAAPEAPEAVG4VProcess@@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?cache@?$G4CacheReference@PEAUtoBeCached@G4ParticleHPContAngularPar@@@@CAAEAPEAV?$vector@PEAUtoBeCached@G4ParticleHPContAngularPar@@V?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@@std@@XZ
+	?cache@?$G4CacheReference@PEAVG4DiffElasticRatio@@@@CAAEAPEAV?$vector@PEAVG4DiffElasticRatio@@V?$allocator@PEAVG4DiffElasticRatio@@@std@@@std@@XZ
+	?cache@?$G4CacheReference@UtoBeCached@G4ParticleHPProduct@@@@CAAEAPEAV?$vector@PEAUtoBeCached@G4ParticleHPProduct@@V?$allocator@PEAUtoBeCached@G4ParticleHPProduct@@@std@@@std@@XZ
+	?compare@?$_Narrow_char_traits@DH@std@@SAHQEBD0_K@Z
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHQEBD@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@H@std@@QEAAXQEAH_K@Z
+	?deallocate@?$allocator@I@std@@QEAAXQEAI_K@Z
+	?deallocate@?$allocator@PEAUtoBeCached@G4ParticleHPContAngularPar@@@std@@QEAAXQEAPEAUtoBeCached@G4ParticleHPContAngularPar@@_K@Z
+	?deallocate@?$allocator@PEAVG4DiffElasticRatio@@@std@@QEAAXQEAPEAVG4DiffElasticRatio@@_K@Z
+	?deallocate@?$allocator@PEAVG4ExcitedString@@@std@@QEAAXQEAPEAVG4ExcitedString@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIparameter@@@std@@QEAAXQEAPEAVG4UIparameter@@_K@Z
+	?deallocate@?$allocator@PEAVG4VAlphaBuilder@@@std@@QEAAXQEAPEAVG4VAlphaBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VAntiBarionBuilder@@@std@@QEAAXQEAPEAVG4VAntiBarionBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VDeuteronBuilder@@@std@@QEAAXQEAPEAVG4VDeuteronBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VHadronModelBuilder@@@std@@QEAAXQEAPEAVG4VHadronModelBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VHe3Builder@@@std@@QEAAXQEAPEAVG4VHe3Builder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VKaonBuilder@@@std@@QEAAXQEAPEAVG4VKaonBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VNeutronBuilder@@@std@@QEAAXQEAPEAVG4VNeutronBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VPhysicsConstructor@@@std@@QEAAXQEAPEAVG4VPhysicsConstructor@@_K@Z
+	?deallocate@?$allocator@PEAVG4VPiKBuilder@@@std@@QEAAXQEAPEAVG4VPiKBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VPionBuilder@@@std@@QEAAXQEAPEAVG4VPionBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VProcess@@@std@@QEAAXQEAPEAVG4VProcess@@_K@Z
+	?deallocate@?$allocator@PEAVG4VProtonBuilder@@@std@@QEAAXQEAPEAVG4VProtonBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVG4VTritonBuilder@@@std@@QEAAXQEAPEAVG4VTritonBuilder@@_K@Z
+	?deallocate@?$allocator@PEAVmutex@std@@@std@@QEAAXQEAPEAVmutex@2@_K@Z
+	?deallocate@?$allocator@Uyystype@G4UItokenNum@@@std@@QEAAXQEAUyystype@G4UItokenNum@@_K@Z
+	?deallocate@?$allocator@V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@std@@QEAAXQEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@2@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?push_back@?$vector@_NV?$allocator@_N@std@@@std@@QEAAXAEB_N@Z
+	?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@G4BadArgument@@UEBAPEBDXZ
+	?what@exception@std@@UEBAPEBDXZ

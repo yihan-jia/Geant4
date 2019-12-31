@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2AE2594B-0919-34A9-9A31-D56351406324}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>G4particles</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4particles.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4particles</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Release\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4particles.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4particles</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\MinSizeRel\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4particles.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4particles</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\RelWithDebInfo\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4particles.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4particles</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR="Debug";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR=\"Debug\";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\Debug\lib\G4geometry.lib;..\..\BuildProducts\Debug\lib\G4materials.lib;..\..\BuildProducts\Debug\lib\G4graphics_reps.lib;..\..\BuildProducts\Debug\lib\G4intercoms.lib;..\..\BuildProducts\Debug\lib\G4global.lib;..\..\BuildProducts\Debug\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/lib/G4particles.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/bin/G4particles.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR="Release";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR=\"Release\";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\Release\lib\G4geometry.lib;..\..\BuildProducts\Release\lib\G4materials.lib;..\..\BuildProducts\Release\lib\G4graphics_reps.lib;..\..\BuildProducts\Release\lib\G4intercoms.lib;..\..\BuildProducts\Release\lib\G4global.lib;..\..\BuildProducts\Release\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/lib/G4particles.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/bin/G4particles.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR="MinSizeRel";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR=\"MinSizeRel\";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\MinSizeRel\lib\G4geometry.lib;..\..\BuildProducts\MinSizeRel\lib\G4materials.lib;..\..\BuildProducts\MinSizeRel\lib\G4graphics_reps.lib;..\..\BuildProducts\MinSizeRel\lib\G4intercoms.lib;..\..\BuildProducts\MinSizeRel\lib\G4global.lib;..\..\BuildProducts\MinSizeRel\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/lib/G4particles.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/bin/G4particles.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR="RelWithDebInfo";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;G4PARTICLES_ALLOC_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\";G4particles_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\RelWithDebInfo\lib\G4geometry.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4materials.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4graphics_reps.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4intercoms.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4global.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/lib/G4particles.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/G4particles.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/bin/G4particles.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/particles/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\particles\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointAlpha.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointDeuteron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointElectron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointElectronFI.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointGamma.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointGenericIon.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointHe3.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointIons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointPositron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointProton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\src\G4AdjointTriton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4BosonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4ChargedGeantino.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4Gamma.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4Geantino.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4OpticalPhoton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4PhononLong.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4PhononTransFast.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4PhononTransSlow.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\src\G4UnknownParticle.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiLambda.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiLambdab.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiLambdacPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiNeutron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiOmegaMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiOmegabMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiOmegacZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiProton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmaMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmaPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmaZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmacPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmacPlusPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmacZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmabMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmabPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiSigmabZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiXiMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiXiZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiXicPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiXicZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiXibMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4AntiXibZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4BaryonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4Lambda.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4Lambdab.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4LambdacPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4Neutron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4OmegaMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4OmegabMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4OmegacZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4Proton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmaMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmaPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmaZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmacPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmacPlusPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmacZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmabMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmabPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4SigmabZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4XiMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4XiZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4XicPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4XicZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4XibMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\src\G4XibZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4Alpha.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4AntiAlpha.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4AntiDeuteron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4AntiHe3.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4AntiTriton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4Deuteron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4GenericIon.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4He3.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4IonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4Triton.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\src\G4GenericMuonicAtom.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4AntiBMesonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4AntiBsMesonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4AntiDMesonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4AntiKaonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4BMesonMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4BcMesonMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4BMesonPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4BcMesonPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4BMesonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4BsMesonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4DMesonMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4DMesonPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4DMesonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4DsMesonMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4DsMesonPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4Eta.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4Etac.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4EtaPrime.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4JPsi.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4KaonMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4KaonPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4KaonZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4KaonZeroLong.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4KaonZeroShort.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4MesonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4PionMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4PionPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4PionZero.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\src\G4Upsilon.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4AntiNeutrinoE.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4AntiNeutrinoMu.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4AntiNeutrinoTau.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4Electron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4LeptonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4MuonMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4MuonPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4NeutrinoE.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4NeutrinoMu.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4NeutrinoTau.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4Positron.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4TauMinus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\src\G4TauPlus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4DalitzDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4DecayProducts.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4DecayTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4DecayTableMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4DynamicParticle.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ElectronOccupancy.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4HyperNucleiProperties.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4IonTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4Ions.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4IsotopeProperty.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4KL3DecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4MuonicAtom.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4MuonicAtomHelper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4MuonDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4MuonDecayChannelWithSpin.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4MuonRadiativeDecayChannelWithSpin.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NeutronBetaDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NucleiProperties.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NucleiPropertiesTableAME12.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NucleiPropertiesTheoreticalTableA.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NucleiPropertiesTheoreticalTableB.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NuclideTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4NuclideTableMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4PDGCodeChecker.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4PDefManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticleDefinition.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticleMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticlePropertyData.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticlePropertyMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticlePropertyTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticleTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4ParticlesWorkspace.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4PhaseSpaceDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4PionRadiativeDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4PrimaryParticle.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4PrimaryVertex.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4TauLeptonicDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4VDecayChannel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4VIsotopeTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4VUserPrimaryParticleInformation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\src\G4VUserPrimaryVertexInformation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4DiQuarks.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedBaryonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedBaryons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedDeltaConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedLambdaConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedMesonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedMesons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedNucleonConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedSigmaConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ExcitedXiConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4Gluons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4Quarks.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4ShortLivedConstructor.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\src\G4VShortLivedParticle.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\src\G4HtmlPPReporter.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\src\G4IsotopeMagneticMomentTable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\src\G4SimplePPReporter.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\src\G4TextPPReporter.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\src\G4TextPPRetriever.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\src\G4VParticlePropertyReporter.cc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointAlpha.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointDeuteron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointElectron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointElectronFI.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointGamma.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointGenericIon.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointHe3.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointIons.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointPositron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointProton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\adjoint\include\G4AdjointTriton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4BosonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4ChargedGeantino.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4Gamma.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4Geantino.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4OpticalPhoton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4PhononLong.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4PhononTransFast.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4PhononTransSlow.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\bosons\include\G4UnknownParticle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiLambda.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiLambdab.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiLambdacPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiNeutron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiOmegaMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiOmegabMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiOmegacZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiProton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmaMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmaPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmaZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmacPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmacPlusPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmacZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmabMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmabPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiSigmabZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiXiMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiXiZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiXicPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiXicZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiXibMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4AntiXibZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4BaryonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4Lambda.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4Lambdab.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4LambdacPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4Neutron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4OmegaMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4OmegabMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4OmegacZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4Proton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmaMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmaPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmaZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmacPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmacPlusPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmacZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmabMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmabPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4SigmabZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4XiMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4XiZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4XicPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4XicZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4XibMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\barions\include\G4XibZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4Alpha.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4AntiAlpha.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4AntiDeuteron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4AntiHe3.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4AntiTriton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4Deuteron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4GenericIon.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4He3.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4IonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4Triton.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\ions\include\G4GenericMuonicAtom.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4AntiBMesonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4AntiBsMesonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4AntiDMesonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4AntiKaonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4BcMesonMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4BMesonMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4BcMesonPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4BMesonPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4BMesonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4BsMesonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4DMesonMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4DMesonPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4DMesonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4DsMesonMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4DsMesonPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4Eta.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4Etac.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4EtaPrime.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4JPsi.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4KaonMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4KaonPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4KaonZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4KaonZeroLong.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4KaonZeroShort.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4MesonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4PionMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4PionPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4PionZero.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\hadrons\mesons\include\G4Upsilon.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4AntiNeutrinoE.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4AntiNeutrinoMu.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4AntiNeutrinoTau.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4Electron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4LeptonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4MuonMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4MuonPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4NeutrinoE.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4NeutrinoMu.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4NeutrinoTau.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4Positron.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4TauMinus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\leptons\include\G4TauPlus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DalitzDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DecayProducts.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DecayTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DecayTableMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DynamicParticle.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DynamicParticle.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4DynamicParticleFastVector.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ElectronOccupancy.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4HyperNucleiProperties.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4IonTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4Ions.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4IsotopeProperty.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4KL3DecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4MuonicAtom.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4MuonicAtomHelper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4MuonDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4MuonDecayChannelWithSpin.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4MuonRadiativeDecayChannelWithSpin.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4NeutronBetaDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4NucleiProperties.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4NucleiPropertiesTableAME12.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4NucleiPropertiesTheoreticalTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4NuclideTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4NuclideTableMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4PDGCodeChecker.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4PDefManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleDefinition.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleDefinition.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleMomentum.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticlePropertyData.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticlePropertyData.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticlePropertyMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticlePropertyTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleTable.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleTable.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleTableIterator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticleWithCuts.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4ParticlesWorkspace.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4PhaseSpaceDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4PionRadiativeDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4PrimaryParticle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4PrimaryVertex.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4TauLeptonicDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4VDecayChannel.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4VIsotopeTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4VUserPrimaryParticleInformation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\G4VUserPrimaryVertexInformation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\management\include\pwdefs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4DiQuarks.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedBaryonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedBaryons.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedDeltaConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedLambdaConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedMesonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedMesons.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedNucleonConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedSigmaConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ExcitedXiConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4Gluons.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4Quarks.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4ShortLivedConstructor.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\shortlived\include\G4VShortLivedParticle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4HtmlPPReporter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4IsotopeMagneticMomentTable.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4SimplePPReporter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4TextPPReporter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4TextPPRetriever.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4VParticlePropertyReporter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\particles\utils\include\G4VParticlePropertyRetriever.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\ZERO_CHECK.vcxproj">
+      <Project>{E1749259-A18E-3B5B-8423-240E1940671A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\G4clhep.vcxproj">
+      <Project>{1E529A5C-9638-34DD-B243-9E6E6956ED60}</Project>
+      <Name>G4clhep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\G4geometry.vcxproj">
+      <Project>{732CE323-3A21-34E6-ADF6-794EF68E845F}</Project>
+      <Name>G4geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\G4global.vcxproj">
+      <Project>{002D5923-890E-3712-9905-86C76E0915FE}</Project>
+      <Name>G4global</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\graphics_reps\G4graphics_reps.vcxproj">
+      <Project>{E6F982F4-60C4-301A-9ED6-FA722CF82E9B}</Project>
+      <Name>G4graphics_reps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\intercoms\G4intercoms.vcxproj">
+      <Project>{DC6383B2-E4AB-3729-A4FD-981A4586BAF9}</Project>
+      <Name>G4intercoms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\materials\G4materials.vcxproj">
+      <Project>{9E118597-A349-358D-81E3-EE7063C9443B}</Project>
+      <Name>G4materials</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

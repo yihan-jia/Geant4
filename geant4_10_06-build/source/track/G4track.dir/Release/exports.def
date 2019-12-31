@@ -1,0 +1,325 @@
+EXPORTS 
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAVG4VelocityTable@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAVG4VelocityTable@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	??_R0?AV?$G4Allocator@V?$G4CountedObject@X@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4DynamicParticle@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4Track@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAVG4VelocityTable@@@@@8 	 DATA
+	??_R0?AV?$G4CountedObject@X@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@VG4VelocityTable@@@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4DynamicParticle@@@8 	 DATA
+	??_R0?AVG4ParticleChange@@@8 	 DATA
+	??_R0?AVG4ParticleChangeForDecay@@@8 	 DATA
+	??_R0?AVG4ParticleChangeForGamma@@@8 	 DATA
+	??_R0?AVG4ParticleChangeForLoss@@@8 	 DATA
+	??_R0?AVG4ParticleChangeForMSC@@@8 	 DATA
+	??_R0?AVG4ParticleChangeForTransport@@@8 	 DATA
+	??_R0?AVG4Track@@@8 	 DATA
+	??_R0?AVG4VAuxiliaryTrackInformation@@@8 	 DATA
+	??_R0?AVG4VParticleChange@@@8 	 DATA
+	??_R0?AVG4VUserTrackInformation@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0PEAVG4VelocityTable@@@8 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAVG4VelocityTable@@@@CAAEAPEAV?$vector@PEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAVG4VelocityTable@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAVG4VelocityTable@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4VelocityTable@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4VelocityTable@@@@0U?$atomic@I@std@@A 	 DATA
+	?theInstance@G4VelocityTable@@0PEAV1@EA 	 DATA
+	?zerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@4V34@B 	 DATA
+	??$?0AEBH$$Z$$V@?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBH@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBH@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@QEAA@AEAV?$tuple@AEBH@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?6DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBVerror_code@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$G4TypeMutex@V?$G4Cache@PEAVG4VelocityTable@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Atomic_address_as@$$CBJ$$CBU?$_Atomic_padded@I@std@@@std@@YAPEDJAEBU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@I@std@@@std@@YAPECJAEAU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_reinterpret_as@JI@std@@YAJAEBI@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4VelocityTable@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4VelocityTable@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4VelocityTable@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4VelocityTable@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAVG4Track@@PEAPEAV1@@std@@YAPEAPEAVG4Track@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VelocityTable@@PEAPEAV1@@std@@YAPEAPEAVG4VelocityTable@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVmutex@std@@PEAPEAV12@@std@@YAPEAPEAVmutex@0@PEAPEAV10@00@Z
+	??$_Copy_memmove@PEAPEBVG4Track@@PEAPEBV1@@std@@YAPEAPEBVG4Track@@PEAPEBV1@00@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4VelocityTable@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4VelocityTable@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4Track@@@std@@@std@@YAXPEAPEAVG4Track@@QEAPEAV1@AEAV?$allocator@PEAVG4Track@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@YAXPEAPEAVG4VelocityTable@@QEAPEAV1@AEAV?$allocator@PEAVG4VelocityTable@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVmutex@std@@@std@@@std@@YAXPEAPEAVmutex@0@QEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEBVG4Track@@@std@@@std@@YAXPEAPEBVG4Track@@QEAPEBV1@AEAV?$allocator@PEBVG4Track@@@0@@Z
+	??$_Emplace_reallocate@AEBN@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEANAEBN@Z
+	??$_Emplace_reallocate@AEBQEBVG4Track@@@?$vector@PEBVG4Track@@V?$allocator@PEBVG4Track@@@std@@@std@@QEAAPEAPEBVG4Track@@QEAPEBV2@AEBQEBV2@@Z
+	??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEAN$$QEAN@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@1@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Resize_reallocate@PEAVG4VelocityTable@@@?$vector@PEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@AEAAX_KAEBQEAVG4VelocityTable@@@Z
+	??$_Resize_reallocate@PEAVmutex@std@@@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAX_KAEBQEAVmutex@1@@Z
+	??$_Uninitialized_copy@PEAPEAVG4Track@@V?$allocator@PEAVG4Track@@@std@@@std@@YAPEAPEAVG4Track@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4Track@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@YAPEAPEAVG4VelocityTable@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4VelocityTable@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVmutex@std@@@std@@@std@@YAPEAPEAVmutex@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@YAPEAPEAVG4VelocityTable@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VelocityTable@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@YAPEAPEAVmutex@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAPEBVG4Track@@V?$allocator@PEBVG4Track@@@std@@@std@@YAPEAPEBVG4Track@@QEAPEBV1@0PEAPEBV1@AEAV?$allocator@PEBVG4Track@@@0@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$swap@DX@std@@YAXAEAD0@Z
+	??0?$G4Allocator@V?$G4CountedObject@X@@@@QEAA@XZ
+	??0?$G4Allocator@VG4DynamicParticle@@@@QEAA@XZ
+	??0?$G4Allocator@VG4Track@@@@QEAA@XZ
+	??0?$G4Cache@PEAVG4VelocityTable@@@@QEAA@XZ
+	??0?$G4CountedObject@VG4VTouchable@@@@QEAA@PEAVG4VTouchable@@@Z
+	??0?$G4ThreadLocalSingleton@VG4VelocityTable@@@@QEAA@XZ
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$vector@PEAVG4Track@@V?$allocator@PEAVG4Track@@@std@@@std@@QEAA@AEBV01@@Z
+	??0G4ParticleChange@@IEAA@AEBV0@@Z
+	??0G4ParticleChange@@QEAA@XZ
+	??0G4ParticleChangeForDecay@@IEAA@AEBV0@@Z
+	??0G4ParticleChangeForDecay@@QEAA@XZ
+	??0G4ParticleChangeForGamma@@IEAA@AEBV0@@Z
+	??0G4ParticleChangeForGamma@@QEAA@XZ
+	??0G4ParticleChangeForLoss@@IEAA@AEBV0@@Z
+	??0G4ParticleChangeForLoss@@QEAA@XZ
+	??0G4ParticleChangeForMSC@@IEAA@AEBV0@@Z
+	??0G4ParticleChangeForMSC@@QEAA@XZ
+	??0G4ParticleChangeForTransport@@IEAA@AEBV0@@Z
+	??0G4ParticleChangeForTransport@@QEAA@XZ
+	??0G4Step@@QEAA@AEBV0@@Z
+	??0G4Step@@QEAA@XZ
+	??0G4StepPoint@@QEAA@AEBV0@@Z
+	??0G4StepPoint@@QEAA@XZ
+	??0G4Track@@QEAA@AEBV0@@Z
+	??0G4Track@@QEAA@PEAVG4DynamicParticle@@NAEBVHep3Vector@CLHEP@@@Z
+	??0G4Track@@QEAA@XZ
+	??0G4VAuxiliaryTrackInformation@@QEAA@XZ
+	??0G4VParticleChange@@IEAA@AEBV0@@Z
+	??0G4VParticleChange@@QEAA@XZ
+	??0G4VUserTrackInformation@@QEAA@AEBV0@@Z
+	??0G4VUserTrackInformation@@QEAA@AEBVG4String@@@Z
+	??0G4VUserTrackInformation@@QEAA@XZ
+	??0G4VelocityTable@@AEAA@XZ
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$G4Allocator@V?$G4CountedObject@X@@@@UEAA@XZ
+	??1?$G4Allocator@VG4DynamicParticle@@@@UEAA@XZ
+	??1?$G4Allocator@VG4Track@@@@UEAA@XZ
+	??1?$G4Cache@PEAVG4VelocityTable@@@@UEAA@XZ
+	??1?$G4CountedObject@VG4VTouchable@@@@QEAA@XZ
+	??1?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEAA@XZ
+	??1?$G4TemplateAutoLock@Vmutex@std@@@@QEAA@XZ
+	??1?$G4ThreadLocalSingleton@VG4VelocityTable@@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4VelocityTable@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$list@PEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@QEAA@XZ
+	??1?$vector@NV?$allocator@N@std@@@std@@QEAA@XZ
+	??1G4ParticleChange@@UEAA@XZ
+	??1G4ParticleChangeForDecay@@UEAA@XZ
+	??1G4ParticleChangeForGamma@@UEAA@XZ
+	??1G4ParticleChangeForLoss@@UEAA@XZ
+	??1G4ParticleChangeForMSC@@UEAA@XZ
+	??1G4ParticleChangeForTransport@@UEAA@XZ
+	??1G4Step@@QEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4Track@@QEAA@XZ
+	??1G4VAuxiliaryTrackInformation@@UEAA@XZ
+	??1G4VParticleChange@@UEAA@XZ
+	??1G4VUserTrackInformation@@UEAA@XZ
+	??1G4VelocityTable@@AEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1mutex@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??2G4Track@@SAPEAX_K@Z
+	??3G4DynamicParticle@@SAXPEAX@Z
+	??3G4Track@@SAXPEAX@Z
+	??4?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEAAAEAV0@AEBV0@@Z
+	??4G4ParticleChange@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleChangeForDecay@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleChangeForGamma@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleChangeForLoss@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleChangeForMSC@@IEAAAEAV0@AEBV0@@Z
+	??4G4ParticleChangeForTransport@@IEAAAEAV0@AEBV0@@Z
+	??4G4Step@@QEAAAEAV0@AEBV0@@Z
+	??4G4StepPoint@@QEAAAEAV0@AEBV0@@Z
+	??4G4Track@@AEAAAEAV0@AEBV0@@Z
+	??4G4VParticleChange@@IEAAAEAV0@AEBV0@@Z
+	??4G4VUserTrackInformation@@QEAAAEAV0@AEBV0@@Z
+	??8G4ParticleChange@@QEBA_NAEBV0@@Z
+	??8G4ParticleChangeForDecay@@QEBA_NAEBV0@@Z
+	??8G4VParticleChange@@QEBA_NAEBV0@@Z
+	??9G4ParticleChange@@QEBA_NAEBV0@@Z
+	??9G4ParticleChangeForDecay@@QEBA_NAEBV0@@Z
+	??9G4VParticleChange@@QEBA_NAEBV0@@Z
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??__Fzerovector@?1??GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ@YAXXZ
+	?AddSecondary@G4ParticleChange@@QEAAXPEAVG4DynamicParticle@@N_N@Z
+	?AddSecondary@G4ParticleChange@@QEAAXPEAVG4DynamicParticle@@VHep3Vector@CLHEP@@_N@Z
+	?AddSecondary@G4ParticleChange@@QEAAXPEAVG4DynamicParticle@@_N@Z
+	?AddSecondary@G4ParticleChange@@QEAAXPEAVG4Track@@@Z
+	?AddSecondary@G4ParticleChangeForGamma@@QEAAXPEAVG4DynamicParticle@@@Z
+	?AddSecondary@G4VParticleChange@@QEAAXPEAVG4Track@@@Z
+	?CalculateVelocity@G4Track@@QEBANXZ
+	?CalculateVelocityForOpticalPhoton@G4Track@@QEBANXZ
+	?CheckIt@G4ParticleChange@@UEAA_NAEBVG4Track@@@Z
+	?CheckIt@G4ParticleChangeForDecay@@UEAA_NAEBVG4Track@@@Z
+	?CheckIt@G4ParticleChangeForGamma@@UEAA_NAEBVG4Track@@@Z
+	?CheckIt@G4ParticleChangeForLoss@@UEAA_NAEBVG4Track@@@Z
+	?CheckIt@G4ParticleChangeForMSC@@UEAA_NAEBVG4Track@@@Z
+	?CheckIt@G4VParticleChange@@UEAA_NAEBVG4Track@@@Z
+	?CheckSecondary@G4VParticleChange@@IEAA_NAEAVG4Track@@@Z
+	?Clear@?$G4ThreadLocalSingleton@VG4VelocityTable@@@@AEAAXXZ
+	?ClearAuxiliaryTrackInformation@G4Track@@AEAAXXZ
+	?CopyTrackInfo@G4Track@@QEAAXAEBV1@@Z
+	?CreateFieldTrack@G4FieldTrackUpdator@@SAPEAVG4FieldTrack@@PEBVG4Track@@@Z
+	?Destroy@?$G4CacheReference@PEAVG4VelocityTable@@@@QEAAXI_N@Z
+	?DumpInfo@G4ParticleChange@@UEBAXXZ
+	?DumpInfo@G4ParticleChangeForDecay@@UEBAXXZ
+	?DumpInfo@G4ParticleChangeForGamma@@UEBAXXZ
+	?DumpInfo@G4ParticleChangeForLoss@@UEBAXXZ
+	?DumpInfo@G4ParticleChangeForMSC@@UEBAXXZ
+	?DumpInfo@G4ParticleChangeForTransport@@UEBAXXZ
+	?DumpInfo@G4VParticleChange@@UEBAXXZ
+	?FindBinLocation@G4VelocityTable@@AEBA_KN@Z
+	?GetAccuracyForException@G4VParticleChange@@IEBANXZ
+	?GetAccuracyForWarning@G4VParticleChange@@IEBANXZ
+	?GetAllocatedSize@?$G4Allocator@V?$G4CountedObject@X@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4DynamicParticle@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4Track@@@@UEBA_KXZ
+	?GetAuxiliaryTrackInformation@G4Track@@QEBAPEAVG4VAuxiliaryTrackInformation@@H@Z
+	?GetCache@?$G4Cache@PEAVG4VelocityTable@@@@AEBAAEAPEAVG4VelocityTable@@XZ
+	?GetDeltaEnergy@G4Step@@QEBANXZ
+	?GetDeltaMomentum@G4Step@@QEBA?AVHep3Vector@CLHEP@@XZ
+	?GetMaxTOfVelocityTable@G4Track@@SANXZ
+	?GetMaxTOfVelocityTable@G4VelocityTable@@SANXZ
+	?GetMinTOfVelocityTable@G4Track@@SANXZ
+	?GetMinTOfVelocityTable@G4VelocityTable@@SANXZ
+	?GetMomentumDirection@G4Track@@QEBAAEBVHep3Vector@CLHEP@@XZ
+	?GetNbinOfVelocityTable@G4Track@@SAHXZ
+	?GetNbinOfVelocityTable@G4VelocityTable@@SAHXZ
+	?GetNoPages@?$G4Allocator@V?$G4CountedObject@X@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4DynamicParticle@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4Track@@@@UEBAHXZ
+	?GetPageSize@?$G4Allocator@V?$G4CountedObject@X@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4DynamicParticle@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4Track@@@@UEBA_KXZ
+	?GetPoolType@?$G4Allocator@V?$G4CountedObject@X@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4DynamicParticle@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4Track@@@@UEBAPEBDXZ
+	?GetSecondaryInCurrentStep@G4Step@@QEBAPEBV?$vector@PEBVG4Track@@V?$allocator@PEBVG4Track@@@std@@@std@@XZ
+	?GetType@G4VUserTrackInformation@@QEBAAEBVG4String@@XZ
+	?GetVelocityTable@G4VelocityTable@@SAPEAV1@XZ
+	?IncreasePageSize@?$G4Allocator@V?$G4CountedObject@X@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4DynamicParticle@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4Track@@@@UEAAXI@Z
+	?Initialize@G4ParticleChange@@UEAAXAEBVG4Track@@@Z
+	?Initialize@G4ParticleChangeForDecay@@UEAAXAEBVG4Track@@@Z
+	?Initialize@G4ParticleChangeForMSC@@UEAAXAEBVG4Track@@@Z
+	?Initialize@G4ParticleChangeForTransport@@UEAAXAEBVG4Track@@@Z
+	?Initialize@G4VParticleChange@@UEAAXAEBVG4Track@@@Z
+	?Instance@?$G4ThreadLocalSingleton@VG4VelocityTable@@@@QEBAPEAVG4VelocityTable@@XZ
+	?IsParentWeightSetByProcess@G4VParticleChange@@QEBA_NXZ
+	?PrepareVelocityTable@G4VelocityTable@@AEAAXXZ
+	?Print@G4VAuxiliaryTrackInformation@@UEBAXXZ
+	?Print@G4VUserTrackInformation@@UEBAXXZ
+	?Register@?$G4ThreadLocalSingleton@VG4VelocityTable@@@@AEBAXPEAVG4VelocityTable@@@Z
+	?RemoveAuxiliaryTrackInformation@G4Track@@QEAAXAEAVG4String@@@Z
+	?RemoveAuxiliaryTrackInformation@G4Track@@QEAAXH@Z
+	?ResetStorage@?$G4Allocator@V?$G4CountedObject@X@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4DynamicParticle@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4Track@@@@UEAAXXZ
+	?SetAuxiliaryTrackInformation@G4Track@@QEBAXHPEAVG4VAuxiliaryTrackInformation@@@Z
+	?SetParentWeightByProcess@G4VParticleChange@@QEAAX_N@Z
+	?SetVelocityTableProperties@G4Track@@SAXNNH@Z
+	?SetVelocityTableProperties@G4VelocityTable@@SAXNNH@Z
+	?Update@G4FieldTrackUpdator@@SAXPEAVG4FieldTrack@@PEBVG4Track@@@Z
+	?UpdateStepForAlongStep@G4ParticleChange@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAlongStep@G4ParticleChangeForLoss@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAlongStep@G4ParticleChangeForMSC@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAlongStep@G4ParticleChangeForTransport@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAlongStep@G4VParticleChange@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAtRest@G4ParticleChange@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAtRest@G4ParticleChangeForDecay@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAtRest@G4ParticleChangeForGamma@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAtRest@G4ParticleChangeForTransport@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForAtRest@G4VParticleChange@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4ParticleChange@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4ParticleChangeForDecay@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4ParticleChangeForGamma@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4ParticleChangeForLoss@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4ParticleChangeForMSC@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4ParticleChangeForTransport@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepForPostStep@G4VParticleChange@@UEAAPEAVG4Step@@PEAV2@@Z
+	?UpdateStepInfo@G4VParticleChange@@IEAAPEAVG4Step@@PEAV2@@Z
+	?Value@G4VelocityTable@@QEAANN@Z
+	?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AEAAXQEAN_K1@Z
+	?_Extract@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@2@V?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@std@@@std@@U_Iterator_base0@2@@2@@Z
+	?_Getal@?$vector@NV?$allocator@N@std@@@std@@AEAAAEAV?$allocator@N@2@XZ
+	?_Getal@?$vector@PEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4VelocityTable@@@2@XZ
+	?_Getal@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAAEAV?$allocator@PEAVmutex@std@@@2@XZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@2@@Z
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reallocate_exactly@?$vector@NV?$allocator@N@std@@@std@@AEAAX_K@Z
+	?_Rrotate@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@std@@@std@@QEAAXPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@PEAX@2@@Z
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@PEBVG4Track@@V?$allocator@PEBVG4Track@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?aTrackAllocator@@YAAEAPEAV?$G4Allocator@VG4Track@@@@XZ
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@N@std@@QEAAPEAN_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?cache@?$G4CacheReference@PEAVG4VelocityTable@@@@CAAEAPEAV?$vector@PEAVG4VelocityTable@@V?$allocator@PEAVG4VelocityTable@@@std@@@std@@XZ
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@N@std@@QEAAXQEAN_K@Z
+	?deallocate@?$allocator@PEAVG4VelocityTable@@@std@@QEAAXQEAPEAVG4VelocityTable@@_K@Z
+	?deallocate@?$allocator@PEAVmutex@std@@@std@@QEAAXQEAPEAVmutex@2@_K@Z
+	?deallocate@?$allocator@PEBVG4Track@@@std@@QEAAXQEAPEBVG4Track@@_K@Z
+	?erase@?$_Tree@V?$_Tmap_traits@HPEAVG4VAuxiliaryTrackInformation@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VAuxiliaryTrackInformation@@@std@@@3@$0A@@std@@@std@@QEAA_KAEBH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?velTable@G4Track@@CAAEAPEAVG4VelocityTable@@XZ
+	?what@exception@std@@UEBAPEBDXZ

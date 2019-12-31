@@ -1,0 +1,1178 @@
+EXPORTS 
+	??_R0?AV?$BasicVector3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4DCofThisEvent@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4DigiCollection@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4HCofThisEvent@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4HitsCollection@@@@@8 	 DATA
+	??_R0?AV?$G4Allocator@VG4TouchableHistory@@@@@8 	 DATA
+	??_R0?AV?$G4THitsMap@N@@@8 	 DATA
+	??_R0?AV?$G4THitsMap@VG4StatDouble@@@@@8 	 DATA
+	??_R0?AV?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@@8 	 DATA
+	??_R0?AV?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@@8 	 DATA
+	??_R0?AV?$Point3D@N@HepGeom@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4CollectionNameVector@@@8 	 DATA
+	??_R0?AVG4DCofThisEvent@@@8 	 DATA
+	??_R0?AVG4DefaultLinearColorMap@@@8 	 DATA
+	??_R0?AVG4DigiCollection@@@8 	 DATA
+	??_R0?AVG4HCofThisEvent@@@8 	 DATA
+	??_R0?AVG4HitsCollection@@@8 	 DATA
+	??_R0?AVG4MultiFunctionalDetector@@@8 	 DATA
+	??_R0?AVG4MultiSensitiveDetector@@@8 	 DATA
+	??_R0?AVG4PSCellCharge3D@@@8 	 DATA
+	??_R0?AVG4PSCellCharge@@@8 	 DATA
+	??_R0?AVG4PSCellFlux3D@@@8 	 DATA
+	??_R0?AVG4PSCellFlux@@@8 	 DATA
+	??_R0?AVG4PSCellFluxForCylinder3D@@@8 	 DATA
+	??_R0?AVG4PSCylinderSurfaceCurrent3D@@@8 	 DATA
+	??_R0?AVG4PSCylinderSurfaceCurrent@@@8 	 DATA
+	??_R0?AVG4PSCylinderSurfaceFlux3D@@@8 	 DATA
+	??_R0?AVG4PSCylinderSurfaceFlux@@@8 	 DATA
+	??_R0?AVG4PSDoseDeposit3D@@@8 	 DATA
+	??_R0?AVG4PSDoseDeposit@@@8 	 DATA
+	??_R0?AVG4PSDoseDepositForCylinder3D@@@8 	 DATA
+	??_R0?AVG4PSEnergyDeposit3D@@@8 	 DATA
+	??_R0?AVG4PSEnergyDeposit@@@8 	 DATA
+	??_R0?AVG4PSFlatSurfaceCurrent3D@@@8 	 DATA
+	??_R0?AVG4PSFlatSurfaceCurrent@@@8 	 DATA
+	??_R0?AVG4PSFlatSurfaceFlux3D@@@8 	 DATA
+	??_R0?AVG4PSFlatSurfaceFlux@@@8 	 DATA
+	??_R0?AVG4PSMinKinEAtGeneration3D@@@8 	 DATA
+	??_R0?AVG4PSMinKinEAtGeneration@@@8 	 DATA
+	??_R0?AVG4PSNofCollision3D@@@8 	 DATA
+	??_R0?AVG4PSNofCollision@@@8 	 DATA
+	??_R0?AVG4PSNofSecondary3D@@@8 	 DATA
+	??_R0?AVG4PSNofSecondary@@@8 	 DATA
+	??_R0?AVG4PSNofStep3D@@@8 	 DATA
+	??_R0?AVG4PSNofStep@@@8 	 DATA
+	??_R0?AVG4PSPassageCellCurrent3D@@@8 	 DATA
+	??_R0?AVG4PSPassageCellCurrent@@@8 	 DATA
+	??_R0?AVG4PSPassageCellFlux3D@@@8 	 DATA
+	??_R0?AVG4PSPassageCellFlux@@@8 	 DATA
+	??_R0?AVG4PSPassageCellFluxForCylinder3D@@@8 	 DATA
+	??_R0?AVG4PSPassageTrackLength3D@@@8 	 DATA
+	??_R0?AVG4PSPassageTrackLength@@@8 	 DATA
+	??_R0?AVG4PSPopulation3D@@@8 	 DATA
+	??_R0?AVG4PSPopulation@@@8 	 DATA
+	??_R0?AVG4PSSphereSurfaceCurrent3D@@@8 	 DATA
+	??_R0?AVG4PSSphereSurfaceCurrent@@@8 	 DATA
+	??_R0?AVG4PSSphereSurfaceFlux3D@@@8 	 DATA
+	??_R0?AVG4PSSphereSurfaceFlux@@@8 	 DATA
+	??_R0?AVG4PSStepChecker3D@@@8 	 DATA
+	??_R0?AVG4PSStepChecker@@@8 	 DATA
+	??_R0?AVG4PSTermination3D@@@8 	 DATA
+	??_R0?AVG4PSTermination@@@8 	 DATA
+	??_R0?AVG4PSTrackCounter3D@@@8 	 DATA
+	??_R0?AVG4PSTrackCounter@@@8 	 DATA
+	??_R0?AVG4PSTrackLength3D@@@8 	 DATA
+	??_R0?AVG4PSTrackLength@@@8 	 DATA
+	??_R0?AVG4SDChargedFilter@@@8 	 DATA
+	??_R0?AVG4SDKineticEnergyFilter@@@8 	 DATA
+	??_R0?AVG4SDNeutralFilter@@@8 	 DATA
+	??_R0?AVG4SDParticleFilter@@@8 	 DATA
+	??_R0?AVG4SDParticleWithEnergyFilter@@@8 	 DATA
+	??_R0?AVG4SDmessenger@@@8 	 DATA
+	??_R0?AVG4ScoreLogColorMap@@@8 	 DATA
+	??_R0?AVG4ScoreQuantityMessenger@@@8 	 DATA
+	??_R0?AVG4ScoringBox@@@8 	 DATA
+	??_R0?AVG4ScoringCylinder@@@8 	 DATA
+	??_R0?AVG4ScoringMessenger@@@8 	 DATA
+	??_R0?AVG4ScoringRealWorld@@@8 	 DATA
+	??_R0?AVG4StatDouble@@@8 	 DATA
+	??_R0?AVG4TouchableHistory@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4VDigi@@@8 	 DATA
+	??_R0?AVG4VDigiCollection@@@8 	 DATA
+	??_R0?AVG4VHit@@@8 	 DATA
+	??_R0?AVG4VHitsCollection@@@8 	 DATA
+	??_R0?AVG4VPrimitiveScorer@@@8 	 DATA
+	??_R0?AVG4VReadOutGeometry@@@8 	 DATA
+	??_R0?AVG4VSDFilter@@@8 	 DATA
+	??_R0?AVG4VScoreColorMap@@@8 	 DATA
+	??_R0?AVG4VScoreNtupleWriter@@@8 	 DATA
+	??_R0?AVG4VScoreWriter@@@8 	 DATA
+	??_R0?AVG4VScoringMesh@@@8 	 DATA
+	??_R0?AVG4VSensitiveDetector@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?dummy@?1???RHep3Vector@CLHEP@@QEAAAEANH@Z@4NA 	 DATA
+	?fSDManager@G4SDManager@@0PEAV1@EA 	 DATA
+	?fSManager@G4ScoringManager@@0PEAV1@EA 	 DATA
+	?fgInstance@G4VScoreNtupleWriter@@1PEAV1@EA 	 DATA
+	?fgMasterInstance@G4VScoreNtupleWriter@@1PEAV1@EA 	 DATA
+	?replicaLevel@G4ScoringManager@@0HA 	 DATA
+	??$?0$$QEAVG4String@@$$Z$$V@?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@$$QEAVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0$$QEAVG4String@@$$Z$$V@?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@$$QEAVG4String@@@1@V?$tuple@$$V@1@@Z
+	??$?0AEBH$$Z$$V@?$pair@$$CBHPEAVG4VScoringMesh@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBH@1@V?$tuple@$$V@1@@Z
+	??$?0AEBH$$Z$$V@?$pair@$$CBHVG4TrackLogger@@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBH@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@$$QEAVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@QEAA@AEAV?$tuple@$$QEAVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@$$QEAVG4String@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@QEAA@AEAV?$tuple@$$QEAVG4String@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBH@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBHPEAVG4VScoringMesh@@@std@@QEAA@AEAV?$tuple@AEBH@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?0V?$tuple@AEBH@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBHVG4TrackLogger@@@std@@QEAA@AEAV?$tuple@AEBH@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@AEBV10@@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QEAV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@0@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z
+	??$?MDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$?YNV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@QEBAAEAV0@AEBV?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@@Z
+	??$?YVG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@QEBAAEAV0@AEBV0@@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Assign_range@PEAPEAVG4LogicalVolume@@@?$vector@PEAVG4LogicalVolume@@V?$allocator@PEAVG4LogicalVolume@@@std@@@std@@AEAAXPEAPEAVG4LogicalVolume@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAPEAVG4VPhysicalVolume@@@?$vector@PEAVG4VPhysicalVolume@@V?$allocator@PEAVG4VPhysicalVolume@@@std@@@std@@AEAAXPEAPEAVG4VPhysicalVolume@@0Uforward_iterator_tag@1@@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@HPEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@HPEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@HPEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@HPEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAVG4LogicalVolume@@PEAPEAV1@@std@@YAPEAPEAVG4LogicalVolume@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4ParticleDefinition@@PEAPEAV1@@std@@YAPEAPEAVG4ParticleDefinition@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4SDStructure@@PEAPEAV1@@std@@YAPEAPEAVG4SDStructure@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UIparameter@@PEAPEAV1@@std@@YAPEAPEAVG4UIparameter@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VDigiCollection@@PEAPEAV1@@std@@YAPEAPEAVG4VDigiCollection@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VHitsCollection@@PEAPEAV1@@std@@YAPEAPEAVG4VHitsCollection@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VPhysicalVolume@@PEAPEAV1@@std@@YAPEAPEAVG4VPhysicalVolume@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VPrimitiveScorer@@PEAPEAV1@@std@@YAPEAPEAVG4VPrimitiveScorer@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VSDFilter@@PEAPEAV1@@std@@YAPEAPEAVG4VSDFilter@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VScoringMesh@@PEAPEAV1@@std@@YAPEAPEAVG4VScoringMesh@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VSensitiveDetector@@PEAPEAV1@@std@@YAPEAPEAVG4VSensitiveDetector@@PEAPEAV1@00@Z
+	??$_Copy_nodes@U_Copy_tag@?$_Tree@V?$_Tmap_traits@VG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@4@$0A@@std@@@std@@@?$_Tree@V?$_Tmap_traits@VG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@4@$0A@@std@@@std@@IEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@1@PEAU21@0U_Copy_tag@01@@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@HPEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@HPEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPEAHQEAHAEAV?$allocator@H@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4LogicalVolume@@@std@@@std@@YAXPEAPEAVG4LogicalVolume@@QEAPEAV1@AEAV?$allocator@PEAVG4LogicalVolume@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@YAXPEAPEAVG4ParticleDefinition@@QEAPEAV1@AEAV?$allocator@PEAVG4ParticleDefinition@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4SDStructure@@@std@@@std@@YAXPEAPEAVG4SDStructure@@QEAPEAV1@AEAV?$allocator@PEAVG4SDStructure@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAXPEAPEAVG4UIparameter@@QEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@YAXPEAPEAVG4VDigiCollection@@QEAPEAV1@AEAV?$allocator@PEAVG4VDigiCollection@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@YAXPEAPEAVG4VHitsCollection@@QEAPEAV1@AEAV?$allocator@PEAVG4VHitsCollection@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VPhysicalVolume@@@std@@@std@@YAXPEAPEAVG4VPhysicalVolume@@QEAPEAV1@AEAV?$allocator@PEAVG4VPhysicalVolume@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VPrimitiveScorer@@@std@@@std@@YAXPEAPEAVG4VPrimitiveScorer@@QEAPEAV1@AEAV?$allocator@PEAVG4VPrimitiveScorer@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VSDFilter@@@std@@@std@@YAXPEAPEAVG4VSDFilter@@QEAPEAV1@AEAV?$allocator@PEAVG4VSDFilter@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VScoringMesh@@@std@@@std@@YAXPEAPEAVG4VScoringMesh@@QEAPEAV1@AEAV?$allocator@PEAVG4VScoringMesh@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@YAXPEAPEAVG4VSensitiveDetector@@QEAPEAV1@AEAV?$allocator@PEAVG4VSensitiveDetector@@@0@@Z
+	??$_Destroy_range@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAXPEAUyystype@G4UItokenNum@@QEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$Point3D@N@HepGeom@@@std@@@std@@YAXPEAV?$Point3D@N@HepGeom@@QEAV12@AEAV?$allocator@V?$Point3D@N@HepGeom@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@@std@@YAXPEAV?$vector@NV?$allocator@N@std@@@0@QEAV10@AEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@std@@@std@@YAXPEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@0@QEAV10@AEAV?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Emplace_reallocate@AEBH@?$vector@HV?$allocator@H@std@@@std@@QEAAPEAHQEAHAEBH@Z
+	??$_Emplace_reallocate@AEBQEAVG4ParticleDefinition@@@?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@QEAAPEAPEAVG4ParticleDefinition@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4SDStructure@@@?$vector@PEAVG4SDStructure@@V?$allocator@PEAVG4SDStructure@@@std@@@std@@QEAAPEAPEAVG4SDStructure@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4UIparameter@@@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@QEAAPEAPEAVG4UIparameter@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VPrimitiveScorer@@@?$vector@PEAVG4VPrimitiveScorer@@V?$allocator@PEAVG4VPrimitiveScorer@@@std@@@std@@QEAAPEAPEAVG4VPrimitiveScorer@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VSDFilter@@@?$vector@PEAVG4VSDFilter@@V?$allocator@PEAVG4VSDFilter@@@std@@@std@@QEAAPEAPEAVG4VSDFilter@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VScoringMesh@@@?$vector@PEAVG4VScoringMesh@@V?$allocator@PEAVG4VScoringMesh@@@std@@@std@@QEAAPEAPEAVG4VScoringMesh@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VSensitiveDetector@@@?$vector@PEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@QEAAPEAPEAVG4VSensitiveDetector@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBV?$vector@NV?$allocator@N@std@@@std@@@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@QEAAPEAV?$vector@NV?$allocator@N@std@@@1@QEAV21@AEBV21@@Z
+	??$_Emplace_reallocate@AEBV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@?$vector@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@2@@std@@QEAAPEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@1@QEAV21@AEBV21@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEAN$$QEAN@Z
+	??$_Emplace_reallocate@PEAVG4VDigiCollection@@@?$vector@PEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@QEAAPEAPEAVG4VDigiCollection@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@PEAVG4VHitsCollection@@@?$vector@PEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@QEAAPEAPEAVG4VHitsCollection@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@V?$Point3D@N@HepGeom@@@?$vector@V?$Point3D@N@HepGeom@@V?$allocator@V?$Point3D@N@HepGeom@@@std@@@std@@QEAAPEAV?$Point3D@N@HepGeom@@QEAV23@$$QEAV23@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@HPEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@H@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@HPEAX@std@@@1@PEAU?$_Tree_node@HPEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAN@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHVG4TrackLogger@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@1@@Z
+	??$_Erase_tree_and_orphan@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@1@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@4@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Find_lower_bound@VG4String@@@?$_Tree@V?$_Tmap_traits@VG4String@@PEAVG4VScoreColorMap@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@@4@$0A@@std@@@std@@IEBA?AU?$_Tree_find_result@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@@1@AEBVG4String@@@Z
+	??$_Find_unchecked1@PEAPEAVG4VPrimitiveScorer@@PEAV1@@std@@YAPEAPEAVG4VPrimitiveScorer@@PEAPEAV1@QEAPEAV1@AEBQEAV1@U?$integral_constant@_N$0A@@0@@Z
+	??$_Find_unchecked1@PEAPEAVG4VSensitiveDetector@@PEAV1@@std@@YAPEAPEAVG4VSensitiveDetector@@PEAPEAV1@QEAPEAV1@AEBQEAV1@U?$integral_constant@_N$0A@@0@@Z
+	??$_Find_unchecked@PEAPEAVG4VPrimitiveScorer@@PEAV1@@std@@YAPEAPEAVG4VPrimitiveScorer@@QEAPEAV1@0AEBQEAV1@@Z
+	??$_Find_unchecked@PEAPEAVG4VSensitiveDetector@@PEAV1@@std@@YAPEAPEAVG4VSensitiveDetector@@QEAPEAV1@0AEBQEAV1@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Idl_distance@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEAD@std@@YA_JAEBQEAD0@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Move_unchecked@PEAPEAVG4VPrimitiveScorer@@PEAPEAV1@@std@@YAPEAPEAVG4VPrimitiveScorer@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAPEAVG4VSDFilter@@PEAPEAV1@@std@@YAPEAPEAVG4VSDFilter@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAPEAVG4VSensitiveDetector@@PEAPEAV1@@std@@YAPEAPEAVG4VSensitiveDetector@@PEAPEAV1@00@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAVG4LogicalVolume@@@std@@@std@@YAXAEAV?$allocator@PEAVG4LogicalVolume@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAVG4VPhysicalVolume@@@std@@@std@@YAXAEAV?$allocator@PEAVG4VPhysicalVolume@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@YAXAEAV?$allocator@PEAVG4VSensitiveDetector@@@0@AEBV10@@Z
+	??$_Pocma@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@0@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_f3a66ab6a0570788f31503db83886f49>@@_KPEBD2@Z
+	??$_Refancy@PEAD$0A@@std@@YAPEADPEAD@Z
+	??$_Refancy@PEAPEAVG4LogicalVolume@@$0A@@std@@YAPEAPEAVG4LogicalVolume@@PEAPEAV1@@Z
+	??$_Refancy@PEAPEAVG4VPhysicalVolume@@$0A@@std@@YAPEAPEAVG4VPhysicalVolume@@PEAPEAV1@@Z
+	??$_Refancy@PEAPEAVG4VPrimitiveScorer@@$0A@@std@@YAPEAPEAVG4VPrimitiveScorer@@PEAPEAV1@@Z
+	??$_Refancy@PEAPEAVG4VSensitiveDetector@@$0A@@std@@YAPEAPEAVG4VSensitiveDetector@@PEAPEAV1@@Z
+	??$_Refancy@PEBD$0A@@std@@YAPEBDPEBD@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@PEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Traits_find@U?$char_traits@D@std@@@std@@YA_KQEBD_K101@Z
+	??$_Uninitialized_copy@PEAHV?$allocator@H@std@@@std@@YAPEAHQEAH0PEAHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_copy@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_copy@PEAPEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@YAPEAPEAVG4ParticleDefinition@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4ParticleDefinition@@@0@@Z
+	??$_Uninitialized_copy@PEAPEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@YAPEAPEAVG4VSensitiveDetector@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VSensitiveDetector@@@0@@Z
+	??$_Uninitialized_copy@PEAUyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@QEAU12@0PEAU12@AEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Uninitialized_copy@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@YAPEAV?$vector@NV?$allocator@N@std@@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Uninitialized_move@PEAHV?$allocator@H@std@@@std@@YAPEAHQEAH0PEAHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_move@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@YAPEAPEAVG4ParticleDefinition@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4ParticleDefinition@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4SDStructure@@V?$allocator@PEAVG4SDStructure@@@std@@@std@@YAPEAPEAVG4SDStructure@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4SDStructure@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@YAPEAPEAVG4UIparameter@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UIparameter@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@YAPEAPEAVG4VDigiCollection@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VDigiCollection@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@YAPEAPEAVG4VHitsCollection@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VHitsCollection@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VPrimitiveScorer@@V?$allocator@PEAVG4VPrimitiveScorer@@@std@@@std@@YAPEAPEAVG4VPrimitiveScorer@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VPrimitiveScorer@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VSDFilter@@V?$allocator@PEAVG4VSDFilter@@@std@@@std@@YAPEAPEAVG4VSDFilter@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VSDFilter@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VScoringMesh@@V?$allocator@PEAVG4VScoringMesh@@@std@@@std@@YAPEAPEAVG4VScoringMesh@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VScoringMesh@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@YAPEAPEAVG4VSensitiveDetector@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VSensitiveDetector@@@0@@Z
+	??$_Uninitialized_move@PEAV?$Point3D@N@HepGeom@@V?$allocator@V?$Point3D@N@HepGeom@@@std@@@std@@YAPEAV?$Point3D@N@HepGeom@@QEAV12@0PEAV12@AEAV?$allocator@V?$Point3D@N@HepGeom@@@0@@Z
+	??$_Uninitialized_move@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@YAPEAV?$vector@NV?$allocator@N@std@@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Uninitialized_move@PEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@2@@std@@YAPEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@YAPEAPEAVG4VDigiCollection@@PEAPEAV1@_KAEAV?$allocator@PEAVG4VDigiCollection@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@YAPEAPEAVG4VHitsCollection@@PEAPEAV1@_KAEAV?$allocator@PEAVG4VHitsCollection@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@YAPEAUyystype@G4UItokenNum@@PEAU12@_KAEAV?$allocator@Uyystype@G4UItokenNum@@@0@@Z
+	??$_Zero_range@PEAPEAVG4VDigiCollection@@@std@@YAPEAPEAVG4VDigiCollection@@QEAPEAV1@0@Z
+	??$_Zero_range@PEAPEAVG4VHitsCollection@@@std@@YAPEAPEAVG4VHitsCollection@@QEAPEAV1@0@Z
+	??$add@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@$0A@@?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@QEBA_KAEBHAEAN@Z
+	??$construct@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEBV12@@?$_Default_allocator_traits@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@std@@@std@@SAXAEAV?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@1@QEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@1@AEBV31@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@HPEAX@std@@$$T@std@@YAPEAU?$_Tree_node@HPEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@HPEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@HPEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVG4VPrimitiveScorer@@@std@@@std@@@std@@PEAVG4VPrimitiveScorer@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVG4VPrimitiveScorer@@@std@@@std@@@0@V10@V10@AEBQEAVG4VPrimitiveScorer@@@Z
+	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVG4VSensitiveDetector@@@std@@@std@@@std@@PEAVG4VSensitiveDetector@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PEAVG4VSensitiveDetector@@@std@@@std@@@0@V10@V10@AEBQEAVG4VSensitiveDetector@@@Z
+	??$insert@U?$pair@HPEAVG4StatDouble@@@std@@X@?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@QEAA?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@std@@@std@@@std@@_N@1@$$QEAU?$pair@HPEAVG4StatDouble@@@1@@Z
+	??$set@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@$0A@@?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@QEBA_KAEBHAEAN@Z
+	??$transform@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V12@P6AHH@Z@std@@YA?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@0V10@P6AHH@Z@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??0?$G4Allocator@VG4DCofThisEvent@@@@QEAA@XZ
+	??0?$G4Allocator@VG4DigiCollection@@@@QEAA@XZ
+	??0?$G4Allocator@VG4HCofThisEvent@@@@QEAA@XZ
+	??0?$G4Allocator@VG4HitsCollection@@@@QEAA@XZ
+	??0?$G4Allocator@VG4TouchableHistory@@@@QEAA@XZ
+	??0?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@QEAA@VG4String@@0@Z
+	??0?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@QEAA@VG4String@@0@Z
+	??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@H@Z
+	??0?$vector@HV?$allocator@H@std@@@std@@QEAA@AEBV01@@Z
+	??0?$vector@NV?$allocator@N@std@@@std@@QEAA@AEBV01@@Z
+	??0G4CellScoreComposer@@QEAA@XZ
+	??0G4DCofThisEvent@@QEAA@AEBV0@@Z
+	??0G4DCofThisEvent@@QEAA@H@Z
+	??0G4DCofThisEvent@@QEAA@XZ
+	??0G4DefaultLinearColorMap@@QEAA@VG4String@@@Z
+	??0G4DigiCollection@@QEAA@VG4String@@0@Z
+	??0G4DigiCollection@@QEAA@XZ
+	??0G4HCofThisEvent@@QEAA@AEBV0@@Z
+	??0G4HCofThisEvent@@QEAA@H@Z
+	??0G4HCofThisEvent@@QEAA@XZ
+	??0G4HCtable@@QEAA@XZ
+	??0G4HitsCollection@@QEAA@VG4String@@0@Z
+	??0G4HitsCollection@@QEAA@XZ
+	??0G4MultiFunctionalDetector@@QEAA@VG4String@@@Z
+	??0G4MultiSensitiveDetector@@QEAA@AEBV0@@Z
+	??0G4MultiSensitiveDetector@@QEAA@VG4String@@@Z
+	??0G4PSCellCharge3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSCellCharge3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSCellCharge@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSCellCharge@@QEAA@VG4String@@H@Z
+	??0G4PSCellFlux3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSCellFlux3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSCellFlux@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSCellFlux@@QEAA@VG4String@@H@Z
+	??0G4PSCellFluxForCylinder3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSCellFluxForCylinder3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSCylinderSurfaceCurrent3D@@QEAA@VG4String@@HAEBV1@HHHHHH@Z
+	??0G4PSCylinderSurfaceCurrent3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSCylinderSurfaceCurrent@@QEAA@VG4String@@HAEBV1@H@Z
+	??0G4PSCylinderSurfaceCurrent@@QEAA@VG4String@@HH@Z
+	??0G4PSCylinderSurfaceFlux3D@@QEAA@VG4String@@HAEBV1@HHHHHH@Z
+	??0G4PSCylinderSurfaceFlux3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSCylinderSurfaceFlux@@QEAA@VG4String@@HAEBV1@H@Z
+	??0G4PSCylinderSurfaceFlux@@QEAA@VG4String@@HH@Z
+	??0G4PSDoseDeposit3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSDoseDeposit3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSDoseDeposit@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSDoseDeposit@@QEAA@VG4String@@H@Z
+	??0G4PSDoseDepositForCylinder3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSDoseDepositForCylinder3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSEnergyDeposit3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSEnergyDeposit3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSEnergyDeposit@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSEnergyDeposit@@QEAA@VG4String@@H@Z
+	??0G4PSFlatSurfaceCurrent3D@@QEAA@VG4String@@HAEBV1@HHHHHH@Z
+	??0G4PSFlatSurfaceCurrent3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSFlatSurfaceCurrent@@QEAA@VG4String@@HAEBV1@H@Z
+	??0G4PSFlatSurfaceCurrent@@QEAA@VG4String@@HH@Z
+	??0G4PSFlatSurfaceFlux3D@@QEAA@VG4String@@HAEBV1@HHHHHH@Z
+	??0G4PSFlatSurfaceFlux3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSFlatSurfaceFlux@@QEAA@VG4String@@HAEBV1@H@Z
+	??0G4PSFlatSurfaceFlux@@QEAA@VG4String@@HH@Z
+	??0G4PSMinKinEAtGeneration3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSMinKinEAtGeneration3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSMinKinEAtGeneration@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSMinKinEAtGeneration@@QEAA@VG4String@@H@Z
+	??0G4PSNofCollision3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSNofCollision@@QEAA@VG4String@@H@Z
+	??0G4PSNofSecondary3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSNofSecondary@@QEAA@VG4String@@H@Z
+	??0G4PSNofStep3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSNofStep@@QEAA@VG4String@@H@Z
+	??0G4PSPassageCellCurrent3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSPassageCellCurrent@@QEAA@VG4String@@H@Z
+	??0G4PSPassageCellFlux3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSPassageCellFlux3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSPassageCellFlux@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSPassageCellFlux@@QEAA@VG4String@@H@Z
+	??0G4PSPassageCellFluxForCylinder3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSPassageCellFluxForCylinder3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSPassageTrackLength3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSPassageTrackLength3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSPassageTrackLength@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSPassageTrackLength@@QEAA@VG4String@@H@Z
+	??0G4PSPopulation3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSPopulation@@QEAA@VG4String@@H@Z
+	??0G4PSSphereSurfaceCurrent3D@@QEAA@VG4String@@HAEBV1@HHHHHH@Z
+	??0G4PSSphereSurfaceCurrent3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSSphereSurfaceCurrent@@QEAA@VG4String@@HAEBV1@H@Z
+	??0G4PSSphereSurfaceCurrent@@QEAA@VG4String@@HH@Z
+	??0G4PSSphereSurfaceFlux3D@@QEAA@VG4String@@HAEBV1@HHHHHH@Z
+	??0G4PSSphereSurfaceFlux3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSSphereSurfaceFlux@@QEAA@VG4String@@HAEBV1@H@Z
+	??0G4PSSphereSurfaceFlux@@QEAA@VG4String@@HH@Z
+	??0G4PSStepChecker3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSStepChecker@@QEAA@VG4String@@H@Z
+	??0G4PSTermination3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSTermination@@QEAA@VG4String@@H@Z
+	??0G4PSTrackCounter3D@@QEAA@VG4String@@HHHHHHH@Z
+	??0G4PSTrackCounter@@QEAA@VG4String@@HH@Z
+	??0G4PSTrackLength3D@@QEAA@VG4String@@AEBV1@HHHHHH@Z
+	??0G4PSTrackLength3D@@QEAA@VG4String@@HHHHHH@Z
+	??0G4PSTrackLength@@QEAA@VG4String@@AEBV1@H@Z
+	??0G4PSTrackLength@@QEAA@VG4String@@H@Z
+	??0G4SDChargedFilter@@QEAA@VG4String@@@Z
+	??0G4SDKineticEnergyFilter@@QEAA@VG4String@@NN@Z
+	??0G4SDManager@@IEAA@XZ
+	??0G4SDNeutralFilter@@QEAA@VG4String@@@Z
+	??0G4SDParticleFilter@@QEAA@AEBV0@@Z
+	??0G4SDParticleFilter@@QEAA@VG4String@@@Z
+	??0G4SDParticleFilter@@QEAA@VG4String@@AEBV1@@Z
+	??0G4SDParticleFilter@@QEAA@VG4String@@AEBV?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@@Z
+	??0G4SDParticleFilter@@QEAA@VG4String@@AEBV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	??0G4SDParticleWithEnergyFilter@@QEAA@AEBV0@@Z
+	??0G4SDParticleWithEnergyFilter@@QEAA@VG4String@@NN@Z
+	??0G4SDStructure@@QEAA@AEBVG4String@@@Z
+	??0G4SDmessenger@@QEAA@PEAVG4SDManager@@@Z
+	??0G4ScoreLogColorMap@@QEAA@VG4String@@@Z
+	??0G4ScoreQuantityMessenger@@QEAA@PEAVG4ScoringManager@@@Z
+	??0G4ScoringBox@@QEAA@VG4String@@@Z
+	??0G4ScoringCylinder@@QEAA@VG4String@@@Z
+	??0G4ScoringManager@@IEAA@XZ
+	??0G4ScoringMessenger@@QEAA@PEAVG4ScoringManager@@@Z
+	??0G4ScoringRealWorld@@QEAA@VG4String@@@Z
+	??0G4SensitiveVolumeList@@QEAA@AEBV0@@Z
+	??0G4SensitiveVolumeList@@QEAA@XZ
+	??0G4String@@QEAA@XZ
+	??0G4TrackLogger@@QEAA@XZ
+	??0G4VDigi@@QEAA@XZ
+	??0G4VDigiCollection@@QEAA@VG4String@@0@Z
+	??0G4VDigiCollection@@QEAA@XZ
+	??0G4VHit@@QEAA@XZ
+	??0G4VHitsCollection@@QEAA@VG4String@@0@Z
+	??0G4VHitsCollection@@QEAA@XZ
+	??0G4VPrimitiveScorer@@QEAA@VG4String@@H@Z
+	??0G4VReadOutGeometry@@IEAA@AEBV0@@Z
+	??0G4VReadOutGeometry@@QEAA@VG4String@@@Z
+	??0G4VReadOutGeometry@@QEAA@XZ
+	??0G4VSDFilter@@QEAA@VG4String@@@Z
+	??0G4VScoreColorMap@@QEAA@VG4String@@@Z
+	??0G4VScoreNtupleWriter@@IEAA@XZ
+	??0G4VScoreWriter@@QEAA@XZ
+	??0G4VScoringMesh@@QEAA@AEBVG4String@@@Z
+	??0G4VSensitiveDetector@@QEAA@AEBV0@@Z
+	??0G4VSensitiveDetector@@QEAA@VG4String@@@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$BasicVector3D@N@HepGeom@@UEAA@XZ
+	??1?$G4Allocator@VG4DCofThisEvent@@@@UEAA@XZ
+	??1?$G4Allocator@VG4DigiCollection@@@@UEAA@XZ
+	??1?$G4Allocator@VG4HCofThisEvent@@@@UEAA@XZ
+	??1?$G4Allocator@VG4HitsCollection@@@@UEAA@XZ
+	??1?$G4Allocator@VG4TouchableHistory@@@@UEAA@XZ
+	??1?$G4CountedObject@VG4VTouchable@@@@QEAA@XZ
+	??1?$G4ReferenceCountedHandle@VG4VTouchable@@@@QEAA@XZ
+	??1?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@UEAA@XZ
+	??1?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@HPEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@std@@QEAA@XZ
+	??1?$_Tree_head_scoped_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$map@HPEAVG4VScoringMesh@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@@3@@std@@QEAA@XZ
+	??1?$map@HVG4TrackLogger@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHVG4TrackLogger@@@std@@@3@@std@@QEAA@XZ
+	??1?$map@VG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@4@@std@@QEAA@XZ
+	??1?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+	??1?$vector@NV?$allocator@N@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4LogicalVolume@@V?$allocator@PEAVG4LogicalVolume@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4SDStructure@@V?$allocator@PEAVG4SDStructure@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VPhysicalVolume@@V?$allocator@PEAVG4VPhysicalVolume@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VSDFilter@@V?$allocator@PEAVG4VSDFilter@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VScoringMesh@@V?$allocator@PEAVG4VScoringMesh@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@QEAA@XZ
+	??1?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1G4CellScoreComposer@@QEAA@XZ
+	??1G4CollectionNameVector@@UEAA@XZ
+	??1G4DCofThisEvent@@QEAA@XZ
+	??1G4DefaultLinearColorMap@@UEAA@XZ
+	??1G4DigiCollection@@UEAA@XZ
+	??1G4HCofThisEvent@@QEAA@XZ
+	??1G4HCtable@@QEAA@XZ
+	??1G4HitsCollection@@UEAA@XZ
+	??1G4MultiFunctionalDetector@@UEAA@XZ
+	??1G4MultiSensitiveDetector@@UEAA@XZ
+	??1G4PSCellCharge3D@@UEAA@XZ
+	??1G4PSCellCharge@@UEAA@XZ
+	??1G4PSCellFlux3D@@UEAA@XZ
+	??1G4PSCellFlux@@UEAA@XZ
+	??1G4PSCellFluxForCylinder3D@@UEAA@XZ
+	??1G4PSCylinderSurfaceCurrent3D@@UEAA@XZ
+	??1G4PSCylinderSurfaceCurrent@@UEAA@XZ
+	??1G4PSCylinderSurfaceFlux3D@@UEAA@XZ
+	??1G4PSCylinderSurfaceFlux@@UEAA@XZ
+	??1G4PSDoseDeposit3D@@UEAA@XZ
+	??1G4PSDoseDeposit@@UEAA@XZ
+	??1G4PSDoseDepositForCylinder3D@@UEAA@XZ
+	??1G4PSEnergyDeposit3D@@UEAA@XZ
+	??1G4PSEnergyDeposit@@UEAA@XZ
+	??1G4PSFlatSurfaceCurrent3D@@UEAA@XZ
+	??1G4PSFlatSurfaceCurrent@@UEAA@XZ
+	??1G4PSFlatSurfaceFlux3D@@UEAA@XZ
+	??1G4PSFlatSurfaceFlux@@UEAA@XZ
+	??1G4PSMinKinEAtGeneration3D@@UEAA@XZ
+	??1G4PSMinKinEAtGeneration@@UEAA@XZ
+	??1G4PSNofCollision3D@@UEAA@XZ
+	??1G4PSNofCollision@@UEAA@XZ
+	??1G4PSNofSecondary3D@@UEAA@XZ
+	??1G4PSNofSecondary@@UEAA@XZ
+	??1G4PSNofStep3D@@UEAA@XZ
+	??1G4PSNofStep@@UEAA@XZ
+	??1G4PSPassageCellCurrent3D@@UEAA@XZ
+	??1G4PSPassageCellCurrent@@UEAA@XZ
+	??1G4PSPassageCellFlux3D@@UEAA@XZ
+	??1G4PSPassageCellFlux@@UEAA@XZ
+	??1G4PSPassageCellFluxForCylinder3D@@UEAA@XZ
+	??1G4PSPassageTrackLength3D@@UEAA@XZ
+	??1G4PSPassageTrackLength@@UEAA@XZ
+	??1G4PSPopulation3D@@UEAA@XZ
+	??1G4PSPopulation@@UEAA@XZ
+	??1G4PSSphereSurfaceCurrent3D@@UEAA@XZ
+	??1G4PSSphereSurfaceCurrent@@UEAA@XZ
+	??1G4PSSphereSurfaceFlux3D@@UEAA@XZ
+	??1G4PSSphereSurfaceFlux@@UEAA@XZ
+	??1G4PSStepChecker3D@@UEAA@XZ
+	??1G4PSStepChecker@@UEAA@XZ
+	??1G4PSTermination3D@@UEAA@XZ
+	??1G4PSTermination@@UEAA@XZ
+	??1G4PSTrackCounter3D@@UEAA@XZ
+	??1G4PSTrackCounter@@UEAA@XZ
+	??1G4PSTrackLength3D@@UEAA@XZ
+	??1G4PSTrackLength@@UEAA@XZ
+	??1G4SDChargedFilter@@UEAA@XZ
+	??1G4SDKineticEnergyFilter@@UEAA@XZ
+	??1G4SDManager@@QEAA@XZ
+	??1G4SDNeutralFilter@@UEAA@XZ
+	??1G4SDParticleFilter@@UEAA@XZ
+	??1G4SDParticleWithEnergyFilter@@UEAA@XZ
+	??1G4SDStructure@@QEAA@XZ
+	??1G4SDmessenger@@UEAA@XZ
+	??1G4ScoreLogColorMap@@UEAA@XZ
+	??1G4ScoreQuantityMessenger@@UEAA@XZ
+	??1G4ScoringBox@@UEAA@XZ
+	??1G4ScoringCylinder@@UEAA@XZ
+	??1G4ScoringManager@@QEAA@XZ
+	??1G4ScoringMessenger@@UEAA@XZ
+	??1G4ScoringRealWorld@@UEAA@XZ
+	??1G4SensitiveVolumeList@@QEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4Tokenizer@@QEAA@XZ
+	??1G4TrackLogger@@QEAA@XZ
+	??1G4VDigi@@UEAA@XZ
+	??1G4VDigiCollection@@UEAA@XZ
+	??1G4VHit@@UEAA@XZ
+	??1G4VHitsCollection@@UEAA@XZ
+	??1G4VPrimitiveScorer@@UEAA@XZ
+	??1G4VReadOutGeometry@@UEAA@XZ
+	??1G4VSDFilter@@UEAA@XZ
+	??1G4VScoreColorMap@@UEAA@XZ
+	??1G4VScoreNtupleWriter@@UEAA@XZ
+	??1G4VScoreWriter@@UEAA@XZ
+	??1G4VScoringMesh@@UEAA@XZ
+	??1G4VSensitiveDetector@@UEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??2G4TouchableHistory@@SAPEAX_K@Z
+	??3G4HCofThisEvent@@SAXPEAX@Z
+	??3G4TouchableHistory@@SAXPEAX@Z
+	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@$$QEAV01@@Z
+	??4G4DCofThisEvent@@QEAAAEAV0@AEBV0@@Z
+	??4G4HCofThisEvent@@QEAAAEAV0@AEBV0@@Z
+	??4G4MultiSensitiveDetector@@QEAAAEAV0@AEBV0@@Z
+	??4G4SDParticleWithEnergyFilter@@QEAAAEAV0@AEBV0@@Z
+	??4G4SensitiveVolumeList@@QEAAAEAV0@AEBV0@@Z
+	??4G4VReadOutGeometry@@IEAAAEAV0@AEBV0@@Z
+	??4G4VSensitiveDetector@@QEAAAEAV0@AEBV0@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVG4CellScoreComposer@@@Z
+	??8G4DigiCollection@@QEBA_NAEBV0@@Z
+	??8G4HitsCollection@@QEBA_NAEBV0@@Z
+	??8G4SDStructure@@QEBA_NAEBV0@@Z
+	??8G4SensitiveVolumeList@@QEBA_NAEBV0@@Z
+	??8G4VDigi@@QEBA_NAEBV0@@Z
+	??8G4VDigiCollection@@QEBA_NAEBV0@@Z
+	??8G4VHit@@QEBA_NAEBV0@@Z
+	??8G4VHitsCollection@@QEBA_NAEBV0@@Z
+	??8G4VReadOutGeometry@@QEBA_NAEBV0@@Z
+	??8G4VSensitiveDetector@@QEBA_NAEBV0@@Z
+	??9G4SensitiveVolumeList@@QEBA_NAEBV0@@Z
+	??9G4VReadOutGeometry@@QEBA_NAEBV0@@Z
+	??9G4VSensitiveDetector@@QEBA_NAEBV0@@Z
+	??A?$map@VG4String@@PEAVG4VScoreColorMap@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@@4@@std@@QEAAAEAPEAVG4VScoreColorMap@@$$QEAVG4String@@@Z
+	??R?$less@VG4String@@@std@@QEBA_NAEBVG4String@@0@Z
+	??RG4String@@QEAA?AV0@_K0@Z
+	??RG4Tokenizer@@QEAA?AVG4String@@PEBD_K@Z
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?Accept@G4SDChargedFilter@@UEBA_NPEBVG4Step@@@Z
+	?Accept@G4SDKineticEnergyFilter@@UEBA_NPEBVG4Step@@@Z
+	?Accept@G4SDNeutralFilter@@UEBA_NPEBVG4Step@@@Z
+	?Accept@G4SDParticleFilter@@UEBA_NPEBVG4Step@@@Z
+	?Accept@G4SDParticleWithEnergyFilter@@UEBA_NPEBVG4Step@@@Z
+	?Accumulate@G4ScoringManager@@QEAAXPEAVG4VHitsCollection@@@Z
+	?Accumulate@G4VScoringMesh@@QEAAXPEAV?$G4THitsMap@N@@@Z
+	?Accumulate@G4VScoringMesh@@QEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@@Z
+	?Activate@G4SDManager@@QEAAXVG4String@@_N@Z
+	?Activate@G4SDStructure@@QEAAXAEBVG4String@@_N@Z
+	?AddDigiCollection@G4DCofThisEvent@@QEAAXHPEAVG4VDigiCollection@@@Z
+	?AddHitsCollection@G4HCofThisEvent@@QEAAXHPEAVG4VHitsCollection@@@Z
+	?AddNewCollection@G4SDManager@@QEAAXVG4String@@0@Z
+	?AddNewDetector@G4SDManager@@QEAAXPEAVG4VSensitiveDetector@@@Z
+	?AddNewDetector@G4SDStructure@@QEAAXPEAVG4VSensitiveDetector@@AEBVG4String@@@Z
+	?BuildROGeometry@G4VReadOutGeometry@@QEAAXXZ
+	?CheckAndSetUnit@G4VPrimitiveScorer@@IEAAXAEBVG4String@@0@Z
+	?CheckLV@G4SensitiveVolumeList@@QEBA_NPEBVG4LogicalVolume@@@Z
+	?CheckMeshPS@G4ScoreQuantityMessenger@@IEAA_NPEAVG4VScoringMesh@@AEAVG4String@@PEAVG4UIcommand@@@Z
+	?CheckPV@G4SensitiveVolumeList@@QEBA_NPEBVG4VPhysicalVolume@@@Z
+	?CheckROVolume@G4VReadOutGeometry@@UEAA_NPEAVG4Step@@AEAPEAVG4TouchableHistory@@@Z
+	?Clone@G4MultiSensitiveDetector@@UEBAPEAVG4VSensitiveDetector@@XZ
+	?Clone@G4VSensitiveDetector@@UEBAPEAV1@XZ
+	?CommandFailed@G4UIcommand@@QEAAXAEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?ComputeVolume@G4PSCellFlux@@MEAANPEAVG4Step@@H@Z
+	?ComputeVolume@G4PSCellFluxForCylinder3D@@MEAANPEAVG4Step@@H@Z
+	?ComputeVolume@G4PSDoseDeposit@@MEAANPEAVG4Step@@H@Z
+	?ComputeVolume@G4PSDoseDepositForCylinder3D@@MEAANPEAVG4Step@@H@Z
+	?ComputeVolume@G4PSPassageCellFlux@@MEAANPEAVG4Step@@H@Z
+	?ComputeVolume@G4PSPassageCellFluxForCylinder3D@@MEAANPEAVG4Step@@H@Z
+	?Construct@G4VScoringMesh@@QEAAXPEAVG4VPhysicalVolume@@@Z
+	?CreateAttValues@G4VDigi@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?CreateAttValues@G4VHit@@UEBAPEAV?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@XZ
+	?DeRegisterSDFilter@G4SDManager@@QEAAXPEAVG4VSDFilter@@@Z
+	?DefineUnitAndCategory@G4PSCellFlux@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSCylinderSurfaceCurrent@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSCylinderSurfaceFlux@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSFlatSurfaceCurrent@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSFlatSurfaceFlux@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSPassageCellFlux@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSSphereSurfaceCurrent@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSSphereSurfaceFlux@@MEAAXXZ
+	?DefineUnitAndCategory@G4PSTrackLength@@MEAAXXZ
+	?DestroyFilters@G4SDManager@@AEAAXXZ
+	?DivideByVelocity@G4PSTrackLength@@QEAAX_N@Z
+	?Draw@G4ScoringBox@@UEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@PEAVG4VScoreColorMap@@H@Z
+	?Draw@G4ScoringCylinder@@UEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@PEAVG4VScoreColorMap@@H@Z
+	?Draw@G4ScoringRealWorld@@UEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@PEAVG4VScoreColorMap@@H@Z
+	?Draw@G4VDigi@@UEAAXXZ
+	?Draw@G4VHit@@UEAAXXZ
+	?DrawAll@G4MultiFunctionalDetector@@UEAAXXZ
+	?DrawAll@G4MultiSensitiveDetector@@UEAAXXZ
+	?DrawAll@G4PSCellCharge@@UEAAXXZ
+	?DrawAll@G4PSCellFlux@@UEAAXXZ
+	?DrawAll@G4PSCylinderSurfaceCurrent@@UEAAXXZ
+	?DrawAll@G4PSCylinderSurfaceFlux@@UEAAXXZ
+	?DrawAll@G4PSDoseDeposit@@UEAAXXZ
+	?DrawAll@G4PSEnergyDeposit@@UEAAXXZ
+	?DrawAll@G4PSFlatSurfaceCurrent@@UEAAXXZ
+	?DrawAll@G4PSFlatSurfaceFlux@@UEAAXXZ
+	?DrawAll@G4PSMinKinEAtGeneration@@UEAAXXZ
+	?DrawAll@G4PSNofCollision@@UEAAXXZ
+	?DrawAll@G4PSNofSecondary@@UEAAXXZ
+	?DrawAll@G4PSNofStep@@UEAAXXZ
+	?DrawAll@G4PSPassageCellCurrent@@UEAAXXZ
+	?DrawAll@G4PSPassageCellFlux@@UEAAXXZ
+	?DrawAll@G4PSPassageTrackLength@@UEAAXXZ
+	?DrawAll@G4PSPopulation@@UEAAXXZ
+	?DrawAll@G4PSSphereSurfaceCurrent@@UEAAXXZ
+	?DrawAll@G4PSSphereSurfaceFlux@@UEAAXXZ
+	?DrawAll@G4PSStepChecker@@UEAAXXZ
+	?DrawAll@G4PSTermination@@UEAAXXZ
+	?DrawAll@G4PSTrackCounter@@UEAAXXZ
+	?DrawAll@G4PSTrackLength@@UEAAXXZ
+	?DrawAll@G4VPrimitiveScorer@@UEAAXXZ
+	?DrawAll@G4VSensitiveDetector@@UEAAXXZ
+	?DrawAllDigi@G4VDigiCollection@@UEAAXXZ
+	?DrawAllHits@?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@UEAAXXZ
+	?DrawAllHits@?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@UEAAXXZ
+	?DrawAllHits@G4VHitsCollection@@UEAAXXZ
+	?DrawColorChart@G4VScoreColorMap@@UEAAXH@Z
+	?DrawColorChartBar@G4ScoreLogColorMap@@UEAAXH@Z
+	?DrawColorChartBar@G4VScoreColorMap@@UEAAXH@Z
+	?DrawColorChartText@G4ScoreLogColorMap@@UEAAXH@Z
+	?DrawColorChartText@G4VScoreColorMap@@UEAAXH@Z
+	?DrawColumn@G4ScoringBox@@UEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@PEAVG4VScoreColorMap@@HH@Z
+	?DrawColumn@G4ScoringCylinder@@UEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@PEAVG4VScoreColorMap@@HH@Z
+	?DrawColumn@G4ScoringRealWorld@@UEAAXPEAV?$G4THitsMap@VG4StatDouble@@@@PEAVG4VScoreColorMap@@HH@Z
+	?DrawMesh@G4ScoringManager@@QEAAXAEBVG4String@@00H@Z
+	?DrawMesh@G4ScoringManager@@QEAAXAEBVG4String@@0HH0@Z
+	?DrawMesh@G4VScoringMesh@@QEAAXAEBVG4String@@HHPEAVG4VScoreColorMap@@@Z
+	?DrawMesh@G4VScoringMesh@@QEAAXAEBVG4String@@PEAVG4VScoreColorMap@@H@Z
+	?Dump@G4ScoringManager@@QEBAXXZ
+	?Dump@G4VScoringMesh@@QEAAXXZ
+	?DumpAllQuantitiesToFile@G4ScoringManager@@QEAAXAEBVG4String@@00@Z
+	?DumpAllQuantitiesToFile@G4VScoreWriter@@UEAAXAEBVG4String@@0@Z
+	?DumpQuantityToFile@G4ScoringManager@@QEAAXAEBVG4String@@000@Z
+	?DumpQuantityToFile@G4VScoreWriter@@UEAAXAEBVG4String@@00@Z
+	?EndOfEvent@G4MultiFunctionalDetector@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4MultiSensitiveDetector@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSCellCharge@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSCellFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSCylinderSurfaceCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSCylinderSurfaceFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSDoseDeposit@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSEnergyDeposit@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSFlatSurfaceCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSFlatSurfaceFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSMinKinEAtGeneration@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSNofCollision@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSNofSecondary@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSNofStep@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSPassageCellCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSPassageCellFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSPassageTrackLength@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSPopulation@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSSphereSurfaceCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSSphereSurfaceFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSStepChecker@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSTermination@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSTrackCounter@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4PSTrackLength@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4VPrimitiveScorer@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EndOfEvent@G4VSensitiveDetector@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?EstimatorCalculation@G4CellScoreComposer@@QEAAXAEBVG4Step@@@Z
+	?ExtractDirName@G4SDStructure@@AEAA?AVG4String@@AEBV2@@Z
+	?FParticleCommand@G4ScoreQuantityMessenger@@IEAAXPEAVG4VScoringMesh@@AEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?FParticleWithEnergyCommand@G4ScoreQuantityMessenger@@IEAAXPEAVG4VScoringMesh@@AEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?FillTokenVec@G4ScoreQuantityMessenger@@IEAAXVG4String@@AEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?FillTokenVec@G4ScoringMessenger@@IEAAXVG4String@@AEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?FilterCommands@G4ScoreQuantityMessenger@@AEAAXXZ
+	?FindMesh@G4ScoringManager@@QEAAPEAVG4VScoringMesh@@AEBVG4String@@@Z
+	?FindMesh@G4ScoringManager@@QEAAPEAVG4VScoringMesh@@PEAVG4VHitsCollection@@@Z
+	?FindPrimitiveScorer@G4VScoringMesh@@QEAA_NAEBVG4String@@@Z
+	?FindROTouchable@G4VReadOutGeometry@@MEAA_NPEAVG4Step@@@Z
+	?FindSensitiveDetector@G4SDManager@@QEAAPEAVG4VSensitiveDetector@@VG4String@@_N@Z
+	?FindSensitiveDetector@G4SDStructure@@QEAAPEAVG4VSensitiveDetector@@AEBVG4String@@_N@Z
+	?FindSubDirectory@G4SDStructure@@AEAAPEAV1@AEBVG4String@@@Z
+	?FirstEnterance@G4TrackLogger@@QEAA_NH@Z
+	?GetAllocatedSize@?$G4Allocator@VG4DCofThisEvent@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4DigiCollection@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4HCofThisEvent@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4HitsCollection@@@@UEBA_KXZ
+	?GetAllocatedSize@?$G4Allocator@VG4TouchableHistory@@@@UEBA_KXZ
+	?GetAttDefs@G4VDigi@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetAttDefs@G4VHit@@UEBAPEBV?$map@VG4String@@VG4AttDef@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@VG4AttDef@@@std@@@4@@std@@XZ
+	?GetCollectionID@G4HCtable@@QEBAHPEAVG4VSensitiveDetector@@@Z
+	?GetCollectionID@G4HCtable@@QEBAHVG4String@@@Z
+	?GetCollectionID@G4MultiSensitiveDetector@@MEAAHH@Z
+	?GetCollectionID@G4SDManager@@QEAAHPEAVG4VHitsCollection@@@Z
+	?GetCollectionID@G4SDManager@@QEAAHVG4String@@@Z
+	?GetCollectionID@G4VPrimitiveScorer@@QEAAHH@Z
+	?GetCollectionID@G4VSensitiveDetector@@MEAAHH@Z
+	?GetCurrentPSUnit@G4VScoringMesh@@QEAA?AVG4String@@XZ
+	?GetCurrentValue@G4ScoreQuantityMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetCurrentValue@G4ScoringMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetDigi@G4VDigiCollection@@UEBAPEAVG4VDigi@@_K@Z
+	?GetDivisionAxisNames@G4VScoringMesh@@QEAAXQEAVG4String@@@Z
+	?GetHit@?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@UEBAPEAVG4VHit@@_K@Z
+	?GetHit@?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@UEBAPEAVG4VHit@@_K@Z
+	?GetHit@G4VHitsCollection@@UEBAPEAVG4VHit@@_K@Z
+	?GetIndex@G4PSCellCharge3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSCellFlux3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSCylinderSurfaceCurrent3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSCylinderSurfaceFlux3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSDoseDeposit3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSEnergyDeposit3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSFlatSurfaceCurrent3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSFlatSurfaceFlux3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSMinKinEAtGeneration3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSNofCollision3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSNofSecondary3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSNofStep3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSPassageCellCurrent3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSPassageCellFlux3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSPassageTrackLength3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSPopulation3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSSphereSurfaceCurrent3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSSphereSurfaceFlux3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSStepChecker3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSTermination3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSTrackCounter3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4PSTrackLength3D@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4ScoringBox@@AEBAHHHH@Z
+	?GetIndex@G4VPrimitiveScorer@@MEAAHPEAVG4Step@@@Z
+	?GetIndex@G4VScoreWriter@@IEBAHHHH@Z
+	?GetMapColor@G4DefaultLinearColorMap@@UEAAXNQEAN@Z
+	?GetMapColor@G4ScoreLogColorMap@@UEAAXNQEAN@Z
+	?GetNoPages@?$G4Allocator@VG4DCofThisEvent@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4DigiCollection@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4HCofThisEvent@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4HitsCollection@@@@UEBAHXZ
+	?GetNoPages@?$G4Allocator@VG4TouchableHistory@@@@UEBAHXZ
+	?GetNumberOfSegments@G4VScoringMesh@@QEAAXQEAH@Z
+	?GetPSUnit@G4VScoringMesh@@QEAA?AVG4String@@AEBV2@@Z
+	?GetPSUnitValue@G4VScoringMesh@@QEAANAEBVG4String@@@Z
+	?GetPageSize@?$G4Allocator@VG4DCofThisEvent@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4DigiCollection@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4HCofThisEvent@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4HitsCollection@@@@UEBA_KXZ
+	?GetPageSize@?$G4Allocator@VG4TouchableHistory@@@@UEBA_KXZ
+	?GetPoolType@?$G4Allocator@VG4DCofThisEvent@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4DigiCollection@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4HCofThisEvent@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4HitsCollection@@@@UEBAPEBDXZ
+	?GetPoolType@?$G4Allocator@VG4TouchableHistory@@@@UEBAPEBDXZ
+	?GetPrimitiveScorer@G4VScoringMesh@@IEAAPEAVG4VPrimitiveScorer@@AEBVG4String@@@Z
+	?GetRZPhi@G4ScoringCylinder@@QEBAXHQEAH@Z
+	?GetReplicaLevel@G4ScoringManager@@SAHXZ
+	?GetReplicaPosition@G4ScoringBox@@AEAA?AVHep3Vector@CLHEP@@HHH@Z
+	?GetSD@G4SDStructure@@QEAAPEAVG4VSensitiveDetector@@AEBVG4String@@@Z
+	?GetSDMpointer@G4SDManager@@SAPEAV1@XZ
+	?GetSDMpointerIfExist@G4SDManager@@SAPEAV1@XZ
+	?GetScoreColorMap@G4ScoringManager@@QEAAPEAVG4VScoreColorMap@@AEBVG4String@@@Z
+	?GetScoreMap@G4VScoringMesh@@QEBA?AV?$map@VG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@4@@std@@XZ
+	?GetScoringManager@G4ScoringManager@@SAPEAV1@XZ
+	?GetScoringManagerIfExist@G4ScoringManager@@SAPEAV1@XZ
+	?GetSize@?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@UEBA_KXZ
+	?GetSize@?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@UEBA_KXZ
+	?GetSize@G4VDigiCollection@@UEBA_KXZ
+	?GetSize@G4VHitsCollection@@UEBA_KXZ
+	?GetSize@G4VScoringMesh@@QEBA?AVHep3Vector@CLHEP@@XZ
+	?GetStandardCellScoreValues@G4CellScoreComposer@@QEBAAEBVG4CellScoreValues@@XZ
+	?GetXYZ@G4ScoringBox@@AEBAXHQEAH@Z
+	?IncreasePageSize@?$G4Allocator@VG4DCofThisEvent@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4DigiCollection@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4HCofThisEvent@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4HitsCollection@@@@UEAAXI@Z
+	?IncreasePageSize@?$G4Allocator@VG4TouchableHistory@@@@UEAAXI@Z
+	?Initialize@G4MultiFunctionalDetector@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4MultiSensitiveDetector@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSCellCharge@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSCellFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSCylinderSurfaceCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSCylinderSurfaceFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSDoseDeposit@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSEnergyDeposit@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSFlatSurfaceCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSFlatSurfaceFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSMinKinEAtGeneration@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSNofCollision@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSNofSecondary@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSNofStep@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSPassageCellCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSPassageCellFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSPassageTrackLength@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSPopulation@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSSphereSurfaceCurrent@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSSphereSurfaceFlux@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSStepChecker@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSTermination@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSTrackCounter@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4PSTrackLength@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4SDStructure@@QEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4VPrimitiveScorer@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Initialize@G4VSensitiveDetector@@UEAAXPEAVG4HCofThisEvent@@@Z
+	?Instance@G4VScoreNtupleWriter@@SAPEAV1@XZ
+	?IsPassed@G4PSPassageCellCurrent@@MEAA_NPEAVG4Step@@@Z
+	?IsPassed@G4PSPassageCellFlux@@MEAA_NPEAVG4Step@@@Z
+	?IsPassed@G4PSPassageTrackLength@@IEAA_NPEAVG4Step@@@Z
+	?IsSelectedSurface@G4PSCylinderSurfaceCurrent@@IEAAHPEAVG4Step@@PEAVG4Tubs@@@Z
+	?IsSelectedSurface@G4PSCylinderSurfaceFlux@@IEAAHPEAVG4Step@@PEAVG4Tubs@@@Z
+	?IsSelectedSurface@G4PSFlatSurfaceCurrent@@IEAAHPEAVG4Step@@PEAVG4Box@@@Z
+	?IsSelectedSurface@G4PSFlatSurfaceFlux@@IEAAHPEAVG4Step@@PEAVG4Box@@@Z
+	?IsSelectedSurface@G4PSSphereSurfaceCurrent@@IEAAHPEAVG4Step@@PEAVG4Sphere@@@Z
+	?IsSelectedSurface@G4PSSphereSurfaceFlux@@IEAAHPEAVG4Step@@PEAVG4Sphere@@@Z
+	?List@G4ScoringBox@@UEBAXXZ
+	?List@G4ScoringCylinder@@UEBAXXZ
+	?List@G4ScoringManager@@QEBAXXZ
+	?List@G4ScoringRealWorld@@UEBAXXZ
+	?List@G4VScoringMesh@@UEBAXXZ
+	?ListScoreColorMaps@G4ScoringManager@@QEAAXXZ
+	?ListTree@G4SDStructure@@QEAAXXZ
+	?Merge@G4ScoringManager@@QEAAXPEBV1@@Z
+	?Merge@G4VScoringMesh@@QEAAXPEBV1@@Z
+	?MeshBinCommand@G4ScoringMessenger@@IEAAXPEAVG4VScoringMesh@@AEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@@Z
+	?MultiplyKineticEnergy@G4PSTrackLength@@QEAAX_N@Z
+	?NewTrackPopedUp@G4CellScoreComposer@@QEAAXXZ
+	?PrepareNewEvent@G4SDManager@@QEAAPEAVG4HCofThisEvent@@XZ
+	?Print@G4VDigi@@UEAAXXZ
+	?Print@G4VHit@@UEAAXXZ
+	?PrintAll@G4MultiFunctionalDetector@@UEAAXXZ
+	?PrintAll@G4MultiSensitiveDetector@@UEAAXXZ
+	?PrintAll@G4PSCellCharge@@UEAAXXZ
+	?PrintAll@G4PSCellFlux@@UEAAXXZ
+	?PrintAll@G4PSCylinderSurfaceCurrent@@UEAAXXZ
+	?PrintAll@G4PSCylinderSurfaceFlux@@UEAAXXZ
+	?PrintAll@G4PSDoseDeposit@@UEAAXXZ
+	?PrintAll@G4PSEnergyDeposit@@UEAAXXZ
+	?PrintAll@G4PSFlatSurfaceCurrent@@UEAAXXZ
+	?PrintAll@G4PSFlatSurfaceFlux@@UEAAXXZ
+	?PrintAll@G4PSMinKinEAtGeneration@@UEAAXXZ
+	?PrintAll@G4PSNofCollision@@UEAAXXZ
+	?PrintAll@G4PSNofSecondary@@UEAAXXZ
+	?PrintAll@G4PSNofStep@@UEAAXXZ
+	?PrintAll@G4PSPassageCellCurrent@@UEAAXXZ
+	?PrintAll@G4PSPassageCellFlux@@UEAAXXZ
+	?PrintAll@G4PSPassageTrackLength@@UEAAXXZ
+	?PrintAll@G4PSPopulation@@UEAAXXZ
+	?PrintAll@G4PSSphereSurfaceCurrent@@UEAAXXZ
+	?PrintAll@G4PSSphereSurfaceFlux@@UEAAXXZ
+	?PrintAll@G4PSStepChecker@@UEAAXXZ
+	?PrintAll@G4PSTermination@@UEAAXXZ
+	?PrintAll@G4PSTrackCounter@@UEAAXXZ
+	?PrintAll@G4PSTrackLength@@UEAAXXZ
+	?PrintAll@G4VPrimitiveScorer@@UEAAXXZ
+	?PrintAll@G4VSensitiveDetector@@UEAAXXZ
+	?PrintAllDigi@G4VDigiCollection@@UEAAXXZ
+	?PrintAllHits@?$G4VTHitsMap@NV?$map@HPEANU?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAN@std@@@2@@std@@@@UEAAXXZ
+	?PrintAllHits@?$G4VTHitsMap@VG4StatDouble@@V?$map@HPEAVG4StatDouble@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@3@@std@@@@UEAAXXZ
+	?PrintAllHits@G4VHitsCollection@@UEAAXXZ
+	?ProcessHits@G4MultiFunctionalDetector@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4MultiSensitiveDetector@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSCellCharge@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSCellFlux@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSCylinderSurfaceCurrent@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSCylinderSurfaceFlux@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSDoseDeposit@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSEnergyDeposit@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSFlatSurfaceCurrent@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSFlatSurfaceFlux@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSMinKinEAtGeneration@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSNofCollision@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSNofSecondary@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSNofStep@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSPassageCellCurrent@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSPassageCellFlux@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSPassageTrackLength@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSPopulation@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSSphereSurfaceCurrent@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSSphereSurfaceFlux@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSStepChecker@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSTermination@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSTrackCounter@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?ProcessHits@G4PSTrackLength@@MEAA_NPEAVG4Step@@PEAVG4TouchableHistory@@@Z
+	?QuantityCommands@G4ScoreQuantityMessenger@@AEAAXXZ
+	?RegisterPrimitive@G4MultiFunctionalDetector@@QEAA_NPEAVG4VPrimitiveScorer@@@Z
+	?RegisterSDFilter@G4SDManager@@QEAAXPEAVG4VSDFilter@@@Z
+	?RegisterScoreColorMap@G4ScoringManager@@QEAAXPEAVG4VScoreColorMap@@@Z
+	?RegisterScoringMesh@G4ScoringManager@@QEAAXPEAVG4VScoringMesh@@@Z
+	?Registor@G4HCtable@@QEAAHVG4String@@0@Z
+	?RemovePrimitive@G4MultiFunctionalDetector@@QEAA_NPEAVG4VPrimitiveScorer@@@Z
+	?RemoveSD@G4SDStructure@@AEAAXPEAVG4VSensitiveDetector@@@Z
+	?ResetScore@G4VScoringMesh@@QEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4DCofThisEvent@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4DigiCollection@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4HCofThisEvent@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4HitsCollection@@@@UEAAXXZ
+	?ResetStorage@?$G4Allocator@VG4TouchableHistory@@@@UEAAXXZ
+	?RotateX@G4VScoringMesh@@QEAAXN@Z
+	?RotateY@G4VScoringMesh@@QEAAXN@Z
+	?RotateZ@G4VScoringMesh@@QEAAXN@Z
+	?SetCenterPosition@G4VScoringMesh@@QEAAXQEAN@Z
+	?SetCollisionWeight@G4CellScoreComposer@@QEAAXN@Z
+	?SetCurrentPSUnit@G4VScoringMesh@@QEAAXAEBVG4String@@@Z
+	?SetCurrentPrimitiveScorer@G4VScoringMesh@@QEAAXAEBVG4String@@@Z
+	?SetCylinderSize@G4PSCellFluxForCylinder3D@@QEAAXNN@Z
+	?SetCylinderSize@G4PSDoseDepositForCylinder3D@@QEAAXNN@Z
+	?SetCylinderSize@G4PSPassageCellFluxForCylinder3D@@QEAAXNN@Z
+	?SetEventID@G4TrackLogger@@QEAAXH@Z
+	?SetFilter@G4VScoringMesh@@QEAAXPEAVG4VSDFilter@@@Z
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetImportnace@G4CellScoreComposer@@QEAAXN@Z
+	?SetKineticEnergy@G4SDKineticEnergyFilter@@QEAAXNN@Z
+	?SetKineticEnergy@G4SDParticleWithEnergyFilter@@QEAAXNN@Z
+	?SetMinMax@G4VScoreColorMap@@QEAAXNN@Z
+	?SetNewValue@G4SDmessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4ScoreQuantityMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNewValue@G4ScoringMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetNumberOfSegments@G4PSCellFluxForCylinder3D@@QEAAXQEAH@Z
+	?SetNumberOfSegments@G4PSDoseDepositForCylinder3D@@QEAAXQEAH@Z
+	?SetNumberOfSegments@G4PSPassageCellFluxForCylinder3D@@QEAAXQEAH@Z
+	?SetNumberOfSegments@G4VScoringMesh@@QEAAXQEAH@Z
+	?SetParameter@G4UIcommand@@QEAAXQEAVG4UIparameter@@@Z
+	?SetParticle@G4PSNofSecondary@@QEAAXAEBVG4String@@@Z
+	?SetPrimitiveScorer@G4VScoringMesh@@QEAAXPEAVG4VPrimitiveScorer@@@Z
+	?SetReplicaLevel@G4ScoringManager@@SAXH@Z
+	?SetScoringMesh@G4VScoreWriter@@QEAAXPEAVG4VScoringMesh@@@Z
+	?SetSize@G4VScoringMesh@@QEAAXQEAN@Z
+	?SetUnit@G4PSCellCharge@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSCellFlux@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSCylinderSurfaceCurrent@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSCylinderSurfaceFlux@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSDoseDeposit@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSEnergyDeposit@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSFlatSurfaceCurrent@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSFlatSurfaceFlux@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSMinKinEAtGeneration@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSNofCollision@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSNofSecondary@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSNofStep@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSPassageCellCurrent@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSPassageCellFlux@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSPassageTrackLength@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSPopulation@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSSphereSurfaceCurrent@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSSphereSurfaceFlux@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSTermination@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSTrackCounter@@UEAAXAEBVG4String@@@Z
+	?SetUnit@G4PSTrackLength@@UEAAXAEBVG4String@@@Z
+	?SetVerboseLevel@G4SDStructure@@QEAAXH@Z
+	?SetupGeometry@G4ScoringBox@@MEAAXPEAVG4VPhysicalVolume@@@Z
+	?SetupGeometry@G4ScoringCylinder@@MEAAXPEAVG4VPhysicalVolume@@@Z
+	?SetupGeometry@G4ScoringRealWorld@@MEAAXPEAVG4VPhysicalVolume@@@Z
+	?Terminate@G4SDStructure@@QEAAXPEAVG4HCofThisEvent@@@Z
+	?TerminateCurrentEvent@G4SDManager@@QEAAXPEAVG4HCofThisEvent@@@Z
+	?TrackEnters@G4CellScoreComposer@@QEAAXXZ
+	?WorkerConstruct@G4VScoringMesh@@QEAAXPEAVG4VPhysicalVolume@@@Z
+	?_Become_small@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AEAAXQEAN_K1@Z
+	?_Change_array@?$vector@PEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@AEAAXQEAPEAVG4VDigiCollection@@_K1@Z
+	?_Change_array@?$vector@PEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@AEAAXQEAPEAVG4VHitsCollection@@_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Destroy@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAXPEAUyystype@G4UItokenNum@@0@Z
+	?_Destroy@?$vector@V?$Point3D@N@HepGeom@@V?$allocator@V?$Point3D@N@HepGeom@@@std@@@std@@AEAAXPEAV?$Point3D@N@HepGeom@@0@Z
+	?_Destroy@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAXPEAV?$vector@NV?$allocator@N@std@@@2@0@Z
+	?_Destroy@?$vector@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@2@@std@@AEAAXPEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@2@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Getal@?$_Tree@V?$_Tmap_traits@VG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@U?$less@VG4String@@@std@@V?$allocator@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@4@$0A@@std@@@std@@IEAAAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@2@XZ
+	?_Getal@?$vector@PEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4VDigiCollection@@@2@XZ
+	?_Getal@?$vector@PEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4VHitsCollection@@@2@XZ
+	?_Getal@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAAEAV?$allocator@Uyystype@G4UItokenNum@@@2@XZ
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@H@std@@@std@@QEAAPEAU?$_Tree_node@HPEAX@2@U?$_Tree_id@PEAU?$_Tree_node@HPEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAN@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAN@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4StatDouble@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4StatDouble@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHPEAVG4VScoringMesh@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHVG4TrackLogger@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHVG4TrackLogger@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAV?$G4THitsMap@VG4StatDouble@@@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBVG4String@@PEAVG4VScoreColorMap@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAXXZ
+	?_Ufill@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@AEAAPEAUyystype@G4UItokenNum@@PEAU34@_KU_Value_init_tag@2@@Z
+	?_Umove@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAPEAV?$vector@NV?$allocator@N@std@@@2@PEAV32@00@Z
+	?_Umove@?$vector@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@2@@std@@AEAAPEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@2@PEAV32@00@Z
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@HV?$allocator@H@std@@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4LogicalVolume@@V?$allocator@PEAVG4LogicalVolume@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4ParticleDefinition@@V?$allocator@PEAVG4ParticleDefinition@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4SDStructure@@V?$allocator@PEAVG4SDStructure@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UIparameter@@V?$allocator@PEAVG4UIparameter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VPhysicalVolume@@V?$allocator@PEAVG4VPhysicalVolume@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VPrimitiveScorer@@V?$allocator@PEAVG4VPrimitiveScorer@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VSDFilter@@V?$allocator@PEAVG4VSDFilter@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VScoringMesh@@V?$allocator@PEAVG4VScoringMesh@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VSensitiveDetector@@V?$allocator@PEAVG4VSensitiveDetector@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@Uyystype@G4UItokenNum@@V?$allocator@Uyystype@G4UItokenNum@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$Point3D@N@HepGeom@@V?$allocator@V?$Point3D@N@HepGeom@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@V?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?_Xrange@?$vector@PEAVG4VDigiCollection@@V?$allocator@PEAVG4VDigiCollection@@@std@@@std@@CAXXZ
+	?_Xrange@?$vector@PEAVG4VHitsCollection@@V?$allocator@PEAVG4VHitsCollection@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?aDCAllocator_G4MT_TLS_@@YAAEAPEAV?$G4Allocator@VG4DigiCollection@@@@XZ
+	?add@G4SDParticleFilter@@QEAAXAEBVG4String@@@Z
+	?add@G4SDParticleWithEnergyFilter@@QEAAXAEBVG4String@@@Z
+	?addIon@G4SDParticleFilter@@QEAAXHH@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@N@std@@QEAAPEAN_K@Z
+	?allocate@?$allocator@PEAVG4ParticleDefinition@@@std@@QEAAPEAPEAVG4ParticleDefinition@@_K@Z
+	?allocate@?$allocator@PEAVG4VDigiCollection@@@std@@QEAAPEAPEAVG4VDigiCollection@@_K@Z
+	?allocate@?$allocator@PEAVG4VHitsCollection@@@std@@QEAAPEAPEAVG4VHitsCollection@@_K@Z
+	?allocate@?$allocator@PEAVG4VSensitiveDetector@@@std@@QEAAPEAPEAVG4VSensitiveDetector@@_K@Z
+	?allocate@?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@QEAAPEAV?$vector@NV?$allocator@N@std@@@2@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?anDCoTHAllocator_G4MT_TLS_@@YAAEAPEAV?$G4Allocator@VG4DCofThisEvent@@@@XZ
+	?anHCAllocator_G4MT_TLS_@@YAAEAPEAV?$G4Allocator@VG4HitsCollection@@@@XZ
+	?anHCoTHAllocator_G4MT_TLS_@@YAAEAPEAV?$G4Allocator@VG4HCofThisEvent@@@@XZ
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?clear@G4MultiFunctionalDetector@@UEAAXXZ
+	?clear@G4MultiSensitiveDetector@@UEAAXXZ
+	?clear@G4PSCellCharge@@UEAAXXZ
+	?clear@G4PSCellFlux@@UEAAXXZ
+	?clear@G4PSCylinderSurfaceCurrent@@UEAAXXZ
+	?clear@G4PSCylinderSurfaceFlux@@UEAAXXZ
+	?clear@G4PSDoseDeposit@@UEAAXXZ
+	?clear@G4PSEnergyDeposit@@UEAAXXZ
+	?clear@G4PSFlatSurfaceCurrent@@UEAAXXZ
+	?clear@G4PSFlatSurfaceFlux@@UEAAXXZ
+	?clear@G4PSMinKinEAtGeneration@@UEAAXXZ
+	?clear@G4PSNofCollision@@UEAAXXZ
+	?clear@G4PSNofSecondary@@UEAAXXZ
+	?clear@G4PSNofStep@@UEAAXXZ
+	?clear@G4PSPassageCellCurrent@@UEAAXXZ
+	?clear@G4PSPassageCellFlux@@UEAAXXZ
+	?clear@G4PSPassageTrackLength@@UEAAXXZ
+	?clear@G4PSPopulation@@UEAAXXZ
+	?clear@G4PSSphereSurfaceCurrent@@UEAAXXZ
+	?clear@G4PSSphereSurfaceFlux@@UEAAXXZ
+	?clear@G4PSStepChecker@@UEAAXXZ
+	?clear@G4PSTermination@@UEAAXXZ
+	?clear@G4PSTrackCounter@@UEAAXXZ
+	?clear@G4PSTrackLength@@UEAAXXZ
+	?clear@G4VPrimitiveScorer@@UEAAXXZ
+	?clear@G4VSensitiveDetector@@UEAAXXZ
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@H@std@@QEAAXQEAH_K@Z
+	?deallocate@?$allocator@N@std@@QEAAXQEAN_K@Z
+	?deallocate@?$allocator@PEAVG4ParticleDefinition@@@std@@QEAAXQEAPEAVG4ParticleDefinition@@_K@Z
+	?deallocate@?$allocator@PEAVG4SDStructure@@@std@@QEAAXQEAPEAVG4SDStructure@@_K@Z
+	?deallocate@?$allocator@PEAVG4UIparameter@@@std@@QEAAXQEAPEAVG4UIparameter@@_K@Z
+	?deallocate@?$allocator@PEAVG4VDigiCollection@@@std@@QEAAXQEAPEAVG4VDigiCollection@@_K@Z
+	?deallocate@?$allocator@PEAVG4VHitsCollection@@@std@@QEAAXQEAPEAVG4VHitsCollection@@_K@Z
+	?deallocate@?$allocator@PEAVG4VPrimitiveScorer@@@std@@QEAAXQEAPEAVG4VPrimitiveScorer@@_K@Z
+	?deallocate@?$allocator@PEAVG4VSDFilter@@@std@@QEAAXQEAPEAVG4VSDFilter@@_K@Z
+	?deallocate@?$allocator@PEAVG4VScoringMesh@@@std@@QEAAXQEAPEAVG4VScoringMesh@@_K@Z
+	?deallocate@?$allocator@PEAVG4VSensitiveDetector@@@std@@QEAAXQEAPEAVG4VSensitiveDetector@@_K@Z
+	?deallocate@?$allocator@Uyystype@G4UItokenNum@@@std@@QEAAXQEAUyystype@G4UItokenNum@@_K@Z
+	?deallocate@?$allocator@V?$Point3D@N@HepGeom@@@std@@QEAAXQEAV?$Point3D@N@HepGeom@@_K@Z
+	?deallocate@?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@QEAAXQEAV?$vector@NV?$allocator@N@std@@@2@_K@Z
+	?deallocate@?$allocator@V?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@@std@@QEAAXQEAV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@2@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KQEBD0@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K@Z
+	?scientific@std@@YAAEAVios_base@1@AEAV21@@Z
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?show@G4SDKineticEnergyFilter@@QEAAXXZ
+	?show@G4SDParticleFilter@@QEAAXXZ
+	?show@G4SDParticleWithEnergyFilter@@QEAAXXZ
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z

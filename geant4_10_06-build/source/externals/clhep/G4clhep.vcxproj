@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E529A5C-9638-34DD-B243-9E6E6956ED60}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>G4clhep</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4clhep.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4clhep</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Release\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4clhep.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4clhep</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\MinSizeRel\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4clhep.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4clhep</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\RelWithDebInfo\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4clhep.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4clhep</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR="Debug";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR=\"Debug\";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/lib/G4clhep.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/bin/G4clhep.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR="Release";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR=\"Release\";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/lib/G4clhep.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/bin/G4clhep.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR="MinSizeRel";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR=\"MinSizeRel\";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/lib/G4clhep.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/bin/G4clhep.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR="RelWithDebInfo";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;CLHEP_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\";G4clhep_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/lib/G4clhep.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/G4clhep.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/bin/G4clhep.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/clhep/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/clhep/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/clhep/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/externals/clhep/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/clhep/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\AxisAngle.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BasicVector3D.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Boost.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BoostX.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BoostY.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\BoostZ.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\DoubConv.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\DualRand.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\EngineFactory.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\engineIDulong.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\erfQ.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\EulerAngles.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Evaluator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\flatToGaussian.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\gammln.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\JamesRandom.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzRotation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzRotationC.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzRotationD.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorB.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVector.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorC.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorK.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorL.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\LorentzVectorR.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\MixMaxRng.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\MTwistEngine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\NonRandomEngine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Normal3D.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Plane3D.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Point3D.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandBinomial.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandBit.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandBreitWigner.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandChiSquare.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandExponential.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandFlat.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGamma.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGauss.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGaussQ.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandGeneral.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandLandau.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Random.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandomEngine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandPoisson.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandPoissonQ.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RandStudentT.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RanecuEngine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Ranlux64Engine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RanluxEngine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RanshiEngine.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationA.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Rotation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationC.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationE.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationInterfaces.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationIO.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationL.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationP.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationX.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationY.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\RotationZ.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\setStdMath.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\setSystemOfUnits.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVector.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVectorD.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVectorP.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\SpaceVectorR.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\StaticRandomStates.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\ThreeVector.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\ThreeVectorR.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Transform3D.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\TwoVector.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\Vector3D.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\src\ZMinput.cc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\Evaluator.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\hash_map.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\stack.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Evaluator\string.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\BasicVector3D.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Normal3D.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Plane3D.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Point3D.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Transform3D.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Geometry\Vector3D.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\DoubConv.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\DualRand.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\EngineFactory.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\engineIDulong.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\JamesRandom.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\mixmax_skip_N8.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\mixmax_skip_N17.icc" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\mixmax_skip_N240.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\MixMaxRng.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\MTwistEngine.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\NonRandomEngine.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBinomial.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBinomial.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBit.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBreitWigner.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandBreitWigner.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandChiSquare.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandChiSquare.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandExponential.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandExponential.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandFlat.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandFlat.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGamma.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGamma.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGauss.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGauss.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGaussQ.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGaussQ.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGeneral.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandGeneral.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandLandau.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandLandau.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoisson.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoisson.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoissonQ.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandPoissonQ.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandStudentT.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandStudentT.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Random.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Random.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandomEngine.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RandomEngine.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Randomize.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RanecuEngine.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Ranlux64Engine.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RanluxEngine.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\RanshiEngine.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\SeedTable.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\Stat.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\StaticRandomStates.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\gaussQTables.cdat" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\gaussTables.cdat" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Random\poissonTables.cdat" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Units\PhysicalConstants.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Units\SystemOfUnits.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\defs.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\keywords.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\memory.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\noncopyable.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Utility\use_atomic.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\AxisAngle.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\AxisAngle.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Boost.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Boost.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostX.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostX.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostY.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostY.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostZ.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\BoostZ.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\EulerAngles.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\EulerAngles.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzRotation.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzRotation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzVector.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\LorentzVector.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Rotation.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\Rotation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationInterfaces.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationInterfaces.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationX.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationX.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationY.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationY.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationZ.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\RotationZ.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\ThreeVector.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\ThreeVector.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\TwoVector.h" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include\CLHEP\Vector\TwoVector.icc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\ZERO_CHECK.vcxproj">
+      <Project>{E1749259-A18E-3B5B-8423-240E1940671A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

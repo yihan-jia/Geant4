@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{732CE323-3A21-34E6-ADF6-794EF68E845F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>G4geometry</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4geometry.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G4geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\Release\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4geometry.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G4geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\MinSizeRel\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4geometry.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G4geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\BuildProducts\RelWithDebInfo\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4geometry.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G4geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR="Debug";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_Debug;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR=\"Debug\";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\Debug\lib\G4graphics_reps.lib;..\..\BuildProducts\Debug\lib\G4materials.lib;..\..\BuildProducts\Debug\lib\G4intercoms.lib;..\..\BuildProducts\Debug\lib\G4global.lib;..\..\BuildProducts\Debug\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/lib/G4geometry.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Debug/bin/G4geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR="Release";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_Release;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR=\"Release\";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\Release\lib\G4graphics_reps.lib;..\..\BuildProducts\Release\lib\G4materials.lib;..\..\BuildProducts\Release\lib\G4intercoms.lib;..\..\BuildProducts\Release\lib\G4global.lib;..\..\BuildProducts\Release\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/lib/G4geometry.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/Release/bin/G4geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR="MinSizeRel";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;NDEBUG;GEANT4_DEVELOPER_MinSizeRel;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR=\"MinSizeRel\";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\MinSizeRel\lib\G4graphics_reps.lib;..\..\BuildProducts\MinSizeRel\lib\G4materials.lib;..\..\BuildProducts\MinSizeRel\lib\G4intercoms.lib;..\..\BuildProducts\MinSizeRel\lib\G4global.lib;..\..\BuildProducts\MinSizeRel\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/lib/G4geometry.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/MinSizeRel/bin/G4geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR="RelWithDebInfo";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;GEANT4_DEVELOPER_RelWithDebInfo;G4LIB_BUILD_DLL;G4GEOM_ALLOC_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\";G4geometry_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPGeometry\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPNumerics\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\HEPRandom\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\global\management\include;C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\externals\clhep\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\graphics_reps\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\intercoms\include;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\materials\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\BuildProducts\RelWithDebInfo\lib\G4graphics_reps.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4materials.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4intercoms.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4global.lib;..\..\BuildProducts\RelWithDebInfo\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/lib/G4geometry.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/G4geometry.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Geant4/geant4_10_06-build/BuildProducts/RelWithDebInfo/bin/G4geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomConfig.hh.in;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomConfig.hh.in;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomConfig.hh.in;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joey/Documents/Geant4/geant4_10_06/source/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Joey/Documents/Geant4/geant4_10_06 -BC:/Users/Joey/Documents/Geant4/geant4_10_06-build --check-stamp-file C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroDefineModule.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\cmake\Modules\Geant4MacroLibraryTargets.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomConfig.hh.in;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\sources.cmake;C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4GeometryCell.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4GeometryCellComp.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4GeometryCellImportance.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4GeometryCellStep.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4GeometryCellStepStream.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4IStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4ImportanceAlgorithm.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4Nsplit_Weight.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4VGCellFinder.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4VIStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4VImportanceAlgorithm.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4VImportanceSplitExaminer.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4VWeightWindowAlgorithm.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4VWeightWindowStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4WeightWindowAlgorithm.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\src\G4WeightWindowStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4PVDivision.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4PVDivisionFactory.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationBox.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationCons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationPara.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationPolycone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationPolyhedra.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationTrd.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ParameterisationTubs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4ReplicatedSlice.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\src\G4VDivisionParameterisation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4BFieldIntegrationDriver.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4BogackiShampine23.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4BogackiShampine45.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4BulirschStoer.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4CachedMagneticField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4CashKarpRKF45.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ChargeState.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ChordFinder.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ClassicalRK4.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ConstRK4.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4DELPHIMagField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4DoLoMcPriRK34.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4DormandPrince745.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4DormandPrinceRK56.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4DormandPrinceRK78.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ElectricField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ElectroMagneticField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4EqEMFieldWithEDM.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4EqEMFieldWithSpin.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4EqGravityField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4EqMagElectricField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4EquationOfMotion.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ErrorMag_UsualEqRhs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ExactHelixStepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ExplicitEuler.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4Field.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4FieldManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4FieldManagerStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4FieldTrack.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4FieldUtils.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4FSALBogackiShampine45.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4FSALDormandPrince745.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4VFSALIntegrationStepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4HarmonicPolMagField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4HelixExplicitEuler.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4HelixHeum.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4HelixImplicitEuler.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4HelixMixedStepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4HelixSimpleRunge.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ImplicitEuler.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4LineCurrentMagField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4LineSection.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4MagErrorStepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4MagHelicalStepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4MagIntegratorDriver.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4MagIntegratorStepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4Mag_EqRhs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4Mag_SpinEqRhs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4Mag_UsualEqRhs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4MagneticField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4ModifiedMidpoint.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4MonopoleEq.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4NystromRK4.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4QuadrupoleMagField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4RepleteEofM.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4SextupoleMagField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4RKG3_Stepper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4RK547FEq1.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4RK547FEq2.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4RK547FEq3.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4SimpleHeum.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4SimpleRunge.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4TrialsCounter.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4TsitourasRK45.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4UniformElectricField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4UniformGravityField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4UniformMagField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\src\G4VIntegrationDriver.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4BlockingList.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4BoundingEnvelope.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4ErrorCylSurfaceTarget.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4ErrorPlaneSurfaceTarget.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4ErrorSurfaceTarget.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4ErrorTanPlaneTarget.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4ErrorTarget.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4GeomTools.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4GeometryManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4IdentityTrajectoryFilter.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4LogicalCrystalVolume.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4LogicalSurface.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4LogicalVolume.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4LogicalVolumeStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4PhysicalVolumeStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4ReflectedSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4Region.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4RegionStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4SmartVoxelHeader.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4SmartVoxelNode.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4SmartVoxelProxy.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4SmartVoxelStat.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4SolidStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VCurvedTrajectoryFilter.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VNestedParameterisation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VPVDivisionFactory.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VPVParameterisation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VPhysicalVolume.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VTouchable.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\src\G4VoxelLimits.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4AuxiliaryNavServices.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4BrentLocator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4DrawVoxels.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4ErrorPropagationNavigator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4GeomTestVolume.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4GeometryMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4GlobalMagFieldMessenger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4MultiLevelLocator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4MultiNavigator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4NavigationLogger.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4Navigator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4NormalNavigation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4ParameterisedNavigation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4PartialPhantomParameterisation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4PathFinder.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4PhantomParameterisation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4PropagatorInField.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4RegularNavigation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4RegularNavigationHelper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4ReplicaNavigation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4SafetyHelper.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4SimpleLocator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4TransportationManager.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4VExternalNavigation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4VIntersectionLocator.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4VoxelNavigation.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\src\G4VoxelSafety.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4BooleanSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4DisplacedSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4IntersectionSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4MultiUnion.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4ScaledSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4SubtractionSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\src\G4UnionSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Box.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4CSGSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Cons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4CutTubs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Orb.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Para.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Sphere.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Torus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Trap.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Trd.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4Tubs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UBox.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UCons.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UCutTubs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UOrb.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UPara.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4USphere.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UTorus.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UTrap.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UTrd.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\src\G4UTubs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4ClippablePolygon.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Ellipsoid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4EllipticalCone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4EllipticalTube.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4EnclosingCylinder.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4ExtrudedSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4GenericPolycone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4GenericTrap.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Hype.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4IntersectingCone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Paraboloid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4PolyPhiFace.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Polycone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4PolyconeHistorical.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4PolyconeSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Polyhedra.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4PolyhedraHistorical.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4PolyhedraSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4QuadrangularFacet.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4ReduciblePolygon.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4SolidExtentList.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4SolidsWorkspace.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4SurfBits.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TessellatedGeometryAlgorithms.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TessellatedSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Tet.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TriangularFacet.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistBoxSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistTrapAlphaSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistTrapFlatSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistTrapParallelSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistTubsFlatSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistTubsHypeSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistTubsSide.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistedBox.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistedTrap.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistedTrd.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4TwistedTubs.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UEllipsoid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UEllipticalCone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UEllipticalTube.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UExtrudedSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UGenericPolycone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UGenericTrap.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UHype.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UParaboloid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UPolycone.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UPolyhedra.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UTessellatedSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4UTet.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4VCSGfaceted.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4VFacet.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4Voxelizer.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4VTwistSurface.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\src\G4VTwistedFaceted.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4AssemblyStore.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4AssemblyVolume.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4GeometryWorkspace.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4GRSSolid.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4GRSVolume.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4LogicalBorderSurface.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4LogicalSkinSurface.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4NavigationHistory.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4NavigationHistoryPool.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4NavigationLevel.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4NavigationLevelRep.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4PVParameterised.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4PVPlacement.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4PVReplica.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4ReflectionFactory.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4TouchableHistory.cc" />
+    <ClCompile Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\src\G4VExternalPhysicalVolume.cc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4GeometryCell.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4GeometryCellComp.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4GeometryCellImportance.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4GeometryCellStep.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4GeometryCellStepStream.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4GeometryCellWeight.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4IStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4ImportanceAlgorithm.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4Nsplit_Weight.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4VGCellFinder.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4VIStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4VImportanceAlgorithm.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4VImportanceSplitExaminer.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4VWeightWindowAlgorithm.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4VWeightWindowStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4WeightWindowAlgorithm.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\biasing\include\G4WeightWindowStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4PVDivision.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4PVDivisionFactory.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationBox.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationCons.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationPara.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationPolycone.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationPolyhedra.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationTrd.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ParameterisationTubs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4ReplicatedSlice.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4VDivisionParameterisation.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\divisions\include\G4VDivisionParameterisation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BFieldIntegrationDriver.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BogackiShampine23.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BogackiShampine45.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BulirschStoer.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BulirschStoer.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BulirschStoerDriver.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4BulirschStoerDriver.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4CachedMagneticField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4CashKarpRKF45.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ChargeState.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ChordFinder.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ChordFinder.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ChordFinderDelegate.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ChordFinderDelegate.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ClassicalRK4.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ConstRK4.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4DELPHIMagField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4DoLoMcPriRK34.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4DormandPrince745.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4DormandPrinceRK56.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4DormandPrinceRK78.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ElectricField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ElectroMagneticField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4EqEMFieldWithEDM.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4EqEMFieldWithSpin.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4EqGravityField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4EqMagElectricField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4EquationOfMotion.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4EquationOfMotion.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ErrorMag_UsualEqRhs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ExactHelixStepper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ExplicitEuler.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4Field.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldManagerStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldTrack.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldTrack.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldUtils.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FieldUtils.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FSALBogackiShampine45.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FSALDormandPrince745.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FSALIntegrationDriver.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4FSALIntegrationDriver.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4VFSALIntegrationStepper.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4VFSALIntegrationStepper.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4HarmonicPolMagField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4HelixExplicitEuler.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4HelixHeum.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4HelixImplicitEuler.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4HelixMixedStepper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4HelixSimpleRunge.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ImplicitEuler.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4IntegrationDriver.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4IntegrationDriver.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4InterpolationDriver.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4InterpolationDriver.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4LineCurrentMagField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4LineSection.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagErrorStepper.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagErrorStepper.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagHelicalStepper.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagHelicalStepper.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagIntegratorDriver.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagIntegratorDriver.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagIntegratorStepper.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagIntegratorStepper.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4Mag_EqRhs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4Mag_SpinEqRhs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4Mag_UsualEqRhs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ModifiedMidpoint.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4ModifiedMidpoint.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MonopoleEq.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4MagneticField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4NystromRK4.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4NystromRK4.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4QuadrupoleMagField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RepleteEofM.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4SextupoleMagField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RKG3_Stepper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RK547FEq1.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RK547FEq2.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RK547FEq3.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RKIntegrationDriver.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4RKIntegrationDriver.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4SimpleHeum.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4SimpleRunge.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4TrialsCounter.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4TrialsCounter.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4TsitourasRK45.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4UniformElectricField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4UniformGravityField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4UniformMagField.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\magneticfield\include\G4VIntegrationDriver.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\geometry\include\G4GeomConfig.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4AffineTransform.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4AffineTransform.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4BlockingList.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4BlockingList.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4BoundingEnvelope.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ErrorCylSurfaceTarget.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ErrorPlaneSurfaceTarget.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ErrorSurfaceTarget.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ErrorTanPlaneTarget.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ErrorTarget.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomSplitter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomTools.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeomTypes.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4GeometryManager.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4IdentityTrajectoryFilter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4LogicalCrystalVolume.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4LogicalSurface.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4LogicalSurface.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4LogicalVolume.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4LogicalVolume.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4LogicalVolumeStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4PhysicalVolumeStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ReflectedSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4Region.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4Region.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4RegionStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ScaleTransform.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4ScaleTransform.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelHeader.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelHeader.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelNode.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelNode.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelProxy.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelProxy.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SmartVoxelStat.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4SolidStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4TouchableHandle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4UAdapter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VCurvedTrajectoryFilter.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VNestedParameterisation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VPVDivisionFactory.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VPVParameterisation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VPhysicalVolume.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VPhysicalVolume.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VSolid.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VSolid.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VStoreNotifier.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VTouchable.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VTouchable.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VUserRegionInformation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VVolumeMaterialScanner.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VoxelLimits.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\G4VoxelLimits.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\geomwdefs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\meshdefs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\management\include\voxeldefs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4AuxiliaryNavServices.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4AuxiliaryNavServices.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4BrentLocator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4DrawVoxels.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4ErrorPropagationNavigator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4GeomTestVolume.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4GeometryMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4GlobalMagFieldMessenger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4MultiLevelLocator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4MultiNavigator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4NavigationLogger.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4Navigator.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4Navigator.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4NormalNavigation.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4NormalNavigation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4ParameterisedNavigation.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4ParameterisedNavigation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4PartialPhantomParameterisation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4PathFinder.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4PhantomParameterisation.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4PhantomParameterisation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4PropagatorInField.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4PropagatorInField.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4RegularNavigation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4RegularNavigationHelper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4ReplicaNavigation.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4ReplicaNavigation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4SafetyHelper.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4SimpleLocator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4TransportationManager.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4TransportationManager.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4VExternalNavigation.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4VIntersectionLocator.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4VIntersectionLocator.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4VoxelNavigation.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4VoxelNavigation.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\navigation\include\G4VoxelSafety.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4BooleanSolid.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4BooleanSolid.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4DisplacedSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4IntersectionSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4MultiUnion.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4ScaledSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4SubtractionSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\Boolean\include\G4UnionSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Box.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Box.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4CSGSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Cons.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Cons.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4CutTubs.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4CutTubs.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Orb.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Orb.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Para.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Para.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Sphere.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Sphere.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Torus.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Torus.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Trap.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Trap.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Trd.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Trd.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Tubs.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4Tubs.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UBox.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UCons.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UCutTubs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UOrb.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UPara.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4USphere.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UTorus.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UTrap.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UTrd.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\CSG\include\G4UTubs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4ClippablePolygon.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4ClippablePolygon.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Ellipsoid.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Ellipsoid.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4EllipticalCone.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4EllipticalCone.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4EllipticalTube.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4EllipticalTube.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4EnclosingCylinder.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4ExtrudedSolid.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4ExtrudedSolid.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4GenericPolycone.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4GenericPolycone.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4GenericTrap.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4GenericTrap.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Hype.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Hype.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4IntersectingCone.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Paraboloid.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Paraboloid.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4PolyPhiFace.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4PolyPhiFace.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Polycone.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Polycone.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4PolyconeHistorical.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4PolyconeSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Polyhedra.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Polyhedra.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4PolyhedraHistorical.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4PolyhedraSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4QuadrangularFacet.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4ReduciblePolygon.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4SolidExtentList.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4SolidsWorkspace.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4SurfBits.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TessellatedGeometryAlgorithms.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TessellatedSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Tet.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TriangularFacet.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistBoxSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistTrapAlphaSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistTrapFlatSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistTrapParallelSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistTubsFlatSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistTubsHypeSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistTubsSide.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistedBox.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistedTrap.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistedTrd.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4TwistedTubs.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UEllipsoid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UEllipticalCone.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UEllipticalTube.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UExtrudedSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UGenericPolycone.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UGenericTrap.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UHype.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UParaboloid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UPolycone.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UPolyhedra.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UTessellatedSolid.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4UTet.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4VCSGface.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4VCSGfaceted.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4VFacet.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Voxelizer.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4Voxelizer.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4VTwistSurface.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4VTwistSurface.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\solids\specific\include\G4VTwistedFaceted.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4AssemblyTriplet.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4AssemblyTriplet.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4AssemblyStore.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4AssemblyVolume.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4AssemblyVolume.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4EnhancedVecAllocator.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GeometryWorkspace.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GRSSolid.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GRSSolid.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GRSSolidHandle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GRSVolume.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GRSVolume.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4GRSVolumeHandle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4LogicalBorderSurface.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4LogicalBorderSurface.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4LogicalSkinSurface.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4LogicalSkinSurface.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationHistory.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationHistory.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationHistoryPool.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationLevel.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationLevel.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationLevelRep.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4NavigationLevelRep.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4PVParameterised.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4PVPlacement.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4PVReplica.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4ReflectionFactory.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4TouchableHistory.hh" />
+    <None Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4TouchableHistory.icc" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4TouchableHistoryHandle.hh" />
+    <ClInclude Include="C:\Users\Joey\Documents\Geant4\geant4_10_06\source\geometry\volumes\include\G4VExternalPhysicalVolume.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\ZERO_CHECK.vcxproj">
+      <Project>{E1749259-A18E-3B5B-8423-240E1940671A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\externals\clhep\G4clhep.vcxproj">
+      <Project>{1E529A5C-9638-34DD-B243-9E6E6956ED60}</Project>
+      <Name>G4clhep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\global\G4global.vcxproj">
+      <Project>{002D5923-890E-3712-9905-86C76E0915FE}</Project>
+      <Name>G4global</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\graphics_reps\G4graphics_reps.vcxproj">
+      <Project>{E6F982F4-60C4-301A-9ED6-FA722CF82E9B}</Project>
+      <Name>G4graphics_reps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\intercoms\G4intercoms.vcxproj">
+      <Project>{DC6383B2-E4AB-3729-A4FD-981A4586BAF9}</Project>
+      <Name>G4intercoms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Geant4\geant4_10_06-build\source\materials\G4materials.vcxproj">
+      <Project>{9E118597-A349-358D-81E3-EE7063C9443B}</Project>
+      <Name>G4materials</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,9 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashEnergySpot.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashHitMaker.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashHomoShowerParameterisation.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashParticleBounds.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashSamplingShowerParameterisation.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashShowerModel.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GFlashShowerModelMessenger.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/GVFlashShowerParameterisation.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/parameterisations/G4parmodels.dir/MinSizeRel/Gamma.obj

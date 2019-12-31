@@ -1,0 +1,10 @@
+^C:\USERS\JOEY\DOCUMENTS\GEANT4\GEANT4_10_06-BUILD\CMAKEFILES\E0C17C5CA2F13D3BE619DADC00095D25\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

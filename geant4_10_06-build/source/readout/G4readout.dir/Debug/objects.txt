@@ -1,0 +1,4 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/Debug/G4DCtable.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/Debug/G4DMmessenger.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/Debug/G4DigiManager.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/readout/G4readout.dir/Debug/G4VDigitizerModule.obj

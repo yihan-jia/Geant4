@@ -1,0 +1,15 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/adler32.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/compress.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/crc32.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/deflate.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/gzclose.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/gzlib.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/gzread.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/gzwrite.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/inflate.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/infback.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/inftrees.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/inffast.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/trees.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/uncompr.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/externals/zlib/G4zlib.dir/Release/zutil.obj

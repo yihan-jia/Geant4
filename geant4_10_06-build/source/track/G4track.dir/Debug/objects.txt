@@ -1,0 +1,14 @@
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4FieldTrackUpdator.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4ParticleChange.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4ParticleChangeForDecay.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4ParticleChangeForGamma.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4ParticleChangeForLoss.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4ParticleChangeForMSC.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4ParticleChangeForTransport.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4Step.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4StepPoint.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4Track.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4VParticleChange.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4VelocityTable.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4VAuxiliaryTrackInformation.obj
+C:/Users/Joey/Documents/Geant4/geant4_10_06-build/source/track/G4track.dir/Debug/G4VUserTrackInformation.obj

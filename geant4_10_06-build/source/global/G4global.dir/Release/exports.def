@@ -1,0 +1,897 @@
+EXPORTS 
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAVG4GeometryTolerance@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$G4TypeMutex@V?$G4Cache@PEAVG4UniformRandPool@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS0@?1???$Register@VG4GeometryTolerance@@@G4AutoDelete@@YAXPEAVG4GeometryTolerance@@@Z@4HA 	 DATA
+	?$TSS0@?1???$Register@VG4UniformRandPool@@@G4AutoDelete@@YAXPEAVG4UniformRandPool@@@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAVG4GeometryTolerance@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	?$TSS1@?1???$G4TypeMutex@V?$G4Cache@PEAVG4UniformRandPool@@@@@@YAAEAVmutex@std@@AEBI@Z@4HA 	 DATA
+	??_R0?AV?$G4Cache@PEAVG4GeometryTolerance@@@@@8 	 DATA
+	??_R0?AV?$G4Cache@PEAVG4UniformRandPool@@@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@VG4GeometryTolerance@@@@@8 	 DATA
+	??_R0?AV?$G4ThreadLocalSingleton@VG4UniformRandPool@@@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@@8 	 DATA
+	??_R0?AV?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@HPEAVG4coutDestination@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@_NAEAVG4String@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$vector@NV?$allocator@N@std@@@std@@@8 	 DATA
+	??_R0?AV?$vector@PEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@@8 	 DATA
+	??_R0?AV?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@@8 	 DATA
+	??_R0?AV?$vector@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@@8 	 DATA
+	??_R0?AVG4AllocatorBase@@@8 	 DATA
+	??_R0?AVG4BuffercoutDestination@@@8 	 DATA
+	??_R0?AVG4DataVector@@@8 	 DATA
+	??_R0?AVG4FilecoutDestination@@@8 	 DATA
+	??_R0?AVG4GaussChebyshevQ@@@8 	 DATA
+	??_R0?AVG4GaussHermiteQ@@@8 	 DATA
+	??_R0?AVG4GaussJacobiQ@@@8 	 DATA
+	??_R0?AVG4GaussLaguerreQ@@@8 	 DATA
+	??_R0?AVG4GaussLegendreQ@@@8 	 DATA
+	??_R0?AVG4LPhysicsFreeVector@@@8 	 DATA
+	??_R0?AVG4LockcoutDestination@@@8 	 DATA
+	??_R0?AVG4MTBarrier@@@8 	 DATA
+	??_R0?AVG4MTcoutDestination@@@8 	 DATA
+	??_R0?AVG4MasterForwardcoutDestination@@@8 	 DATA
+	??_R0?AVG4MulticoutDestination@@@8 	 DATA
+	??_R0?AVG4OrderedTable@@@8 	 DATA
+	??_R0?AVG4PhysicsFreeVector@@@8 	 DATA
+	??_R0?AVG4PhysicsLinearVector@@@8 	 DATA
+	??_R0?AVG4PhysicsLogVector@@@8 	 DATA
+	??_R0?AVG4PhysicsOrderedFreeVector@@@8 	 DATA
+	??_R0?AVG4PhysicsTable@@@8 	 DATA
+	??_R0?AVG4PhysicsVector@@@8 	 DATA
+	??_R0?AVG4StatDouble@@@8 	 DATA
+	??_R0?AVG4VExceptionHandler@@@8 	 DATA
+	??_R0?AVG4VGaussianQuadrature@@@8 	 DATA
+	??_R0?AVG4VNotifier@@@8 	 DATA
+	??_R0?AVG4VStateDependent@@@8 	 DATA
+	??_R0?AVG4coutDestination@@@8 	 DATA
+	??_R0?AVG4strstreambuf@@@8 	 DATA
+	??_R0?AV_Generic_error_category@std@@@8 	 DATA
+	??_R0?AV_Iostream_error_category@std@@@8 	 DATA
+	??_R0?AV_System_error@std@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVerror_category@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVfailure@ios_base@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0?AVruntime_error@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0PEAVG4GeometryTolerance@@@8 	 DATA
+	??_R0PEAVG4UniformRandPool@@@8 	 DATA
+	?G4cerr@@3V?$basic_ostream@DU?$char_traits@D@std@@@std@@A 	 DATA
+	?G4cerrbuf@@3VG4strstreambuf@@A 	 DATA
+	?G4cout@@3V?$basic_ostream@DU?$char_traits@D@std@@@std@@A 	 DATA
+	?G4coutbuf@@3VG4strstreambuf@@A 	 DATA
+	?_Flag@?1???$_Immortalize@V_Iostream_error_category@std@@@std@@YAAEAV_Iostream_error_category@1@XZ@4PEAXEA 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?_Storage@?1???$_Immortalize@V_Iostream_error_category@std@@@std@@YAAEAV_Iostream_error_category@1@XZ@4T?$_Align_type@N$0BA@@1@A 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAVG4GeometryTolerance@@@@CAAEAPEAV?$vector@PEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_instance@?1??cache@?$G4CacheReference@PEAVG4UniformRandPool@@@@CAAEAPEAV?$vector@PEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@XZ@4PEAV34@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAVG4GeometryTolerance@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutex@?1???$G4TypeMutex@V?$G4Cache@PEAVG4UniformRandPool@@@@@@YAAEAVmutex@std@@AEBI@Z@4PEAV12@EA 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAVG4GeometryTolerance@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?_mutexes@?1???$G4TypeMutex@V?$G4Cache@PEAVG4UniformRandPool@@@@@@YAAEAVmutex@std@@AEBI@Z@4V?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@2@A 	 DATA
+	?catalog@G4PhysicsModelCatalog@@0PEAV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@EA 	 DATA
+	?container@?1???$Register@VG4GeometryTolerance@@@G4AutoDelete@@YAXPEAVG4GeometryTolerance@@@Z@4V?$G4ThreadLocalSingleton@VG4GeometryTolerance@@@@A 	 DATA
+	?container@?1???$Register@VG4UniformRandPool@@@G4AutoDelete@@YAXPEAVG4UniformRandPool@@@Z@4V?$G4ThreadLocalSingleton@VG4UniformRandPool@@@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4GeometryTolerance@@@@0U?$atomic@I@std@@A 	 DATA
+	?dstrctr@?$G4Cache@PEAVG4UniformRandPool@@@@0U?$atomic@I@std@@A 	 DATA
+	?fAllocatorList@G4AllocatorList@@0PEAV1@EA 	 DATA
+	?fpInstance@G4ErrorPropagatorData@@0PEAV1@EA 	 DATA
+	?fpInstance@G4GeometryTolerance@@0PEAV1@EA 	 DATA
+	?fpInstance@G4Pow@@0PEAV1@EA 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4GeometryTolerance@@@@0U?$atomic@I@std@@A 	 DATA
+	?instancesctr@?$G4Cache@PEAVG4UniformRandPool@@@@0U?$atomic@I@std@@A 	 DATA
+	?masterG4coutDestination@G4coutDestination@@1PEAV1@EA 	 DATA
+	?pUnitsTable@G4UnitDefinition@@0PEAV?$vector@PEAVG4UnitsCategory@@V?$allocator@PEAVG4UnitsCategory@@@std@@@std@@EA 	 DATA
+	?theStateManager@G4StateManager@@0PEAV1@EA 	 DATA
+	?theVerbosity@G4ErrorPropagatorData@@0HA 	 DATA
+	?unitsTableDestroyed@G4UnitDefinition@@0_NA 	 DATA
+	?verboseLevel@G4StateManager@@0HA 	 DATA
+	??$?0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$Z$$V@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@QEAA@Upiecewise_construct_t@1@V?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@V?$tuple@$$V@1@@Z
+	??$?0V?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@QEAA@AEAV?$tuple@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AEAV?$tuple@$$V@1@U?$integer_sequence@_K$0A@@1@U?$integer_sequence@_K$S@1@@Z
+	??$?6DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBVerror_code@0@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6DU?$char_traits@D@std@@_J@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBU?$_Smanip@_J@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?8DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$?8V?$basic_ofstream@DU?$char_traits@D@std@@@std@@U?$default_delete@V?$basic_ofstream@DU?$char_traits@D@std@@@std@@@1@@std@@YA_NAEBV?$unique_ptr@V?$basic_ofstream@DU?$char_traits@D@std@@@std@@U?$default_delete@V?$basic_ofstream@DU?$char_traits@D@std@@@std@@@2@@0@$$T@Z
+	??$?9V?$basic_ofstream@DU?$char_traits@D@std@@@std@@U?$default_delete@V?$basic_ofstream@DU?$char_traits@D@std@@@std@@@1@@std@@YA_NAEBV?$unique_ptr@V?$basic_ofstream@DU?$char_traits@D@std@@@std@@U?$default_delete@V?$basic_ofstream@DU?$char_traits@D@std@@@std@@@2@@0@$$T@Z
+	??$G4TypeMutex@V?$G4Cache@PEAVG4GeometryTolerance@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$G4TypeMutex@V?$G4Cache@PEAVG4UniformRandPool@@@@@@YAAEAVmutex@std@@AEBI@Z
+	??$Register@VG4GeometryTolerance@@@G4AutoDelete@@YAXPEAVG4GeometryTolerance@@@Z
+	??$Register@VG4UniformRandPool@@@G4AutoDelete@@YAXPEAVG4UniformRandPool@@@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Atomic_address_as@$$CBJ$$CBU?$_Atomic_padded@I@std@@@std@@YAPEDJAEBU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@I@std@@@std@@YAPECJAEAU?$_Atomic_padded@I@0@@Z
+	??$_Atomic_reinterpret_as@JI@std@@YAJAEBI@Z
+	??$_Call_binder@U_Unforced@std@@$0A@$00P6A_NAEAVG4String@@AEBV3@@ZV?$tuple@U?$_Ph@$00@std@@PEBD@2@V?$tuple@AEAVG4String@@@2@@std@@YA_NU?$_Invoker_ret@U_Unforced@std@@$0A@@0@U?$integer_sequence@_K$0A@$00@0@AEAP6A_NAEAVG4String@@AEBV3@@ZAEAV?$tuple@U?$_Ph@$00@std@@PEBD@0@$$QEAV?$tuple@AEAVG4String@@@0@@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4GeometryTolerance@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4GeometryTolerance@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4GeometryTolerance@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4GeometryTolerance@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4UniformRandPool@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4UniformRandPool@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@PEAVG4UniformRandPool@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@PEAVG4UniformRandPool@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@std@@AEBV12@@std@@YAXAEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@0@AEBV10@@Z
+	??$_Copy_backward_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z
+	??$_Copy_memmove@PEAIPEAI@std@@YAPEAIPEAI00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAPEAV?$vector@NV?$allocator@N@std@@@std@@PEAPEAV12@@std@@YAPEAPEAV?$vector@NV?$allocator@N@std@@@0@PEAPEAV10@00@Z
+	??$_Copy_memmove@PEAPEAVG4AllocatorBase@@PEAPEAV1@@std@@YAPEAPEAVG4AllocatorBase@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4DataVector@@PEAPEAV1@@std@@YAPEAPEAVG4DataVector@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4GeometryTolerance@@PEAPEAV1@@std@@YAPEAPEAVG4GeometryTolerance@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4PhysicsVector@@PEAPEAV1@@std@@YAPEAPEAVG4PhysicsVector@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UniformRandPool@@PEAPEAV1@@std@@YAPEAPEAVG4UniformRandPool@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UnitDefinition@@PEAPEAV1@@std@@YAPEAPEAVG4UnitDefinition@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4UnitsCategory@@PEAPEAV1@@std@@YAPEAPEAVG4UnitsCategory@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVG4VStateDependent@@PEAPEAV1@@std@@YAPEAPEAVG4VStateDependent@@PEAPEAV1@00@Z
+	??$_Copy_memmove@PEAPEAVmutex@std@@PEAPEAV12@@std@@YAPEAPEAVmutex@0@PEAPEAV10@00@Z
+	??$_Copy_unchecked@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@V10@00@Z
+	??$_Deallocate@$07$0A@@std@@YAXPEAX_K@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4GeometryTolerance@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4GeometryTolerance@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_List_node@PEAVG4UniformRandPool@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@PEAVG4UniformRandPool@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@0@@Z
+	??$_Destroy_range@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@std@@@std@@YAXPEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@0@QEAV10@@Z
+	??$_Destroy_range@V?$allocator@H@std@@@std@@YAXPEAHQEAHAEAV?$allocator@H@0@@Z
+	??$_Destroy_range@V?$allocator@I@std@@@std@@YAXPEAIQEAIAEAV?$allocator@I@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@std@@@std@@YAXPEAPEAV?$vector@NV?$allocator@N@std@@@0@QEAPEAV10@AEAV?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4AllocatorBase@@@std@@@std@@YAXPEAPEAVG4AllocatorBase@@QEAPEAV1@AEAV?$allocator@PEAVG4AllocatorBase@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4DataVector@@@std@@@std@@YAXPEAPEAVG4DataVector@@QEAPEAV1@AEAV?$allocator@PEAVG4DataVector@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@YAXPEAPEAVG4GeometryTolerance@@QEAPEAV1@AEAV?$allocator@PEAVG4GeometryTolerance@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@YAXPEAPEAVG4PhysicsVector@@QEAPEAV1@AEAV?$allocator@PEAVG4PhysicsVector@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@YAXPEAPEAVG4UniformRandPool@@QEAPEAV1@AEAV?$allocator@PEAVG4UniformRandPool@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UnitDefinition@@@std@@@std@@YAXPEAPEAVG4UnitDefinition@@QEAPEAV1@AEAV?$allocator@PEAVG4UnitDefinition@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4UnitsCategory@@@std@@@std@@YAXPEAPEAVG4UnitsCategory@@QEAPEAV1@AEAV?$allocator@PEAVG4UnitsCategory@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVG4VStateDependent@@@std@@@std@@YAXPEAPEAVG4VStateDependent@@QEAPEAV1@AEAV?$allocator@PEAVG4VStateDependent@@@0@@Z
+	??$_Destroy_range@V?$allocator@PEAVmutex@std@@@std@@@std@@YAXPEAPEAVmutex@0@QEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@std@@@std@@YAXPEAV?$function@$$A6A_NAEAVG4String@@@Z@0@QEAV10@AEAV?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@std@@@std@@YAXPEAV?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@0@QEAV10@AEAV?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@@std@@YAXPEAV?$vector@NV?$allocator@N@std@@@0@QEAV10@AEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Emplace_reallocate@AEBN@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEANAEBN@Z
+	??$_Emplace_reallocate@AEBQEAVG4AllocatorBase@@@?$vector@PEAVG4AllocatorBase@@V?$allocator@PEAVG4AllocatorBase@@@std@@@std@@QEAAPEAPEAVG4AllocatorBase@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4DataVector@@@?$vector@PEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@QEAAPEAPEAVG4DataVector@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4PhysicsVector@@@?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@QEAAPEAPEAVG4PhysicsVector@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBQEAVG4VStateDependent@@@?$vector@PEAVG4VStateDependent@@V?$allocator@PEAVG4VStateDependent@@@std@@@std@@QEAAPEAPEAVG4VStateDependent@@QEAPEAV2@AEBQEAV2@@Z
+	??$_Emplace_reallocate@AEBV?$function@$$A6A_NAEAVG4String@@@Z@std@@@?$vector@V?$function@$$A6A_NAEAVG4String@@@Z@std@@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@2@@std@@QEAAPEAV?$function@$$A6A_NAEAVG4String@@@Z@1@QEAV21@AEBV21@@Z
+	??$_Emplace_reallocate@AEBVG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@AEBV2@@Z
+	??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QEAAPEANQEAN$$QEAN@Z
+	??$_Emplace_reallocate@PEAVG4UnitDefinition@@@?$vector@PEAVG4UnitDefinition@@V?$allocator@PEAVG4UnitDefinition@@@std@@@std@@QEAAPEAPEAVG4UnitDefinition@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@PEAVG4UnitsCategory@@@?$vector@PEAVG4UnitsCategory@@V?$allocator@PEAVG4UnitsCategory@@@std@@@std@@QEAAPEAPEAVG4UnitsCategory@@QEAPEAV2@$$QEAPEAV2@@Z
+	??$_Emplace_reallocate@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@?$vector@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@QEAAPEAV?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@1@QEAV21@$$QEAV21@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHN@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@@1@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@1@@Z
+	??$_Fabs@N@std@@YANAEBV?$complex@N@0@PEAH@Z
+	??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@$0A@@std@@@std@@IEBA?AU?$_Hash_find_last_result@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+	??$_Fix_arg@PEBDV?$tuple@AEAVG4String@@@std@@@std@@YAAEAPEBDAEAPEBD$$QEAV?$tuple@AEAVG4String@@@0@@Z
+	??$_Fix_arg@U?$_Ph@$00@std@@V?$tuple@AEAVG4String@@@2@@std@@YAAEAVG4String@@AEAU?$_Ph@$00@0@$$QEAV?$tuple@AEAVG4String@@@0@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Hash_array_representation@D@std@@YA_KQEBD_K@Z
+	??$_Idl_distance@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA_JAEBV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@0@Z
+	??$_Immortalize@V_Iostream_error_category@std@@@std@@YAAEAV_Iostream_error_category@0@XZ
+	??$_Immortalize_impl@V_Iostream_error_category@std@@@std@@YAHPEAX0PEAPEAX@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Move_backward_unchecked@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Move_unchecked@PEAIPEAI@std@@YAPEAIPEAI00@Z
+	??$_Move_unchecked@PEAPEAVG4DataVector@@PEAPEAV1@@std@@YAPEAPEAVG4DataVector@@PEAPEAV1@00@Z
+	??$_Move_unchecked@PEAPEAVG4VStateDependent@@PEAPEAV1@@std@@YAPEAPEAVG4VStateDependent@@PEAPEAV1@00@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@N@std@@@std@@YAXAEAV?$allocator@N@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAVG4UnitDefinition@@@std@@@std@@YAXAEAV?$allocator@PEAVG4UnitDefinition@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@PEAVG4VStateDependent@@@std@@@std@@YAXAEAV?$allocator@PEAVG4VStateDependent@@@0@AEBV10@@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z
+	??$_Refancy@PEAN$0A@@std@@YAPEANPEAN@Z
+	??$_Refancy@PEAPEAVG4UnitDefinition@@$0A@@std@@YAPEAPEAVG4UnitDefinition@@PEAPEAV1@@Z
+	??$_Refancy@PEAPEAVG4VStateDependent@@$0A@@std@@YAPEAPEAVG4VStateDependent@@PEAPEAV1@@Z
+	??$_Resize_reallocate@H@?$vector@HV?$allocator@H@std@@@std@@AEAAX_KAEBH@Z
+	??$_Resize_reallocate@I@?$vector@IV?$allocator@I@std@@@std@@AEAAX_KAEBI@Z
+	??$_Resize_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@AEAAX_KAEBN@Z
+	??$_Resize_reallocate@PEAV?$vector@NV?$allocator@N@std@@@std@@@?$vector@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAX_KAEBQEAV?$vector@NV?$allocator@N@std@@@1@@Z
+	??$_Resize_reallocate@PEAVG4GeometryTolerance@@@?$vector@PEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@AEAAX_KAEBQEAVG4GeometryTolerance@@@Z
+	??$_Resize_reallocate@PEAVG4PhysicsVector@@@?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@AEAAX_KAEBQEAVG4PhysicsVector@@@Z
+	??$_Resize_reallocate@PEAVG4UniformRandPool@@@?$vector@PEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@AEAAX_KAEBQEAVG4UniformRandPool@@@Z
+	??$_Resize_reallocate@PEAVmutex@std@@@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAX_KAEBQEAVmutex@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@NV?$allocator@N@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@0@@Z
+	??$_Test_callable@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@@std@@YA_NAEBV?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@0@@Z
+	??$_Try_emplace@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@$0A@@std@@@std@@IEAA?AU?$pair@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@_N@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_Unfancy_maybe_null@I@std@@YAPEAIPEAI@Z
+	??$_Uninitialized_copy@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_copy@PEAPEAVG4VStateDependent@@V?$allocator@PEAVG4VStateDependent@@@std@@@std@@YAPEAPEAVG4VStateDependent@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VStateDependent@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@H@std@@@std@@YAPEAHPEAH_KAEBHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@I@std@@@std@@YAPEAIPEAI_KAEBIAEAV?$allocator@I@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@N@std@@@std@@YAPEANPEAN_KAEBNAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@std@@@std@@YAPEAPEAV?$vector@NV?$allocator@N@std@@@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4DataVector@@@std@@@std@@YAPEAPEAVG4DataVector@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4DataVector@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@YAPEAPEAVG4GeometryTolerance@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4GeometryTolerance@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@YAPEAPEAVG4PhysicsVector@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4PhysicsVector@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@YAPEAPEAVG4UniformRandPool@@PEAPEAV1@_KAEBQEAV1@AEAV?$allocator@PEAVG4UniformRandPool@@@0@@Z
+	??$_Uninitialized_fill_n@V?$allocator@PEAVmutex@std@@@std@@@std@@YAPEAPEAVmutex@0@PEAPEAV10@_KAEBQEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAHV?$allocator@H@std@@@std@@YAPEAHQEAH0PEAHAEAV?$allocator@H@0@@Z
+	??$_Uninitialized_move@PEAIV?$allocator@I@std@@@std@@YAPEAIQEAI0PEAIAEAV?$allocator@I@0@@Z
+	??$_Uninitialized_move@PEANV?$allocator@N@std@@@std@@YAPEANQEAN0PEANAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_move@PEAPEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@2@@std@@YAPEAPEAV?$vector@NV?$allocator@N@std@@@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4AllocatorBase@@V?$allocator@PEAVG4AllocatorBase@@@std@@@std@@YAPEAPEAVG4AllocatorBase@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4AllocatorBase@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@YAPEAPEAVG4DataVector@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4DataVector@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@YAPEAPEAVG4GeometryTolerance@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4GeometryTolerance@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@YAPEAPEAVG4PhysicsVector@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4PhysicsVector@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@YAPEAPEAVG4UniformRandPool@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UniformRandPool@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UnitDefinition@@V?$allocator@PEAVG4UnitDefinition@@@std@@@std@@YAPEAPEAVG4UnitDefinition@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UnitDefinition@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4UnitsCategory@@V?$allocator@PEAVG4UnitsCategory@@@std@@@std@@YAPEAPEAVG4UnitsCategory@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4UnitsCategory@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVG4VStateDependent@@V?$allocator@PEAVG4VStateDependent@@@std@@@std@@YAPEAPEAVG4VStateDependent@@QEAPEAV1@0PEAPEAV1@AEAV?$allocator@PEAVG4VStateDependent@@@0@@Z
+	??$_Uninitialized_move@PEAPEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@YAPEAPEAVmutex@0@QEAPEAV10@0PEAPEAV10@AEAV?$allocator@PEAVmutex@std@@@0@@Z
+	??$_Uninitialized_move@PEAV?$function@$$A6A_NAEAVG4String@@@Z@std@@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@2@@std@@YAPEAV?$function@$$A6A_NAEAVG4String@@@Z@0@QEAV10@0PEAV10@AEAV?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@0@@Z
+	??$_Uninitialized_move@PEAV?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@YAPEAV?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@0@@Z
+	??$_Uninitialized_move@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@YAPEAV?$vector@NV?$allocator@N@std@@@0@QEAV10@0PEAV10@AEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@N@std@@@std@@YAPEANPEAN_KAEAV?$allocator@N@0@@Z
+	??$_Uninitialized_value_construct_n@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@@std@@YAPEAV?$vector@NV?$allocator@N@std@@@0@PEAV10@_KAEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@0@@Z
+	??$_Zero_range@PEAN@std@@YAPEANQEAN0@Z
+	??$accumulate@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@N@std@@YANV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@0@0N@Z
+	??$accumulate@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@NU?$plus@X@2@@std@@YANV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@0@0NU?$plus@X@0@@Z
+	??$bind@P6A_NAEAVG4String@@AEBV1@@ZAEBU?$_Ph@$00@std@@AEAY04$$CBD@std@@YA?AV?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@0@$$QEAP6A_NAEAVG4String@@AEBV2@@ZAEBU?$_Ph@$00@0@AEAY04$$CBD@Z
+	??$bind@P6A_NAEAVG4String@@AEBV1@@ZAEBU?$_Ph@$00@std@@AEAY05$$CBD@std@@YA?AV?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@0@$$QEAP6A_NAEAVG4String@@AEBV2@@ZAEBU?$_Ph@$00@0@AEAY05$$CBD@Z
+	??$copy@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@V10@00@Z
+	??$copy_backward@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@V10@00@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@$$T@std@@YAPEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@AEAPEAV12@@std@@YAPEAV?$basic_ofstream@DU?$char_traits@D@std@@@0@AEAPEAV10@0@Z
+	??$exchange@PEAVG4coutDestination@@PEAV1@@std@@YAPEAVG4coutDestination@@AEAPEAV1@$$QEAPEAV1@@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$fill@PEANN@std@@YAXQEAN0AEBN@Z
+	??$fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$fill@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@_N@std@@YAXV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@0AEB_N@Z
+	??$flush@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@std@@@std@@@std@@V<lambda_665b9cfc040ee9d6a35901e88bd06d99>@@@std@@YA?AV<lambda_665b9cfc040ee9d6a35901e88bd06d99>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@std@@@std@@@0@0V1@@Z
+	??$for_each@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@std@@@std@@@std@@V<lambda_d0967b0e64af06d7abf844dd9ab01baf>@@@std@@YA?AV<lambda_d0967b0e64af06d7abf844dd9ab01baf>@@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@std@@@std@@@0@0V1@@Z
+	??$insert@PEBU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@$0A@@std@@@std@@QEAAXPEBU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@1@0@Z
+	??$lower_bound@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@N@std@@YA?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@0@V10@0AEBN@Z
+	??$lower_bound@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@NU?$less@X@2@@std@@YA?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@0@V10@V10@AEBNU?$less@X@0@@Z
+	??$lower_bound@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@N@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@0@V10@0AEBN@Z
+	??$lower_bound@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@NU?$less@X@2@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@0@V10@V10@AEBNU?$less@X@0@@Z
+	??$sqrt@N@std@@YA?AV?$complex@N@0@AEBV10@@Z
+	??$uninitialized_fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??0?$G4Cache@PEAVG4GeometryTolerance@@@@QEAA@XZ
+	??0?$G4Cache@PEAVG4UniformRandPool@@@@QEAA@XZ
+	??0?$G4ThreadLocalSingleton@VG4GeometryTolerance@@@@QEAA@XZ
+	??0?$G4ThreadLocalSingleton@VG4UniformRandPool@@@@QEAA@XZ
+	??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAA@PEBDHH@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$vector@NV?$allocator@N@std@@@std@@QEAA@AEBV01@@Z
+	??0?$vector@NV?$allocator@N@std@@@std@@QEAA@_KAEBNAEBV?$allocator@N@1@@Z
+	??0G4AllocatorBase@@QEAA@XZ
+	??0G4AllocatorList@@AEAA@XZ
+	??0G4AllocatorPool@@QEAA@AEBV0@@Z
+	??0G4AllocatorPool@@QEAA@I@Z
+	??0G4AnalyticalPolSolver@@QEAA@XZ
+	??0G4BestUnit@@QEAA@AEBVHep3Vector@CLHEP@@AEBVG4String@@@Z
+	??0G4BestUnit@@QEAA@NAEBVG4String@@@Z
+	??0G4BuffercoutDestination@@QEAA@_K@Z
+	??0G4ChebyshevApproximation@@QEAA@P6ANN@ZHHNN@Z
+	??0G4ChebyshevApproximation@@QEAA@P6ANN@ZHNN@Z
+	??0G4ChebyshevApproximation@@QEAA@P6ANN@ZNNH@Z
+	??0G4ConvergenceTester@@QEAA@VG4String@@@Z
+	??0G4DataInterpolation@@QEAA@QEAN0H@Z
+	??0G4DataInterpolation@@QEAA@QEAN0HNN@Z
+	??0G4DataVector@@QEAA@XZ
+	??0G4DataVector@@QEAA@_K@Z
+	??0G4DataVector@@QEAA@_KN@Z
+	??0G4ErrorPropagatorData@@AEAA@XZ
+	??0G4FilecoutDestination@@QEAA@AEBVG4String@@H@Z
+	??0G4GaussChebyshevQ@@QEAA@P6ANN@ZH@Z
+	??0G4GaussHermiteQ@@QEAA@P6ANN@ZH@Z
+	??0G4GaussJacobiQ@@QEAA@P6ANN@ZNNH@Z
+	??0G4GaussLaguerreQ@@QEAA@P6ANN@ZNH@Z
+	??0G4GaussLegendreQ@@QEAA@P6ANN@Z@Z
+	??0G4GaussLegendreQ@@QEAA@P6ANN@ZH@Z
+	??0G4GeometryTolerance@@IEAA@XZ
+	??0G4JTPolynomialSolver@@QEAA@XZ
+	??0G4LPhysicsFreeVector@@QEAA@XZ
+	??0G4LPhysicsFreeVector@@QEAA@_KNN@Z
+	??0G4MTBarrier@@QEAA@I@Z
+	??0G4MTcoutDestination@@QEAA@AEBH@Z
+	??0G4OrderedTable@@QEAA@XZ
+	??0G4OrderedTable@@QEAA@_K@Z
+	??0G4Physics2DVector@@QEAA@AEBV0@@Z
+	??0G4Physics2DVector@@QEAA@XZ
+	??0G4Physics2DVector@@QEAA@_K0@Z
+	??0G4PhysicsFreeVector@@QEAA@AEBVG4DataVector@@0@Z
+	??0G4PhysicsFreeVector@@QEAA@XZ
+	??0G4PhysicsFreeVector@@QEAA@_K@Z
+	??0G4PhysicsLinearVector@@QEAA@NN_K@Z
+	??0G4PhysicsLinearVector@@QEAA@XZ
+	??0G4PhysicsLogVector@@QEAA@NN_K@Z
+	??0G4PhysicsLogVector@@QEAA@XZ
+	??0G4PhysicsModelCatalog@@AEAA@XZ
+	??0G4PhysicsOrderedFreeVector@@QEAA@PEAN0_K@Z
+	??0G4PhysicsOrderedFreeVector@@QEAA@XZ
+	??0G4PhysicsTable@@QEAA@XZ
+	??0G4PhysicsTable@@QEAA@_K@Z
+	??0G4PhysicsVector@@QEAA@AEBV0@@Z
+	??0G4PhysicsVector@@QEAA@_N@Z
+	??0G4Pow@@AEAA@XZ
+	??0G4SimpleIntegration@@QEAA@P6ANN@Z@Z
+	??0G4SimpleIntegration@@QEAA@P6ANN@ZN@Z
+	??0G4SliceTimer@@QEAA@XZ
+	??0G4StatDouble@@QEAA@N@Z
+	??0G4StatDouble@@QEAA@XZ
+	??0G4StateManager@@AEAA@AEBV0@@Z
+	??0G4StateManager@@AEAA@XZ
+	??0G4String@@QEAA@PEBD@Z
+	??0G4Timer@@QEAA@XZ
+	??0G4UniformRandPool@@QEAA@H@Z
+	??0G4UniformRandPool@@QEAA@XZ
+	??0G4UnitDefinition@@AEAA@AEBV0@@Z
+	??0G4UnitDefinition@@QEAA@AEBVG4String@@00N@Z
+	??0G4UnitsCategory@@AEAA@AEBV0@@Z
+	??0G4UnitsCategory@@QEAA@AEBVG4String@@@Z
+	??0G4VExceptionHandler@@AEAA@AEBV0@@Z
+	??0G4VExceptionHandler@@QEAA@XZ
+	??0G4VGaussianQuadrature@@QEAA@P6ANN@Z@Z
+	??0G4VNotifier@@QEAA@XZ
+	??0G4VStateDependent@@AEAA@AEBV0@@Z
+	??0G4VStateDependent@@QEAA@_N@Z
+	??0_System_error@std@@IEAA@Verror_code@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??0_System_error@std@@QEAA@AEBV01@@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??0failure@ios_base@std@@QEAA@AEBV012@@Z
+	??0failure@ios_base@std@@QEAA@PEBDAEBVerror_code@2@@Z
+	??0runtime_error@std@@QEAA@AEBV01@@Z
+	??0system_error@std@@QEAA@AEBV01@@Z
+	??1?$G4Cache@PEAVG4GeometryTolerance@@@@UEAA@XZ
+	??1?$G4Cache@PEAVG4UniformRandPool@@@@UEAA@XZ
+	??1?$G4TemplateAutoLock@Vmutex@std@@@@QEAA@XZ
+	??1?$G4ThreadLocalSingleton@VG4GeometryTolerance@@@@UEAA@XZ
+	??1?$G4ThreadLocalSingleton@VG4UniformRandPool@@@@UEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4GeometryTolerance@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@PEAVG4UniformRandPool@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Func_class@HPEAVG4coutDestination@@@std@@QEAA@XZ
+	??1?$_Func_class@_NAEAVG4String@@@std@@QEAA@XZ
+	??1?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@$0A@@std@@@std@@QEAA@XZ
+	??1?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_List_node_emplace_op2@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$function@$$A6A_NAEAVG4String@@@Z@std@@QEAA@XZ
+	??1?$list@PEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@QEAA@XZ
+	??1?$list@PEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@QEAA@XZ
+	??1?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@@std@@QEAA@XZ
+	??1?$map@HNU?$less@H@std@@V?$allocator@U?$pair@$$CBHN@std@@@2@@std@@QEAA@XZ
+	??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@QEAA@XZ
+	??1?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+	??1?$vector@NV?$allocator@N@std@@@std@@QEAA@XZ
+	??1?$vector@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@QEAA@XZ
+	??1?$vector@PEAVG4UnitDefinition@@V?$allocator@PEAVG4UnitDefinition@@@std@@@std@@QEAA@XZ
+	??1?$vector@V?$function@$$A6A_NAEAVG4String@@@Z@std@@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@2@@std@@QEAA@XZ
+	??1?$vector@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAA@XZ
+	??1?$vector@_NV?$allocator@_N@std@@@std@@QEAA@XZ
+	??1G4AllocatorBase@@UEAA@XZ
+	??1G4AllocatorList@@QEAA@XZ
+	??1G4AllocatorPool@@QEAA@XZ
+	??1G4AnalyticalPolSolver@@QEAA@XZ
+	??1G4BestUnit@@QEAA@XZ
+	??1G4BuffercoutDestination@@UEAA@XZ
+	??1G4ChebyshevApproximation@@QEAA@XZ
+	??1G4ConvergenceTester@@QEAA@XZ
+	??1G4DataInterpolation@@QEAA@XZ
+	??1G4DataVector@@UEAA@XZ
+	??1G4ErrorPropagatorData@@AEAA@XZ
+	??1G4FilecoutDestination@@UEAA@XZ
+	??1G4GaussChebyshevQ@@UEAA@XZ
+	??1G4GeometryTolerance@@QEAA@XZ
+	??1G4JTPolynomialSolver@@QEAA@XZ
+	??1G4LPhysicsFreeVector@@UEAA@XZ
+	??1G4LockcoutDestination@@UEAA@XZ
+	??1G4MTBarrier@@UEAA@XZ
+	??1G4MTcoutDestination@@UEAA@XZ
+	??1G4MasterForwardcoutDestination@@UEAA@XZ
+	??1G4MulticoutDestination@@UEAA@XZ
+	??1G4OrderedTable@@UEAA@XZ
+	??1G4Physics2DVector@@QEAA@XZ
+	??1G4PhysicsFreeVector@@UEAA@XZ
+	??1G4PhysicsLinearVector@@UEAA@XZ
+	??1G4PhysicsLogVector@@UEAA@XZ
+	??1G4PhysicsModelCatalog@@QEAA@XZ
+	??1G4PhysicsOrderedFreeVector@@UEAA@XZ
+	??1G4PhysicsTable@@UEAA@XZ
+	??1G4PhysicsVector@@UEAA@XZ
+	??1G4Pow@@QEAA@XZ
+	??1G4SimpleIntegration@@QEAA@XZ
+	??1G4StatDouble@@UEAA@XZ
+	??1G4StateManager@@QEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4UniformRandPool@@QEAA@XZ
+	??1G4UnitDefinition@@QEAA@XZ
+	??1G4UnitsCategory@@QEAA@XZ
+	??1G4VExceptionHandler@@UEAA@XZ
+	??1G4VGaussianQuadrature@@UEAA@XZ
+	??1G4VNotifier@@UEAA@XZ
+	??1G4VStateDependent@@UEAA@XZ
+	??1G4coutDestination@@UEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1error_category@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1failure@ios_base@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1mutex@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1system_error@std@@UEAA@XZ
+	??4?$function@$$A6AHPEAVG4coutDestination@@@Z@std@@QEAAAEAV01@AEBV01@@Z
+	??4?$vector@NV?$allocator@N@std@@@std@@QEAAAEAV01@AEBV01@@Z
+	??4G4AllocatorPool@@QEAAAEAV0@AEBV0@@Z
+	??4G4Physics2DVector@@QEAAAEAV0@AEBV0@@Z
+	??4G4PhysicsVector@@QEAAAEAV0@AEBV0@@Z
+	??4G4StateManager@@AEAAAEAV0@AEBV0@@Z
+	??4G4UnitDefinition@@AEAAAEAV0@AEBV0@@Z
+	??4G4UnitsCategory@@AEAAAEAV0@AEBV0@@Z
+	??4G4VExceptionHandler@@AEAAAEAV0@AEBV0@@Z
+	??4G4VStateDependent@@AEAAAEAV0@AEBV0@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEAVG4OrderedTable@@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEAVG4PhysicsTable@@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVG4DataVector@@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVG4PhysicsVector@@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVG4SliceTimer@@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVG4Timer@@@Z
+	??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@VG4BestUnit@@@Z
+	??8G4PhysicsVector@@QEBA_NAEBV0@@Z
+	??8G4StateManager@@AEBA_NAEBV0@@Z
+	??8G4UnitDefinition@@QEBA_NAEBV0@@Z
+	??8G4UnitsCategory@@QEBA_NAEBV0@@Z
+	??8G4VExceptionHandler@@QEBA_NAEBV0@@Z
+	??8G4VStateDependent@@QEBA_NAEBV0@@Z
+	??9?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@QEBA_NAEBV01@@Z
+	??9G4PhysicsVector@@QEBA_NAEBV0@@Z
+	??9G4StateManager@@AEBA_NAEBV0@@Z
+	??9G4UnitDefinition@@QEBA_NAEBV0@@Z
+	??9G4UnitsCategory@@QEBA_NAEBV0@@Z
+	??9G4VExceptionHandler@@QEBA_NAEBV0@@Z
+	??9G4VStateDependent@@QEBA_NAEBV0@@Z
+	??BG4BestUnit@@QEBA?AVG4String@@XZ
+	??H?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@QEBA?AV01@_J@Z
+	??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?A13@G4Pow@@QEBANN@Z
+	?A13High@G4Pow@@AEBANN_N@Z
+	?A13Low@G4Pow@@AEBANN_N@Z
+	?AccurateIntegral@G4GaussLegendreQ@@QEBANNN@Z
+	?AdaptGauss@G4SimpleIntegration@@IEAAXNNAEANAEAH@Z
+	?AdaptGaussIntegration@G4SimpleIntegration@@QEAANNN@Z
+	?AddCerrFileName@G4MTcoutDestination@@QEAAXAEBVG4String@@_N@Z
+	?AddCoutFileName@G4MTcoutDestination@@QEAAXAEBVG4String@@_N@Z
+	?AddMasterOutput@G4MTcoutDestination@@IEAAX_N@Z
+	?AddScore@G4ConvergenceTester@@QEAAXN@Z
+	?BicubicInterpolation@G4Physics2DVector@@IEBANNN_K0@Z
+	?BiquadRoots@G4AnalyticalPolSolver@@QEAAHQEANQEAY04N@Z
+	?BuildUnitsTable@G4UnitDefinition@@SAXXZ
+	?ChebyshevEvaluation@G4ChebyshevApproximation@@QEBANN@Z
+	?Clear@?$G4ThreadLocalSingleton@VG4GeometryTolerance@@@@AEAAXXZ
+	?Clear@?$G4ThreadLocalSingleton@VG4UniformRandPool@@@@AEAAXXZ
+	?ClearUnitsTable@G4UnitDefinition@@SAXXZ
+	?ClearVectors@G4Physics2DVector@@IEAAXXZ
+	?Close@G4FilecoutDestination@@QEAAXXZ
+	?ComputeFixedShiftPolynomial@G4JTPolynomialSolver@@AEAAXHPEAH@Z
+	?ComputeNewEstimate@G4JTPolynomialSolver@@AEAAXHPEAN0@Z
+	?ComputeNextPolynomial@G4JTPolynomialSolver@@AEAAXPEAH@Z
+	?ComputeScalarFactors@G4JTPolynomialSolver@@AEAAXPEAH@Z
+	?ComputeSecDerivatives@G4PhysicsVector@@QEAAXXZ
+	?ComputeSecondDerivatives@G4PhysicsVector@@QEAAXNN@Z
+	?CopyData@G4Physics2DVector@@IEAAXAEBV1@@Z
+	?CopyData@G4PhysicsVector@@IEAAXAEBV1@@Z
+	?CorrelatedSearch@G4DataInterpolation@@QEBAXNAEAH@Z
+	?CreatePhysicsVector@G4PhysicsTable@@IEAAPEAVG4PhysicsVector@@H@Z
+	?CubicRoots@G4AnalyticalPolSolver@@QEAAHQEANQEAY04N@Z
+	?CubicSplineInterpolation@G4DataInterpolation@@QEBANN@Z
+	?DeleteData@G4PhysicsVector@@IEAAXXZ
+	?DeregisterDependent@G4StateManager@@QEAA_NPEAVG4VStateDependent@@@Z
+	?DerivativeChebyshevCof@G4ChebyshevApproximation@@QEBAXQEAN@Z
+	?Destroy@?$G4CacheReference@PEAVG4GeometryTolerance@@@@QEAAXI_N@Z
+	?Destroy@?$G4CacheReference@PEAVG4UniformRandPool@@@@QEAAXI_N@Z
+	?Destroy@G4AllocatorList@@QEAAXHH@Z
+	?Destroy@G4PhysicsModelCatalog@@SAXXZ
+	?DumpBuffer@G4MTcoutDestination@@AEAAXXZ
+	?DumpValues@G4PhysicsVector@@QEBAXNN@Z
+	?EnableBuffering@G4MTcoutDestination@@QEAAX_N@Z
+	?Entries@G4PhysicsModelCatalog@@SAHXZ
+	?ExistPhysicsTable@G4PhysicsTable@@QEBA_NAEBVG4String@@@Z
+	?FastCubicSpline@G4DataInterpolation@@QEBANNH@Z
+	?Fill@G4UniformRandPool@@AEAAXH@Z
+	?FillSecondDerivatives@G4PhysicsVector@@QEAAXXZ
+	?Finalize@G4BuffercoutDestination@@UEAAXXZ
+	?FindBin@G4Physics2DVector@@IEBA_KNAEBV?$vector@NV?$allocator@N@std@@@std@@_K1@Z
+	?FindBinLocation@G4Physics2DVector@@IEBA_KNAEBV?$vector@NV?$allocator@N@std@@@std@@@Z
+	?FindLinearEnergy@G4PhysicsVector@@QEBANN@Z
+	?FindLinearX@G4Physics2DVector@@QEBANNNAEA_K@Z
+	?FindRoots@G4JTPolynomialSolver@@QEAAHPEANH00@Z
+	?FindValueBinLocation@G4PhysicsOrderedFreeVector@@AEAA_KN@Z
+	?FlushG4cerr@G4BuffercoutDestination@@UEAAHXZ
+	?FlushG4cout@G4BuffercoutDestination@@UEAAHXZ
+	?G4Exception@@YAXPEBD0W4G4ExceptionSeverity@@0@Z
+	?G4Exception@@YAXPEBD0W4G4ExceptionSeverity@@AEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+	?G4Exception@@YAXPEBD0W4G4ExceptionSeverity@@AEAV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?G4GetNumberOfCores@G4Threading@@YAHXZ
+	?G4GetPidId@G4Threading@@YAHXZ
+	?G4GetThreadId@G4Threading@@YAHXZ
+	?G4SetPinAffinity@G4Threading@@YA_NHAEAH@Z
+	?G4SetThreadId@G4Threading@@YAXH@Z
+	?G4iosFinalization@@YAXXZ
+	?G4iosInitialization@@YAXXZ
+	?GammaLogarithm@G4VGaussianQuadrature@@IEAANN@Z
+	?Gauss@G4SimpleIntegration@@IEAANNN@Z
+	?Gauss@G4SimpleIntegration@@QEAANNNH@Z
+	?GetAbscissa@G4VGaussianQuadrature@@QEBANH@Z
+	?GetAllocatorList@G4AllocatorList@@SAPEAV1@XZ
+	?GetAllocatorListIfExist@G4AllocatorList@@SAPEAV1@XZ
+	?GetAngularTolerance@G4GeometryTolerance@@QEBANXZ
+	?GetCategory@G4UnitDefinition@@SA?AVG4String@@AEBV2@@Z
+	?GetChebyshevCof@G4ChebyshevApproximation@@QEBANH@Z
+	?GetCounter@G4MTBarrier@@QEAAIXZ
+	?GetCurrentState@G4StateManager@@QEBAAEBW4G4ApplicationState@@XZ
+	?GetEnergy@G4PhysicsOrderedFreeVector@@QEAANN@Z
+	?GetErrorPropagatorData@G4ErrorPropagatorData@@SAPEAV1@XZ
+	?GetIndex@G4PhysicsModelCatalog@@SAHAEBVG4String@@@Z
+	?GetInstance@G4GeometryTolerance@@SAPEAV1@XZ
+	?GetInstance@G4Pow@@SAPEAV1@XZ
+	?GetLowEdgeEnergy@G4PhysicsVector@@QEBAN_K@Z
+	?GetMany@G4UniformRandPool@@QEAAXPEANH@Z
+	?GetMasterStyle@G4coutFormatters@@YA?AVG4String@@XZ
+	?GetMinimum@?$G4SimplexDownhill@VG4ConvergenceTester@@@@QEAANXZ
+	?GetMinimumPoint@?$G4SimplexDownhill@VG4ConvergenceTester@@@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@XZ
+	?GetModelName@G4PhysicsModelCatalog@@SAAEBVG4String@@H@Z
+	?GetNumber@G4VGaussianQuadrature@@QEBAHXZ
+	?GetNumberOfRunningWorkerThreads@G4Threading@@YAHXZ
+	?GetPreviousState@G4StateManager@@QEBAAEBW4G4ApplicationState@@XZ
+	?GetRadialTolerance@G4GeometryTolerance@@QEBANXZ
+	?GetRealElapsed@G4SliceTimer@@QEBANXZ
+	?GetRealElapsed@G4Timer@@QEBANXZ
+	?GetStateManager@G4StateManager@@SAPEAV1@XZ
+	?GetStateString@G4StateManager@@QEBA?AVG4String@@AEBW4G4ApplicationState@@@Z
+	?GetSurfaceTolerance@G4GeometryTolerance@@QEBANXZ
+	?GetSystemElapsed@G4SliceTimer@@QEBANXZ
+	?GetSystemElapsed@G4Timer@@QEBANXZ
+	?GetUnitsTable@G4UnitDefinition@@SAAEAV?$vector@PEAVG4UnitsCategory@@V?$allocator@PEAVG4UnitsCategory@@@std@@@std@@XZ
+	?GetUserElapsed@G4SliceTimer@@QEBANXZ
+	?GetUserElapsed@G4Timer@@QEBANXZ
+	?GetValueOf@G4UnitDefinition@@SANAEBVG4String@@@Z
+	?GetValueOfMinimizingFunction@G4ConvergenceTester@@QEAANV?$vector@NV?$allocator@N@std@@@std@@@Z
+	?GetWeight@G4VGaussianQuadrature@@QEBANH@Z
+	?Grow@G4AllocatorPool@@AEAAXXZ
+	?HandleFileCerr@G4MTcoutDestination@@IEAAXVG4String@@_N1@Z
+	?HandleFileCout@G4MTcoutDestination@@IEAAXVG4String@@_N1@Z
+	?HandleStyle@G4coutFormatters@@YAHPEAVG4coutDestination@@AEBVG4String@@@Z
+	?InsertValues@G4PhysicsOrderedFreeVector@@QEAAXNN@Z
+	?Integral@G4GaussChebyshevQ@@QEBANNN@Z
+	?Integral@G4GaussHermiteQ@@QEBANXZ
+	?Integral@G4GaussJacobiQ@@QEBANXZ
+	?Integral@G4GaussLaguerreQ@@QEBANXZ
+	?Integral@G4GaussLegendreQ@@QEBANNN@Z
+	?IntegralChebyshevCof@G4ChebyshevApproximation@@QEBAXQEAN@Z
+	?InterpolateLinearX@G4Physics2DVector@@AEBANAEAV?$vector@NV?$allocator@N@std@@@std@@N@Z
+	?IsMasterThread@G4Threading@@YA_NXZ
+	?IsMultithreadedApplication@G4Threading@@YA_NXZ
+	?IsUnitDefined@G4UnitDefinition@@SA_NAEBVG4String@@@Z
+	?IsWorkerThread@G4Threading@@YA_NXZ
+	?LinearInterpolationOfEnergy@G4PhysicsOrderedFreeVector@@AEAANN_K@Z
+	?LocateArgument@G4DataInterpolation@@QEBAHN@Z
+	?MidPoint@G4SimpleIntegration@@QEAANNNH@Z
+	?Names@G4coutFormatters@@YA?AV?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@XZ
+	?Open@G4FilecoutDestination@@QEAAXH@Z
+	?PolIntCoefficient@G4DataInterpolation@@QEBAXQEAN@Z
+	?PolynomInterpolation@G4DataInterpolation@@QEBANNAEAN@Z
+	?PrepareVectors@G4Physics2DVector@@IEAAXXZ
+	?PrintCategory@G4UnitsCategory@@QEAAXXZ
+	?PrintDefinition@G4UnitDefinition@@QEAAXXZ
+	?PrintPutValueError@G4PhysicsVector@@IEAAX_K@Z
+	?PrintUnitsTable@G4UnitDefinition@@SAXXZ
+	?PutVectors@G4Physics2DVector@@QEAAXAEBV?$vector@NV?$allocator@N@std@@@std@@0@Z
+	?QuadRoots@G4AnalyticalPolSolver@@QEAAHQEANQEAY04N@Z
+	?Quadratic@G4JTPolynomialSolver@@AEAAXNNNPEAN000@Z
+	?QuadraticPolynomialIteration@G4JTPolynomialSolver@@AEAAXPEAN0PEAH@Z
+	?QuadraticSyntheticDivision@G4JTPolynomialSolver@@AEAAXHPEAN0AEAV?$vector@NV?$allocator@N@std@@@std@@100@Z
+	?QuarticRoots@G4AnalyticalPolSolver@@QEAAHQEANQEAY04N@Z
+	?QuickIntegral@G4GaussLegendreQ@@QEBANNN@Z
+	?RationalPolInterpolation@G4DataInterpolation@@QEBANNAEAN@Z
+	?RealPolynomialIteration@G4JTPolynomialSolver@@AEAAXPEANPEAH1@Z
+	?ReceiveG4cerr@G4BuffercoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cerr@G4FilecoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cerr@G4LockcoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cerr@G4MasterForwardcoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cerr@G4MulticoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cerr@G4coutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cerr_@G4coutDestination@@QEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4BuffercoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4FilecoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4LockcoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4MasterForwardcoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4MulticoutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout@G4coutDestination@@UEAAHAEBVG4String@@@Z
+	?ReceiveG4cout_@G4coutDestination@@QEAAHAEBVG4String@@@Z
+	?ReceiveString@G4strstreambuf@@QEAAHXZ
+	?Register@?$G4ThreadLocalSingleton@VG4GeometryTolerance@@@@AEBAXPEAVG4GeometryTolerance@@@Z
+	?Register@?$G4ThreadLocalSingleton@VG4UniformRandPool@@@@AEBAXPEAVG4UniformRandPool@@@Z
+	?Register@G4AllocatorList@@QEAAXPEAVG4AllocatorBase@@@Z
+	?Register@G4PhysicsModelCatalog@@SAHAEBVG4String@@@Z
+	?RegisterDependent@G4StateManager@@QEAA_NPEAVG4VStateDependent@@_N@Z
+	?RegisterNewStyle@G4coutFormatters@@YAXAEBVG4String@@AEAV?$function@$$A6AHPEAVG4coutDestination@@@Z@std@@@Z
+	?ReleaseBarrier@G4MTBarrier@@QEAAXXZ
+	?RemoveDependent@G4StateManager@@QEAAPEAVG4VStateDependent@@PEBV2@@Z
+	?Reset@G4AllocatorPool@@QEAAXXZ
+	?Reset@G4MTcoutDestination@@UEAAXXZ
+	?ResetCerr@G4BuffercoutDestination@@IEAAXXZ
+	?ResetCounter@G4MTBarrier@@QEAAXXZ
+	?ResetCout@G4BuffercoutDestination@@IEAAXXZ
+	?ResetFlagArray@G4PhysicsTable@@QEAAXXZ
+	?ResetTransformers@G4coutDestination@@UEAAXXZ
+	?Resize@G4UniformRandPool@@QEAAXH@Z
+	?Retrieve@G4DataVector@@QEAA_NAEAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@_N@Z
+	?Retrieve@G4OrderedTable@@QEAA_NAEBVG4String@@_N@Z
+	?Retrieve@G4Physics2DVector@@QEAA_NAEAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@@Z
+	?Retrieve@G4PhysicsLinearVector@@UEAA_NAEAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@_N@Z
+	?Retrieve@G4PhysicsLogVector@@UEAA_NAEAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@_N@Z
+	?Retrieve@G4PhysicsVector@@UEAA_NAEAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@_N@Z
+	?RetrievePhysicsTable@G4PhysicsTable@@QEAA_NAEBVG4String@@_N@Z
+	?ScaleVector@G4Physics2DVector@@QEAAXN@Z
+	?ScaleVector@G4PhysicsLinearVector@@UEAAXNN@Z
+	?ScaleVector@G4PhysicsLogVector@@UEAAXNN@Z
+	?ScaleVector@G4PhysicsVector@@UEAAXNN@Z
+	?SetCerrFileName@G4MTcoutDestination@@QEAAXAEBVG4String@@_N@Z
+	?SetCoutFileName@G4MTcoutDestination@@QEAAXAEBVG4String@@_N@Z
+	?SetDefaultOutput@G4MTcoutDestination@@QEAAX_N0@Z
+	?SetIgnoreCout@G4MTcoutDestination@@QEAAXH@Z
+	?SetMasterStyle@G4coutFormatters@@YAXAEBVG4String@@@Z
+	?SetMultithreadedApplication@G4Threading@@YAX_N@Z
+	?SetNewState@G4StateManager@@QEAA_NAEBW4G4ApplicationState@@@Z
+	?SetNewState@G4StateManager@@QEAA_NAEBW4G4ApplicationState@@PEBD@Z
+	?SetSurfaceTolerance@G4GeometryTolerance@@IEAAXN@Z
+	?SetVerbose@G4ErrorPropagatorData@@SAXH@Z
+	?SetVerboseLevel@G4StateManager@@SAXH@Z
+	?SetupStyleGlobally@G4coutFormatters@@YAXAEBVG4String@@@Z
+	?ShowHistory@G4ConvergenceTester@@QEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?ShowResult@G4ConvergenceTester@@QEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?Simpson@G4SimpleIntegration@@QEAANNNH@Z
+	?Size@G4AllocatorList@@QEBAHXZ
+	?SplinePossible@G4PhysicsVector@@AEAA_NXZ
+	?Store@G4DataVector@@QEAA_NAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@_N@Z
+	?Store@G4OrderedTable@@QEAA_NAEBVG4String@@_N@Z
+	?Store@G4Physics2DVector@@QEBAXAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@Z
+	?Store@G4PhysicsVector@@QEBA_NAEAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@_N@Z
+	?StorePhysicsTable@G4PhysicsTable@@QEAA_NAEBVG4String@@_N@Z
+	?ThisWorkerReady@G4MTBarrier@@QEAAXXZ
+	?Trapezoidal@G4SimpleIntegration@@QEAANNNH@Z
+	?Value@G4Physics2DVector@@QEBANNNAEA_K0@Z
+	?Value@G4PhysicsVector@@QEBANNAEA_K@Z
+	?Wait@G4MTBarrier@@QEAAXXZ
+	?WaitForReadyWorkers@G4MTBarrier@@UEAAXXZ
+	?WorkerThreadJoinsPool@G4Threading@@YAHXZ
+	?WorkerThreadLeavesPool@G4Threading@@YAHXZ
+	?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@std@@@std@@@2@@Z
+	?_Change_array@?$vector@IV?$allocator@I@std@@@std@@AEAAXQEAI_K1@Z
+	?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AEAAXQEAN_K1@Z
+	?_Change_array@?$vector@PEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@AEAAXQEAPEAVG4DataVector@@_K1@Z
+	?_Change_array@?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@AEAAXQEAPEAVG4PhysicsVector@@_K1@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@EEBAPEAV?$_Func_base@_NAEAVG4String@@@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@EEBAPEAV?$_Func_base@_NAEAVG4String@@@2@PEAX@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@EEAAX_N@Z
+	?_Destroy@?$vector@V?$function@$$A6A_NAEAVG4String@@@Z@std@@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@2@@std@@AEAAXPEAV?$function@$$A6A_NAEAVG4String@@@Z@2@0@Z
+	?_Destroy@?$vector@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@AEAAXPEAV?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@2@0@Z
+	?_Destroy@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAXPEAV?$vector@NV?$allocator@N@std@@@2@0@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@EEAA_NAEAVG4String@@@Z
+	?_Do_call@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@EEAA_NAEAVG4String@@@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@EEBAPEBXXZ
+	?_Getal@?$vector@HV?$allocator@H@std@@@std@@AEAAAEAV?$allocator@H@2@XZ
+	?_Getal@?$vector@IV?$allocator@I@std@@@std@@AEAAAEAV?$allocator@I@2@XZ
+	?_Getal@?$vector@NV?$allocator@N@std@@@std@@AEAAAEAV?$allocator@N@2@XZ
+	?_Getal@?$vector@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAAEAV?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@2@XZ
+	?_Getal@?$vector@PEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4DataVector@@@2@XZ
+	?_Getal@?$vector@PEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4GeometryTolerance@@@2@XZ
+	?_Getal@?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4PhysicsVector@@@2@XZ
+	?_Getal@?$vector@PEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@AEAAAEAV?$allocator@PEAVG4UniformRandPool@@@2@XZ
+	?_Getal@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@AEAAAEAV?$allocator@PEAVmutex@std@@@2@XZ
+	?_Getal@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@AEAAAEAV?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@XZ
+	?_Init@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXPEBD_KH@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHN@std@@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@U?$pair@$$CBHN@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_x@?$vector@_NV?$allocator@_N@std@@@std@@QEAA_KV?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@_K@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@EEAAPEAV?$_Func_base@_NAEAVG4String@@@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@EEAAPEAV?$_Func_base@_NAEAVG4String@@@2@PEAX@Z
+	?_Reallocate_exactly@?$vector@IV?$allocator@I@std@@@std@@AEAAX_K@Z
+	?_Reallocate_exactly@?$vector@NV?$allocator@N@std@@@std@@AEAAX_K@Z
+	?_Reallocate_exactly@?$vector@PEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@AEAAX_K@Z
+	?_Reallocate_exactly@?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@AEAAX_K@Z
+	?_Rehash_for_1@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6AHPEAVG4coutDestination@@@Z@2@@std@@@2@$0A@@std@@@std@@IEAAXXZ
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY04$$CBD@std@@_NAEAVG4String@@@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P6A_NAEAVG4String@@AEBV3@@ZAEBU?$_Ph@$00@2@AEAY05$$CBD@std@@_NAEAVG4String@@@std@@EEBAAEBVtype_info@@XZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXXZ
+	?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AEAAXXZ
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlen@?$vector@_NV?$allocator@_N@std@@@std@@QEBAXXZ
+	?_Xlength@?$vector@HV?$allocator@H@std@@@std@@CAXXZ
+	?_Xlength@?$vector@IV?$allocator@I@std@@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAV?$vector@NV?$allocator@N@std@@@std@@V?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4AllocatorBase@@V?$allocator@PEAVG4AllocatorBase@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4DataVector@@V?$allocator@PEAVG4DataVector@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4PhysicsVector@@V?$allocator@PEAVG4PhysicsVector@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UnitDefinition@@V?$allocator@PEAVG4UnitDefinition@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4UnitsCategory@@V?$allocator@PEAVG4UnitsCategory@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVG4VStateDependent@@V?$allocator@PEAVG4VStateDependent@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAVmutex@std@@V?$allocator@PEAVmutex@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@V?$function@$$A6A_NAEAVG4String@@@Z@std@@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?aCountedObjectAllocator@@YAAEAPEAV?$G4Allocator@V?$G4CountedObject@X@@@@XZ
+	?aRCHAllocator@@YAAEAPEAV?$G4Allocator@V?$G4ReferenceCountedHandle@X@@@@XZ
+	?add@G4StatDouble@@QEAAXPEBV1@@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@I@std@@QEAAPEAI_K@Z
+	?allocate@?$allocator@N@std@@QEAAPEAN_K@Z
+	?allocate@?$allocator@PEAVG4DataVector@@@std@@QEAAPEAPEAVG4DataVector@@_K@Z
+	?allocate@?$allocator@PEAVG4PhysicsVector@@@std@@QEAAPEAPEAVG4PhysicsVector@@_K@Z
+	?allocate@?$allocator@PEAVG4UnitDefinition@@@std@@QEAAPEAPEAVG4UnitDefinition@@_K@Z
+	?allocate@?$allocator@PEAVG4VStateDependent@@@std@@QEAAPEAPEAVG4VStateDependent@@_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?assign@?$vector@NV?$allocator@N@std@@@std@@QEAAX_KAEBN@Z
+	?cache@?$G4CacheReference@N@@CAAEAPEAV?$vector@NV?$allocator@N@std@@@std@@XZ
+	?cache@?$G4CacheReference@PEAVG4GeometryTolerance@@@@CAAEAPEAV?$vector@PEAVG4GeometryTolerance@@V?$allocator@PEAVG4GeometryTolerance@@@std@@@std@@XZ
+	?cache@?$G4CacheReference@PEAVG4UniformRandPool@@@@CAAEAPEAV?$vector@PEAVG4UniformRandPool@@V?$allocator@PEAVG4UniformRandPool@@@std@@@std@@XZ
+	?calCentroid@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAA?AV?$vector@NV?$allocator@N@std@@@std@@H@Z
+	?calHeights@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAAXXZ
+	?calStat@G4ConvergenceTester@@AEAAXXZ
+	?calc_Pearson_r@G4ConvergenceTester@@AEAANHV?$vector@NV?$allocator@N@std@@@std@@0@Z
+	?calc_grid_point_of_history@G4ConvergenceTester@@AEAAXXZ
+	?calc_slope_fit@G4ConvergenceTester@@AEAAXV?$vector@NV?$allocator@N@std@@@std@@@Z
+	?calc_stat_history@G4ConvergenceTester@@AEAAXXZ
+	?check_stat_history@G4ConvergenceTester@@AEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?clear@?$vector@V?$function@$$A6A_NAEAVG4String@@@Z@std@@V?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@2@@std@@QEAAXXZ
+	?clear@?$vector@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@V?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@2@@std@@QEAAXXZ
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?create_pool@@YAXAEAPEANH@Z
+	?create_pool_align@@YAXAEAPEANH@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@H@std@@QEAAXQEAH_K@Z
+	?deallocate@?$allocator@I@std@@QEAAXQEAI_K@Z
+	?deallocate@?$allocator@N@std@@QEAAXQEAN_K@Z
+	?deallocate@?$allocator@PEAV?$vector@NV?$allocator@N@std@@@std@@@std@@QEAAXQEAPEAV?$vector@NV?$allocator@N@std@@@2@_K@Z
+	?deallocate@?$allocator@PEAVG4AllocatorBase@@@std@@QEAAXQEAPEAVG4AllocatorBase@@_K@Z
+	?deallocate@?$allocator@PEAVG4DataVector@@@std@@QEAAXQEAPEAVG4DataVector@@_K@Z
+	?deallocate@?$allocator@PEAVG4GeometryTolerance@@@std@@QEAAXQEAPEAVG4GeometryTolerance@@_K@Z
+	?deallocate@?$allocator@PEAVG4PhysicsVector@@@std@@QEAAXQEAPEAVG4PhysicsVector@@_K@Z
+	?deallocate@?$allocator@PEAVG4UniformRandPool@@@std@@QEAAXQEAPEAVG4UniformRandPool@@_K@Z
+	?deallocate@?$allocator@PEAVG4UnitDefinition@@@std@@QEAAXQEAPEAVG4UnitDefinition@@_K@Z
+	?deallocate@?$allocator@PEAVG4UnitsCategory@@@std@@QEAAXQEAPEAVG4UnitsCategory@@_K@Z
+	?deallocate@?$allocator@PEAVG4VStateDependent@@@std@@QEAAXQEAPEAVG4VStateDependent@@_K@Z
+	?deallocate@?$allocator@PEAVmutex@std@@@std@@QEAAXQEAPEAVmutex@2@_K@Z
+	?deallocate@?$allocator@V?$function@$$A6A_NAEAVG4String@@@Z@std@@@std@@QEAAXQEAV?$function@$$A6A_NAEAVG4String@@@Z@2@_K@Z
+	?deallocate@?$allocator@V?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@std@@@std@@QEAAXQEAV?$unique_ptr@VG4coutDestination@@U?$default_delete@VG4coutDestination@@@std@@@2@_K@Z
+	?deallocate@?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@std@@QEAAXQEAV?$vector@NV?$allocator@N@std@@@2@_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z
+	?destroy_pool@@YAXAEAPEAN@Z
+	?destroy_pool_align@@YAXAEAPEAN@Z
+	?doDownhill@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAAXXZ
+	?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z
+	?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z
+	?erase@?$vector@_NV?$allocator@_N@std@@@std@@QEAA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@V?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@0@Z
+	?fill@G4StatDouble@@QEAAXNN@Z
+	?fixed@std@@YAAEAVios_base@1@AEAV21@@Z
+	?flat@G4UniformRandPool@@SANXZ
+	?flatArray@G4UniformRandPool@@SAXHPEAN@Z
+	?getContractionPoint@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAA?AV?$vector@NV?$allocator@N@std@@@std@@V23@0@Z
+	?getExpansionPoint@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAA?AV?$vector@NV?$allocator@N@std@@@std@@V23@0@Z
+	?getReflectionPoint@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAA?AV?$vector@NV?$allocator@N@std@@@std@@V23@0@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?init@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAAXXZ
+	?initialize@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAAXXZ
+	?isItGoodEnough@?$G4SimplexDownhill@VG4ConvergenceTester@@@@AEAA_NXZ
+	?is_monotonically_decrease@G4ConvergenceTester@@AEAA_NV?$vector@NV?$allocator@N@std@@@std@@@Z
+	?make_error_code@std@@YA?AVerror_code@1@W4io_errc@1@@Z
+	?mean@G4StatDouble@@QEBANN@Z
+	?mean@G4StatDouble@@QEBANXZ
+	?message@_Generic_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?message@_Iostream_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?name@_Generic_error_category@std@@UEBAPEBDXZ
+	?name@_Iostream_error_category@std@@UEBAPEBDXZ
+	?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@PEBDHH@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?overflow@G4strstreambuf@@UEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?powN@G4Pow@@QEBANNH@Z
+	?reset@G4StatDouble@@QEAAXXZ
+	?resize@?$vector@NV?$allocator@N@std@@@std@@QEAAX_K@Z
+	?resize@?$vector@_NV?$allocator@_N@std@@@std@@QEAAX_K_N@Z
+	?resize@G4PhysicsTable@@QEAAX_KPEAVG4PhysicsVector@@@Z
+	?rms@G4StatDouble@@IEAANNNNH@Z
+	?rms@G4StatDouble@@QEAANNH@Z
+	?rms@G4StatDouble@@QEAANXZ
+	?scale@G4StatDouble@@QEAAXN@Z
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?slope_fitting_function@G4ConvergenceTester@@AEAANV?$vector@NV?$allocator@N@std@@@std@@@Z
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?sync@G4strstreambuf@@UEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?underflow@G4strstreambuf@@UEAAHXZ
+	?verbose@G4ErrorPropagatorData@@SAHXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+	sysconf
+	times

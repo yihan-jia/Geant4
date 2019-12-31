@@ -1,0 +1,220 @@
+EXPORTS 
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AVG4ASCIITree@@@8 	 DATA
+	??_R0?AVG4ASCIITreeMessenger@@@8 	 DATA
+	??_R0?AVG4ASCIITreeSceneHandler@@@8 	 DATA
+	??_R0?AVG4ASCIITreeViewer@@@8 	 DATA
+	??_R0?AVG4PhysicalVolumeModel@@@8 	 DATA
+	??_R0?AVG4UImessenger@@@8 	 DATA
+	??_R0?AVG4VGraphicsScene@@@8 	 DATA
+	??_R0?AVG4VGraphicsSystem@@@8 	 DATA
+	??_R0?AVG4VModel@@@8 	 DATA
+	??_R0?AVG4VSceneHandler@@@8 	 DATA
+	??_R0?AVG4VTree@@@8 	 DATA
+	??_R0?AVG4VTreeSceneHandler@@@8 	 DATA
+	??_R0?AVG4VTreeViewer@@@8 	 DATA
+	??_R0?AVG4VViewer@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	?_Psave@?$_Facetptr@V?$codecvt@DDU_Mbstatet@@@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@23@@Z@4U_Mbstatet@@A 	 DATA
+	?fSceneIdCount@G4VTreeSceneHandler@@1HA 	 DATA
+	?fVerbosityGuidance@G4ASCIITreeMessenger@@2V?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@A 	 DATA
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@D@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?MVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@YA_NAEBV?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@0@0@Z
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Assign_range@PEAN@?$vector@NV?$allocator@N@std@@@std@@AEAAXPEAN0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAV?$Plane3D@N@HepGeom@@@?$vector@V?$Plane3D@N@HepGeom@@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@AEAAXPEAV?$Plane3D@N@HepGeom@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAVPVNameCopyNo@G4ModelingParameters@@@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAXPEAVPVNameCopyNo@G4ModelingParameters@@0Uforward_iterator_tag@1@@Z
+	??$_Assign_range@PEAVVisAttributesModifier@G4ModelingParameters@@@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@AEAAXPEAVVisAttributesModifier@G4ModelingParameters@@0Uforward_iterator_tag@1@@Z
+	??$_Construct_in_place@PEADAEBQEAD@std@@YAXAEAPEADAEBQEAD@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@0@AEBQEAU10@@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAXAEAPEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@0@0@Z
+	??$_Construct_in_place@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@AEBQEAU12@@std@@YAXAEAPEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@0@AEBQEAU10@@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
+	??$_Copy_memmove@PEAV?$Plane3D@N@HepGeom@@PEAV12@@std@@YAPEAV?$Plane3D@N@HepGeom@@PEAV12@00@Z
+	??$_Copy_unchecked@PEAVPVNameCopyNo@G4ModelingParameters@@PEAV12@@std@@YAPEAVPVNameCopyNo@G4ModelingParameters@@PEAV12@00@Z
+	??$_Copy_unchecked@PEAVVisAttributesModifier@G4ModelingParameters@@PEAV12@@std@@YAPEAVVisAttributesModifier@G4ModelingParameters@@PEAV12@00@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@0@@Z
+	??$_Destroy_in_place@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@@std@@YAXAEAPEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@0@@Z
+	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPEANQEANAEAV?$allocator@N@0@@Z
+	??$_Destroy_range@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@YAXPEAV?$Plane3D@N@HepGeom@@QEAV12@AEAV?$allocator@V?$Plane3D@N@HepGeom@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4AttValue@@@std@@@std@@YAXPEAVG4AttValue@@QEAV1@AEAV?$allocator@VG4AttValue@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@YAXPEAVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@QEAV12@AEAV?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@0@@Z
+	??$_Destroy_range@V?$allocator@VG4String@@@std@@@std@@YAXPEAVG4String@@QEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$_Destroy_range@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAXPEAVPVNameCopyNo@G4ModelingParameters@@QEAV12@AEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Destroy_range@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAXPEAVVisAttributesModifier@G4ModelingParameters@@QEAV12@AEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@@Z
+	??$_Emplace@AEBV?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@@?$_Tree@V?$_Tset_traits@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@U?$less@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@@2@V?$allocator@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@@2@$0A@@std@@@std@@IEAA?AU?$pair@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@_N@1@AEBV?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@1@@Z
+	??$_Emplace_reallocate@VG4String@@@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAPEAVG4String@@QEAV2@$$QEAV2@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@PEAVG4LogicalVolume@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@@1@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@1@@Z
+	??$_Erase_tree@V?$allocator@U?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@@std@@@?$_Tree_val@U?$_Tree_simple_types@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@@std@@@std@@QEAAXAEAV?$allocator@U?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@@1@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@1@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Lex_compare_memcmp_classify@$$CBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@$$CBV12@X@std@@YA?AU?$_Lex_compare_optimize@X@0@AEBQEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@0AEBU?$less@X@0@@Z
+	??$_Lex_compare_unchecked@PEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@PEBV12@U?$less@X@std@@@std@@YA_NPEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@000U?$less@X@0@U?$_Lex_compare_optimize@X@0@@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Pocca@V?$allocator@D@std@@@std@@YAXAEAV?$allocator@D@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@N@std@@@std@@YAXAEAV?$allocator@N@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@YAXAEAV?$allocator@V?$Plane3D@N@HepGeom@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAXAEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@AEBV10@@Z
+	??$_Pocca@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAXAEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@AEBV10@@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Refancy@PEAN$0A@@std@@YAPEANPEAN@Z
+	??$_Refancy@PEAV?$Plane3D@N@HepGeom@@$0A@@std@@YAPEAV?$Plane3D@N@HepGeom@@PEAV12@@Z
+	??$_Uninitialized_copy@PEAVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@YAPEAVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@QEAV12@0PEAV12@AEAV?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@0@@Z
+	??$_Uninitialized_copy@PEAVPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@YAPEAVPVNameCopyNo@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VPVNameCopyNo@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_copy@PEAVVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@YAPEAVVisAttributesModifier@G4ModelingParameters@@QEAV12@0PEAV12@AEAV?$allocator@VVisAttributesModifier@G4ModelingParameters@@@0@@Z
+	??$_Uninitialized_move@PEAVG4String@@V?$allocator@VG4String@@@std@@@std@@YAPEAVG4String@@QEAV1@0PEAV1@AEAV?$allocator@VG4String@@@0@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$exchange@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@$$T@std@@YAPEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@0@AEAPEAU10@$$QEA$$T@Z
+	??$exchange@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@AEAPEAU12@@std@@YAPEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@0@AEAPEAU10@0@Z
+	??$exchange@PEAV_Facet_base@std@@PEAV12@@std@@YAPEAV_Facet_base@0@AEAPEAV10@$$QEAPEAV10@@Z
+	??$lexicographical_compare@PEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@PEBV12@@std@@YA_NPEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@000@Z
+	??$lexicographical_compare@PEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@PEBV12@U?$less@X@std@@@std@@YA_NPEBVG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@000U?$less@X@0@@Z
+	??$use_facet@V?$codecvt@DDU_Mbstatet@@@std@@@std@@YAAEBV?$codecvt@DDU_Mbstatet@@@0@AEBVlocale@0@@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0G4ASCIITree@@QEAA@XZ
+	??0G4ASCIITreeMessenger@@QEAA@PEAVG4ASCIITree@@@Z
+	??0G4ASCIITreeSceneHandler@@QEAA@AEAVG4VGraphicsSystem@@AEBVG4String@@@Z
+	??0G4ASCIITreeViewer@@QEAA@AEAVG4VSceneHandler@@AEBVG4String@@@Z
+	??0G4String@@QEAA@PEBD@Z
+	??0G4VTree@@QEAA@AEBVG4String@@00W4Functionality@G4VGraphicsSystem@@@Z
+	??0G4VTreeSceneHandler@@QEAA@AEAVG4VGraphicsSystem@@AEBVG4String@@@Z
+	??0G4VTreeViewer@@QEAA@AEAVG4VSceneHandler@@AEBVG4String@@@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Alloc_construct_ptr@V?$allocator@U?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tidy_guard@V?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Tree_temp_node_alloc@V?$allocator@U?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@QEAA@XZ
+	??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$set@PEAVG4LogicalVolume@@U?$less@PEAVG4LogicalVolume@@@std@@V?$allocator@PEAVG4LogicalVolume@@@3@@std@@QEAA@XZ
+	??1?$unique_ptr@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QEAA@XZ
+	??1G4ASCIITree@@UEAA@XZ
+	??1G4ASCIITreeMessenger@@UEAA@XZ
+	??1G4ASCIITreeSceneHandler@@UEAA@XZ
+	??1G4ASCIITreeViewer@@UEAA@XZ
+	??1G4String@@QEAA@XZ
+	??1G4VTree@@UEAA@XZ
+	??1G4VTreeSceneHandler@@UEAA@XZ
+	??1G4VTreeViewer@@UEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1locale@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??4G4ViewParameters@@QEAAAEAV0@AEBV0@@Z
+	??BG4String@@QEBAPEBDXZ
+	??R?$less@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@@std@@QEBA_NAEBV?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@1@0@Z
+	??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Circle@@@Z
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Polyhedron@@@Z
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Polyline@@@Z
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Polymarker@@@Z
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Scale@@@Z
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Square@@@Z
+	?AddPrimitive@G4VTreeSceneHandler@@UEAAXAEBVG4Text@@@Z
+	?BeginModeling@G4ASCIITreeSceneHandler@@UEAAXXZ
+	?BeginModeling@G4VTreeSceneHandler@@UEAAXXZ
+	?ClearView@G4VTreeViewer@@UEAAXXZ
+	?CreateSceneHandler@G4ASCIITree@@UEAAPEAVG4VSceneHandler@@AEBVG4String@@@Z
+	?CreateViewer@G4ASCIITree@@UEAAPEAVG4VViewer@@AEAVG4VSceneHandler@@AEBVG4String@@@Z
+	?DrawView@G4VTreeViewer@@UEAAXXZ
+	?EndModeling@G4ASCIITreeSceneHandler@@UEAAXXZ
+	?EndModeling@G4VTreeSceneHandler@@UEAAXXZ
+	?GetCurrentValue@G4ASCIITreeMessenger@@UEAA?AVG4String@@PEAVG4UIcommand@@@Z
+	?GetPrivateVisAttributesModifiers@G4VViewer@@UEBAPEBV?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@XZ
+	?Initialise@G4VViewer@@UEAAXXZ
+	?PostAddSolid@G4VTreeSceneHandler@@UEAAXXZ
+	?PreAddSolid@G4VTreeSceneHandler@@UEAAXAEBVTransform3D@HepGeom@@AEBVG4VisAttributes@@@Z
+	?RequestPrimitives@G4ASCIITreeSceneHandler@@MEAAXAEBVG4VSolid@@@Z
+	?ResetView@G4VViewer@@UEAAXXZ
+	?SetGuidance@G4UIcommand@@QEAAXPEBD@Z
+	?SetNewValue@G4ASCIITreeMessenger@@UEAAXPEAVG4UIcommand@@VG4String@@@Z
+	?SetView@G4VTreeViewer@@UEAAXXZ
+	?WriteHeader@G4ASCIITreeSceneHandler@@IEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z
+	?_Buy_raw@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAX_K@Z
+	?_Change_array@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXQEAVG4String@@_K1@Z
+	?_Clear_and_reserve_geometric@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@AEAAX_K@Z
+	?_Destroy@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@AEAAXPEAVG4String@@0@Z
+	?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAA_NXZ
+	?_Init@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXPEBD_KH@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@PEAVG4LogicalVolume@@@std@@@std@@QEAAPEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@PEAVG4LogicalVolume@@PEAX@std@@@2@QEAU32@@Z
+	?_Insert_node@?$_Tree_val@U?$_Tree_simple_types@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@@std@@@std@@QEAAPEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@2@U?$_Tree_id@PEAU?$_Tree_node@V?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@PEAX@std@@@2@QEAU32@@Z
+	?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Reset_back@?$basic_filebuf@DU?$char_traits@D@std@@@std@@AEAAXXZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_tree_length_error@std@@YAXXZ
+	?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXXZ
+	?_Tidy@?$vector@VG4AttValue@@V?$allocator@VG4AttValue@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@V?$allocator@VG4PhysicalVolumeNodeID@G4PhysicalVolumeModel@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@AEAAXXZ
+	?_Unlock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+	?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXXZ
+	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+	?_Xlength@?$vector@V?$Plane3D@N@HepGeom@@V?$allocator@V?$Plane3D@N@HepGeom@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VPVNameCopyNo@G4ModelingParameters@@V?$allocator@VPVNameCopyNo@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@VVisAttributesModifier@G4ModelingParameters@@V?$allocator@VVisAttributesModifier@G4ModelingParameters@@@std@@@std@@CAXXZ
+	?__empty_global_delete@@YAXPEAX@Z
+	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
+	?__empty_global_delete@@YAXPEAX_K@Z
+	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@VG4String@@@std@@QEAAPEAVG4String@@_K@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ
+	?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBAHAEBV12@@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@VG4String@@@std@@QEAAXQEAVG4String@@_K@Z
+	?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+	?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?push_back@?$vector@VG4String@@V?$allocator@VG4String@@@std@@@std@@QEAAX$$QEAVG4String@@@Z
+	?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAD_J@Z
+	?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?xsgetn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+	?xsputn@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
